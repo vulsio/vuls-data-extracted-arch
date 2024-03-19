@@ -1,0 +1,187 @@
+{
+	"id": "AVG-14",
+	"advisories": [
+		{
+			"id": "AVG-14",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-14"
+				}
+			]
+		},
+		{
+			"id": "ASA-201612-9",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201612-9"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2016-9560",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-9560"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-9557",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-9557"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-9388",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-9388"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-9387",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-9387"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-9262",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-9262"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-8887",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-8887"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-8885",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-8885"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-8884",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-8884"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-8693",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-8693"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-8692",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-8692"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-8691",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-8691"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-8690",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-8690"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-2089",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-2089"
+				}
+			]
+		},
+		{
+			"id": "CVE-2015-8751",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2015-8751"
+				}
+			]
+		},
+		{
+			"id": "CVE-2015-5203",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2015-5203"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "jasper"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "1.900.31-1"
+					}
+				],
+				"fixed": [
+					"1.900.31-1"
+				]
+			}
+		}
+	]
+}

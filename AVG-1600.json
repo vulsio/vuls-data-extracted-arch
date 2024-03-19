@@ -1,0 +1,61 @@
+{
+	"id": "AVG-1600",
+	"advisories": [
+		{
+			"id": "AVG-1600",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1600"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-23977",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-23977"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-23976",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-23976"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "firefox"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "86.0-1"
+					}
+				],
+				"fixed": [
+					"86.0-1"
+				]
+			}
+		}
+	]
+}

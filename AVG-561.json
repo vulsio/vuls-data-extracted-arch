@@ -1,0 +1,133 @@
+{
+	"id": "AVG-561",
+	"advisories": [
+		{
+			"id": "AVG-561",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-561"
+				}
+			]
+		},
+		{
+			"id": "ASA-201801-2",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201801-2"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-17864",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-17864"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-17863",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-17863"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-17862",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-17862"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-17806",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-17806"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-17805",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-17805"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-17712",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-17712"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-17558",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-17558"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-17449",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-17449"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-16995",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-16995"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "linux-lts"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "4.9.74-1"
+					}
+				],
+				"fixed": [
+					"4.9.74-1"
+				]
+			}
+		}
+	]
+}

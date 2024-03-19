@@ -1,0 +1,61 @@
+{
+	"id": "AVG-315",
+	"advisories": [
+		{
+			"id": "AVG-315",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-315"
+				}
+			]
+		},
+		{
+			"id": "ASA-201707-21",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201707-21"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-1000381",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-1000381"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "c-ares"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "1.13.0-1"
+					}
+				],
+				"fixed": [
+					"1.13.0-1"
+				]
+			}
+		}
+	]
+}

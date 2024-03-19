@@ -1,0 +1,70 @@
+{
+	"id": "AVG-1528",
+	"advisories": [
+		{
+			"id": "AVG-1528",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1528"
+				}
+			]
+		},
+		{
+			"id": "ASA-202102-12",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202102-12"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-21285",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21285"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21284",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21284"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "docker"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "1:20.10.3-1"
+					}
+				],
+				"fixed": [
+					"1:20.10.3-1"
+				]
+			}
+		}
+	]
+}

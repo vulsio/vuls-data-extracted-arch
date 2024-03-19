@@ -1,0 +1,61 @@
+{
+	"id": "AVG-2596",
+	"advisories": [
+		{
+			"id": "AVG-2596",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2596"
+				}
+			]
+		},
+		{
+			"id": "ASA-202112-3",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202112-3"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-43527",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-43527"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "nss"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "3.73-1"
+					}
+				],
+				"fixed": [
+					"3.73-1"
+				]
+			}
+		}
+	]
+}

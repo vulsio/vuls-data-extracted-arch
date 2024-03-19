@@ -1,0 +1,70 @@
+{
+	"id": "AVG-777",
+	"advisories": [
+		{
+			"id": "AVG-777",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-777"
+				}
+			]
+		},
+		{
+			"id": "ASA-201810-11",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201810-11"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-18065",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-18065"
+				}
+			]
+		},
+		{
+			"id": "CVE-2015-5621",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2015-5621"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "net-snmp"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "5.8-1"
+					}
+				],
+				"fixed": [
+					"5.8-1"
+				]
+			}
+		}
+	]
+}

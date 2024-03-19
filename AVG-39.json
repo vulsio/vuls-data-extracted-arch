@@ -1,0 +1,70 @@
+{
+	"id": "AVG-39",
+	"advisories": [
+		{
+			"id": "AVG-39",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-39"
+				}
+			]
+		},
+		{
+			"id": "ASA-201609-32",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201609-32"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2016-7169",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-7169"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-7168",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-7168"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "wordpress"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "4.6.1-1"
+					}
+				],
+				"fixed": [
+					"4.6.1-1"
+				]
+			}
+		}
+	]
+}

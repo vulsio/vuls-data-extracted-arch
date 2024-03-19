@@ -1,0 +1,61 @@
+{
+	"id": "AVG-880",
+	"advisories": [
+		{
+			"id": "AVG-880",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-880"
+				}
+			]
+		},
+		{
+			"id": "ASA-201902-20",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201902-20"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-5736",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5736"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "flatpak"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "1.2.3-1"
+					}
+				],
+				"fixed": [
+					"1.2.3-1"
+				]
+			}
+		}
+	]
+}

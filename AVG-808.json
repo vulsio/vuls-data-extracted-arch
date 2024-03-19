@@ -1,0 +1,74 @@
+{
+	"id": "AVG-808",
+	"advisories": [
+		{
+			"id": "AVG-808",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-808"
+				},
+				{
+					"source": "security.archlinux.org",
+					"url": "https://bugs.archlinux.org/task/57526"
+				}
+			]
+		},
+		{
+			"id": "ASA-201811-14",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201811-14"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-6952",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-6952"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-1000156",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-1000156"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "patch"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "2.7.6-7"
+					}
+				],
+				"fixed": [
+					"2.7.6-7"
+				]
+			}
+		}
+	]
+}

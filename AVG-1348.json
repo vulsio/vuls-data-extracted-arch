@@ -1,0 +1,106 @@
+{
+	"id": "AVG-1348",
+	"advisories": [
+		{
+			"id": "AVG-1348",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1348"
+				}
+			]
+		},
+		{
+			"id": "ASA-202012-22",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202012-22"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-26271",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-26271"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-26270",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-26270"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-26269",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-26269"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-26268",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-26268"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-26267",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-26267"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-26266",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-26266"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "tensorflow"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "2.4.0-1"
+					}
+				],
+				"fixed": [
+					"2.4.0-1"
+				]
+			}
+		}
+	]
+}

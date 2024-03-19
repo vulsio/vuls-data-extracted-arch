@@ -1,0 +1,70 @@
+{
+	"id": "AVG-1191",
+	"advisories": [
+		{
+			"id": "AVG-1191",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1191"
+				}
+			]
+		},
+		{
+			"id": "ASA-202006-13",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202006-13"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-8619",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-8619"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-8618",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-8618"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "bind"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "9.16.4-1"
+					}
+				],
+				"fixed": [
+					"9.16.4-1"
+				]
+			}
+		}
+	]
+}

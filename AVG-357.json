@@ -1,0 +1,106 @@
+{
+	"id": "AVG-357",
+	"advisories": [
+		{
+			"id": "AVG-357",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-357"
+				}
+			]
+		},
+		{
+			"id": "ASA-201707-23",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201707-23"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-10987",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-10987"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-10986",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-10986"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-10985",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-10985"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-10984",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-10984"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-10983",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-10983"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-10978",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-10978"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "freeradius"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "3.0.15-1"
+					}
+				],
+				"fixed": [
+					"3.0.15-1"
+				]
+			}
+		}
+	]
+}

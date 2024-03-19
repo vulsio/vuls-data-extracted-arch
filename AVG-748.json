@@ -1,0 +1,61 @@
+{
+	"id": "AVG-748",
+	"advisories": [
+		{
+			"id": "AVG-748",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-748"
+				}
+			]
+		},
+		{
+			"id": "ASA-201808-5",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201808-5"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-5390",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5390"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "linux-lts"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "4.14.59-1"
+					}
+				],
+				"fixed": [
+					"4.14.59-1"
+				]
+			}
+		}
+	]
+}

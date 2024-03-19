@@ -1,0 +1,61 @@
+{
+	"id": "AVG-2174",
+	"advisories": [
+		{
+			"id": "AVG-2174",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2174"
+				}
+			]
+		},
+		{
+			"id": "ASA-202107-70",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202107-70"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-32760",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-32760"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "containerd"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "1.5.4-1"
+					}
+				],
+				"fixed": [
+					"1.5.4-1"
+				]
+			}
+		}
+	]
+}

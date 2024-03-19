@@ -1,0 +1,79 @@
+{
+	"id": "AVG-835",
+	"advisories": [
+		{
+			"id": "AVG-835",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-835"
+				}
+			]
+		},
+		{
+			"id": "ASA-201812-11",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201812-11"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-16875",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-16875"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-16874",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-16874"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-16873",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-16873"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "go"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "2:1.11.3-1"
+					}
+				],
+				"fixed": [
+					"2:1.11.3-1"
+				]
+			}
+		}
+	]
+}

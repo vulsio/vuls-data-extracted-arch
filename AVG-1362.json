@@ -1,0 +1,160 @@
+{
+	"id": "AVG-1362",
+	"advisories": [
+		{
+			"id": "AVG-1362",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1362"
+				}
+			]
+		},
+		{
+			"id": "ASA-202012-25",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202012-25"
+				}
+			]
+		},
+		{
+			"id": "ASA-202012-25",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202012-25"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-35114",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-35114"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-35113",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-35113"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-35111",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-35111"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-26979",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-26979"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-26978",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-26978"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-26976",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-26976"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-26974",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-26974"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-26973",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-26973"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-26972",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-26972"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-26971",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-26971"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-16042",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-16042"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "firefox"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "84.0-1"
+					}
+				],
+				"fixed": [
+					"84.0-1"
+				]
+			}
+		}
+	]
+}

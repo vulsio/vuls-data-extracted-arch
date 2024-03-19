@@ -1,0 +1,79 @@
+{
+	"id": "AVG-1890",
+	"advisories": [
+		{
+			"id": "AVG-1890",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1890"
+				}
+			]
+		},
+		{
+			"id": "ASA-202104-10",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202104-10"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-25216",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-25216"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-25215",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-25215"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-25214",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-25214"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "bind"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "9.16.15-1"
+					}
+				],
+				"fixed": [
+					"9.16.15-1"
+				]
+			}
+		}
+	]
+}

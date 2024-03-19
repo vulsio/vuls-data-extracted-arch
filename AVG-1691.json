@@ -1,0 +1,52 @@
+{
+	"id": "AVG-1691",
+	"advisories": [
+		{
+			"id": "AVG-1691",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1691"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-28363",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-28363"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "python-urllib3"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "1.26.4-1"
+					}
+				],
+				"fixed": [
+					"1.26.4-1"
+				]
+			}
+		}
+	]
+}

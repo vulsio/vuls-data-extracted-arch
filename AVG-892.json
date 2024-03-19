@@ -1,0 +1,52 @@
+{
+	"id": "AVG-892",
+	"advisories": [
+		{
+			"id": "AVG-892",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-892"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-5736",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5736"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "docker"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "1:18.09.2-1"
+					}
+				],
+				"fixed": [
+					"1:18.09.2-1"
+				]
+			}
+		}
+	]
+}

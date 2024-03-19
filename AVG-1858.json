@@ -1,0 +1,52 @@
+{
+	"id": "AVG-1858",
+	"advisories": [
+		{
+			"id": "AVG-1858",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1858"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-21224",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21224"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "vivaldi"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "3.7.2218.58-1"
+					}
+				],
+				"fixed": [
+					"3.7.2218.58-1"
+				]
+			}
+		}
+	]
+}

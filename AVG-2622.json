@@ -1,0 +1,56 @@
+{
+	"id": "AVG-2622",
+	"advisories": [
+		{
+			"id": "AVG-2622",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2622"
+				},
+				{
+					"source": "security.archlinux.org",
+					"url": "https://bugs.archlinux.org/task/72975"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-44228",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-44228"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "solr"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "8.11.0-2"
+					}
+				],
+				"fixed": [
+					"8.11.0-2"
+				]
+			}
+		}
+	]
+}

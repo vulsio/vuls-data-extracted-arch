@@ -1,0 +1,49 @@
+{
+	"id": "AVG-2437",
+	"advisories": [
+		{
+			"id": "AVG-2437",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2437"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-41867",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-41867"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "onionshare"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"le": "2.2-5"
+					}
+				]
+			}
+		}
+	]
+}

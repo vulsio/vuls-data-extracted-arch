@@ -1,0 +1,70 @@
+{
+	"id": "AVG-47",
+	"advisories": [
+		{
+			"id": "AVG-47",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-47"
+				}
+			]
+		},
+		{
+			"id": "ASA-201610-10",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201610-10"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2016-8606",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-8606"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-8605",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-8605"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "guile"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "2.0.13-1"
+					}
+				],
+				"fixed": [
+					"2.0.13-1"
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,52 @@
+{
+	"id": "AVG-680",
+	"advisories": [
+		{
+			"id": "AVG-680",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-680"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-6118",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-6118"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "chromium"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "66.0.3359.139-1"
+					}
+				],
+				"fixed": [
+					"66.0.3359.139-1"
+				]
+			}
+		}
+	]
+}

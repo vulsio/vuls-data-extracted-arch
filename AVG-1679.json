@@ -1,0 +1,65 @@
+{
+	"id": "AVG-1679",
+	"advisories": [
+		{
+			"id": "AVG-1679",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1679"
+				},
+				{
+					"source": "security.archlinux.org",
+					"url": "https://bugs.archlinux.org/task/70042"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-5087",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5087"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5086",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5086"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "xcftools"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "1.0.7-7"
+					}
+				],
+				"fixed": [
+					"1.0.7-7"
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,65 @@
+{
+	"id": "AVG-38",
+	"advisories": [
+		{
+			"id": "AVG-38",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-38"
+				},
+				{
+					"source": "security.archlinux.org",
+					"url": "https://bugs.archlinux.org/task/51035"
+				}
+			]
+		},
+		{
+			"id": "ASA-201610-2",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201610-2"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2016-7795",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-7795"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "systemd"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "231-2"
+					}
+				],
+				"fixed": [
+					"231-2"
+				]
+			}
+		}
+	]
+}

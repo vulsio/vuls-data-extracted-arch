@@ -1,0 +1,79 @@
+{
+	"id": "AVG-1022",
+	"advisories": [
+		{
+			"id": "AVG-1022",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1022"
+				}
+			]
+		},
+		{
+			"id": "ASA-201908-12",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201908-12"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-9516",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-9516"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-9513",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-9513"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-9511",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-9511"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "nginx-mainline"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "1.17.3-1"
+					}
+				],
+				"fixed": [
+					"1.17.3-1"
+				]
+			}
+		}
+	]
+}

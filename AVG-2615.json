@@ -1,0 +1,49 @@
+{
+	"id": "AVG-2615",
+	"advisories": [
+		{
+			"id": "AVG-2615",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Low"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2615"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-43809",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-43809"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "ruby-bundler"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"le": "2.2.26-1"
+					}
+				]
+			}
+		}
+	]
+}

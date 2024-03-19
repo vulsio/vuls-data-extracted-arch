@@ -1,0 +1,65 @@
+{
+	"id": "AVG-329",
+	"advisories": [
+		{
+			"id": "AVG-329",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-329"
+				},
+				{
+					"source": "security.archlinux.org",
+					"url": "https://bugs.archlinux.org/task/54619"
+				}
+			]
+		},
+		{
+			"id": "ASA-201707-2",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201707-2"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-9445",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-9445"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "systemd"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "233-6"
+					}
+				],
+				"fixed": [
+					"233-6"
+				]
+			}
+		}
+	]
+}

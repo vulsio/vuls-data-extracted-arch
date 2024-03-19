@@ -1,0 +1,106 @@
+{
+	"id": "AVG-2299",
+	"advisories": [
+		{
+			"id": "AVG-2299",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2299"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-30604",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30604"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30603",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30603"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30602",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30602"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30601",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30601"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30600",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30600"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30599",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30599"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30598",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30598"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "vivaldi"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "4.1.2369.21-1"
+					}
+				],
+				"fixed": [
+					"4.1.2369.21-1"
+				]
+			}
+		}
+	]
+}

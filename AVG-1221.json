@@ -1,0 +1,61 @@
+{
+	"id": "AVG-1221",
+	"advisories": [
+		{
+			"id": "AVG-1221",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1221"
+				}
+			]
+		},
+		{
+			"id": "ASA-202009-7",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202009-7"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-11986",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-11986"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "netbeans"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "12.0_u1-1"
+					}
+				],
+				"fixed": [
+					"12.0_u1-1"
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,79 @@
+{
+	"id": "AVG-1949",
+	"advisories": [
+		{
+			"id": "AVG-1949",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1949"
+				}
+			]
+		},
+		{
+			"id": "ASA-202105-10",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202105-10"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-28662",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-28662"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-28652",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-28652"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-28651",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-28651"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "squid"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "4.15-1"
+					}
+				],
+				"fixed": [
+					"4.15-1"
+				]
+			}
+		}
+	]
+}

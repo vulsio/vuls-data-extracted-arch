@@ -1,0 +1,52 @@
+{
+	"id": "AVG-252",
+	"advisories": [
+		{
+			"id": "AVG-252",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-252"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2016-10328",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-10328"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "lib32-freetype2"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "2.7.1-1"
+					}
+				],
+				"fixed": [
+					"2.7.1-1"
+				]
+			}
+		}
+	]
+}

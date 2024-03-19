@@ -1,0 +1,133 @@
+{
+	"id": "AVG-1033",
+	"advisories": [
+		{
+			"id": "AVG-1033",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1033"
+				}
+			]
+		},
+		{
+			"id": "ASA-201909-1",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201909-1"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-8688",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-8688"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-8684",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-8684"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-8683",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-8683"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-8680",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-8680"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-8678",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-8678"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-8669",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-8669"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-8658",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-8658"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-8649",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-8649"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-8644",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-8644"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "webkit2gtk"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "2.24.4-1"
+					}
+				],
+				"fixed": [
+					"2.24.4-1"
+				]
+			}
+		}
+	]
+}

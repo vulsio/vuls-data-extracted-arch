@@ -1,0 +1,70 @@
+{
+	"id": "AVG-757",
+	"advisories": [
+		{
+			"id": "AVG-757",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-757"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-3646",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-3646"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-3620",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-3620"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-3615",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-3615"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "linux-zen"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "4.18.1.arch1-1"
+					}
+				],
+				"fixed": [
+					"4.18.1.arch1-1"
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,70 @@
+{
+	"id": "AVG-172",
+	"advisories": [
+		{
+			"id": "AVG-172",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-172"
+				}
+			]
+		},
+		{
+			"id": "ASA-201702-10",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201702-10"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-5025",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5025"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5024",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5024"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "ffmpeg"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "1:3.2.4-1"
+					}
+				],
+				"fixed": [
+					"1:3.2.4-1"
+				]
+			}
+		}
+	]
+}

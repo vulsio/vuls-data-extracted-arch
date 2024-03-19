@@ -1,0 +1,106 @@
+{
+	"id": "AVG-1072",
+	"advisories": [
+		{
+			"id": "AVG-1072",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1072"
+				}
+			]
+		},
+		{
+			"id": "ASA-201912-2",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201912-2"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-17012",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-17012"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-17011",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-17011"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-17010",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-17010"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-17008",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-17008"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-17005",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-17005"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-11745",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-11745"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "thunderbird"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "68.3.0-1"
+					}
+				],
+				"fixed": [
+					"68.3.0-1"
+				]
+			}
+		}
+	]
+}

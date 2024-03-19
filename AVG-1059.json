@@ -1,0 +1,65 @@
+{
+	"id": "AVG-1059",
+	"advisories": [
+		{
+			"id": "AVG-1059",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1059"
+				},
+				{
+					"source": "security.archlinux.org",
+					"url": "https://bugs.archlinux.org/task/64347"
+				}
+			]
+		},
+		{
+			"id": "ASA-201911-2",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201911-2"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-13720",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-13720"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "qt5-webengine"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "5.13.2-2"
+					}
+				],
+				"fixed": [
+					"5.13.2-2"
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,70 @@
+{
+	"id": "AVG-642",
+	"advisories": [
+		{
+			"id": "AVG-642",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-642"
+				}
+			]
+		},
+		{
+			"id": "ASA-201804-7",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201804-7"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-7549",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-7549"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-7548",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-7548"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "zsh"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "5.5-1"
+					}
+				],
+				"fixed": [
+					"5.5-1"
+				]
+			}
+		}
+	]
+}

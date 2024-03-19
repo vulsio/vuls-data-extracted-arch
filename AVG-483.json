@@ -1,0 +1,178 @@
+{
+	"id": "AVG-483",
+	"advisories": [
+		{
+			"id": "AVG-483",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-483"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-16538",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-16538"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-16537",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-16537"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-16536",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-16536"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-16535",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-16535"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-16534",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-16534"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-16533",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-16533"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-16532",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-16532"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-16531",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-16531"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-16530",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-16530"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-16529",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-16529"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-16528",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-16528"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-16527",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-16527"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-16526",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-16526"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-16525",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-16525"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15115",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15115"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "linux"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "4.14-1"
+					}
+				],
+				"fixed": [
+					"4.14-1"
+				]
+			}
+		}
+	]
+}

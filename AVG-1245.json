@@ -1,0 +1,56 @@
+{
+	"id": "AVG-1245",
+	"advisories": [
+		{
+			"id": "AVG-1245",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1245"
+				},
+				{
+					"source": "security.archlinux.org",
+					"url": "https://bugs.archlinux.org/task/68257"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-16119",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-16119"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "linux-hardened"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "5.9.9.a-1"
+					}
+				],
+				"fixed": [
+					"5.9.9.a-1"
+				]
+			}
+		}
+	]
+}

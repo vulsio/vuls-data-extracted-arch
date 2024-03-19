@@ -1,0 +1,52 @@
+{
+	"id": "AVG-2039",
+	"advisories": [
+		{
+			"id": "AVG-2039",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2039"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-30475",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30475"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "aom"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "3.2.0-1"
+					}
+				],
+				"fixed": [
+					"3.2.0-1"
+				]
+			}
+		}
+	]
+}

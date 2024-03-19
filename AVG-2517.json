@@ -1,0 +1,61 @@
+{
+	"id": "AVG-2517",
+	"advisories": [
+		{
+			"id": "AVG-2517",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2517"
+				}
+			]
+		},
+		{
+			"id": "ASA-202111-5",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202111-5"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-41174",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-41174"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "grafana"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "8.2.3-1"
+					}
+				],
+				"fixed": [
+					"8.2.3-1"
+				]
+			}
+		}
+	]
+}

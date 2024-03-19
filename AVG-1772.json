@@ -1,0 +1,133 @@
+{
+	"id": "AVG-1772",
+	"advisories": [
+		{
+			"id": "AVG-1772",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Low"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1772"
+				}
+			]
+		},
+		{
+			"id": "ASA-202106-54",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202106-54"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-3482",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-3482"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-32617",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-32617"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-29623",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-29623"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-29473",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-29473"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-29470",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-29470"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-29464",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-29464"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-29463",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-29463"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-29458",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-29458"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-29457",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-29457"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "exiv2"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "0.27.4-1"
+					}
+				],
+				"fixed": [
+					"0.27.4-1"
+				]
+			}
+		}
+	]
+}

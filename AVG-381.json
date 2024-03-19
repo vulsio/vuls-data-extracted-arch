@@ -1,0 +1,79 @@
+{
+	"id": "AVG-381",
+	"advisories": [
+		{
+			"id": "AVG-381",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-381"
+				}
+			]
+		},
+		{
+			"id": "ASA-201709-2",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201709-2"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-7548",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7548"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7547",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7547"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7546",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7546"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "postgresql"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "9.6.4-1"
+					}
+				],
+				"fixed": [
+					"9.6.4-1"
+				]
+			}
+		}
+	]
+}

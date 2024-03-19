@@ -1,0 +1,70 @@
+{
+	"id": "AVG-2779",
+	"advisories": [
+		{
+			"id": "AVG-2779",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Unknown"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2779"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-26710",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-26710"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-22677",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-22677"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-22662",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-22662"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "webkit2gtk"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "2.36.4-1"
+					}
+				],
+				"fixed": [
+					"2.36.4-1"
+				]
+			}
+		}
+	]
+}

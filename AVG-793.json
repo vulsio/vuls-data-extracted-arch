@@ -1,0 +1,70 @@
+{
+	"id": "AVG-793",
+	"advisories": [
+		{
+			"id": "AVG-793",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Low"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-793"
+				}
+			]
+		},
+		{
+			"id": "ASA-201812-6",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201812-6"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-0735",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-0735"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-0734",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-0734"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "lib32-openssl"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "1:1.1.1.a-1"
+					}
+				],
+				"fixed": [
+					"1:1.1.1.a-1"
+				]
+			}
+		}
+	]
+}

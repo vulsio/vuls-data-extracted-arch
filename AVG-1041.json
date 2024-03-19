@@ -1,0 +1,74 @@
+{
+	"id": "AVG-1041",
+	"advisories": [
+		{
+			"id": "AVG-1041",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1041"
+				},
+				{
+					"source": "security.archlinux.org",
+					"url": "https://bugs.archlinux.org/task/63978"
+				}
+			]
+		},
+		{
+			"id": "ASA-201910-4",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201910-4"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2015-9251",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2015-9251"
+				}
+			]
+		},
+		{
+			"id": "CVE-2012-6708",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2012-6708"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "ruby-rdoc"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "6.1.2-1"
+					}
+				],
+				"fixed": [
+					"6.1.2-1"
+				]
+			}
+		}
+	]
+}

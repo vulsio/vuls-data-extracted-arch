@@ -1,0 +1,79 @@
+{
+	"id": "AVG-1390",
+	"advisories": [
+		{
+			"id": "AVG-1390",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1390"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-29338",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-29338"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-6988",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-6988"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-20846",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-20846"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-16376",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-16376"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "openjpeg2"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "2.5.0-1"
+					}
+				],
+				"fixed": [
+					"2.5.0-1"
+				]
+			}
+		}
+	]
+}

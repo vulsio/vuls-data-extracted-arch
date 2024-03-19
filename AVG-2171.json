@@ -1,0 +1,70 @@
+{
+	"id": "AVG-2171",
+	"advisories": [
+		{
+			"id": "AVG-2171",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2171"
+				}
+			]
+		},
+		{
+			"id": "ASA-202107-69",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202107-69"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-36213",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-36213"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-32574",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-32574"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "consul"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "1.9.8-1"
+					}
+				],
+				"fixed": [
+					"1.9.8-1"
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,214 @@
+{
+	"id": "AVG-925",
+	"advisories": [
+		{
+			"id": "AVG-925",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-925"
+				}
+			]
+		},
+		{
+			"id": "ASA-201903-11",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201903-11"
+				}
+			]
+		},
+		{
+			"id": "ASA-201903-11",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201903-11"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-9809",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-9809"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-9808",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-9808"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-9807",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-9807"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-9806",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-9806"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-9805",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-9805"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-9803",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-9803"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-9802",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-9802"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-9799",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-9799"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-9797",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-9797"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-9796",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-9796"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-9795",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-9795"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-9793",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-9793"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-9792",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-9792"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-9791",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-9791"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-9790",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-9790"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-9789",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-9789"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-9788",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-9788"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "firefox"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "66.0-1"
+					}
+				],
+				"fixed": [
+					"66.0-1"
+				]
+			}
+		}
+	]
+}

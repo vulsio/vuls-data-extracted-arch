@@ -1,0 +1,52 @@
+{
+	"id": "AVG-2669",
+	"advisories": [
+		{
+			"id": "AVG-2669",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2669"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-23222",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-23222"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "linux-hardened"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "5.15.15.hardened1-1"
+					}
+				],
+				"fixed": [
+					"5.15.15.hardened1-1"
+				]
+			}
+		}
+	]
+}

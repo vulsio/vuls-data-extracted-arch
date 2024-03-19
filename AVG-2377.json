@@ -1,0 +1,88 @@
+{
+	"id": "AVG-2377",
+	"advisories": [
+		{
+			"id": "AVG-2377",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2377"
+				}
+			]
+		},
+		{
+			"id": "ASA-202109-4",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202109-4"
+				}
+			]
+		},
+		{
+			"id": "ASA-202109-5",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202109-5"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-40823",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-40823"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "element-web"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "1.8.4-1"
+					}
+				],
+				"fixed": [
+					"1.8.4-1"
+				]
+			}
+		},
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "element-desktop"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "1.8.4-1"
+					}
+				],
+				"fixed": [
+					"1.8.4-1"
+				]
+			}
+		}
+	]
+}

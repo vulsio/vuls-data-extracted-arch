@@ -1,0 +1,49 @@
+{
+	"id": "AVG-2070",
+	"advisories": [
+		{
+			"id": "AVG-2070",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2070"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-28213",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-28213"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "edk2-shell"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"le": "202105-1"
+					}
+				]
+			}
+		}
+	]
+}

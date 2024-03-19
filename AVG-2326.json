@@ -1,0 +1,52 @@
+{
+	"id": "AVG-2326",
+	"advisories": [
+		{
+			"id": "AVG-2326",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2326"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-39272",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39272"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "fetchmail"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "6.4.22-1"
+					}
+				],
+				"fixed": [
+					"6.4.22-1"
+				]
+			}
+		}
+	]
+}

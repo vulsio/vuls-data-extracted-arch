@@ -1,0 +1,67 @@
+{
+	"id": "AVG-2494",
+	"advisories": [
+		{
+			"id": "AVG-2494",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Low"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2494"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-18898",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-18898"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-18774",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-18774"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-18773",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-18773"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "exiv2"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"le": "0.27.5-1"
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,83 @@
+{
+	"id": "AVG-1303",
+	"advisories": [
+		{
+			"id": "AVG-1303",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1303"
+				},
+				{
+					"source": "security.archlinux.org",
+					"url": "https://bugs.archlinux.org/task/68531"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-25653",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-25653"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-25652",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-25652"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-25651",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-25651"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-25650",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-25650"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "spice-vdagent"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "0.21.0-1"
+					}
+				],
+				"fixed": [
+					"0.21.0-1"
+				]
+			}
+		}
+	]
+}

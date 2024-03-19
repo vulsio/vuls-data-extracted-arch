@@ -1,0 +1,133 @@
+{
+	"id": "AVG-1118",
+	"advisories": [
+		{
+			"id": "AVG-1118",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1118"
+				}
+			]
+		},
+		{
+			"id": "ASA-202003-12",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202003-12"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-6449",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-6449"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-6429",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-6429"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-6428",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-6428"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-6427",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-6427"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-6426",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-6426"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-6425",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-6425"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-6424",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-6424"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-6422",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-6422"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-20503",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-20503"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "chromium"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "80.0.3987.149-1"
+					}
+				],
+				"fixed": [
+					"80.0.3987.149-1"
+				]
+			}
+		}
+	]
+}

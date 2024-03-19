@@ -1,0 +1,70 @@
+{
+	"id": "AVG-1005",
+	"advisories": [
+		{
+			"id": "AVG-1005",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1005"
+				}
+			]
+		},
+		{
+			"id": "ASA-201907-6",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201907-6"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-5848",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5848"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5847",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5847"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "chromium"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "75.0.3770.142-1"
+					}
+				],
+				"fixed": [
+					"75.0.3770.142-1"
+				]
+			}
+		}
+	]
+}

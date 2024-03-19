@@ -1,0 +1,70 @@
+{
+	"id": "AVG-2206",
+	"advisories": [
+		{
+			"id": "AVG-2206",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2206"
+				}
+			]
+		},
+		{
+			"id": "ASA-202107-72",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202107-72"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-3652",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-3652"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-3514",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-3514"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "389-ds-base"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "2.0.7-1"
+					}
+				],
+				"fixed": [
+					"2.0.7-1"
+				]
+			}
+		}
+	]
+}

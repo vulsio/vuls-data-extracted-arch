@@ -1,0 +1,65 @@
+{
+	"id": "AVG-1552",
+	"advisories": [
+		{
+			"id": "AVG-1552",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1552"
+				},
+				{
+					"source": "security.archlinux.org",
+					"url": "https://bugs.archlinux.org/task/70056"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-3404",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-3404"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-3403",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-3403"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "libytnef"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "1:1.9.3-1"
+					}
+				],
+				"fixed": [
+					"1:1.9.3-1"
+				]
+			}
+		}
+	]
+}

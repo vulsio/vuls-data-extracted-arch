@@ -1,0 +1,49 @@
+{
+	"id": "AVG-31",
+	"advisories": [
+		{
+			"id": "AVG-31",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-31"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2016-6309",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-6309"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "openssl"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"le": "1.1.0a-1"
+					}
+				]
+			}
+		}
+	]
+}

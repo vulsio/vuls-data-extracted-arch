@@ -1,0 +1,61 @@
+{
+	"id": "AVG-1170",
+	"advisories": [
+		{
+			"id": "AVG-1170",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1170"
+				}
+			]
+		},
+		{
+			"id": "ASA-202006-5",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202006-5"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-9484",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-9484"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "tomcat8"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "8.5.55-1"
+					}
+				],
+				"fixed": [
+					"8.5.55-1"
+				]
+			}
+		}
+	]
+}

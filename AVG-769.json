@@ -1,0 +1,70 @@
+{
+	"id": "AVG-769",
+	"advisories": [
+		{
+			"id": "AVG-769",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-769"
+				}
+			]
+		},
+		{
+			"id": "ASA-201809-4",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201809-4"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-16152",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-16152"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-16151",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-16151"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "strongswan"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "5.7.0-1"
+					}
+				],
+				"fixed": [
+					"5.7.0-1"
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"id": "AVG-2224",
+	"advisories": [
+		{
+			"id": "AVG-2224",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2224"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-32610",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-32610"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "drupal"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"le": "9.2.0-1"
+					}
+				]
+			}
+		}
+	]
+}

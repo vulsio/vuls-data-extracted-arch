@@ -1,0 +1,70 @@
+{
+	"id": "AVG-482",
+	"advisories": [
+		{
+			"id": "AVG-482",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-482"
+				}
+			]
+		},
+		{
+			"id": "ASA-201711-12",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201711-12"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-15399",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15399"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15398",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15398"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "chromium"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "62.0.3202.89-1"
+					}
+				],
+				"fixed": [
+					"62.0.3202.89-1"
+				]
+			}
+		}
+	]
+}

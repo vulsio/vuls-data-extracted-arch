@@ -1,0 +1,49 @@
+{
+	"id": "AVG-366",
+	"advisories": [
+		{
+			"id": "AVG-366",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Low"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-366"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-11331",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-11331"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "vorbis-tools"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"le": "1.4.2-2"
+					}
+				]
+			}
+		}
+	]
+}

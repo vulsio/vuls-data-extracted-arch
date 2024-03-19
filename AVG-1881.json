@@ -1,0 +1,94 @@
+{
+	"id": "AVG-1881",
+	"advisories": [
+		{
+			"id": "AVG-1881",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1881"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-43976",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-43976"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-4095",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-4095"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-4028",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-4028"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-3847",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-3847"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-3752",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-3752"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-3669",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-3669"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "linux-hardened"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"le": "5.15.7.hardened1-1"
+					}
+				]
+			}
+		}
+	]
+}

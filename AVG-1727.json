@@ -1,0 +1,49 @@
+{
+	"id": "AVG-1727",
+	"advisories": [
+		{
+			"id": "AVG-1727",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1727"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-20292",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-20292"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "linux-lts"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"le": "5.10.25-1"
+					}
+				]
+			}
+		}
+	]
+}

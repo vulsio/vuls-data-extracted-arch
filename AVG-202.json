@@ -1,0 +1,106 @@
+{
+	"id": "AVG-202",
+	"advisories": [
+		{
+			"id": "AVG-202",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-202"
+				}
+			]
+		},
+		{
+			"id": "ASA-201703-14",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201703-14"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-6819",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-6819"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-6818",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-6818"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-6817",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-6817"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-6816",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-6816"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-6815",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-6815"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-6814",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-6814"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "wordpress"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "4.7.3-1"
+					}
+				],
+				"fixed": [
+					"4.7.3-1"
+				]
+			}
+		}
+	]
+}

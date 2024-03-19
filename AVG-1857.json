@@ -1,0 +1,53 @@
+{
+	"id": "AVG-1857",
+	"advisories": [
+		{
+			"id": "AVG-1857",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1857"
+				},
+				{
+					"source": "security.archlinux.org",
+					"url": "https://bugs.archlinux.org/task/70531"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-31523",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-31523"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "xscreensaver"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"le": "5.44-3"
+					}
+				]
+			}
+		}
+	]
+}

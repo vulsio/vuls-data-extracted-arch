@@ -1,0 +1,70 @@
+{
+	"id": "AVG-45",
+	"advisories": [
+		{
+			"id": "AVG-45",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Low"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-45"
+				}
+			]
+		},
+		{
+			"id": "ASA-201611-17",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201611-17"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2016-8569",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-8569"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-8568",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-8568"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "libgit2"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "1:0.24.3-1"
+					}
+				],
+				"fixed": [
+					"1:0.24.3-1"
+				]
+			}
+		}
+	]
+}

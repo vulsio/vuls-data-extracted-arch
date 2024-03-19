@@ -1,0 +1,49 @@
+{
+	"id": "AVG-2594",
+	"advisories": [
+		{
+			"id": "AVG-2594",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2594"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-41805",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-41805"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "consul"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"le": "1.10.3-1"
+					}
+				]
+			}
+		}
+	]
+}

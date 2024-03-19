@@ -1,0 +1,79 @@
+{
+	"id": "AVG-1251",
+	"advisories": [
+		{
+			"id": "AVG-1251",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1251"
+				}
+			]
+		},
+		{
+			"id": "ASA-202010-9",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202010-9"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-24490",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-24490"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-12352",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-12352"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-12351",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-12351"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "linux-hardened"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "5.8.16.a-1"
+					}
+				],
+				"fixed": [
+					"5.8.16.a-1"
+				]
+			}
+		}
+	]
+}

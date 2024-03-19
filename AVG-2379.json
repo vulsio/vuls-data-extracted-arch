@@ -1,0 +1,133 @@
+{
+	"id": "AVG-2379",
+	"advisories": [
+		{
+			"id": "AVG-2379",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2379"
+				}
+			]
+		},
+		{
+			"id": "ASA-202109-6",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202109-6"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-30633",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30633"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30632",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30632"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30631",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30631"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30630",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30630"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30629",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30629"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30628",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30628"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30627",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30627"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30626",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30626"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30625",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30625"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "chromium"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "93.0.4577.82-1"
+					}
+				],
+				"fixed": [
+					"93.0.4577.82-1"
+				]
+			}
+		}
+	]
+}

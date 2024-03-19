@@ -1,0 +1,61 @@
+{
+	"id": "AVG-241",
+	"advisories": [
+		{
+			"id": "AVG-241",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-241"
+				}
+			]
+		},
+		{
+			"id": "ASA-201704-12",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201704-12"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-7468",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7468"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "curl"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "7.54.0-1"
+					}
+				],
+				"fixed": [
+					"7.54.0-1"
+				]
+			}
+		}
+	]
+}

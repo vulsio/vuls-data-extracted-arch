@@ -1,0 +1,61 @@
+{
+	"id": "AVG-467",
+	"advisories": [
+		{
+			"id": "AVG-467",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-467"
+				}
+			]
+		},
+		{
+			"id": "ASA-201711-6",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201711-6"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-1000257",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-1000257"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "curl"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "7.56.1-1"
+					}
+				],
+				"fixed": [
+					"7.56.1-1"
+				]
+			}
+		}
+	]
+}

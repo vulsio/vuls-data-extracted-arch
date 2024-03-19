@@ -1,0 +1,52 @@
+{
+	"id": "AVG-1050",
+	"advisories": [
+		{
+			"id": "AVG-1050",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1050"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-16276",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-16276"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "go"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "2:1.13.1-1"
+					}
+				],
+				"fixed": [
+					"2:1.13.1-1"
+				]
+			}
+		}
+	]
+}

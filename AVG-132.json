@@ -1,0 +1,88 @@
+{
+	"id": "AVG-132",
+	"advisories": [
+		{
+			"id": "AVG-132",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-132"
+				}
+			]
+		},
+		{
+			"id": "ASA-201701-15",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201701-15"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2016-9778",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-9778"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-9444",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-9444"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-9147",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-9147"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-9131",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-9131"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "bind"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "9.11.0.P2-1"
+					}
+				],
+				"fixed": [
+					"9.11.0.P2-1"
+				]
+			}
+		}
+	]
+}

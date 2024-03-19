@@ -1,0 +1,88 @@
+{
+	"id": "AVG-2251",
+	"advisories": [
+		{
+			"id": "AVG-2251",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2251"
+				}
+			]
+		},
+		{
+			"id": "ASA-202108-7",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202108-7"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-22241",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-22241"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-22239",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-22239"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-22237",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-22237"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-22236",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-22236"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "gitlab"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "14.1.2-1"
+					}
+				],
+				"fixed": [
+					"14.1.2-1"
+				]
+			}
+		}
+	]
+}

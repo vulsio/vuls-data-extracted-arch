@@ -1,0 +1,97 @@
+{
+	"id": "AVG-1100",
+	"advisories": [
+		{
+			"id": "AVG-1100",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1100"
+				}
+			]
+		},
+		{
+			"id": "ASA-202002-10",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202002-10"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-3868",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-3868"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-3867",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-3867"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-3865",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-3865"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-3864",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-3864"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-3862",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-3862"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "webkit2gtk"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "2.26.4-1"
+					}
+				],
+				"fixed": [
+					"2.26.4-1"
+				]
+			}
+		}
+	]
+}

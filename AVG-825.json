@@ -1,0 +1,115 @@
+{
+	"id": "AVG-825",
+	"advisories": [
+		{
+			"id": "AVG-825",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-825"
+				}
+			]
+		},
+		{
+			"id": "ASA-201812-3",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201812-3"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-19628",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-19628"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-19627",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-19627"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-19626",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-19626"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-19625",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-19625"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-19624",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-19624"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-19623",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-19623"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-19622",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-19622"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "wireshark-cli"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "2.6.5-1"
+					}
+				],
+				"fixed": [
+					"2.6.5-1"
+				]
+			}
+		}
+	]
+}

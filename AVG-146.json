@@ -1,0 +1,169 @@
+{
+	"id": "AVG-146",
+	"advisories": [
+		{
+			"id": "AVG-146",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-146"
+				}
+			]
+		},
+		{
+			"id": "ASA-201701-27",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201701-27"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2016-7656",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-7656"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-7654",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-7654"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-7652",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-7652"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-7645",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-7645"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-7641",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-7641"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-7639",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-7639"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-7635",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-7635"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-7632",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-7632"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-7623",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-7623"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-7599",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-7599"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-7592",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-7592"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-7589",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-7589"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-7586",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-7586"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "webkit2gtk"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "2.14.3-1"
+					}
+				],
+				"fixed": [
+					"2.14.3-1"
+				]
+			}
+		}
+	]
+}

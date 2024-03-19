@@ -1,0 +1,115 @@
+{
+	"id": "AVG-2709",
+	"advisories": [
+		{
+			"id": "AVG-2709",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2709"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-29918",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-29918"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-29917",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-29917"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-29916",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-29916"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-29915",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-29915"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-29914",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-29914"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-29912",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-29912"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-29911",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-29911"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-29909",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-29909"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "firefox"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "100.0-1"
+					}
+				],
+				"fixed": [
+					"100.0-1"
+				]
+			}
+		}
+	]
+}

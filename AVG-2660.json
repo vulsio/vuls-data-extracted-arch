@@ -1,0 +1,79 @@
+{
+	"id": "AVG-2660",
+	"advisories": [
+		{
+			"id": "AVG-2660",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2660"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-6956",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-6956"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-20360",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-20360"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-20199",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-20199"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-20196",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-20196"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "faad2"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "2.9.0-1"
+					}
+				],
+				"fixed": [
+					"2.9.0-1"
+				]
+			}
+		}
+	]
+}

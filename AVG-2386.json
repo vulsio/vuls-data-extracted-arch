@@ -1,0 +1,70 @@
+{
+	"id": "AVG-2386",
+	"advisories": [
+		{
+			"id": "AVG-2386",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2386"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-22947",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-22947"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-22946",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-22946"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-22945",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-22945"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "libcurl-compat"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "7.79.0-1"
+					}
+				],
+				"fixed": [
+					"7.79.0-1"
+				]
+			}
+		}
+	]
+}

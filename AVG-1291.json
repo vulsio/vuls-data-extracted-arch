@@ -1,0 +1,79 @@
+{
+	"id": "AVG-1291",
+	"advisories": [
+		{
+			"id": "AVG-1291",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1291"
+				}
+			]
+		},
+		{
+			"id": "ASA-202011-28",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202011-28"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-9983",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-9983"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-13584",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-13584"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-13543",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-13543"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "webkit2gtk"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "2.30.3-1"
+					}
+				],
+				"fixed": [
+					"2.30.3-1"
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,92 @@
+{
+	"id": "AVG-1039",
+	"advisories": [
+		{
+			"id": "AVG-1039",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1039"
+				},
+				{
+					"source": "security.archlinux.org",
+					"url": "https://bugs.archlinux.org/task/63977"
+				}
+			]
+		},
+		{
+			"id": "ASA-201910-2",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201910-2"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-16255",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-16255"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-16254",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-16254"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-16201",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-16201"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-15845",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-15845"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "ruby"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "2.6.5-1"
+					}
+				],
+				"fixed": [
+					"2.6.5-1"
+				]
+			}
+		}
+	]
+}

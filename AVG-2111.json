@@ -1,0 +1,49 @@
+{
+	"id": "AVG-2111",
+	"advisories": [
+		{
+			"id": "AVG-2111",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2111"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-3624",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-3624"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "dcraw"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"le": "9.28.0-2"
+					}
+				]
+			}
+		}
+	]
+}

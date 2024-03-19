@@ -1,0 +1,61 @@
+{
+	"id": "AVG-2512",
+	"advisories": [
+		{
+			"id": "AVG-2512",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2512"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-38510",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-38510"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-38505",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-38505"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "firefox"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "94.0-1"
+					}
+				],
+				"fixed": [
+					"94.0-1"
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,151 @@
+{
+	"id": "AVG-1989",
+	"advisories": [
+		{
+			"id": "AVG-1989",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1989"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-38291",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-38291"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-38171",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-38171"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-38114",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-38114"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-33815",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-33815"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-22037",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-22037"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-22033",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-22033"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-22021",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-22021"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-22019",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-22019"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-22015",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-22015"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-20453",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-20453"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-20446",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-20446"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-20445",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-20445"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "ffmpeg"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "2:4.4.1-1"
+					}
+				],
+				"fixed": [
+					"2:4.4.1-1"
+				]
+			}
+		}
+	]
+}

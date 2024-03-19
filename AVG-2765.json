@@ -1,0 +1,49 @@
+{
+	"id": "AVG-2765",
+	"advisories": [
+		{
+			"id": "AVG-2765",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2765"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-2068",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-2068"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "openssl"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"le": "1.1.1.o-1"
+					}
+				]
+			}
+		}
+	]
+}

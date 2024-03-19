@@ -1,0 +1,49 @@
+{
+	"id": "AVG-1791",
+	"advisories": [
+		{
+			"id": "AVG-1791",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1791"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-30156",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30156"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "mediawiki"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"le": "1.35.1-2"
+					}
+				]
+			}
+		}
+	]
+}

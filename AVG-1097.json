@@ -1,0 +1,70 @@
+{
+	"id": "AVG-1097",
+	"advisories": [
+		{
+			"id": "AVG-1097",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1097"
+				}
+			]
+		},
+		{
+			"id": "ASA-202002-6",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202002-6"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-7957",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-7957"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-7046",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-7046"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "dovecot"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "2.3.9.3-1"
+					}
+				],
+				"fixed": [
+					"2.3.9.3-1"
+				]
+			}
+		}
+	]
+}

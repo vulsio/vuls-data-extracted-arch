@@ -1,0 +1,49 @@
+{
+	"id": "AVG-2293",
+	"advisories": [
+		{
+			"id": "AVG-2293",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Low"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2293"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-38604",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-38604"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "glibc"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"le": "2.33-5"
+					}
+				]
+			}
+		}
+	]
+}

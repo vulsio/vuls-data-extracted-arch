@@ -1,0 +1,79 @@
+{
+	"id": "AVG-951",
+	"advisories": [
+		{
+			"id": "AVG-951",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-951"
+				}
+			]
+		},
+		{
+			"id": "ASA-201904-11",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201904-11"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-6111",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-6111"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-6109",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-6109"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-20685",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-20685"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "openssh"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "8.0p1-1"
+					}
+				],
+				"fixed": [
+					"8.0p1-1"
+				]
+			}
+		}
+	]
+}

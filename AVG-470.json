@@ -1,0 +1,53 @@
+{
+	"id": "AVG-470",
+	"advisories": [
+		{
+			"id": "AVG-470",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-470"
+				},
+				{
+					"source": "security.archlinux.org",
+					"url": "https://bugs.archlinux.org/task/56116"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-7358",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7358"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "lightdm"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"le": "1:1.22.0-1"
+					}
+				]
+			}
+		}
+	]
+}

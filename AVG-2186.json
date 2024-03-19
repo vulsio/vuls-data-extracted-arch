@@ -1,0 +1,49 @@
+{
+	"id": "AVG-2186",
+	"advisories": [
+		{
+			"id": "AVG-2186",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2186"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-3246",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-3246"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "lib32-libsndfile"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"le": "1.0.31-1"
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,70 @@
+{
+	"id": "AVG-1808",
+	"advisories": [
+		{
+			"id": "AVG-1808",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1808"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-29943",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-29943"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-29262",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-29262"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-27905",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-27905"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "solr"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "8.8.2-1"
+					}
+				],
+				"fixed": [
+					"8.8.2-1"
+				]
+			}
+		}
+	]
+}

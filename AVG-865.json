@@ -1,0 +1,79 @@
+{
+	"id": "AVG-865",
+	"advisories": [
+		{
+			"id": "AVG-865",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-865"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-6978",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-6978"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-6977",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-6977"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5711",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5711"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-1000222",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-1000222"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "gd"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "2.2.5-2"
+					}
+				],
+				"fixed": [
+					"2.2.5-2"
+				]
+			}
+		}
+	]
+}

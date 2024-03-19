@@ -1,0 +1,70 @@
+{
+	"id": "AVG-870",
+	"advisories": [
+		{
+			"id": "AVG-870",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-870"
+				}
+			]
+		},
+		{
+			"id": "ASA-201905-17",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201905-17"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-7733",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-7733"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-7314",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-7314"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "live-media"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "2019.05.12-1"
+					}
+				],
+				"fixed": [
+					"2019.05.12-1"
+				]
+			}
+		}
+	]
+}

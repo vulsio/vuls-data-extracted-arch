@@ -1,0 +1,52 @@
+{
+	"id": "AVG-662",
+	"advisories": [
+		{
+			"id": "AVG-662",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-662"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-1000135",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-1000135"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "networkmanager"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "1.10.3dev+38+g78ef57197-1"
+					}
+				],
+				"fixed": [
+					"1.10.3dev+38+g78ef57197-1"
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,52 @@
+{
+	"id": "AVG-1471",
+	"advisories": [
+		{
+			"id": "AVG-1471",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1471"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-14366",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-14366"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "keycloak"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "12.0.0-1"
+					}
+				],
+				"fixed": [
+					"12.0.0-1"
+				]
+			}
+		}
+	]
+}

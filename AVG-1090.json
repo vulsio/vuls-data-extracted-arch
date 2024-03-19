@@ -1,0 +1,70 @@
+{
+	"id": "AVG-1090",
+	"advisories": [
+		{
+			"id": "AVG-1090",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1090"
+				}
+			]
+		},
+		{
+			"id": "ASA-202001-6",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202001-6"
+				}
+			]
+		},
+		{
+			"id": "ASA-202001-6",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202001-6"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-7247",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-7247"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "opensmtpd"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "6.6.2p1-1"
+					}
+				],
+				"fixed": [
+					"6.6.2p1-1"
+				]
+			}
+		}
+	]
+}

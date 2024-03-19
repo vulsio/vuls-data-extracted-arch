@@ -1,0 +1,182 @@
+{
+	"id": "AVG-1550",
+	"advisories": [
+		{
+			"id": "AVG-1550",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1550"
+				},
+				{
+					"source": "security.archlinux.org",
+					"url": "https://bugs.archlinux.org/task/57434"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-3832",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-3832"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-19758",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-19758"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-19662",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-19662"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-19661",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-19661"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-19432",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-19432"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-13139",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-13139"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-8365",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-8365"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-8363",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-8363"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-8362",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-8362"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-8361",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-8361"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-6892",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-6892"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-14634",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-14634"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-14246",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-14246"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-14245",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-14245"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-12562",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-12562"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "lib32-libsndfile"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "1.0.31-1"
+					}
+				],
+				"fixed": [
+					"1.0.31-1"
+				]
+			}
+		}
+	]
+}

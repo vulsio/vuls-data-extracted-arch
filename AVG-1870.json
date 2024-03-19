@@ -1,0 +1,52 @@
+{
+	"id": "AVG-1870",
+	"advisories": [
+		{
+			"id": "AVG-1870",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1870"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-2264",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-2264"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "virtualbox"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "6.1.20-1"
+					}
+				],
+				"fixed": [
+					"6.1.20-1"
+				]
+			}
+		}
+	]
+}

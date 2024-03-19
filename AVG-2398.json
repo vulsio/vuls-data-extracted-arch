@@ -1,0 +1,49 @@
+{
+	"id": "AVG-2398",
+	"advisories": [
+		{
+			"id": "AVG-2398",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2398"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-38300",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-38300"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "linux"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"le": "5.14.5.arch1-1"
+					}
+				]
+			}
+		}
+	]
+}

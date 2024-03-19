@@ -1,0 +1,79 @@
+{
+	"id": "AVG-936",
+	"advisories": [
+		{
+			"id": "AVG-936",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-936"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-7226",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7226"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7225",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7225"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7224",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7224"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7223",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7223"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "binutils"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "2.27.0-1"
+					}
+				],
+				"fixed": [
+					"2.27.0-1"
+				]
+			}
+		}
+	]
+}

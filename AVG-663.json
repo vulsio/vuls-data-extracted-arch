@@ -1,0 +1,106 @@
+{
+	"id": "AVG-663",
+	"advisories": [
+		{
+			"id": "AVG-663",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-663"
+				}
+			]
+		},
+		{
+			"id": "ASA-201803-22",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201803-22"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-5146",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5146"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5145",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5145"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5144",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5144"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5129",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5129"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5127",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5127"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5125",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5125"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "thunderbird"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "52.7.0-1"
+					}
+				],
+				"fixed": [
+					"52.7.0-1"
+				]
+			}
+		}
+	]
+}

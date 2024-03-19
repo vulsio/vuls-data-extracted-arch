@@ -1,0 +1,74 @@
+{
+	"id": "AVG-1626",
+	"advisories": [
+		{
+			"id": "AVG-1626",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1626"
+				},
+				{
+					"source": "security.archlinux.org",
+					"url": "https://bugs.archlinux.org/task/69784"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-30004",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30004"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-27803",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-27803"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-0535",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-0535"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "wpa_supplicant"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "2:2.10-1"
+					}
+				],
+				"fixed": [
+					"2:2.10-1"
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,92 @@
+{
+	"id": "AVG-1883",
+	"advisories": [
+		{
+			"id": "AVG-1883",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1883"
+				},
+				{
+					"source": "security.archlinux.org",
+					"url": "https://bugs.archlinux.org/task/70822"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-3541",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-3541"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-3537",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-3537"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-3518",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-3518"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-3517",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-3517"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-3516",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-3516"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "libxml2"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "2.9.11-1"
+					}
+				],
+				"fixed": [
+					"2.9.11-1"
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,178 @@
+{
+	"id": "AVG-2503",
+	"advisories": [
+		{
+			"id": "AVG-2503",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2503"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-39914",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39914"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-39913",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39913"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-39912",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39912"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-39911",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39911"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-39909",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39909"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-39907",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39907"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-39906",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39906"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-39905",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39905"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-39904",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39904"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-39903",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39903"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-39902",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39902"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-39901",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39901"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-39898",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39898"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-39897",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39897"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-39895",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39895"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "gitlab"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "14.5.0-1"
+					}
+				],
+				"fixed": [
+					"14.5.0-1"
+				]
+			}
+		}
+	]
+}

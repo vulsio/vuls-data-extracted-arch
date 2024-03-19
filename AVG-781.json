@@ -1,0 +1,196 @@
+{
+	"id": "AVG-781",
+	"advisories": [
+		{
+			"id": "AVG-781",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-781"
+				}
+			]
+		},
+		{
+			"id": "ASA-201810-12",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201810-12"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-5179",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5179"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-17477",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-17477"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-17476",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-17476"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-17475",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-17475"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-17474",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-17474"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-17473",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-17473"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-17471",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-17471"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-17470",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-17470"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-17469",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-17469"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-17468",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-17468"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-17467",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-17467"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-17466",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-17466"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-17465",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-17465"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-17464",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-17464"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-17463",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-17463"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-17462",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-17462"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "chromium"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "70.0.3538.67-1"
+					}
+				],
+				"fixed": [
+					"70.0.3538.67-1"
+				]
+			}
+		}
+	]
+}

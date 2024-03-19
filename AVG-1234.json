@@ -1,0 +1,115 @@
+{
+	"id": "AVG-1234",
+	"advisories": [
+		{
+			"id": "AVG-1234",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1234"
+				}
+			]
+		},
+		{
+			"id": "ASA-202009-9",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202009-9"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-15966",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-15966"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-15965",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-15965"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-15964",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-15964"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-15963",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-15963"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-15962",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-15962"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-15961",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-15961"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-15960",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-15960"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "chromium"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "85.0.4183.121-1"
+					}
+				],
+				"fixed": [
+					"85.0.4183.121-1"
+				]
+			}
+		}
+	]
+}

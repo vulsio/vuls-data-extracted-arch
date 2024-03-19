@@ -1,0 +1,79 @@
+{
+	"id": "AVG-255",
+	"advisories": [
+		{
+			"id": "AVG-255",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-255"
+				}
+			]
+		},
+		{
+			"id": "ASA-201704-8",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201704-8"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-1000356",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-1000356"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-1000355",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-1000355"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-1000354",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-1000354"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "jenkins"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "2.57-1"
+					}
+				],
+				"fixed": [
+					"2.57-1"
+				]
+			}
+		}
+	]
+}

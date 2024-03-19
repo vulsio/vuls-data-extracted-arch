@@ -1,0 +1,67 @@
+{
+	"id": "AVG-2604",
+	"advisories": [
+		{
+			"id": "AVG-2604",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2604"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-39930",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39930"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-39918",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39918"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-39916",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39916"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "gitlab"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"le": "14.5.0-1"
+					}
+				]
+			}
+		}
+	]
+}

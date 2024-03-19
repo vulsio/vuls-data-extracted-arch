@@ -1,0 +1,49 @@
+{
+	"id": "AVG-2115",
+	"advisories": [
+		{
+			"id": "AVG-2115",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2115"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-36081",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-36081"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "tesseract"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"le": "4.1.1-7"
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,88 @@
+{
+	"id": "AVG-1178",
+	"advisories": [
+		{
+			"id": "AVG-1178",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1178"
+				}
+			]
+		},
+		{
+			"id": "ASA-202006-3",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202006-3"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-6496",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-6496"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-6495",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-6495"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-6494",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-6494"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-6493",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-6493"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "chromium"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "83.0.4103.97-1"
+					}
+				],
+				"fixed": [
+					"83.0.4103.97-1"
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,70 @@
+{
+	"id": "AVG-797",
+	"advisories": [
+		{
+			"id": "AVG-797",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-797"
+				}
+			]
+		},
+		{
+			"id": "ASA-201811-8",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201811-8"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-16840",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-16840"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-16839",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-16839"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "lib32-libcurl-compat"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "7.62.0-1"
+					}
+				],
+				"fixed": [
+					"7.62.0-1"
+				]
+			}
+		}
+	]
+}

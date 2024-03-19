@@ -1,0 +1,52 @@
+{
+	"id": "AVG-2303",
+	"advisories": [
+		{
+			"id": "AVG-2303",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2303"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-25218",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-25218"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "bind"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "9.16.20-1"
+					}
+				],
+				"fixed": [
+					"9.16.20-1"
+				]
+			}
+		}
+	]
+}

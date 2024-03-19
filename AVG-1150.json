@@ -1,0 +1,79 @@
+{
+	"id": "AVG-1150",
+	"advisories": [
+		{
+			"id": "AVG-1150",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1150"
+				}
+			]
+		},
+		{
+			"id": "ASA-202005-4",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202005-4"
+				}
+			]
+		},
+		{
+			"id": "ASA-202005-4",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202005-4"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2015-8107",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2015-8107"
+				}
+			]
+		},
+		{
+			"id": "CVE-2014-0466",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2014-0466"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "a2ps"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "4.14-9"
+					}
+				],
+				"fixed": [
+					"4.14-9"
+				]
+			}
+		}
+	]
+}

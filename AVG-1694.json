@@ -1,0 +1,49 @@
+{
+	"id": "AVG-1694",
+	"advisories": [
+		{
+			"id": "AVG-1694",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1694"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-3428",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-3428"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "linux-hardened"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"le": "5.11.6.hardened1-1"
+					}
+				]
+			}
+		}
+	]
+}

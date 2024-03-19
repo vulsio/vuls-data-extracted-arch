@@ -1,0 +1,79 @@
+{
+	"id": "AVG-967",
+	"advisories": [
+		{
+			"id": "AVG-967",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-967"
+				}
+			]
+		},
+		{
+			"id": "ASA-201905-10",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201905-10"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-8615",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-8615"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-8607",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-8607"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-8595",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-8595"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "webkit2gtk"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "2.24.2-1"
+					}
+				],
+				"fixed": [
+					"2.24.2-1"
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,70 @@
+{
+	"id": "AVG-2460",
+	"advisories": [
+		{
+			"id": "AVG-2460",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2460"
+				}
+			]
+		},
+		{
+			"id": "ASA-202110-4",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202110-4"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-22960",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-22960"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-22959",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-22959"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "nodejs"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "16.11.1-1"
+					}
+				],
+				"fixed": [
+					"16.11.1-1"
+				]
+			}
+		}
+	]
+}

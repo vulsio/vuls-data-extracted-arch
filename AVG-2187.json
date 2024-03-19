@@ -1,0 +1,88 @@
+{
+	"id": "AVG-2187",
+	"advisories": [
+		{
+			"id": "AVG-2187",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2187"
+				}
+			]
+		},
+		{
+			"id": "ASA-202107-52",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202107-52"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-2454",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-2454"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-2443",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-2443"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-2442",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-2442"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-2409",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-2409"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "virtualbox"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "6.1.24-1"
+					}
+				],
+				"fixed": [
+					"6.1.24-1"
+				]
+			}
+		}
+	]
+}

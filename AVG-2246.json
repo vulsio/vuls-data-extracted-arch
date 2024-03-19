@@ -1,0 +1,115 @@
+{
+	"id": "AVG-2246",
+	"advisories": [
+		{
+			"id": "AVG-2246",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2246"
+				}
+			]
+		},
+		{
+			"id": "ASA-202108-4",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202108-4"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-30597",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30597"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30596",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30596"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30594",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30594"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30593",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30593"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30592",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30592"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30591",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30591"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30590",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30590"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "chromium"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "92.0.4515.131-1"
+					}
+				],
+				"fixed": [
+					"92.0.4515.131-1"
+				]
+			}
+		}
+	]
+}

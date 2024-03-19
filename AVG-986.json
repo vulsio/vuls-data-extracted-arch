@@ -1,0 +1,79 @@
+{
+	"id": "AVG-986",
+	"advisories": [
+		{
+			"id": "AVG-986",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-986"
+				}
+			]
+		},
+		{
+			"id": "ASA-201906-12",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201906-12"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-11479",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-11479"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-11478",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-11478"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-11477",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-11477"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "linux-hardened"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "5.1.11.a-1"
+					}
+				],
+				"fixed": [
+					"5.1.11.a-1"
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"id": "AVG-1800",
+	"advisories": [
+		{
+			"id": "AVG-1800",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1800"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-30481",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30481"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "steam"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"le": "1.0.0.73-1"
+					}
+				]
+			}
+		}
+	]
+}

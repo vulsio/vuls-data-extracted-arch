@@ -1,0 +1,70 @@
+{
+	"id": "AVG-1906",
+	"advisories": [
+		{
+			"id": "AVG-1906",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1906"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-32066",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-32066"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-31810",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-31810"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-31799",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-31799"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "jruby"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "9.3.0.0-1"
+					}
+				],
+				"fixed": [
+					"9.3.0.0-1"
+				]
+			}
+		}
+	]
+}

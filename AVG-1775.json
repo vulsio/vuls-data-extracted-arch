@@ -1,0 +1,133 @@
+{
+	"id": "AVG-1775",
+	"advisories": [
+		{
+			"id": "AVG-1775",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1775"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-30458",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30458"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30159",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30159"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30158",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30158"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30157",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30157"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30155",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30155"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30154",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30154"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30153",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30153"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30152",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30152"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-27291",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-27291"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-20270",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-20270"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "mediawiki"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "1.35.2-1"
+					}
+				],
+				"fixed": [
+					"1.35.2-1"
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,70 @@
+{
+	"id": "AVG-2783",
+	"advisories": [
+		{
+			"id": "AVG-2783",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Unknown"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2783"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-26307",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-26307"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-26306",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-26306"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-26305",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-26305"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-fresh"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "7.3.3-1"
+					}
+				],
+				"fixed": [
+					"7.3.3-1"
+				]
+			}
+		}
+	]
+}

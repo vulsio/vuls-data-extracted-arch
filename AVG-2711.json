@@ -1,0 +1,142 @@
+{
+	"id": "AVG-2711",
+	"advisories": [
+		{
+			"id": "AVG-2711",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2711"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-28289",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-28289"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-28288",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-28288"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-28287",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-28287"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-28286",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-28286"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-28285",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-28285"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-28284",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-28284"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-28283",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-28283"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-28282",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-28282"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-28281",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-28281"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-24713",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-24713"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-1097",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-1097"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "firefox"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "99.0-1"
+					}
+				],
+				"fixed": [
+					"99.0-1"
+				]
+			}
+		}
+	]
+}

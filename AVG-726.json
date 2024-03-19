@@ -1,0 +1,79 @@
+{
+	"id": "AVG-726",
+	"advisories": [
+		{
+			"id": "AVG-726",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-726"
+				}
+			]
+		},
+		{
+			"id": "ASA-201807-1",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201807-1"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-3740",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-3740"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-12607",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-12607"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-12606",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-12606"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "gitlab"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "11.0.1-1"
+					}
+				],
+				"fixed": [
+					"11.0.1-1"
+				]
+			}
+		}
+	]
+}

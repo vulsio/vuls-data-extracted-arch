@@ -1,0 +1,160 @@
+{
+	"id": "AVG-2843",
+	"advisories": [
+		{
+			"id": "AVG-2843",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Unknown"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2843"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-0433",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2023-0433"
+				}
+			]
+		},
+		{
+			"id": "CVE-2023-0288",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2023-0288"
+				}
+			]
+		},
+		{
+			"id": "CVE-2023-0054",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2023-0054"
+				}
+			]
+		},
+		{
+			"id": "CVE-2023-0049",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2023-0049"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-47024",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-47024"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-3591",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-3591"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-3324",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-3324"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-3256",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-3256"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-3099",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-3099"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-2581",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-2581"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-2345",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-2345"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-0417",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-0417"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-0392",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-0392"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "vim"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "9.0.1225-1"
+					}
+				],
+				"fixed": [
+					"9.0.1225-1"
+				]
+			}
+		}
+	]
+}

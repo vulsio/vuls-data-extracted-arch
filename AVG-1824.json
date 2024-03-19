@@ -1,0 +1,49 @@
+{
+	"id": "AVG-1824",
+	"advisories": [
+		{
+			"id": "AVG-1824",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Low"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1824"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-27815",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-27815"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "libexif"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"le": "0.6.22-1"
+					}
+				]
+			}
+		}
+	]
+}

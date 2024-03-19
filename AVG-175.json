@@ -1,0 +1,61 @@
+{
+	"id": "AVG-175",
+	"advisories": [
+		{
+			"id": "AVG-175",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-175"
+				}
+			]
+		},
+		{
+			"id": "ASA-201702-14",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201702-14"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-0359",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-0359"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "diffoscope"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "77-1"
+					}
+				],
+				"fixed": [
+					"77-1"
+				]
+			}
+		}
+	]
+}

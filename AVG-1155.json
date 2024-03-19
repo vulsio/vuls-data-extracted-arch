@@ -1,0 +1,97 @@
+{
+	"id": "AVG-1155",
+	"advisories": [
+		{
+			"id": "AVG-1155",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1155"
+				}
+			]
+		},
+		{
+			"id": "ASA-202005-7",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202005-7"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-6831",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-6831"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-12397",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-12397"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-12395",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-12395"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-12392",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-12392"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-12387",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-12387"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "thunderbird"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "68.8.0-1"
+					}
+				],
+				"fixed": [
+					"68.8.0-1"
+				]
+			}
+		}
+	]
+}

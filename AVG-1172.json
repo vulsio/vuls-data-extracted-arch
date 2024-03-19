@@ -1,0 +1,79 @@
+{
+	"id": "AVG-1172",
+	"advisories": [
+		{
+			"id": "AVG-1172",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1172"
+				}
+			]
+		},
+		{
+			"id": "ASA-202005-16",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202005-16"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-13398",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-13398"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-13397",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-13397"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-13396",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-13396"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "freerdp"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "2:2.1.1-1"
+					}
+				],
+				"fixed": [
+					"2:2.1.1-1"
+				]
+			}
+		}
+	]
+}

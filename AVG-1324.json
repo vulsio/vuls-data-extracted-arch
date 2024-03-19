@@ -1,0 +1,64 @@
+{
+	"id": "AVG-1324",
+	"advisories": [
+		{
+			"id": "AVG-1324",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1324"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-29573",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-29573"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "glibc"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"le": "2.32-5"
+					}
+				]
+			}
+		},
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "lib32-glibc"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"le": "2.32-5"
+					}
+				]
+			}
+		}
+	]
+}

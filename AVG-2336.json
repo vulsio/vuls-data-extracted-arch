@@ -1,0 +1,214 @@
+{
+	"id": "AVG-2336",
+	"advisories": [
+		{
+			"id": "AVG-2336",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2336"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-30624",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30624"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30623",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30623"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30622",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30622"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30621",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30621"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30620",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30620"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30619",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30619"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30618",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30618"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30617",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30617"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30616",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30616"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30615",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30615"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30614",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30614"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30613",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30613"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30612",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30612"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30611",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30611"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30610",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30610"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30609",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30609"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30608",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30608"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30607",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30607"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30606",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30606"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "chromium"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "93.0.4577.63-1"
+					}
+				],
+				"fixed": [
+					"93.0.4577.63-1"
+				]
+			}
+		}
+	]
+}

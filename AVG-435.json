@@ -1,0 +1,106 @@
+{
+	"id": "AVG-435",
+	"advisories": [
+		{
+			"id": "AVG-435",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-435"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-15996",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15996"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15025",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15025"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15024",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15024"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15023",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15023"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15022",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15022"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15021",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15021"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15020",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15020"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "binutils"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "2.30-1"
+					}
+				],
+				"fixed": [
+					"2.30-1"
+				]
+			}
+		}
+	]
+}

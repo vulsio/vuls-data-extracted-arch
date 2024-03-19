@@ -1,0 +1,97 @@
+{
+	"id": "AVG-2732",
+	"advisories": [
+		{
+			"id": "AVG-2732",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Unknown"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2732"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-28192",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-28192"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-28191",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-28191"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-28185",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-28185"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-28184",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-28184"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-28183",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-28183"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-28181",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-28181"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "nvidia"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "510.73.05-1"
+					}
+				],
+				"fixed": [
+					"510.73.05-1"
+				]
+			}
+		}
+	]
+}

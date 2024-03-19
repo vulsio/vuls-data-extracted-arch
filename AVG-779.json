@@ -1,0 +1,88 @@
+{
+	"id": "AVG-779",
+	"advisories": [
+		{
+			"id": "AVG-779",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-779"
+				}
+			]
+		},
+		{
+			"id": "ASA-201810-9",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201810-9"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-18227",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-18227"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-18226",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-18226"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-18225",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-18225"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-12086",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-12086"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "wireshark-cli"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "2.6.4-1"
+					}
+				],
+				"fixed": [
+					"2.6.4-1"
+				]
+			}
+		}
+	]
+}

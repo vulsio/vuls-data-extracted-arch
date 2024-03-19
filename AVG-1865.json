@@ -1,0 +1,49 @@
+{
+	"id": "AVG-1865",
+	"advisories": [
+		{
+			"id": "AVG-1865",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1865"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-2161",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-2161"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "jdk-openjdk"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"le": "15.0.2.u7-1"
+					}
+				]
+			}
+		}
+	]
+}

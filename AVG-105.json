@@ -1,0 +1,79 @@
+{
+	"id": "AVG-105",
+	"advisories": [
+		{
+			"id": "AVG-105",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-105"
+				}
+			]
+		},
+		{
+			"id": "ASA-201701-28",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201701-28"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-5340",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5340"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-9936",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-9936"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-9935",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-9935"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "php"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "7.1.1-0"
+					}
+				],
+				"fixed": [
+					"7.1.1-0"
+				]
+			}
+		}
+	]
+}

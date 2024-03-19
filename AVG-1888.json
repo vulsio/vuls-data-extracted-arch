@@ -1,0 +1,97 @@
+{
+	"id": "AVG-1888",
+	"advisories": [
+		{
+			"id": "AVG-1888",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1888"
+				}
+			]
+		},
+		{
+			"id": "ASA-202105-4",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202105-4"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-22211",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-22211"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-22210",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-22210"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-22209",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-22209"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-22208",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-22208"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-22206",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-22206"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "gitlab"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "13.10.4-1"
+					}
+				],
+				"fixed": [
+					"13.10.4-1"
+				]
+			}
+		}
+	]
+}

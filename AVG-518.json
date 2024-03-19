@@ -1,0 +1,92 @@
+{
+	"id": "AVG-518",
+	"advisories": [
+		{
+			"id": "AVG-518",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-518"
+				},
+				{
+					"source": "security.archlinux.org",
+					"url": "https://bugs.archlinux.org/task/56478"
+				}
+			]
+		},
+		{
+			"id": "ASA-201711-32",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201711-32"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-16944",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-16944"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-16943",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-16943"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-10140",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-10140"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-1000369",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-1000369"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "exim"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "4.89.1-1"
+					}
+				],
+				"fixed": [
+					"4.89.1-1"
+				]
+			}
+		}
+	]
+}

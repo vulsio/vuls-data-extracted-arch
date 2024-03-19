@@ -1,0 +1,115 @@
+{
+	"id": "AVG-2247",
+	"advisories": [
+		{
+			"id": "AVG-2247",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2247"
+				}
+			]
+		},
+		{
+			"id": "ASA-202108-6",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202108-6"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-30597",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30597"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30596",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30596"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30594",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30594"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30593",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30593"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30592",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30592"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30591",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30591"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30590",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30590"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "vivaldi"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "4.1.2369.15-1"
+					}
+				],
+				"fixed": [
+					"4.1.2369.15-1"
+				]
+			}
+		}
+	]
+}

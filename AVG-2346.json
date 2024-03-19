@@ -1,0 +1,79 @@
+{
+	"id": "AVG-2346",
+	"advisories": [
+		{
+			"id": "AVG-2346",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2346"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-40490",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-40490"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-3753",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-3753"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-3743",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-3743"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-3739",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-3739"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "linux"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "5.14.2.arch1-2"
+					}
+				],
+				"fixed": [
+					"5.14.2.arch1-2"
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,79 @@
+{
+	"id": "AVG-2749",
+	"advisories": [
+		{
+			"id": "AVG-2749",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Unknown"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2749"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-30789",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-30789"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-30788",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-30788"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-30786",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-30786"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-30784",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-30784"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "ntfs-3g"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "2022.5.17-1"
+					}
+				],
+				"fixed": [
+					"2022.5.17-1"
+				]
+			}
+		}
+	]
+}

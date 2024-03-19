@@ -1,0 +1,79 @@
+{
+	"id": "AVG-567",
+	"advisories": [
+		{
+			"id": "AVG-567",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-567"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-17741",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-17741"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-17450",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-17450"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-17448",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-17448"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-16644",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-16644"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "linux"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "4.16-1"
+					}
+				],
+				"fixed": [
+					"4.16-1"
+				]
+			}
+		}
+	]
+}

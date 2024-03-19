@@ -1,0 +1,169 @@
+{
+	"id": "AVG-2526",
+	"advisories": [
+		{
+			"id": "AVG-2526",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2526"
+				}
+			]
+		},
+		{
+			"id": "ASA-202111-1",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202111-1"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-21697",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21697"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21696",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21696"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21695",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21695"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21694",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21694"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21693",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21693"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21692",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21692"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21691",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21691"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21690",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21690"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21689",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21689"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21688",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21688"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21687",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21687"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21686",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21686"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21685",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21685"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "jenkins"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "2.319-1"
+					}
+				],
+				"fixed": [
+					"2.319-1"
+				]
+			}
+		}
+	]
+}

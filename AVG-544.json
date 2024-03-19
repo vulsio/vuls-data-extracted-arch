@@ -1,0 +1,223 @@
+{
+	"id": "AVG-544",
+	"advisories": [
+		{
+			"id": "AVG-544",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-544"
+				}
+			]
+		},
+		{
+			"id": "ASA-201712-5",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201712-5"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-15427",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15427"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15426",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15426"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15425",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15425"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15424",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15424"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15423",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15423"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15422",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15422"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15420",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15420"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15419",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15419"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15418",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15418"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15417",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15417"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15416",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15416"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15415",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15415"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15413",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15413"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15412",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15412"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15411",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15411"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15410",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15410"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15409",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15409"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15408",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15408"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15407",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15407"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "chromium"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "63.0.3239.84-1"
+					}
+				],
+				"fixed": [
+					"63.0.3239.84-1"
+				]
+			}
+		}
+	]
+}

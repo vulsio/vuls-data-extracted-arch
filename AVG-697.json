@@ -1,0 +1,70 @@
+{
+	"id": "AVG-697",
+	"advisories": [
+		{
+			"id": "AVG-697",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-697"
+				}
+			]
+		},
+		{
+			"id": "ASA-201805-16",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201805-16"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-1000301",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-1000301"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-1000300",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-1000300"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "lib32-libcurl-gnutls"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "7.60.0-1"
+					}
+				],
+				"fixed": [
+					"7.60.0-1"
+				]
+			}
+		}
+	]
+}

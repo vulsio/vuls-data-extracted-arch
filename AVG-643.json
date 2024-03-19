@@ -1,0 +1,61 @@
+{
+	"id": "AVG-643",
+	"advisories": [
+		{
+			"id": "AVG-643",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-643"
+				}
+			]
+		},
+		{
+			"id": "ASA-201803-9",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201803-9"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-1058",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-1058"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "postgresql"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "10.3-1"
+					}
+				],
+				"fixed": [
+					"10.3-1"
+				]
+			}
+		}
+	]
+}

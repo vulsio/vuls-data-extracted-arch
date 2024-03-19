@@ -1,0 +1,119 @@
+{
+	"id": "AVG-1635",
+	"advisories": [
+		{
+			"id": "AVG-1635",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1635"
+				},
+				{
+					"source": "security.archlinux.org",
+					"url": "https://bugs.archlinux.org/task/70044"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-27923",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-27923"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-27922",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-27922"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-27921",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-27921"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-25293",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-25293"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-25292",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-25292"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-25291",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-25291"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-25290",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-25290"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-25289",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-25289"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "python-pillow"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "8.1.2-1"
+					}
+				],
+				"fixed": [
+					"8.1.2-1"
+				]
+			}
+		}
+	]
+}

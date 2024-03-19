@@ -1,0 +1,169 @@
+{
+	"id": "AVG-2561",
+	"advisories": [
+		{
+			"id": "AVG-2561",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2561"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-42386",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-42386"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-42385",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-42385"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-42384",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-42384"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-42383",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-42383"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-42382",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-42382"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-42381",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-42381"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-42380",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-42380"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-42379",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-42379"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-42378",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-42378"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-42377",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-42377"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-42376",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-42376"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-42375",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-42375"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-42374",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-42374"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-42373",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-42373"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "busybox"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "1.34.1-1"
+					}
+				],
+				"fixed": [
+					"1.34.1-1"
+				]
+			}
+		}
+	]
+}

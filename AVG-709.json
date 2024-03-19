@@ -1,0 +1,142 @@
+{
+	"id": "AVG-709",
+	"advisories": [
+		{
+			"id": "AVG-709",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-709"
+				}
+			]
+		},
+		{
+			"id": "ASA-201806-2",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201806-2"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-11384",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-11384"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-11383",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-11383"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-11382",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-11382"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-11381",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-11381"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-11380",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-11380"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-11379",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-11379"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-11378",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-11378"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-11377",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-11377"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-11376",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-11376"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-11375",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-11375"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "radare2"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "2.6.0-1"
+					}
+				],
+				"fixed": [
+					"2.6.0-1"
+				]
+			}
+		}
+	]
+}

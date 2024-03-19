@@ -1,0 +1,49 @@
+{
+	"id": "AVG-218",
+	"advisories": [
+		{
+			"id": "AVG-218",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-218"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-6060",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-6060"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "mupdf"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"le": "1.10_a-2"
+					}
+				]
+			}
+		}
+	]
+}

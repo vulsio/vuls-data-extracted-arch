@@ -1,0 +1,70 @@
+{
+	"id": "AVG-1032",
+	"advisories": [
+		{
+			"id": "AVG-1032",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1032"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-6474",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-6474"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-6473",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-6473"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-6472",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-6472"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "kea"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "1.8.0-1"
+					}
+				],
+				"fixed": [
+					"1.8.0-1"
+				]
+			}
+		}
+	]
+}

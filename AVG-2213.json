@@ -1,0 +1,49 @@
+{
+	"id": "AVG-2213",
+	"advisories": [
+		{
+			"id": "AVG-2213",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2213"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-30762",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30762"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "wpewebkit"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"le": "2.30.4-2"
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,169 @@
+{
+	"id": "AVG-458",
+	"advisories": [
+		{
+			"id": "AVG-458",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-458"
+				}
+			]
+		},
+		{
+			"id": "ASA-201711-2",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201711-2"
+				}
+			]
+		},
+		{
+			"id": "ASA-201711-4",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201711-4"
+				}
+			]
+		},
+		{
+			"id": "ASA-201711-1",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201711-1"
+				}
+			]
+		},
+		{
+			"id": "ASA-201711-3",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201711-3"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-15587",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15587"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-14687",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-14687"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-14686",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-14686"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-14685",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-14685"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "mupdf-gl"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "1.11-5"
+					}
+				],
+				"fixed": [
+					"1.11-5"
+				]
+			}
+		},
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "mupdf-tools"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "1.11-5"
+					}
+				],
+				"fixed": [
+					"1.11-5"
+				]
+			}
+		},
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "libmupdf"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "1.11-5"
+					}
+				],
+				"fixed": [
+					"1.11-5"
+				]
+			}
+		},
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "mupdf"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "1.11-5"
+					}
+				],
+				"fixed": [
+					"1.11-5"
+				]
+			}
+		}
+	]
+}

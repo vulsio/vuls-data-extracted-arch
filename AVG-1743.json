@@ -1,0 +1,119 @@
+{
+	"id": "AVG-1743",
+	"advisories": [
+		{
+			"id": "AVG-1743",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1743"
+				},
+				{
+					"source": "security.archlinux.org",
+					"url": "https://bugs.archlinux.org/task/70203"
+				}
+			]
+		},
+		{
+			"id": "ASA-202105-1",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202105-1"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-31866",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-31866"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-31865",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-31865"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-31864",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-31864"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-31863",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-31863"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30164",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30164"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30163",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30163"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-29274",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-29274"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "redmine"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "4.2.1-1"
+					}
+				],
+				"fixed": [
+					"4.2.1-1"
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,70 @@
+{
+	"id": "AVG-42",
+	"advisories": [
+		{
+			"id": "AVG-42",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-42"
+				}
+			]
+		},
+		{
+			"id": "ASA-201610-1",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201610-1"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2016-5178",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-5178"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-5177",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-5177"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "chromium"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "53.0.2785.143-1"
+					}
+				],
+				"fixed": [
+					"53.0.2785.143-1"
+				]
+			}
+		}
+	]
+}

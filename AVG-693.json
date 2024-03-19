@@ -1,0 +1,277 @@
+{
+	"id": "AVG-693",
+	"advisories": [
+		{
+			"id": "AVG-693",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-693"
+				}
+			]
+		},
+		{
+			"id": "ASA-201805-10",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201805-10"
+				}
+			]
+		},
+		{
+			"id": "ASA-201805-10",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201805-10"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-5182",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5182"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5181",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5181"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5180",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5180"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5177",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5177"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5176",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5176"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5175",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5175"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5173",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5173"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5172",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5172"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5169",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5169"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5168",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5168"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5167",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5167"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5166",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5166"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5164",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5164"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5163",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5163"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5160",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5160"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5159",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5159"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5158",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5158"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5157",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5157"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5155",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5155"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5154",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5154"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5153",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5153"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5152",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5152"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5151",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5151"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5150",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5150"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "firefox"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "60.0-1"
+					}
+				],
+				"fixed": [
+					"60.0-1"
+				]
+			}
+		}
+	]
+}

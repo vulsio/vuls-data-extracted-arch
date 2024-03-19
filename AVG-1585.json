@@ -1,0 +1,124 @@
+{
+	"id": "AVG-1585",
+	"advisories": [
+		{
+			"id": "AVG-1585",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1585"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-21157",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21157"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21156",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21156"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21155",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21155"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21154",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21154"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21153",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21153"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21152",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21152"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21151",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21151"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21150",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21150"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21149",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21149"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "vivaldi"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "3.6.2165.40-1"
+					}
+				],
+				"fixed": [
+					"3.6.2165.40-1"
+				]
+			}
+		}
+	]
+}

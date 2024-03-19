@@ -1,0 +1,79 @@
+{
+	"id": "AVG-2126",
+	"advisories": [
+		{
+			"id": "AVG-2126",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2126"
+				}
+			]
+		},
+		{
+			"id": "ASA-202107-13",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202107-13"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-27290",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-27290"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-23362",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-23362"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-22918",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-22918"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "nodejs"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "16.4.1-1"
+					}
+				],
+				"fixed": [
+					"16.4.1-1"
+				]
+			}
+		}
+	]
+}

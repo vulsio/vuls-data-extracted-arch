@@ -1,0 +1,88 @@
+{
+	"id": "AVG-611",
+	"advisories": [
+		{
+			"id": "AVG-611",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-611"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-13232",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-13232"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-18384",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-18384"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-1000035",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-1000035"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-9844",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-9844"
+				}
+			]
+		},
+		{
+			"id": "CVE-2014-9913",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2014-9913"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "unzip"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "6.0-15"
+					}
+				],
+				"fixed": [
+					"6.0-15"
+				]
+			}
+		}
+	]
+}

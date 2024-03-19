@@ -1,0 +1,97 @@
+{
+	"id": "AVG-2053",
+	"advisories": [
+		{
+			"id": "AVG-2053",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2053"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-30641",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30641"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-26691",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-26691"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-26690",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-26690"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-35452",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-35452"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-13950",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-13950"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-17567",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-17567"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "apache"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "2.4.47-1"
+					}
+				],
+				"fixed": [
+					"2.4.47-1"
+				]
+			}
+		}
+	]
+}

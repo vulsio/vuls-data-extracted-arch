@@ -1,0 +1,61 @@
+{
+	"id": "AVG-504",
+	"advisories": [
+		{
+			"id": "AVG-504",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-504"
+				}
+			]
+		},
+		{
+			"id": "ASA-201711-25",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201711-25"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-14952",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-14952"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "icu"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "60.1-1"
+					}
+				],
+				"fixed": [
+					"60.1-1"
+				]
+			}
+		}
+	]
+}

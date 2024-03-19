@@ -1,0 +1,142 @@
+{
+	"id": "AVG-817",
+	"advisories": [
+		{
+			"id": "AVG-817",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-817"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-7602",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7602"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7601",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7601"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7600",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7600"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7599",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7599"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7598",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7598"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7597",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7597"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7596",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7596"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7595",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7595"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7594",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7594"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7593",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7593"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7592",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7592"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "lib32-libtiff"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "4.0.7-3"
+					}
+				],
+				"fixed": [
+					"4.0.7-3"
+				]
+			}
+		}
+	]
+}

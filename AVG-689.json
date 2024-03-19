@@ -1,0 +1,101 @@
+{
+	"id": "AVG-689",
+	"advisories": [
+		{
+			"id": "AVG-689",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-689"
+				},
+				{
+					"source": "security.archlinux.org",
+					"url": "https://bugs.archlinux.org/task/57486"
+				}
+			]
+		},
+		{
+			"id": "ASA-201805-6",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201805-6"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-6544",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-6544"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-6192",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-6192"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-6187",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-6187"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5686",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5686"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-1000051",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-1000051"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "libmupdf"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "1.13.0-1"
+					}
+				],
+				"fixed": [
+					"1.13.0-1"
+				]
+			}
+		}
+	]
+}

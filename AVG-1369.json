@@ -1,0 +1,49 @@
+{
+	"id": "AVG-1369",
+	"advisories": [
+		{
+			"id": "AVG-1369",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1369"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-35453",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-35453"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "vault"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"le": "1.5.4-1"
+					}
+				]
+			}
+		}
+	]
+}

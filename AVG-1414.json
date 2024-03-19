@@ -1,0 +1,169 @@
+{
+	"id": "AVG-1414",
+	"advisories": [
+		{
+			"id": "AVG-1414",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1414"
+				}
+			]
+		},
+		{
+			"id": "ASA-202101-6",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202101-6"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-21116",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21116"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21115",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21115"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21114",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21114"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21113",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21113"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21112",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21112"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21111",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21111"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21110",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21110"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21109",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21109"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21108",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21108"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21107",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21107"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21106",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21106"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-16043",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-16043"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-15995",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-15995"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "chromium"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "87.0.4280.141-1"
+					}
+				],
+				"fixed": [
+					"87.0.4280.141-1"
+				]
+			}
+		}
+	]
+}

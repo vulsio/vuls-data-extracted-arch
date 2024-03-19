@@ -1,0 +1,106 @@
+{
+	"id": "AVG-647",
+	"advisories": [
+		{
+			"id": "AVG-647",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-647"
+				}
+			]
+		},
+		{
+			"id": "ASA-201803-11",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201803-11"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-7185",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-7185"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-7184",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-7184"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-7183",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-7183"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-7182",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-7182"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-7170",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-7170"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-1549",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-1549"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "ntp"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "4.2.8.p11-1"
+					}
+				],
+				"fixed": [
+					"4.2.8.p11-1"
+				]
+			}
+		}
+	]
+}

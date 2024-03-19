@@ -1,0 +1,79 @@
+{
+	"id": "AVG-154",
+	"advisories": [
+		{
+			"id": "AVG-154",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-154"
+				}
+			]
+		},
+		{
+			"id": "ASA-201701-37",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201701-37"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-3732",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-3732"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-3731",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-3731"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-7055",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-7055"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "openssl"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "1.0.2.k-1"
+					}
+				],
+				"fixed": [
+					"1.0.2.k-1"
+				]
+			}
+		}
+	]
+}

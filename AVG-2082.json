@@ -1,0 +1,88 @@
+{
+	"id": "AVG-2082",
+	"advisories": [
+		{
+			"id": "AVG-2082",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2082"
+				}
+			]
+		},
+		{
+			"id": "ASA-202106-47",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202106-47"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-30557",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30557"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30556",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30556"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30555",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30555"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30554",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30554"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "vivaldi"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "4.0.2312.33-1"
+					}
+				],
+				"fixed": [
+					"4.0.2312.33-1"
+				]
+			}
+		}
+	]
+}

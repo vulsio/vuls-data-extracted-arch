@@ -1,0 +1,70 @@
+{
+	"id": "AVG-1687",
+	"advisories": [
+		{
+			"id": "AVG-1687",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1687"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-29265",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-29265"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-28660",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-28660"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-28375",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-28375"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "linux-hardened"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "5.11.7.hardened1-1"
+					}
+				],
+				"fixed": [
+					"5.11.7.hardened1-1"
+				]
+			}
+		}
+	]
+}

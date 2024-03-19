@@ -1,0 +1,70 @@
+{
+	"id": "AVG-213",
+	"advisories": [
+		{
+			"id": "AVG-213",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-213"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-6386",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-6386"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5580",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5580"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-10163",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-10163"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "virglrenderer"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "0.6.0-1"
+					}
+				],
+				"fixed": [
+					"0.6.0-1"
+				]
+			}
+		}
+	]
+}

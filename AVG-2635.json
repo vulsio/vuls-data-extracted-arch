@@ -1,0 +1,52 @@
+{
+	"id": "AVG-2635",
+	"advisories": [
+		{
+			"id": "AVG-2635",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2635"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-4076",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-4076"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "tang"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "11-1"
+					}
+				],
+				"fixed": [
+					"11-1"
+				]
+			}
+		}
+	]
+}
