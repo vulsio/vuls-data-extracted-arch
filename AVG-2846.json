@@ -61,7 +61,7 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "lib32-curl"
+				"name": "lib32-libcurl-gnutls"
 			},
 			"affected": {
 				"type": "pacman",
@@ -79,7 +79,7 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "lib32-libcurl-gnutls"
+				"name": "lib32-curl"
 			},
 			"affected": {
 				"type": "pacman",

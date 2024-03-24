@@ -43,21 +43,6 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "kube-apiserver"
-			},
-			"affected": {
-				"type": "pacman",
-				"range": [
-					{
-						"le": "1.23.0-1"
-					}
-				]
-			}
-		},
-		{
-			"ecosystem": "arch",
-			"vulnerable": true,
-			"package": {
 				"name": "kube-controller-manager"
 			},
 			"affected": {
@@ -88,6 +73,21 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
+				"name": "kubelet"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"le": "1.23.0-1"
+					}
+				]
+			}
+		},
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
 				"name": "kube-proxy"
 			},
 			"affected": {
@@ -103,7 +103,7 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "kubelet"
+				"name": "kube-apiserver"
 			},
 			"affected": {
 				"type": "pacman",

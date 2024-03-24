@@ -79,7 +79,7 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "jre17-openjdk-headless"
+				"name": "jdk17-openjdk"
 			},
 			"affected": {
 				"type": "pacman",
@@ -97,7 +97,7 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "jdk17-openjdk"
+				"name": "jre17-openjdk-headless"
 			},
 			"affected": {
 				"type": "pacman",

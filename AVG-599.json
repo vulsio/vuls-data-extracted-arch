@@ -70,24 +70,6 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "mupdf-gl"
-			},
-			"affected": {
-				"type": "pacman",
-				"range": [
-					{
-						"lt": "1.12.0-2"
-					}
-				],
-				"fixed": [
-					"1.12.0-2"
-				]
-			}
-		},
-		{
-			"ecosystem": "arch",
-			"vulnerable": true,
-			"package": {
 				"name": "mupdf-tools"
 			},
 			"affected": {
@@ -107,6 +89,24 @@
 			"vulnerable": true,
 			"package": {
 				"name": "libmupdf"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "1.12.0-2"
+					}
+				],
+				"fixed": [
+					"1.12.0-2"
+				]
+			}
+		},
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "mupdf-gl"
 			},
 			"affected": {
 				"type": "pacman",
