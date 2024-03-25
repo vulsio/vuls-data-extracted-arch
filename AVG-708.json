@@ -124,7 +124,7 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "wireshark-cli"
+				"name": "wireshark-qt"
 			},
 			"affected": {
 				"type": "pacman",
@@ -142,7 +142,7 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "wireshark-qt"
+				"name": "wireshark-cli"
 			},
 			"affected": {
 				"type": "pacman",

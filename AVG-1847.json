@@ -34,7 +34,7 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "jre-openjdk-headless"
+				"name": "jdk-openjdk"
 			},
 			"affected": {
 				"type": "pacman",
@@ -52,7 +52,7 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "jdk-openjdk"
+				"name": "jre-openjdk-headless"
 			},
 			"affected": {
 				"type": "pacman",
