@@ -52,7 +52,7 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "dotnet-runtime"
+				"name": "dotnet-sdk"
 			},
 			"affected": {
 				"type": "pacman",
@@ -70,7 +70,7 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "dotnet-sdk"
+				"name": "dotnet-runtime"
 			},
 			"affected": {
 				"type": "pacman",

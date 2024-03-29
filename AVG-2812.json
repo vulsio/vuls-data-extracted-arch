@@ -43,7 +43,7 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "poppler-glib"
+				"name": "poppler"
 			},
 			"affected": {
 				"type": "pacman",
@@ -97,7 +97,7 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "poppler"
+				"name": "poppler-glib"
 			},
 			"affected": {
 				"type": "pacman",

@@ -52,24 +52,6 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "libcurl-gnutls"
-			},
-			"affected": {
-				"type": "pacman",
-				"range": [
-					{
-						"lt": "7.84.0-1"
-					}
-				],
-				"fixed": [
-					"7.84.0-1"
-				]
-			}
-		},
-		{
-			"ecosystem": "arch",
-			"vulnerable": true,
-			"package": {
 				"name": "libcurl-compat"
 			},
 			"affected": {
@@ -89,6 +71,24 @@
 			"vulnerable": true,
 			"package": {
 				"name": "curl"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "7.84.0-1"
+					}
+				],
+				"fixed": [
+					"7.84.0-1"
+				]
+			}
+		},
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "libcurl-gnutls"
 			},
 			"affected": {
 				"type": "pacman",

@@ -43,6 +43,21 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
+				"name": "kube-proxy"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"le": "1.23.0-1"
+					}
+				]
+			}
+		},
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
 				"name": "kube-scheduler"
 			},
 			"affected": {
@@ -89,21 +104,6 @@
 			"vulnerable": true,
 			"package": {
 				"name": "kube-controller-manager"
-			},
-			"affected": {
-				"type": "pacman",
-				"range": [
-					{
-						"le": "1.23.0-1"
-					}
-				]
-			}
-		},
-		{
-			"ecosystem": "arch",
-			"vulnerable": true,
-			"package": {
-				"name": "kube-proxy"
 			},
 			"affected": {
 				"type": "pacman",
