@@ -1,8 +1,8 @@
 {
-	"id": "AVG-50",
+	"id": "AVG-2854",
 	"advisories": [
 		{
-			"id": "AVG-50",
+			"id": "AVG-2854",
 			"severity": [
 				{
 					"type": "vendor",
@@ -13,36 +13,27 @@
 			"references": [
 				{
 					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/AVG-50"
-				}
-			]
-		},
-		{
-			"id": "ASA-201610-11",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/ASA-201610-11"
-				}
-			]
-		},
-		{
-			"id": "ASA-201610-11",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/ASA-201610-11"
+					"url": "https://security.archlinux.org/AVG-2854"
 				}
 			]
 		}
 	],
 	"vulnerabilities": [
 		{
-			"id": "CVE-2016-5195",
+			"id": "CVE-2024-27983",
 			"references": [
 				{
 					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/CVE-2016-5195"
+					"url": "https://security.archlinux.org/CVE-2024-27983"
+				}
+			]
+		},
+		{
+			"id": "CVE-2024-27982",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2024-27982"
 				}
 			]
 		}
@@ -52,17 +43,17 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "linux-lts"
+				"name": "nodejs-lts-hydrogen"
 			},
 			"affected": {
 				"type": "pacman",
 				"range": [
 					{
-						"lt": "4.4.26-1"
+						"lt": "18.20.1-1"
 					}
 				],
 				"fixed": [
-					"4.4.26-1"
+					"18.20.1-1"
 				]
 			}
 		}
