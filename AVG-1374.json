@@ -29,6 +29,15 @@
 					"url": "https://security.archlinux.org/ASA-202101-1"
 				}
 			]
+		},
+		{
+			"id": "ASA-202101-1",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202101-1"
+				}
+			]
 		}
 	],
 	"vulnerabilities": [
