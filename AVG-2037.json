@@ -25,15 +25,6 @@
 					"url": "https://security.archlinux.org/ASA-202106-30"
 				}
 			]
-		},
-		{
-			"id": "ASA-202106-30",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/ASA-202106-30"
-				}
-			]
 		}
 	],
 	"vulnerabilities": [

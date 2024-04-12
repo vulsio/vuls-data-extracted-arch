@@ -27,24 +27,6 @@
 			]
 		},
 		{
-			"id": "ASA-201805-25",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/ASA-201805-25"
-				}
-			]
-		},
-		{
-			"id": "ASA-201805-23",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/ASA-201805-23"
-				}
-			]
-		},
-		{
 			"id": "ASA-201805-23",
 			"references": [
 				{
