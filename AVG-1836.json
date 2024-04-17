@@ -25,15 +25,6 @@
 					"url": "https://security.archlinux.org/ASA-202104-4"
 				}
 			]
-		},
-		{
-			"id": "ASA-202104-4",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/ASA-202104-4"
-				}
-			]
 		}
 	],
 	"vulnerabilities": [
