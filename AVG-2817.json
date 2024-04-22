@@ -52,7 +52,7 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "libcurl-compat"
+				"name": "curl"
 			},
 			"affected": {
 				"type": "pacman",
@@ -70,7 +70,7 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "curl"
+				"name": "libcurl-compat"
 			},
 			"affected": {
 				"type": "pacman",

@@ -52,7 +52,7 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "bitcoin-daemon"
+				"name": "bitcoin-qt"
 			},
 			"affected": {
 				"type": "pacman",
@@ -70,7 +70,7 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "bitcoin-qt"
+				"name": "bitcoin-daemon"
 			},
 			"affected": {
 				"type": "pacman",

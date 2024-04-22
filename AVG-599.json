@@ -142,7 +142,7 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "mupdf-tools"
+				"name": "mupdf-gl"
 			},
 			"affected": {
 				"type": "pacman",
@@ -160,7 +160,7 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "mupdf-gl"
+				"name": "mupdf-tools"
 			},
 			"affected": {
 				"type": "pacman",

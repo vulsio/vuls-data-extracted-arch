@@ -70,6 +70,24 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
+				"name": "jre11-openjdk-headless"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "11.0.15.u2-1"
+					}
+				],
+				"fixed": [
+					"11.0.15.u2-1"
+				]
+			}
+		},
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
 				"name": "jre11-openjdk"
 			},
 			"affected": {
@@ -89,24 +107,6 @@
 			"vulnerable": true,
 			"package": {
 				"name": "jdk11-openjdk"
-			},
-			"affected": {
-				"type": "pacman",
-				"range": [
-					{
-						"lt": "11.0.15.u2-1"
-					}
-				],
-				"fixed": [
-					"11.0.15.u2-1"
-				]
-			}
-		},
-		{
-			"ecosystem": "arch",
-			"vulnerable": true,
-			"package": {
-				"name": "jre11-openjdk-headless"
 			},
 			"affected": {
 				"type": "pacman",

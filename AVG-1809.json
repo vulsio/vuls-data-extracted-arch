@@ -52,7 +52,7 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "gradle-src"
+				"name": "gradle"
 			},
 			"affected": {
 				"type": "pacman",
@@ -70,7 +70,7 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "gradle"
+				"name": "gradle-src"
 			},
 			"affected": {
 				"type": "pacman",

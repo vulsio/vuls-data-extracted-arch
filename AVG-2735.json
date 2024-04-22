@@ -79,7 +79,7 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "nvidia-open-dkms"
+				"name": "nvidia-open"
 			},
 			"affected": {
 				"type": "pacman",
@@ -97,7 +97,7 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "nvidia-open"
+				"name": "nvidia-open-dkms"
 			},
 			"affected": {
 				"type": "pacman",
