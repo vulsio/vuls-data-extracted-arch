@@ -25,15 +25,6 @@
 					"url": "https://security.archlinux.org/ASA-201610-13"
 				}
 			]
-		},
-		{
-			"id": "ASA-201610-13",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/ASA-201610-13"
-				}
-			]
 		}
 	],
 	"vulnerabilities": [
