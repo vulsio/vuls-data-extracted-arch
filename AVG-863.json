@@ -25,15 +25,6 @@
 					"url": "https://security.archlinux.org/ASA-201903-9"
 				}
 			]
-		},
-		{
-			"id": "ASA-201903-9",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/ASA-201903-9"
-				}
-			]
 		}
 	],
 	"vulnerabilities": [
