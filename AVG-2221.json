@@ -25,6 +25,15 @@
 					"url": "https://security.archlinux.org/ASA-202107-68"
 				}
 			]
+		},
+		{
+			"id": "ASA-202107-68",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202107-68"
+				}
+			]
 		}
 	],
 	"vulnerabilities": [
