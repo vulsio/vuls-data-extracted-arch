@@ -52,7 +52,7 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "dhcp"
+				"name": "dhclient"
 			},
 			"affected": {
 				"type": "pacman",
@@ -70,7 +70,7 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "dhclient"
+				"name": "dhcp"
 			},
 			"affected": {
 				"type": "pacman",

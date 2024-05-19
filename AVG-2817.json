@@ -70,7 +70,7 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "libcurl-compat"
+				"name": "libcurl-gnutls"
 			},
 			"affected": {
 				"type": "pacman",
@@ -88,7 +88,7 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "libcurl-gnutls"
+				"name": "libcurl-compat"
 			},
 			"affected": {
 				"type": "pacman",
