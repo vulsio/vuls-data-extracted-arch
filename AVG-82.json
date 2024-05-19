@@ -29,15 +29,6 @@
 					"url": "https://security.archlinux.org/ASA-201611-29"
 				}
 			]
-		},
-		{
-			"id": "ASA-201611-29",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/ASA-201611-29"
-				}
-			]
 		}
 	],
 	"vulnerabilities": [

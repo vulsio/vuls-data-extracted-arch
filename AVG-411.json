@@ -25,15 +25,6 @@
 					"url": "https://security.archlinux.org/ASA-201709-19"
 				}
 			]
-		},
-		{
-			"id": "ASA-201709-19",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/ASA-201709-19"
-				}
-			]
 		}
 	],
 	"vulnerabilities": [

@@ -25,15 +25,6 @@
 					"url": "https://security.archlinux.org/ASA-201908-1"
 				}
 			]
-		},
-		{
-			"id": "ASA-201908-1",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/ASA-201908-1"
-				}
-			]
 		}
 	],
 	"vulnerabilities": [
