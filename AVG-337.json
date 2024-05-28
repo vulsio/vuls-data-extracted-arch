@@ -25,15 +25,6 @@
 					"url": "https://security.archlinux.org/ASA-201707-5"
 				}
 			]
-		},
-		{
-			"id": "ASA-201707-5",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/ASA-201707-5"
-				}
-			]
 		}
 	],
 	"vulnerabilities": [
