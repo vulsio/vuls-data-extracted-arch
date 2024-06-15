@@ -43,25 +43,7 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "poppler-qt5"
-			},
-			"affected": {
-				"type": "pacman",
-				"range": [
-					{
-						"lt": "22.08.0-2"
-					}
-				],
-				"fixed": [
-					"22.08.0-2"
-				]
-			}
-		},
-		{
-			"ecosystem": "arch",
-			"vulnerable": true,
-			"package": {
-				"name": "poppler"
+				"name": "poppler-glib"
 			},
 			"affected": {
 				"type": "pacman",
@@ -97,7 +79,25 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "poppler-glib"
+				"name": "poppler"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "22.08.0-2"
+					}
+				],
+				"fixed": [
+					"22.08.0-2"
+				]
+			}
+		},
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "poppler-qt5"
 			},
 			"affected": {
 				"type": "pacman",

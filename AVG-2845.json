@@ -43,24 +43,6 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "curl"
-			},
-			"affected": {
-				"type": "pacman",
-				"range": [
-					{
-						"lt": "8.4.0-1"
-					}
-				],
-				"fixed": [
-					"8.4.0-1"
-				]
-			}
-		},
-		{
-			"ecosystem": "arch",
-			"vulnerable": true,
-			"package": {
 				"name": "libcurl-gnutls"
 			},
 			"affected": {
@@ -80,6 +62,24 @@
 			"vulnerable": true,
 			"package": {
 				"name": "libcurl-compat"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "8.4.0-1"
+					}
+				],
+				"fixed": [
+					"8.4.0-1"
+				]
+			}
+		},
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
+				"name": "curl"
 			},
 			"affected": {
 				"type": "pacman",

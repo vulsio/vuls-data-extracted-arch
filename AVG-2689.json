@@ -88,7 +88,7 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "jdk8-openjdk"
+				"name": "jre8-openjdk"
 			},
 			"affected": {
 				"type": "pacman",
@@ -106,7 +106,7 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "jre8-openjdk"
+				"name": "jdk8-openjdk"
 			},
 			"affected": {
 				"type": "pacman",
