@@ -25,15 +25,6 @@
 					"url": "https://security.archlinux.org/ASA-202004-8"
 				}
 			]
-		},
-		{
-			"id": "ASA-202004-8",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/ASA-202004-8"
-				}
-			]
 		}
 	],
 	"vulnerabilities": [
