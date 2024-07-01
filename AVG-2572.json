@@ -79,7 +79,7 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "gvim"
+				"name": "vim"
 			},
 			"affected": {
 				"type": "pacman",
@@ -97,7 +97,7 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "vim"
+				"name": "gvim"
 			},
 			"affected": {
 				"type": "pacman",

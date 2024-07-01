@@ -70,6 +70,24 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
+				"name": "jdk8-openjdk"
+			},
+			"affected": {
+				"type": "pacman",
+				"range": [
+					{
+						"lt": "8.323-1"
+					}
+				],
+				"fixed": [
+					"8.323-1"
+				]
+			}
+		},
+		{
+			"ecosystem": "arch",
+			"vulnerable": true,
+			"package": {
 				"name": "jre8-openjdk-headless"
 			},
 			"affected": {
@@ -89,24 +107,6 @@
 			"vulnerable": true,
 			"package": {
 				"name": "jre8-openjdk"
-			},
-			"affected": {
-				"type": "pacman",
-				"range": [
-					{
-						"lt": "8.323-1"
-					}
-				],
-				"fixed": [
-					"8.323-1"
-				]
-			}
-		},
-		{
-			"ecosystem": "arch",
-			"vulnerable": true,
-			"package": {
-				"name": "jdk8-openjdk"
 			},
 			"affected": {
 				"type": "pacman",

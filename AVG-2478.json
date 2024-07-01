@@ -115,7 +115,7 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "jdk11-openjdk"
+				"name": "jre11-openjdk-headless"
 			},
 			"affected": {
 				"type": "pacman",
@@ -133,7 +133,7 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "jre11-openjdk-headless"
+				"name": "jdk11-openjdk"
 			},
 			"affected": {
 				"type": "pacman",

@@ -61,7 +61,7 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "postgresql"
+				"name": "postgresql-libs"
 			},
 			"affected": {
 				"type": "pacman",
@@ -79,7 +79,7 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "postgresql-libs"
+				"name": "postgresql"
 			},
 			"affected": {
 				"type": "pacman",
