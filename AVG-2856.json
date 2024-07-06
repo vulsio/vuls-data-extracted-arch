@@ -1,39 +1,39 @@
 {
-	"id": "AVG-1180",
+	"id": "AVG-2856",
 	"advisories": [
 		{
-			"id": "AVG-1180",
+			"id": "AVG-2856",
 			"severity": [
 				{
 					"type": "vendor",
 					"source": "security.archlinux.org",
-					"vendor": "High"
+					"vendor": "Medium"
 				}
 			],
 			"references": [
 				{
 					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/AVG-1180"
-				}
-			]
-		},
-		{
-			"id": "ASA-202007-4",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/ASA-202007-4"
+					"url": "https://security.archlinux.org/AVG-2856"
 				}
 			]
 		}
 	],
 	"vulnerabilities": [
 		{
-			"id": "CVE-2020-13904",
+			"id": "CVE-2024-37371",
 			"references": [
 				{
 					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/CVE-2020-13904"
+					"url": "https://security.archlinux.org/CVE-2024-37371"
+				}
+			]
+		},
+		{
+			"id": "CVE-2024-37370",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2024-37370"
 				}
 			]
 		}
@@ -43,17 +43,17 @@
 			"ecosystem": "arch",
 			"vulnerable": true,
 			"package": {
-				"name": "ffmpeg"
+				"name": "krb5"
 			},
 			"affected": {
 				"type": "pacman",
 				"range": [
 					{
-						"lt": "2:4.3.1-1"
+						"lt": "1.21.3-1"
 					}
 				],
 				"fixed": [
-					"2:4.3.1-1"
+					"1.21.3-1"
 				]
 			}
 		}
