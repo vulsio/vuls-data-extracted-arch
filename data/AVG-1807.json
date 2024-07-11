@@ -1,0 +1,68 @@
+{
+	"id": "AVG-1807",
+	"advisories": [
+		{
+			"id": "AVG-1807",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1807"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-30498",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30498"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30499",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30499"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "lib32-libcaca"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "0.99.beta19-5"
+								}
+							],
+							"fixed": [
+								"0.99.beta19-5"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

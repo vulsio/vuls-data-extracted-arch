@@ -1,0 +1,77 @@
+{
+	"id": "AVG-2667",
+	"advisories": [
+		{
+			"id": "ASA-202204-9",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202204-9"
+				}
+			]
+		},
+		{
+			"id": "AVG-2667",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2667"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-28346",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-28346"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-28347",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-28347"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "python-django"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "4.0.4-1"
+								}
+							],
+							"fixed": [
+								"4.0.4-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,81 @@
+{
+	"id": "AVG-1544",
+	"advisories": [
+		{
+			"id": "ASA-202103-26",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202103-26"
+				}
+			]
+		},
+		{
+			"id": "AVG-1544",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://bugs.archlinux.org/task/70057"
+				},
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1544"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-26825",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-26825"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-26826",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-26826"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "godot"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "3.2.3-2"
+								}
+							],
+							"fixed": [
+								"3.2.3-2"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

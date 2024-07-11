@@ -1,0 +1,59 @@
+{
+	"id": "AVG-2445",
+	"advisories": [
+		{
+			"id": "AVG-2445",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2445"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-39226",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39226"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "grafana"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "8.1.6-1"
+								}
+							],
+							"fixed": [
+								"8.1.6-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

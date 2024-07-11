@@ -1,0 +1,77 @@
+{
+	"id": "AVG-2350",
+	"advisories": [
+		{
+			"id": "ASA-202109-2",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202109-2"
+				}
+			]
+		},
+		{
+			"id": "AVG-2350",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2350"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-38491",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-38491"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-38494",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-38494"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "firefox"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "92.0-1"
+								}
+							],
+							"fixed": [
+								"92.0-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

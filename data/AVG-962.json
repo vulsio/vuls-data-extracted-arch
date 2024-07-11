@@ -1,0 +1,77 @@
+{
+	"id": "AVG-962",
+	"advisories": [
+		{
+			"id": "ASA-201905-14",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201905-14"
+				}
+			]
+		},
+		{
+			"id": "AVG-962",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-962"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-5435",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5435"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5436",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5436"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "lib32-libcurl-compat"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "7.65.0-1"
+								}
+							],
+							"fixed": [
+								"7.65.0-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

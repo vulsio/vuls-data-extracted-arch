@@ -1,0 +1,77 @@
+{
+	"id": "AVG-100",
+	"advisories": [
+		{
+			"id": "ASA-201612-13",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201612-13"
+				}
+			]
+		},
+		{
+			"id": "AVG-100",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Low"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-100"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2016-9909",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-9909"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-9910",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-9910"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "python-html5lib"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "0.999999999-1"
+								}
+							],
+							"fixed": [
+								"0.999999999-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

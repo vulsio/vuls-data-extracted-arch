@@ -1,0 +1,95 @@
+{
+	"id": "AVG-419",
+	"advisories": [
+		{
+			"id": "AVG-419",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-419"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-6268",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-6268"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-6269",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-6269"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-6270",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-6270"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-6271",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-6271"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-6277",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-6277"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "nvidia"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "384.90-1"
+								}
+							],
+							"fixed": [
+								"384.90-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

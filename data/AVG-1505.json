@@ -1,0 +1,68 @@
+{
+	"id": "AVG-1505",
+	"advisories": [
+		{
+			"id": "ASA-202101-45",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202101-45"
+				}
+			]
+		},
+		{
+			"id": "AVG-1505",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1505"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-3345",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-3345"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "libgcrypt"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "1.9.1-1"
+								}
+							],
+							"fixed": [
+								"1.9.1-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

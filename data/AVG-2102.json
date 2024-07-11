@@ -1,0 +1,56 @@
+{
+	"id": "AVG-2102",
+	"advisories": [
+		{
+			"id": "AVG-2102",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2102"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-3618",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-3618"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "nginx"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"le": "1.20.2-1"
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

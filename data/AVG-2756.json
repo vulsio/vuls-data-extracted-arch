@@ -1,0 +1,68 @@
+{
+	"id": "AVG-2756",
+	"advisories": [
+		{
+			"id": "AVG-2756",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2756"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-24882",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-24882"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-24883",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-24883"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "freerdp"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "2:2.7.0-1"
+								}
+							],
+							"fixed": [
+								"2:2.7.0-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

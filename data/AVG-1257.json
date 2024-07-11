@@ -1,0 +1,140 @@
+{
+	"id": "AVG-1257",
+	"advisories": [
+		{
+			"id": "ASA-202011-3",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202011-3"
+				}
+			]
+		},
+		{
+			"id": "AVG-1257",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1257"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-28032",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-28032"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-28033",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-28033"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-28034",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-28034"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-28035",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-28035"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-28036",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-28036"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-28037",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-28037"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-28038",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-28038"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-28039",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-28039"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-28040",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-28040"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "wordpress"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "5.5.3-1"
+								}
+							],
+							"fixed": [
+								"5.5.3-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

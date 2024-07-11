@@ -1,0 +1,59 @@
+{
+	"id": "AVG-2516",
+	"advisories": [
+		{
+			"id": "AVG-2516",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2516"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-3905",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-3905"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "openvswitch"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "2.16.1-1"
+								}
+							],
+							"fixed": [
+								"2.16.1-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

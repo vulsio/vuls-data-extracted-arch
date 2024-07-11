@@ -1,0 +1,81 @@
+{
+	"id": "AVG-1543",
+	"advisories": [
+		{
+			"id": "ASA-202102-24",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202102-24"
+				}
+			]
+		},
+		{
+			"id": "AVG-1543",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://bugs.archlinux.org/task/69583"
+				},
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1543"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-26675",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-26675"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-26676",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-26676"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "connman"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "1.39-1"
+								}
+							],
+							"fixed": [
+								"1.39-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

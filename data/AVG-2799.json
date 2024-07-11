@@ -1,0 +1,77 @@
+{
+	"id": "AVG-2799",
+	"advisories": [
+		{
+			"id": "AVG-2799",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Unknown"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2799"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-0544",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-0544"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-0545",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-0545"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-0546",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-0546"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "blender"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "17:3.1.0-1"
+								}
+							],
+							"fixed": [
+								"17:3.1.0-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

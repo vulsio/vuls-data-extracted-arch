@@ -1,0 +1,77 @@
+{
+	"id": "AVG-737",
+	"advisories": [
+		{
+			"id": "ASA-201807-11",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201807-11"
+				}
+			]
+		},
+		{
+			"id": "AVG-737",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-737"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-14055",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-14055"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-14056",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-14056"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "znc"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "1.7.1-1"
+								}
+							],
+							"fixed": [
+								"1.7.1-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

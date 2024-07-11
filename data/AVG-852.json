@@ -1,0 +1,77 @@
+{
+	"id": "AVG-852",
+	"advisories": [
+		{
+			"id": "ASA-201901-16",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201901-16"
+				}
+			]
+		},
+		{
+			"id": "AVG-852",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-852"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-6290",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-6290"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-6291",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-6291"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "nasm"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "2.14.02-1"
+								}
+							],
+							"fixed": [
+								"2.14.02-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

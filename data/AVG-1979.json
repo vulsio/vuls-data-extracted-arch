@@ -1,0 +1,56 @@
+{
+	"id": "AVG-1979",
+	"advisories": [
+		{
+			"id": "AVG-1979",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1979"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-3563",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-3563"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "keystone"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"le": "0.9.2-1"
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

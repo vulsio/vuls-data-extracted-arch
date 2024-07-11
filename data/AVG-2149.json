@@ -1,0 +1,68 @@
+{
+	"id": "AVG-2149",
+	"advisories": [
+		{
+			"id": "AVG-2149",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2149"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-29971",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-29971"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-29973",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-29973"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "firefox"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "90.0-1"
+								}
+							],
+							"fixed": [
+								"90.0-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

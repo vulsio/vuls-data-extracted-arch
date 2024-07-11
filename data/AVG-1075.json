@@ -1,0 +1,95 @@
+{
+	"id": "AVG-1075",
+	"advisories": [
+		{
+			"id": "ASA-201912-5",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201912-5"
+				}
+			]
+		},
+		{
+			"id": "AVG-1075",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1075"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-1348",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-1348"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-1349",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-1349"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-1352",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-1352"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-1387",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-1387"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "libgit2"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "1:0.28.4-1"
+								}
+							],
+							"fixed": [
+								"1:0.28.4-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

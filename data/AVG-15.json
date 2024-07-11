@@ -1,0 +1,86 @@
+{
+	"id": "AVG-15",
+	"advisories": [
+		{
+			"id": "ASA-201612-21",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201612-21"
+				}
+			]
+		},
+		{
+			"id": "AVG-15",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-15"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2015-6972",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2015-6972"
+				}
+			]
+		},
+		{
+			"id": "CVE-2015-6973",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2015-6973"
+				}
+			]
+		},
+		{
+			"id": "CVE-2015-7707",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2015-7707"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "openfire"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "4.1.0-1"
+								}
+							],
+							"fixed": [
+								"4.1.0-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

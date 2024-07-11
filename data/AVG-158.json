@@ -1,0 +1,131 @@
+{
+	"id": "AVG-158",
+	"advisories": [
+		{
+			"id": "ASA-201701-40",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201701-40"
+				}
+			]
+		},
+		{
+			"id": "AVG-158",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-158"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-5373",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5373"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5375",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5375"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5376",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5376"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5378",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5378"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5380",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5380"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5383",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5383"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5390",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5390"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5396",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5396"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "thunderbird"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "45.7.0-1"
+								}
+							],
+							"fixed": [
+								"45.7.0-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

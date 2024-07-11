@@ -1,0 +1,59 @@
+{
+	"id": "AVG-760",
+	"advisories": [
+		{
+			"id": "AVG-760",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-760"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-5391",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5391"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "linux"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "4.19.arch1-1"
+								}
+							],
+							"fixed": [
+								"4.19.arch1-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

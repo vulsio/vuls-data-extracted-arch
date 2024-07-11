@@ -1,0 +1,68 @@
+{
+	"id": "AVG-868",
+	"advisories": [
+		{
+			"id": "ASA-201904-10",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201904-10"
+				}
+			]
+		},
+		{
+			"id": "AVG-868",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Low"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-868"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-7317",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-7317"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "libpng"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "1.6.37-1"
+								}
+							],
+							"fixed": [
+								"1.6.37-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

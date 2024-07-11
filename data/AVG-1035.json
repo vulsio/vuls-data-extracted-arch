@@ -1,0 +1,68 @@
+{
+	"id": "AVG-1035",
+	"advisories": [
+		{
+			"id": "ASA-201910-3",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201910-3"
+				}
+			]
+		},
+		{
+			"id": "AVG-1035",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1035"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-15718",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-15718"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "systemd"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "243.0-1"
+								}
+							],
+							"fixed": [
+								"243.0-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

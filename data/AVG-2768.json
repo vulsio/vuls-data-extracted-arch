@@ -1,0 +1,68 @@
+{
+	"id": "AVG-2768",
+	"advisories": [
+		{
+			"id": "AVG-2768",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Unknown"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2768"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-31625",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-31625"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-31626",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-31626"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "php"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "8.1.7-1"
+								}
+							],
+							"fixed": [
+								"8.1.7-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

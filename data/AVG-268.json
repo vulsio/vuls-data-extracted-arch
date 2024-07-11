@@ -1,0 +1,68 @@
+{
+	"id": "AVG-268",
+	"advisories": [
+		{
+			"id": "ASA-201705-11",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201705-11"
+				}
+			]
+		},
+		{
+			"id": "AVG-268",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-268"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-8849",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-8849"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "smb4k"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "2.0.0-2"
+								}
+							],
+							"fixed": [
+								"2.0.0-2"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

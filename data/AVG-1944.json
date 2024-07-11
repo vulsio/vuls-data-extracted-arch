@@ -1,0 +1,94 @@
+{
+	"id": "AVG-1944",
+	"advisories": [
+		{
+			"id": "ASA-202105-20",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202105-20"
+				}
+			]
+		},
+		{
+			"id": "ASA-202105-21",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202105-21"
+				}
+			]
+		},
+		{
+			"id": "AVG-1944",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1944"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-31204",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-31204"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "dotnet-runtime"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "5.0.6.sdk203-1"
+								}
+							],
+							"fixed": [
+								"5.0.6.sdk203-1"
+							]
+						}
+					},
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "dotnet-sdk"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "5.0.6.sdk203-1"
+								}
+							],
+							"fixed": [
+								"5.0.6.sdk203-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

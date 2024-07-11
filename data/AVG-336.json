@@ -1,0 +1,68 @@
+{
+	"id": "AVG-336",
+	"advisories": [
+		{
+			"id": "ASA-201707-8",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201707-8"
+				}
+			]
+		},
+		{
+			"id": "AVG-336",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-336"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-0377",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-0377"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "tor"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "0.3.0.9-1"
+								}
+							],
+							"fixed": [
+								"0.3.0.9-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

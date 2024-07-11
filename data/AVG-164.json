@@ -1,0 +1,95 @@
+{
+	"id": "AVG-164",
+	"advisories": [
+		{
+			"id": "ASA-201702-4",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201702-4"
+				}
+			]
+		},
+		{
+			"id": "AVG-164",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-164"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-5837",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5837"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5839",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5839"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5842",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5842"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5844",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5844"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "gst-plugins-base-libs"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "1.10.3-1"
+								}
+							],
+							"fixed": [
+								"1.10.3-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

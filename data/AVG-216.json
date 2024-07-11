@@ -1,0 +1,140 @@
+{
+	"id": "AVG-216",
+	"advisories": [
+		{
+			"id": "AVG-216",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-216"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-6840",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-6840"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-6841",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-6841"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-6842",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-6842"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7378",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7378"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7379",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7379"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7380",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7380"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7381",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7381"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7382",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7382"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7383",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7383"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7994",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7994"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "podofo"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "0.9.6-1"
+								}
+							],
+							"fixed": [
+								"0.9.6-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

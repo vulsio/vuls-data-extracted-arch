@@ -1,0 +1,68 @@
+{
+	"id": "AVG-920",
+	"advisories": [
+		{
+			"id": "ASA-201906-6",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201906-6"
+				}
+			]
+		},
+		{
+			"id": "AVG-920",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Low"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-920"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-1543",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-1543"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "lib32-openssl"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "1:1.1.1.c-1"
+								}
+							],
+							"fixed": [
+								"1:1.1.1.c-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

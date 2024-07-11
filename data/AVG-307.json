@@ -1,0 +1,68 @@
+{
+	"id": "AVG-307",
+	"advisories": [
+		{
+			"id": "ASA-201706-23",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201706-23"
+				}
+			]
+		},
+		{
+			"id": "AVG-307",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-307"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-1000366",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-1000366"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "glibc"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "2.25-4"
+								}
+							],
+							"fixed": [
+								"2.25-4"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

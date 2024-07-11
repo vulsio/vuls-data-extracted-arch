@@ -1,0 +1,68 @@
+{
+	"id": "AVG-1982",
+	"advisories": [
+		{
+			"id": "AVG-1982",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1982"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-5481",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5481"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5482",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5482"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "curl"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "7.66.0-1"
+								}
+							],
+							"fixed": [
+								"7.66.0-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

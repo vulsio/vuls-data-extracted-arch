@@ -1,0 +1,102 @@
+{
+	"id": "AVG-2846",
+	"advisories": [
+		{
+			"id": "AVG-2846",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2846"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-38545",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2023-38545"
+				}
+			]
+		},
+		{
+			"id": "CVE-2023-38546",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2023-38546"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "lib32-libcurl-compat"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "8.4.0-1"
+								}
+							],
+							"fixed": [
+								"8.4.0-1"
+							]
+						}
+					},
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "lib32-curl"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "8.4.0-1"
+								}
+							],
+							"fixed": [
+								"8.4.0-1"
+							]
+						}
+					},
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "lib32-libcurl-gnutls"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "8.4.0-1"
+								}
+							],
+							"fixed": [
+								"8.4.0-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

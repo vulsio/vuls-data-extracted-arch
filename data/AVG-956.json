@@ -1,0 +1,68 @@
+{
+	"id": "AVG-956",
+	"advisories": [
+		{
+			"id": "ASA-201905-3",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201905-3"
+				}
+			]
+		},
+		{
+			"id": "AVG-956",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-956"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-11461",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-11461"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "nautilus"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "3.32.1-1"
+								}
+							],
+							"fixed": [
+								"3.32.1-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,68 @@
+{
+	"id": "AVG-1589",
+	"advisories": [
+		{
+			"id": "ASA-202102-40",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202102-40"
+				}
+			]
+		},
+		{
+			"id": "AVG-1589",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1589"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-8625",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-8625"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "bind"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "9.16.12-1"
+								}
+							],
+							"fixed": [
+								"9.16.12-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,108 @@
+{
+	"id": "AVG-1899",
+	"advisories": [
+		{
+			"id": "ASA-202105-18",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202105-18"
+				}
+			]
+		},
+		{
+			"id": "AVG-1899",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://bugs.archlinux.org/task/70787"
+				},
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1899"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-32490",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-32490"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-32491",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-32491"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-32492",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-32492"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-32493",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-32493"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-3500",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-3500"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "djvulibre"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "3.5.28-3"
+								}
+							],
+							"fixed": [
+								"3.5.28-3"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

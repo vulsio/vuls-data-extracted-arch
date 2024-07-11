@@ -1,0 +1,86 @@
+{
+	"id": "AVG-902",
+	"advisories": [
+		{
+			"id": "ASA-201905-5",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201905-5"
+				}
+			]
+		},
+		{
+			"id": "AVG-902",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-902"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-8376",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-8376"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-8377",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-8377"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-8381",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-8381"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "tcpreplay"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "4.3.2-1"
+								}
+							],
+							"fixed": [
+								"4.3.2-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

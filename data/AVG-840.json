@@ -1,0 +1,59 @@
+{
+	"id": "AVG-840",
+	"advisories": [
+		{
+			"id": "AVG-840",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-840"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-20346",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-20346"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "sqlite"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "3.26.0-1"
+								}
+							],
+							"fixed": [
+								"3.26.0-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

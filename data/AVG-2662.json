@@ -1,0 +1,85 @@
+{
+	"id": "AVG-2662",
+	"advisories": [
+		{
+			"id": "AVG-2662",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2662"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-1154",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-1154"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-1160",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-1160"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "vim"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "8.2.4651-1"
+								}
+							],
+							"fixed": [
+								"8.2.4651-1"
+							]
+						}
+					},
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "gvim"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "8.2.4651-1"
+								}
+							],
+							"fixed": [
+								"8.2.4651-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

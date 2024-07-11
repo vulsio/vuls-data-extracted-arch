@@ -1,0 +1,129 @@
+{
+	"id": "AVG-2689",
+	"advisories": [
+		{
+			"id": "AVG-2689",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2689"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-21426",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-21426"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-21434",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-21434"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-21443",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-21443"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-21476",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-21476"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-21496",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-21496"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "jdk8-openjdk"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "8.323-1"
+								}
+							],
+							"fixed": [
+								"8.323-1"
+							]
+						}
+					},
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "jre8-openjdk-headless"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "8.323-1"
+								}
+							],
+							"fixed": [
+								"8.323-1"
+							]
+						}
+					},
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "jre8-openjdk"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "8.323-1"
+								}
+							],
+							"fixed": [
+								"8.323-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,77 @@
+{
+	"id": "AVG-2505",
+	"advisories": [
+		{
+			"id": "AVG-2505",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2505"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-37997",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-37997"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-37999",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-37999"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-38002",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-38002"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "vivaldi"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "4.3.2439.63-1"
+								}
+							],
+							"fixed": [
+								"4.3.2439.63-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

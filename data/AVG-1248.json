@@ -1,0 +1,86 @@
+{
+	"id": "AVG-1248",
+	"advisories": [
+		{
+			"id": "ASA-202010-2",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202010-2"
+				}
+			]
+		},
+		{
+			"id": "AVG-1248",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1248"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-12351",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-12351"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-12352",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-12352"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-24490",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-24490"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "linux"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "5.9.1.arch1-1"
+								}
+							],
+							"fixed": [
+								"5.9.1.arch1-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

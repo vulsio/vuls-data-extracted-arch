@@ -1,0 +1,248 @@
+{
+	"id": "AVG-156",
+	"advisories": [
+		{
+			"id": "ASA-201701-33",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201701-33"
+				}
+			]
+		},
+		{
+			"id": "AVG-156",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-156"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-5006",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5006"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5007",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5007"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5008",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5008"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5009",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5009"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5010",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5010"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5011",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5011"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5012",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5012"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5013",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5013"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5014",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5014"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5015",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5015"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5016",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5016"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5017",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5017"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5018",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5018"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5019",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5019"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5020",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5020"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5021",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5021"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5022",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5022"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5023",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5023"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5024",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5024"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5025",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5025"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5026",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5026"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "chromium"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "56.0.2924.76-1"
+								}
+							],
+							"fixed": [
+								"56.0.2924.76-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,680 @@
+{
+	"id": "AVG-2835",
+	"advisories": [
+		{
+			"id": "AVG-2835",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2835"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-0812",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-0812"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-1012",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-1012"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-2153",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-2153"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-2503",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-2503"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-2663",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-2663"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-2873",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-2873"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-2978",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-2978"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-3028",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-3028"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-3061",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-3061"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-32296",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-32296"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-3239",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-3239"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-3303",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-3303"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-34494",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-34494"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-34495",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-34495"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-3524",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-3524"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-3534",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-3534"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-3541",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-3541"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-3543",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-3543"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-3544",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-3544"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-3545",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-3545"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-3564",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-3564"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-3565",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-3565"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-3566",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-3566"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-3567",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-3567"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-3586",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-3586"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-3594",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-3594"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-3606",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-3606"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-3619",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-3619"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-3621",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-3621"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-3623",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-3623"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-3628",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-3628"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-36280",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-36280"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-3635",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-3635"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-3636",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-3636"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-3643",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-3643"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-3646",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-3646"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-3649",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-3649"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-36879",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-36879"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-36946",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-36946"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-3910",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-3910"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-3977",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-3977"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-39842",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-39842"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-40307",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-40307"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-40768",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-40768"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-41218",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-41218"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-41849",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-41849"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-41850",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-41850"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-42329",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-42329"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-42703",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-42703"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-42895",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-42895"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-42896",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-42896"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-43750",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-43750"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-4378",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-4378"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-4379",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-4379"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-4382",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-4382"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-43945",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-43945"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-47929",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-47929"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-47938",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-47938"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-47939",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-47939"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-47940",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-47940"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-47941",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-47941"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-47942",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-47942"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-47943",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-47943"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-47946",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-47946"
+				}
+			]
+		},
+		{
+			"id": "CVE-2023-0122",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2023-0122"
+				}
+			]
+		},
+		{
+			"id": "CVE-2023-0266",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2023-0266"
+				}
+			]
+		},
+		{
+			"id": "CVE-2023-0394",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2023-0394"
+				}
+			]
+		},
+		{
+			"id": "CVE-2023-23454",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2023-23454"
+				}
+			]
+		},
+		{
+			"id": "CVE-2023-23455",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2023-23455"
+				}
+			]
+		},
+		{
+			"id": "CVE-2023-25012",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2023-25012"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "linux-hardened"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "6.2-1"
+								}
+							],
+							"fixed": [
+								"6.2-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

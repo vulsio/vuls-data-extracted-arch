@@ -1,0 +1,77 @@
+{
+	"id": "AVG-411",
+	"advisories": [
+		{
+			"id": "ASA-201709-19",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201709-19"
+				}
+			]
+		},
+		{
+			"id": "AVG-411",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-411"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-5121",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5121"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5122",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5122"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "chromium"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "61.0.3163.100-1"
+								}
+							],
+							"fixed": [
+								"61.0.3163.100-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

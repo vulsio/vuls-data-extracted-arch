@@ -1,0 +1,149 @@
+{
+	"id": "AVG-1624",
+	"advisories": [
+		{
+			"id": "ASA-202102-33",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202102-33"
+				}
+			]
+		},
+		{
+			"id": "AVG-1624",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1624"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-28243",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-28243"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-28972",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-28972"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-35662",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-35662"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-25281",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-25281"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-25282",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-25282"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-25283",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-25283"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-25284",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-25284"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-3144",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-3144"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-3148",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-3148"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-3197",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-3197"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "salt"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "3002.5-3"
+								}
+							],
+							"fixed": [
+								"3002.5-3"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,68 @@
+{
+	"id": "AVG-383",
+	"advisories": [
+		{
+			"id": "ASA-201708-17",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201708-17"
+				}
+			]
+		},
+		{
+			"id": "AVG-383",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-383"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-12791",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-12791"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "salt"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "2017.7.1-1"
+								}
+							],
+							"fixed": [
+								"2017.7.1-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

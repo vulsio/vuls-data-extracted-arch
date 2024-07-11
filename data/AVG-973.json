@@ -1,0 +1,77 @@
+{
+	"id": "AVG-973",
+	"advisories": [
+		{
+			"id": "ASA-201906-5",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201906-5"
+				}
+			]
+		},
+		{
+			"id": "AVG-973",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-973"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-12209",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-12209"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-12210",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-12210"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "pam-u2f"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "1.0.8-2"
+								}
+							],
+							"fixed": [
+								"1.0.8-2"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

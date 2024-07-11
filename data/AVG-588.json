@@ -1,0 +1,72 @@
+{
+	"id": "AVG-588",
+	"advisories": [
+		{
+			"id": "ASA-201801-13",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201801-13"
+				}
+			]
+		},
+		{
+			"id": "AVG-588",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://bugs.archlinux.org/task/57086"
+				},
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-588"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-5702",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5702"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "transmission-cli"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "2.92-8"
+								}
+							],
+							"fixed": [
+								"2.92-8"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

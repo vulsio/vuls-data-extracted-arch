@@ -1,0 +1,104 @@
+{
+	"id": "AVG-1819",
+	"advisories": [
+		{
+			"id": "AVG-1819",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1819"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-28457",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-28457"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-28469",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-28469"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-28471",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-28471"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-28473",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-28473"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-28475",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-28475"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-28477",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-28477"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "code"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "1.56.2-1"
+								}
+							],
+							"fixed": [
+								"1.56.2-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

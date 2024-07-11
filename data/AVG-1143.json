@@ -1,0 +1,77 @@
+{
+	"id": "AVG-1143",
+	"advisories": [
+		{
+			"id": "ASA-202004-22",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202004-22"
+				}
+			]
+		},
+		{
+			"id": "AVG-1143",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1143"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-6461",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-6461"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-6462",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-6462"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "chromium"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "81.0.4044.129-1"
+								}
+							],
+							"fixed": [
+								"81.0.4044.129-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,95 @@
+{
+	"id": "AVG-318",
+	"advisories": [
+		{
+			"id": "ASA-201706-27",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201706-27"
+				}
+			]
+		},
+		{
+			"id": "AVG-318",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-318"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-7508",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7508"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7512",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7512"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7520",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7520"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7521",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7521"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "openvpn"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "2.4.3-1"
+								}
+							],
+							"fixed": [
+								"2.4.3-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

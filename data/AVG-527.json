@@ -1,0 +1,68 @@
+{
+	"id": "AVG-527",
+	"advisories": [
+		{
+			"id": "AVG-527",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-527"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-8816",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-8816"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-8818",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-8818"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "curl"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "7.57.0-1"
+								}
+							],
+							"fixed": [
+								"7.57.0-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

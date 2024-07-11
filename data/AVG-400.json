@@ -1,0 +1,167 @@
+{
+	"id": "AVG-400",
+	"advisories": [
+		{
+			"id": "ASA-201709-10",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201709-10"
+				}
+			]
+		},
+		{
+			"id": "AVG-400",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-400"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-14054",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-14054"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-14055",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-14055"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-14056",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-14056"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-14057",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-14057"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-14058",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-14058"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-14059",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-14059"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-14169",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-14169"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-14170",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-14170"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-14171",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-14171"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-14222",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-14222"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-14223",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-14223"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-14225",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-14225"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "ffmpeg"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "1:3.3.4-1"
+								}
+							],
+							"fixed": [
+								"1:3.3.4-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,60 @@
+{
+	"id": "AVG-2067",
+	"advisories": [
+		{
+			"id": "AVG-2067",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://bugs.archlinux.org/task/72812"
+				},
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2067"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-34555",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-34555"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "opendmarc"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"le": "1.4.1.1-2"
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

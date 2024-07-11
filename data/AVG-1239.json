@@ -1,0 +1,81 @@
+{
+	"id": "AVG-1239",
+	"advisories": [
+		{
+			"id": "ASA-202107-12",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202107-12"
+				}
+			]
+		},
+		{
+			"id": "AVG-1239",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://bugs.archlinux.org/task/68166"
+				},
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1239"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-14355",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-14355"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-20201",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-20201"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "spice"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "0.15.0-1"
+								}
+							],
+							"fixed": [
+								"0.15.0-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

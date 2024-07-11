@@ -1,0 +1,77 @@
+{
+	"id": "AVG-615",
+	"advisories": [
+		{
+			"id": "ASA-201901-4",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201901-4"
+				}
+			]
+		},
+		{
+			"id": "AVG-615",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-615"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-16866",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-16866"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-6954",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-6954"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "systemd"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "240.0-3"
+								}
+							],
+							"fixed": [
+								"240.0-3"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

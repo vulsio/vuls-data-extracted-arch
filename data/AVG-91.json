@@ -1,0 +1,68 @@
+{
+	"id": "AVG-91",
+	"advisories": [
+		{
+			"id": "ASA-201612-2",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201612-2"
+				}
+			]
+		},
+		{
+			"id": "AVG-91",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-91"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2016-9079",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-9079"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "thunderbird"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "45.5.1-1"
+								}
+							],
+							"fixed": [
+								"45.5.1-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,149 @@
+{
+	"id": "AVG-1071",
+	"advisories": [
+		{
+			"id": "ASA-201912-1",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201912-1"
+				}
+			]
+		},
+		{
+			"id": "AVG-1071",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1071"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-11745",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-11745"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-11756",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-11756"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-17005",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-17005"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-17008",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-17008"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-17009",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-17009"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-17010",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-17010"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-17011",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-17011"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-17012",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-17012"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-17013",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-17013"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-17014",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-17014"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "firefox"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "71.0-1"
+								}
+							],
+							"fixed": [
+								"71.0-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

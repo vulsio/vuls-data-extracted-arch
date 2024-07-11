@@ -1,0 +1,90 @@
+{
+	"id": "AVG-111",
+	"advisories": [
+		{
+			"id": "ASA-201612-19",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201612-19"
+				}
+			]
+		},
+		{
+			"id": "AVG-111",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://bugs.archlinux.org/task/52219"
+				},
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-111"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2016-2123",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-2123"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-2125",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-2125"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-2126",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-2126"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "samba"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "4.5.3-1"
+								}
+							],
+							"fixed": [
+								"4.5.3-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

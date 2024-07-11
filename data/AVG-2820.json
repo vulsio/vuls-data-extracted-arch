@@ -1,0 +1,77 @@
+{
+	"id": "AVG-2820",
+	"advisories": [
+		{
+			"id": "AVG-2820",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Unknown"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2820"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-32886",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-32886"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-32891",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-32891"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-32893",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-32893"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "wpewebkit"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "2.36.8-1"
+								}
+							],
+							"fixed": [
+								"2.36.8-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

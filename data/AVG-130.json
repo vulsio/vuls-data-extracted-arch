@@ -1,0 +1,68 @@
+{
+	"id": "AVG-130",
+	"advisories": [
+		{
+			"id": "ASA-201701-18",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201701-18"
+				}
+			]
+		},
+		{
+			"id": "AVG-130",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-130"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-5330",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5330"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "ark"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "16.12.1-1"
+								}
+							],
+							"fixed": [
+								"16.12.1-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

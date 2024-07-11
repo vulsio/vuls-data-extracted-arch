@@ -1,0 +1,302 @@
+{
+	"id": "AVG-93",
+	"advisories": [
+		{
+			"id": "ASA-201612-3",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201612-3"
+				}
+			]
+		},
+		{
+			"id": "AVG-93",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-93"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2016-5203",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-5203"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-5204",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-5204"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-5205",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-5205"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-5206",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-5206"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-5207",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-5207"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-5208",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-5208"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-5209",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-5209"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-5210",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-5210"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-5211",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-5211"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-5212",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-5212"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-5213",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-5213"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-5214",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-5214"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-5215",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-5215"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-5216",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-5216"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-5217",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-5217"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-5218",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-5218"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-5219",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-5219"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-5220",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-5220"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-5221",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-5221"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-5222",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-5222"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-5223",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-5223"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-5224",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-5224"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-5225",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-5225"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-5226",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-5226"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-9650",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-9650"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-9651",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-9651"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-9652",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-9652"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "chromium"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "55.0.2883.75-1"
+								}
+							],
+							"fixed": [
+								"55.0.2883.75-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

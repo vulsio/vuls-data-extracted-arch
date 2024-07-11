@@ -1,0 +1,86 @@
+{
+	"id": "AVG-765",
+	"advisories": [
+		{
+			"id": "ASA-201809-5",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201809-5"
+				}
+			]
+		},
+		{
+			"id": "AVG-765",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-765"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-0503",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-0503"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-0505",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-0505"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-13258",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-13258"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "mediawiki"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "1.31.1-1"
+								}
+							],
+							"fixed": [
+								"1.31.1-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

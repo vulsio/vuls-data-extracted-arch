@@ -1,0 +1,77 @@
+{
+	"id": "AVG-804",
+	"advisories": [
+		{
+			"id": "ASA-201811-12",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201811-12"
+				}
+			]
+		},
+		{
+			"id": "AVG-804",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-804"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-10851",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-10851"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-14626",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-14626"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "powerdns"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "4.1.5-1"
+								}
+							],
+							"fixed": [
+								"4.1.5-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"id": "AVG-2741",
+	"advisories": [
+		{
+			"id": "AVG-2741",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Unknown"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2741"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-21499",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-21499"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "linux-zen"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "5.17.10.zen1-1"
+								}
+							],
+							"fixed": [
+								"5.17.10.zen1-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

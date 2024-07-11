@@ -1,0 +1,122 @@
+{
+	"id": "AVG-1470",
+	"advisories": [
+		{
+			"id": "ASA-202101-38",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202101-38"
+				}
+			]
+		},
+		{
+			"id": "AVG-1470",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1470"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-25681",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-25681"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-25682",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-25682"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-25683",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-25683"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-25684",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-25684"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-25685",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-25685"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-25686",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-25686"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-25687",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-25687"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "dnsmasq"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "2.83-1"
+								}
+							],
+							"fixed": [
+								"2.83-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,86 @@
+{
+	"id": "AVG-239",
+	"advisories": [
+		{
+			"id": "ASA-201704-11",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201704-11"
+				}
+			]
+		},
+		{
+			"id": "AVG-239",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-239"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-3136",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-3136"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-3137",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-3137"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-3138",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-3138"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "bind"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "9.11.1-1"
+								}
+							],
+							"fixed": [
+								"9.11.1-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

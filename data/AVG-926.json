@@ -1,0 +1,140 @@
+{
+	"id": "AVG-926",
+	"advisories": [
+		{
+			"id": "ASA-201903-12",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201903-12"
+				}
+			]
+		},
+		{
+			"id": "AVG-926",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-926"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-3855",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-3855"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-3856",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-3856"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-3857",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-3857"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-3858",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-3858"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-3859",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-3859"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-3860",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-3860"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-3861",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-3861"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-3862",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-3862"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-3863",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-3863"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "libssh2"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "1.8.1-1"
+								}
+							],
+							"fixed": [
+								"1.8.1-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

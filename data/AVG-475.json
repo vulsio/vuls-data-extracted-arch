@@ -1,0 +1,86 @@
+{
+	"id": "AVG-475",
+	"advisories": [
+		{
+			"id": "ASA-201803-24",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201803-24"
+				}
+			]
+		},
+		{
+			"id": "AVG-475",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-475"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-15953",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15953"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15954",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15954"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15955",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15955"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "bchunk"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "1.2.2-4"
+								}
+							],
+							"fixed": [
+								"1.2.2-4"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,140 @@
+{
+	"id": "AVG-1193",
+	"advisories": [
+		{
+			"id": "ASA-202006-15",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202006-15"
+				}
+			]
+		},
+		{
+			"id": "AVG-1193",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1193"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-11095",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-11095"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-11096",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-11096"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-11097",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-11097"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-11098",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-11098"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-11099",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-11099"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-4030",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-4030"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-4031",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-4031"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-4032",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-4032"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-4033",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-4033"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "freerdp"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "2:2.1.2-1"
+								}
+							],
+							"fixed": [
+								"2:2.1.2-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

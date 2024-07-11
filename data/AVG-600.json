@@ -1,0 +1,77 @@
+{
+	"id": "AVG-600",
+	"advisories": [
+		{
+			"id": "ASA-201801-31",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201801-31"
+				}
+			]
+		},
+		{
+			"id": "ASA-201801-31",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201801-31"
+				}
+			]
+		},
+		{
+			"id": "AVG-600",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-600"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-17858",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-17858"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "zathura-pdf-mupdf"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "0.3.2-2"
+								}
+							],
+							"fixed": [
+								"0.3.2-2"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,131 @@
+{
+	"id": "AVG-1166",
+	"advisories": [
+		{
+			"id": "AVG-1166",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1166"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2016-6328",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-6328"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7544",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7544"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-20030",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-20030"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-9278",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-9278"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-0093",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-0093"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-12767",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-12767"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-13112",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-13112"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-13113",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-13113"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-13114",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-13114"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "libexif"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "0.6.22-1"
+								}
+							],
+							"fixed": [
+								"0.6.22-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,77 @@
+{
+	"id": "AVG-1744",
+	"advisories": [
+		{
+			"id": "AVG-1744",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1744"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-1788",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-1788"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-1844",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-1844"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-1871",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-1871"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "webkit2gtk"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "2.32.0-1"
+								}
+							],
+							"fixed": [
+								"2.32.0-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

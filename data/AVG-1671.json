@@ -1,0 +1,56 @@
+{
+	"id": "AVG-1671",
+	"advisories": [
+		{
+			"id": "AVG-1671",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Low"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1671"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-20205",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-20205"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "libjpeg-turbo"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"le": "2.0.6-1"
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

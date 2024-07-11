@@ -1,0 +1,95 @@
+{
+	"id": "AVG-844",
+	"advisories": [
+		{
+			"id": "ASA-201901-5",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201901-5"
+				}
+			]
+		},
+		{
+			"id": "AVG-844",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-844"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-5716",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5716"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5717",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5717"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5718",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5718"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5719",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5719"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "wireshark-cli"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "2.6.6-1"
+								}
+							],
+							"fixed": [
+								"2.6.6-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

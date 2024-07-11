@@ -1,0 +1,90 @@
+{
+	"id": "AVG-789",
+	"advisories": [
+		{
+			"id": "ASA-201811-11",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201811-11"
+				}
+			]
+		},
+		{
+			"id": "AVG-789",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://bugs.archlinux.org/task/60609"
+				},
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-789"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-15686",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-15686"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-15687",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-15687"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-15688",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-15688"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "systemd"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "239.300-1"
+								}
+							],
+							"fixed": [
+								"239.300-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

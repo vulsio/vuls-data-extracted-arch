@@ -1,0 +1,95 @@
+{
+	"id": "AVG-2208",
+	"advisories": [
+		{
+			"id": "AVG-2208",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2208"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-1817",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-1817"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-1820",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-1820"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-1825",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-1825"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-1826",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-1826"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30661",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30661"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "webkit2gtk"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "2.30.1-1"
+								}
+							],
+							"fixed": [
+								"2.30.1-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

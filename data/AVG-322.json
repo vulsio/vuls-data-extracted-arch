@@ -1,0 +1,77 @@
+{
+	"id": "AVG-322",
+	"advisories": [
+		{
+			"id": "AVG-322",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-322"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-4965",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-4965"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-4966",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-4966"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-4967",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-4967"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "rabbitmq"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "3.6.9-1"
+								}
+							],
+							"fixed": [
+								"3.6.9-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

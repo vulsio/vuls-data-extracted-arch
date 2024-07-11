@@ -1,0 +1,239 @@
+{
+	"id": "AVG-2329",
+	"advisories": [
+		{
+			"id": "AVG-2329",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2329"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-33285",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-33285"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-33286",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-33286"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-33287",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-33287"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-33289",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-33289"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-35266",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-35266"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-35267",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-35267"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-35268",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-35268"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-35269",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-35269"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-39251",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39251"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-39252",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39252"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-39253",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39253"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-39254",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39254"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-39255",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39255"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-39256",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39256"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-39257",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39257"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-39258",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39258"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-39259",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39259"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-39260",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39260"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-39261",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39261"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-39262",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39262"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-39263",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39263"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "ntfs-3g"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "2021.8.22-1"
+								}
+							],
+							"fixed": [
+								"2021.8.22-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

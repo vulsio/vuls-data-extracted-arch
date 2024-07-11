@@ -1,0 +1,56 @@
+{
+	"id": "AVG-1558",
+	"advisories": [
+		{
+			"id": "AVG-1558",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1558"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-20194",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-20194"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "linux"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"le": "5.10.14.arch1-1"
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"id": "AVG-1397",
+	"advisories": [
+		{
+			"id": "AVG-1397",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1397"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-35965",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-35965"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "ffmpeg"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "2:4.4-1"
+								}
+							],
+							"fixed": [
+								"2:4.4-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

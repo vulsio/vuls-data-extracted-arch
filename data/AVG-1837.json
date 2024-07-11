@@ -1,0 +1,56 @@
+{
+	"id": "AVG-1837",
+	"advisories": [
+		{
+			"id": "AVG-1837",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1837"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-29945",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-29945"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "thunderbird"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"le": "78.9.1-3"
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

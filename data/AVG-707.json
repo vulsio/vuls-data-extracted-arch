@@ -1,0 +1,167 @@
+{
+	"id": "AVG-707",
+	"advisories": [
+		{
+			"id": "ASA-201805-21",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201805-21"
+				}
+			]
+		},
+		{
+			"id": "AVG-707",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-707"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-5150",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5150"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5154",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5154"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5155",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5155"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5159",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5159"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5161",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5161"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5162",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5162"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5168",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5168"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5170",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5170"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5178",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5178"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5183",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5183"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5184",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5184"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5185",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5185"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "thunderbird"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "52.8.0-1"
+								}
+							],
+							"fixed": [
+								"52.8.0-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

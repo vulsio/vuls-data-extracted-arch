@@ -1,0 +1,122 @@
+{
+	"id": "AVG-1115",
+	"advisories": [
+		{
+			"id": "ASA-202003-11",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202003-11"
+				}
+			]
+		},
+		{
+			"id": "AVG-1115",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1115"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-20503",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-20503"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-6805",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-6805"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-6806",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-6806"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-6807",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-6807"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-6811",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-6811"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-6812",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-6812"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-6814",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-6814"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "thunderbird"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "68.6.0-1"
+								}
+							],
+							"fixed": [
+								"68.6.0-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,117 @@
+{
+	"id": "AVG-691",
+	"advisories": [
+		{
+			"id": "ASA-201805-12",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201805-12"
+				}
+			]
+		},
+		{
+			"id": "ASA-201805-12",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201805-12"
+				}
+			]
+		},
+		{
+			"id": "AVG-691",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://bugs.archlinux.org/task/57486"
+				},
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-691"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-1000051",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-1000051"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5686",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5686"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-6187",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-6187"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-6192",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-6192"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-6544",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-6544"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "zathura-pdf-mupdf"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "0.3.3-3"
+								}
+							],
+							"fixed": [
+								"0.3.3-3"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

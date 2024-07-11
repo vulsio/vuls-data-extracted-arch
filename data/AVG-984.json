@@ -1,0 +1,86 @@
+{
+	"id": "AVG-984",
+	"advisories": [
+		{
+			"id": "ASA-201906-14",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201906-14"
+				}
+			]
+		},
+		{
+			"id": "AVG-984",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-984"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-11477",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-11477"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-11478",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-11478"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-11479",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-11479"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "linux-lts"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "4.19.52-1"
+								}
+							],
+							"fixed": [
+								"4.19.52-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

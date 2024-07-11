@@ -1,0 +1,86 @@
+{
+	"id": "AVG-1006",
+	"advisories": [
+		{
+			"id": "AVG-1006",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1006"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-13226",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-13226"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-13227",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-13227"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-13228",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-13228"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-13229",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-13229"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "deepin-clone"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "1.1.3-1"
+								}
+							],
+							"fixed": [
+								"1.1.3-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

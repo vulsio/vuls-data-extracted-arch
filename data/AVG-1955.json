@@ -1,0 +1,104 @@
+{
+	"id": "AVG-1955",
+	"advisories": [
+		{
+			"id": "ASA-202105-11",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202105-11"
+				}
+			]
+		},
+		{
+			"id": "AVG-1955",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1955"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-32917",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-32917"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-32918",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-32918"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-32919",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-32919"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-32920",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-32920"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-32921",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-32921"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "prosody"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "1:0.11.9-1"
+								}
+							],
+							"fixed": [
+								"1:0.11.9-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

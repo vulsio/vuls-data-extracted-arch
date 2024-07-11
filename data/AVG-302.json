@@ -1,0 +1,248 @@
+{
+	"id": "AVG-302",
+	"advisories": [
+		{
+			"id": "ASA-201706-19",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201706-19"
+				}
+			]
+		},
+		{
+			"id": "AVG-302",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-302"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-5470",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5470"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5471",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5471"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5472",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5472"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7749",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7749"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7750",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7750"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7751",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7751"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7752",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7752"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7754",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7754"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7756",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7756"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7757",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7757"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7758",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7758"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7762",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7762"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7764",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7764"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7771",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7771"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7772",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7772"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7773",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7773"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7774",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7774"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7775",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7775"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7776",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7776"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7777",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7777"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-7778",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-7778"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "firefox"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "54.0-1"
+								}
+							],
+							"fixed": [
+								"54.0-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

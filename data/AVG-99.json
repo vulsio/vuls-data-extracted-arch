@@ -1,0 +1,149 @@
+{
+	"id": "AVG-99",
+	"advisories": [
+		{
+			"id": "AVG-99",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-99"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2008-3520",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2008-3520"
+				}
+			]
+		},
+		{
+			"id": "CVE-2008-3522",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2008-3522"
+				}
+			]
+		},
+		{
+			"id": "CVE-2011-4516",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2011-4516"
+				}
+			]
+		},
+		{
+			"id": "CVE-2011-4517",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2011-4517"
+				}
+			]
+		},
+		{
+			"id": "CVE-2014-8137",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2014-8137"
+				}
+			]
+		},
+		{
+			"id": "CVE-2014-8138",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2014-8138"
+				}
+			]
+		},
+		{
+			"id": "CVE-2014-8157",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2014-8157"
+				}
+			]
+		},
+		{
+			"id": "CVE-2014-8158",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2014-8158"
+				}
+			]
+		},
+		{
+			"id": "CVE-2014-9029",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2014-9029"
+				}
+			]
+		},
+		{
+			"id": "CVE-2015-5221",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2015-5221"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-1867",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-1867"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "jasper"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "1.900.5-1"
+								}
+							],
+							"fixed": [
+								"1.900.5-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

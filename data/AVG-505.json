@@ -1,0 +1,56 @@
+{
+	"id": "AVG-505",
+	"advisories": [
+		{
+			"id": "AVG-505",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-505"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-15088",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15088"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "krb5"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"le": "1.15.2-1"
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

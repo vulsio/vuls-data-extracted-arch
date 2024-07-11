@@ -1,0 +1,77 @@
+{
+	"id": "AVG-947",
+	"advisories": [
+		{
+			"id": "ASA-201904-4",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201904-4"
+				}
+			]
+		},
+		{
+			"id": "AVG-947",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-947"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-9810",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-9810"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-9813",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-9813"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "thunderbird"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "60.6.1-1"
+								}
+							],
+							"fixed": [
+								"60.6.1-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

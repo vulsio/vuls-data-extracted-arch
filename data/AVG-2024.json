@@ -1,0 +1,104 @@
+{
+	"id": "AVG-2024",
+	"advisories": [
+		{
+			"id": "AVG-2024",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2024"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-22915",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-22915"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-32653",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-32653"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-32654",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-32654"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-32655",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-32655"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-32656",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-32656"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-32657",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-32657"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "nextcloud"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "21.0.2-1"
+								}
+							],
+							"fixed": [
+								"21.0.2-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

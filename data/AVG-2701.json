@@ -1,0 +1,218 @@
+{
+	"id": "AVG-2701",
+	"advisories": [
+		{
+			"id": "AVG-2701",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2701"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-4197",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-4197"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-44879",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-44879"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-0168",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-0168"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-1015",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-1015"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-1016",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-1016"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-1048",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-1048"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-1158",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-1158"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-1195",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-1195"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-1198",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-1198"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-1199",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-1199"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-1204",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-1204"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-1205",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-1205"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-1353",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-1353"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-1516",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-1516"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-26490",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-26490"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-27666",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-27666"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-28388",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-28388"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-28389",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-28389"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-28390",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-28390"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "linux-lts"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"le": "5.15.14-1"
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,77 @@
+{
+	"id": "AVG-930",
+	"advisories": [
+		{
+			"id": "ASA-201903-14",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201903-14"
+				}
+			]
+		},
+		{
+			"id": "AVG-930",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-930"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-9810",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-9810"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-9813",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-9813"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "firefox"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "66.0.1-1"
+								}
+							],
+							"fixed": [
+								"66.0.1-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

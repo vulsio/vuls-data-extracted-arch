@@ -1,0 +1,77 @@
+{
+	"id": "AVG-2044",
+	"advisories": [
+		{
+			"id": "AVG-2044",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2044"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-30521",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30521"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30528",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30528"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30540",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30540"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "chromium"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "91.0.4472.77-1"
+								}
+							],
+							"fixed": [
+								"91.0.4472.77-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

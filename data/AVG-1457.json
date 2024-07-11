@@ -1,0 +1,68 @@
+{
+	"id": "AVG-1457",
+	"advisories": [
+		{
+			"id": "ASA-202101-39",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202101-39"
+				}
+			]
+		},
+		{
+			"id": "AVG-1457",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1457"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-35733",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-35733"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "erlang"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "23.2.2-1"
+								}
+							],
+							"fixed": [
+								"23.2.2-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

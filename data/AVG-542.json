@@ -1,0 +1,108 @@
+{
+	"id": "AVG-542",
+	"advisories": [
+		{
+			"id": "ASA-201801-21",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201801-21"
+				}
+			]
+		},
+		{
+			"id": "AVG-542",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://bugs.archlinux.org/task/57111"
+				},
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-542"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-15994",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15994"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-16548",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-16548"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-17433",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-17433"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-17434",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-17434"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-5764",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-5764"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "rsync"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "3.1.3pre1-1"
+								}
+							],
+							"fixed": [
+								"3.1.3pre1-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

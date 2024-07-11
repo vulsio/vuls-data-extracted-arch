@@ -1,0 +1,86 @@
+{
+	"id": "AVG-1074",
+	"advisories": [
+		{
+			"id": "AVG-1074",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1074"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-1350",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-1350"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-1351",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-1351"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-1353",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-1353"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-1354",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-1354"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "git"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "2.24.1-1"
+								}
+							],
+							"fixed": [
+								"2.24.1-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

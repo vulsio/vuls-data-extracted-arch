@@ -1,0 +1,95 @@
+{
+	"id": "AVG-2081",
+	"advisories": [
+		{
+			"id": "ASA-202106-46",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202106-46"
+				}
+			]
+		},
+		{
+			"id": "AVG-2081",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2081"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-30554",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30554"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30555",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30555"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30556",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30556"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30557",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30557"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "chromium"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "91.0.4472.114-1"
+								}
+							],
+							"fixed": [
+								"91.0.4472.114-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

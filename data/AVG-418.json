@@ -1,0 +1,86 @@
+{
+	"id": "AVG-418",
+	"advisories": [
+		{
+			"id": "ASA-201709-22",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201709-22"
+				}
+			]
+		},
+		{
+			"id": "AVG-418",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-418"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-6266",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-6266"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-6267",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-6267"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-6272",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-6272"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "nvidia"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "384.90-1"
+								}
+							],
+							"fixed": [
+								"384.90-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

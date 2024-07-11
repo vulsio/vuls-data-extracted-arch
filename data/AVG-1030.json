@@ -1,0 +1,77 @@
+{
+	"id": "AVG-1030",
+	"advisories": [
+		{
+			"id": "ASA-201908-22",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201908-22"
+				}
+			]
+		},
+		{
+			"id": "AVG-1030",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1030"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-10383",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-10383"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-10384",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-10384"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "jenkins"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "2.192-1"
+								}
+							],
+							"fixed": [
+								"2.192-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

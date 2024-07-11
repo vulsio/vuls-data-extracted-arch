@@ -1,0 +1,72 @@
+{
+	"id": "AVG-1488",
+	"advisories": [
+		{
+			"id": "ASA-202101-44",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202101-44"
+				}
+			]
+		},
+		{
+			"id": "AVG-1488",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://bugs.archlinux.org/task/69398"
+				},
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1488"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-3152",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-3152"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "home-assistant"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "2021.1.4-1"
+								}
+							],
+							"fixed": [
+								"2021.1.4-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

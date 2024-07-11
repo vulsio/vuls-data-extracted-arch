@@ -1,0 +1,77 @@
+{
+	"id": "AVG-2811",
+	"advisories": [
+		{
+			"id": "AVG-2811",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Unknown"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2811"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-2795",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-2795"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-3080",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-3080"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-38178",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-38178"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "bind"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "9.18.7-1"
+								}
+							],
+							"fixed": [
+								"9.18.7-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

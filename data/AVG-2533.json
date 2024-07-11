@@ -1,0 +1,59 @@
+{
+	"id": "AVG-2533",
+	"advisories": [
+		{
+			"id": "AVG-2533",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Low"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2533"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-20448",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-20448"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "ffmpeg"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "1:4.3-1"
+								}
+							],
+							"fixed": [
+								"1:4.3-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

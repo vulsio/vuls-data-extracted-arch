@@ -1,0 +1,77 @@
+{
+	"id": "AVG-1920",
+	"advisories": [
+		{
+			"id": "AVG-1920",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1920"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-22885",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-22885"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-22904",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-22904"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-37156",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-37156"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "redmine"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "4.2.2-1"
+								}
+							],
+							"fixed": [
+								"4.2.2-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

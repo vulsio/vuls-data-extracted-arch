@@ -1,0 +1,76 @@
+{
+	"id": "AVG-2833",
+	"advisories": [
+		{
+			"id": "AVG-2833",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Unknown"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2833"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-25139",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2023-25139"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "glibc"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "2.37-2"
+								}
+							],
+							"fixed": [
+								"2.37-2"
+							]
+						}
+					},
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "lib32-glibc"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "2.37-2"
+								}
+							],
+							"fixed": [
+								"2.37-2"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

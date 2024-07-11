@@ -1,0 +1,95 @@
+{
+	"id": "AVG-2634",
+	"advisories": [
+		{
+			"id": "AVG-2634",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2634"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-4098",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-4098"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-4099",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-4099"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-4100",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-4100"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-4101",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-4101"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-4102",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-4102"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "vivaldi"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "5.0.2497.30-1"
+								}
+							],
+							"fixed": [
+								"5.0.2497.30-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

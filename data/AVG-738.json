@@ -1,0 +1,122 @@
+{
+	"id": "AVG-738",
+	"advisories": [
+		{
+			"id": "ASA-201807-14",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201807-14"
+				}
+			]
+		},
+		{
+			"id": "AVG-738",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-738"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-1999001",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-1999001"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-1999002",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-1999002"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-1999003",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-1999003"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-1999004",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-1999004"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-1999005",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-1999005"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-1999006",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-1999006"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-1999007",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-1999007"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "jenkins"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "2.133-1"
+								}
+							],
+							"fixed": [
+								"2.133-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

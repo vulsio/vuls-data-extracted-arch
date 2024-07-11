@@ -1,0 +1,176 @@
+{
+	"id": "AVG-545",
+	"advisories": [
+		{
+			"id": "ASA-201712-6",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201712-6"
+				}
+			]
+		},
+		{
+			"id": "AVG-545",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-545"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-15386",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15386"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15387",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15387"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15388",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15388"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15390",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15390"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15392",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15392"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15394",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15394"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5124",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5124"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5126",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5126"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5127",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5127"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5128",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5128"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5129",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5129"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5132",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5132"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-5133",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-5133"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "qt5-webengine"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "5.10.0-1"
+								}
+							],
+							"fixed": [
+								"5.10.0-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

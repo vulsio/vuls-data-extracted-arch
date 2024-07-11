@@ -1,0 +1,95 @@
+{
+	"id": "AVG-2152",
+	"advisories": [
+		{
+			"id": "ASA-202107-21",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202107-21"
+				}
+			]
+		},
+		{
+			"id": "AVG-2152",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2152"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-29969",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-29969"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-29970",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-29970"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-29976",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-29976"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30547",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30547"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "thunderbird"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "78.12.0-1"
+								}
+							],
+							"fixed": [
+								"78.12.0-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

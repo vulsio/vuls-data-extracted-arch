@@ -1,0 +1,68 @@
+{
+	"id": "AVG-1664",
+	"advisories": [
+		{
+			"id": "ASA-202103-5",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202103-5"
+				}
+			]
+		},
+		{
+			"id": "AVG-1664",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1664"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-21362",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21362"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "minio"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "2021.03.04-1"
+								}
+							],
+							"fixed": [
+								"2021.03.04-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

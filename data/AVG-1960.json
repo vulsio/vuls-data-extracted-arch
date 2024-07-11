@@ -1,0 +1,122 @@
+{
+	"id": "AVG-1960",
+	"advisories": [
+		{
+			"id": "AVG-1960",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1960"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-23133",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-23133"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-23134",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-23134"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-31440",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-31440"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-32399",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-32399"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-33034",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-33034"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-3489",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-3489"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-3490",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-3490"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-3491",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-3491"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "linux-hardened"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "5.11.21.hardened1-1"
+								}
+							],
+							"fixed": [
+								"5.11.21.hardened1-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

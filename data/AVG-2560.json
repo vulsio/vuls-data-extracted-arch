@@ -1,0 +1,221 @@
+{
+	"id": "AVG-2560",
+	"advisories": [
+		{
+			"id": "ASA-202111-9",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202111-9"
+				}
+			]
+		},
+		{
+			"id": "AVG-2560",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2560"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-38005",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-38005"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-38006",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-38006"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-38007",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-38007"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-38008",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-38008"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-38009",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-38009"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-38010",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-38010"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-38011",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-38011"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-38012",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-38012"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-38013",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-38013"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-38014",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-38014"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-38015",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-38015"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-38016",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-38016"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-38017",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-38017"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-38018",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-38018"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-38019",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-38019"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-38020",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-38020"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-38021",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-38021"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-38022",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-38022"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "chromium"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "96.0.4664.45-1"
+								}
+							],
+							"fixed": [
+								"96.0.4664.45-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

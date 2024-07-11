@@ -1,0 +1,104 @@
+{
+	"id": "AVG-1416",
+	"advisories": [
+		{
+			"id": "ASA-202101-10",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202101-10"
+				}
+			]
+		},
+		{
+			"id": "AVG-1416",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1416"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-26414",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-26414"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-22166",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-22166"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-22167",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-22167"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-22168",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-22168"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-22171",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-22171"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "gitlab"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "13.7.2-1"
+								}
+							],
+							"fixed": [
+								"13.7.2-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

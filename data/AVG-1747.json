@@ -1,0 +1,113 @@
+{
+	"id": "AVG-1747",
+	"advisories": [
+		{
+			"id": "AVG-1747",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1747"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-28688",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-28688"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-29264",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-29264"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-29646",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-29646"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-29647",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-29647"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-29648",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-29648"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-29649",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-29649"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-29650",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-29650"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "linux"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "5.11.11.arch1-1"
+								}
+							],
+							"fixed": [
+								"5.11.11.arch1-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

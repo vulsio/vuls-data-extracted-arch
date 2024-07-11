@@ -1,0 +1,185 @@
+{
+	"id": "AVG-740",
+	"advisories": [
+		{
+			"id": "AVG-740",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-740"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-14349",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-14349"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-14350",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-14350"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-14351",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-14351"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-14352",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-14352"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-14353",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-14353"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-14354",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-14354"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-14355",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-14355"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-14356",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-14356"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-14357",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-14357"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-14358",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-14358"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-14359",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-14359"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-14360",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-14360"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-14361",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-14361"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-14362",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-14362"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-14363",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-14363"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "neomutt"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "20180716-1"
+								}
+							],
+							"fixed": [
+								"20180716-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

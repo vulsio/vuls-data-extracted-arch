@@ -1,0 +1,230 @@
+{
+	"id": "AVG-2202",
+	"advisories": [
+		{
+			"id": "ASA-202107-74",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202107-74"
+				}
+			]
+		},
+		{
+			"id": "AVG-2202",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2202"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-30565",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30565"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30566",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30566"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30567",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30567"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30568",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30568"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30569",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30569"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30571",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30571"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30572",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30572"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30573",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30573"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30574",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30574"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30575",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30575"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30576",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30576"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30578",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30578"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30579",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30579"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30581",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30581"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30582",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30582"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30584",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30584"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30585",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30585"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30588",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30588"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30589",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30589"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "vivaldi"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "4.1.2369.11-1"
+								}
+							],
+							"fixed": [
+								"4.1.2369.11-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,166 @@
+{
+	"id": "AVG-708",
+	"advisories": [
+		{
+			"id": "ASA-201805-23",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201805-23"
+				}
+			]
+		},
+		{
+			"id": "ASA-201805-25",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201805-25"
+				}
+			]
+		},
+		{
+			"id": "AVG-708",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-708"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-11354",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-11354"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-11355",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-11355"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-11356",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-11356"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-11357",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-11357"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-11358",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-11358"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-11359",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-11359"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-11360",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-11360"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-11361",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-11361"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-11362",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-11362"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "wireshark-cli"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "2.6.1-1"
+								}
+							],
+							"fixed": [
+								"2.6.1-1"
+							]
+						}
+					},
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "wireshark-qt"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "2.6.1-1"
+								}
+							],
+							"fixed": [
+								"2.6.1-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

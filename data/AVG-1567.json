@@ -1,0 +1,77 @@
+{
+	"id": "AVG-1567",
+	"advisories": [
+		{
+			"id": "ASA-202102-31",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202102-31"
+				}
+			]
+		},
+		{
+			"id": "AVG-1567",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1567"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-20229",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-20229"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-3393",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-3393"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "postgresql"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "13.2-1"
+								}
+							],
+							"fixed": [
+								"13.2-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

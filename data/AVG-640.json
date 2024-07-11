@@ -1,0 +1,117 @@
+{
+	"id": "AVG-640",
+	"advisories": [
+		{
+			"id": "AVG-640",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Low"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://bugs.archlinux.org/task/57528"
+				},
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-640"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-7173",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-7173"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-7174",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-7174"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-7175",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-7175"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-7452",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-7452"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-7453",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-7453"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-7454",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-7454"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-7455",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-7455"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "xpdf"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "4.01.01-1"
+								}
+							],
+							"fixed": [
+								"4.01.01-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

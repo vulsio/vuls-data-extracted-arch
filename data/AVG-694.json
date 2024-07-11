@@ -1,0 +1,77 @@
+{
+	"id": "AVG-694",
+	"advisories": [
+		{
+			"id": "ASA-201805-13",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201805-13"
+				}
+			]
+		},
+		{
+			"id": "AVG-694",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-694"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-1000300",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-1000300"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-1000301",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-1000301"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "curl"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "7.60.0-1"
+								}
+							],
+							"fixed": [
+								"7.60.0-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

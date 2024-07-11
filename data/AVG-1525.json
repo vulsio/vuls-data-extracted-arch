@@ -1,0 +1,122 @@
+{
+	"id": "AVG-1525",
+	"advisories": [
+		{
+			"id": "ASA-202102-6",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202102-6"
+				}
+			]
+		},
+		{
+			"id": "AVG-1525",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1525"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-21142",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21142"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21143",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21143"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21144",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21144"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21145",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21145"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21146",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21146"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21147",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21147"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-21148",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-21148"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "chromium"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "88.0.4324.150-1"
+								}
+							],
+							"fixed": [
+								"88.0.4324.150-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

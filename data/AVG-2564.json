@@ -1,0 +1,122 @@
+{
+	"id": "AVG-2564",
+	"advisories": [
+		{
+			"id": "AVG-2564",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Low"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2564"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-39920",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39920"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-39921",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39921"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-39922",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39922"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-39924",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39924"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-39925",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39925"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-39926",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39926"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-39928",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39928"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-39929",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-39929"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "wireshark-cli"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "3.4.10-1"
+								}
+							],
+							"fixed": [
+								"3.4.10-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

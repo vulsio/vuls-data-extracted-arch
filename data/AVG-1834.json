@@ -1,0 +1,158 @@
+{
+	"id": "AVG-1834",
+	"advisories": [
+		{
+			"id": "ASA-202104-3",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202104-3"
+				}
+			]
+		},
+		{
+			"id": "AVG-1834",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1834"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-23994",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-23994"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-23995",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-23995"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-23996",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-23996"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-23997",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-23997"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-23998",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-23998"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-23999",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-23999"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-24000",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-24000"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-24001",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-24001"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-24002",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-24002"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-29946",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-29946"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-29947",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-29947"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "firefox"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "88.0-1"
+								}
+							],
+							"fixed": [
+								"88.0-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

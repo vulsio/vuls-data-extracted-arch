@@ -1,0 +1,59 @@
+{
+	"id": "AVG-2267",
+	"advisories": [
+		{
+			"id": "AVG-2267",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2267"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-32798",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-32798"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "jupyter-notebook"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "6.4.3-1"
+								}
+							],
+							"fixed": [
+								"6.4.3-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

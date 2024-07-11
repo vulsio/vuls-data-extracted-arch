@@ -1,0 +1,149 @@
+{
+	"id": "AVG-60",
+	"advisories": [
+		{
+			"id": "ASA-201611-7",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201611-7"
+				}
+			]
+		},
+		{
+			"id": "AVG-60",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-60"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2016-8615",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-8615"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-8616",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-8616"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-8617",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-8617"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-8619",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-8619"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-8620",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-8620"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-8621",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-8621"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-8622",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-8622"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-8623",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-8623"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-8624",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-8624"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-8625",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-8625"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "curl"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "7.51.0-1"
+								}
+							],
+							"fixed": [
+								"7.51.0-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

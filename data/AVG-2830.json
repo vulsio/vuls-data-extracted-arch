@@ -1,0 +1,59 @@
+{
+	"id": "AVG-2830",
+	"advisories": [
+		{
+			"id": "AVG-2830",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2830"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-24998",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2023-24998"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "tomcat9"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "9.0.71-1"
+								}
+							],
+							"fixed": [
+								"9.0.71-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

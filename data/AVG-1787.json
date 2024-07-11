@@ -1,0 +1,77 @@
+{
+	"id": "AVG-1787",
+	"advisories": [
+		{
+			"id": "AVG-1787",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Low"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1787"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-1252",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-1252"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-1404",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-1404"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-1405",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-1405"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "clamav"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "0.103.2-1"
+								}
+							],
+							"fixed": [
+								"0.103.2-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

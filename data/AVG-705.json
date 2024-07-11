@@ -1,0 +1,95 @@
+{
+	"id": "AVG-705",
+	"advisories": [
+		{
+			"id": "AVG-705",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-705"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-1122",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-1122"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-1123",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-1123"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-1124",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-1124"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-1125",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-1125"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-1126",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-1126"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "procps-ng"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "3.3.15-1"
+								}
+							],
+							"fixed": [
+								"3.3.15-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

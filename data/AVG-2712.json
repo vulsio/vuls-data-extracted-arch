@@ -1,0 +1,131 @@
+{
+	"id": "AVG-2712",
+	"advisories": [
+		{
+			"id": "AVG-2712",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2712"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-1097",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-1097"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-1196",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-1196"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-1197",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-1197"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-24713",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-24713"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-28281",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-28281"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-28282",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-28282"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-28285",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-28285"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-28286",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-28286"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-28289",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-28289"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "thunderbird"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "91.8.0-1"
+								}
+							],
+							"fixed": [
+								"91.8.0-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

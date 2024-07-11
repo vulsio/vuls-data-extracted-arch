@@ -1,0 +1,95 @@
+{
+	"id": "AVG-2499",
+	"advisories": [
+		{
+			"id": "AVG-2499",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2499"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-3760",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-3760"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-3896",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-3896"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-42327",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-42327"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-43267",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-43267"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-43389",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-43389"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "linux-hardened"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "5.14.16.hardened1-1"
+								}
+							],
+							"fixed": [
+								"5.14.16.hardened1-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

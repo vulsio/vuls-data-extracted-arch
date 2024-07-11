@@ -1,0 +1,56 @@
+{
+	"id": "AVG-1973",
+	"advisories": [
+		{
+			"id": "AVG-1973",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1973"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-3557",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-3557"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "argocd"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"le": "2.0.1-1"
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

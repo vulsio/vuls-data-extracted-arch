@@ -1,0 +1,86 @@
+{
+	"id": "AVG-655",
+	"advisories": [
+		{
+			"id": "ASA-201803-17",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201803-17"
+				}
+			]
+		},
+		{
+			"id": "AVG-655",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-655"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-1000120",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-1000120"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-1000121",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-1000121"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-1000122",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-1000122"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "libcurl-compat"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "7.59.0-1"
+								}
+							],
+							"fixed": [
+								"7.59.0-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

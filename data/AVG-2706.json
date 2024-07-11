@@ -1,0 +1,104 @@
+{
+	"id": "AVG-2706",
+	"advisories": [
+		{
+			"id": "AVG-2706",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2706"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-27778",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-27778"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-27779",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-27779"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-27780",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-27780"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-27781",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-27781"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-27782",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-27782"
+				}
+			]
+		},
+		{
+			"id": "CVE-2022-30115",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2022-30115"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "curl"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "7.83.1-1"
+								}
+							],
+							"fixed": [
+								"7.83.1-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

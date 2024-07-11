@@ -1,0 +1,122 @@
+{
+	"id": "AVG-1136",
+	"advisories": [
+		{
+			"id": "ASA-202004-24",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202004-24"
+				}
+			]
+		},
+		{
+			"id": "AVG-1136",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1136"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-6071",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-6071"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-6072",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-6072"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-6073",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-6073"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-6077",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-6077"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-6078",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-6078"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-6079",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-6079"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-6080",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-6080"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "libmicrodns"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "0.1.2-1"
+								}
+							],
+							"fixed": [
+								"0.1.2-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

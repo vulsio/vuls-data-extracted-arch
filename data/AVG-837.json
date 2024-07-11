@@ -1,0 +1,113 @@
+{
+	"id": "AVG-837",
+	"advisories": [
+		{
+			"id": "ASA-201906-21",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201906-21"
+				}
+			]
+		},
+		{
+			"id": "AVG-837",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-837"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-1000877",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-1000877"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-1000878",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-1000878"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-1000879",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-1000879"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-1000880",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-1000880"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-1000019",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-1000019"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-1000020",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-1000020"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "libarchive"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "3.4.0-1"
+								}
+							],
+							"fixed": [
+								"3.4.0-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

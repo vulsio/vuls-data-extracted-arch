@@ -1,0 +1,86 @@
+{
+	"id": "AVG-896",
+	"advisories": [
+		{
+			"id": "ASA-201902-16",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201902-16"
+				}
+			]
+		},
+		{
+			"id": "AVG-896",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-896"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-18356",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-18356"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-18511",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-18511"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5785",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5785"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "firefox"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "65.0.1-1"
+								}
+							],
+							"fixed": [
+								"65.0.1-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

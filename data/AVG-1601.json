@@ -1,0 +1,86 @@
+{
+	"id": "AVG-1601",
+	"advisories": [
+		{
+			"id": "AVG-1601",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1601"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-23968",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-23968"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-23969",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-23969"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-23973",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-23973"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-23978",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-23978"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "thunderbird"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "78.8.0-1"
+								}
+							],
+							"fixed": [
+								"78.8.0-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

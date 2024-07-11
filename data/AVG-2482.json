@@ -1,0 +1,70 @@
+{
+	"id": "AVG-2482",
+	"advisories": [
+		{
+			"id": "AVG-2482",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2482"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-35560",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-35560"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "jdk8-openjdk"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"le": "8.u292-1"
+								}
+							]
+						}
+					},
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "jre8-openjdk-headless"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"le": "8.u292-1"
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

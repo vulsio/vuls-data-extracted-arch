@@ -1,0 +1,126 @@
+{
+	"id": "AVG-610",
+	"advisories": [
+		{
+			"id": "AVG-610",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Low"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://bugs.archlinux.org/task/57485"
+				},
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-610"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-11332",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-11332"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-11358",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-11358"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-11359",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-11359"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15370",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15370"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15371",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15371"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15372",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15372"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-15642",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-15642"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-18189",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-18189"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "sox"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "14.4.2-3"
+								}
+							],
+							"fixed": [
+								"14.4.2-3"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

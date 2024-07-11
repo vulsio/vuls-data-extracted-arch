@@ -1,0 +1,68 @@
+{
+	"id": "AVG-1051",
+	"advisories": [
+		{
+			"id": "ASA-201910-12",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201910-12"
+				}
+			]
+		},
+		{
+			"id": "AVG-1051",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1051"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-17596",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-17596"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "go"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "2:1.13.3-1"
+								}
+							],
+							"fixed": [
+								"2:1.13.3-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

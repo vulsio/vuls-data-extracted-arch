@@ -1,0 +1,59 @@
+{
+	"id": "AVG-1812",
+	"advisories": [
+		{
+			"id": "AVG-1812",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1812"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-3472",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-3472"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "xorg-xwayland"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "21.1.1-1"
+								}
+							],
+							"fixed": [
+								"21.1.1-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

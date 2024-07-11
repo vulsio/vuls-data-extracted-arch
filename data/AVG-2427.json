@@ -1,0 +1,77 @@
+{
+	"id": "AVG-2427",
+	"advisories": [
+		{
+			"id": "AVG-2427",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2427"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-26437",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-26437"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-34479",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-34479"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-34528",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-34528"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "code"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "1.60.2-1"
+								}
+							],
+							"fixed": [
+								"1.60.2-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

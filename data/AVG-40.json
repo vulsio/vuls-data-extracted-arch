@@ -1,0 +1,77 @@
+{
+	"id": "AVG-40",
+	"advisories": [
+		{
+			"id": "ASA-201610-6",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201610-6"
+				}
+			]
+		},
+		{
+			"id": "AVG-40",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-40"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2016-7799",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-7799"
+				}
+			]
+		},
+		{
+			"id": "CVE-2016-7906",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2016-7906"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "imagemagick"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "6.9.6.0-1"
+								}
+							],
+							"fixed": [
+								"6.9.6.0-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

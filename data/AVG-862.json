@@ -1,0 +1,122 @@
+{
+	"id": "AVG-862",
+	"advisories": [
+		{
+			"id": "ASA-201902-2",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201902-2"
+				}
+			]
+		},
+		{
+			"id": "AVG-862",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-862"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-18500",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-18500"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-18501",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-18501"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-18502",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-18502"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-18503",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-18503"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-18504",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-18504"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-18505",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-18505"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-18506",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-18506"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "firefox"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "65.0-1"
+								}
+							],
+							"fixed": [
+								"65.0-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

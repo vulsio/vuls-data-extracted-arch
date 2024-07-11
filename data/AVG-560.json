@@ -1,0 +1,117 @@
+{
+	"id": "AVG-560",
+	"advisories": [
+		{
+			"id": "AVG-560",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://bugs.archlinux.org/task/56832"
+				},
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-560"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2017-16996",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-16996"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-17852",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-17852"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-17853",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-17853"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-17854",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-17854"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-17855",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-17855"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-17856",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-17856"
+				}
+			]
+		},
+		{
+			"id": "CVE-2017-17857",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2017-17857"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "linux-lts"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "4.9.74-1"
+								}
+							],
+							"fixed": [
+								"4.9.74-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

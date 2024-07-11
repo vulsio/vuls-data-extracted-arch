@@ -1,0 +1,72 @@
+{
+	"id": "AVG-714",
+	"advisories": [
+		{
+			"id": "ASA-201806-6",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201806-6"
+				}
+			]
+		},
+		{
+			"id": "AVG-714",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://bugs.archlinux.org/task/58907"
+				},
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-714"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-10115",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-10115"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "p7zip"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "16.02-5"
+								}
+							],
+							"fixed": [
+								"16.02-5"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

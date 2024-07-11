@@ -1,0 +1,329 @@
+{
+	"id": "AVG-861",
+	"advisories": [
+		{
+			"id": "ASA-201902-3",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201902-3"
+				}
+			]
+		},
+		{
+			"id": "AVG-861",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-861"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-5754",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5754"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5755",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5755"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5756",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5756"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5757",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5757"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5758",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5758"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5759",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5759"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5760",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5760"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5761",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5761"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5762",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5762"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5763",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5763"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5764",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5764"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5765",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5765"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5766",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5766"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5767",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5767"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5768",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5768"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5769",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5769"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5770",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5770"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5771",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5771"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5772",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5772"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5773",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5773"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5774",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5774"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5775",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5775"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5776",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5776"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5777",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5777"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5778",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5778"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5779",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5779"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5780",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5780"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5781",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5781"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5782",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5782"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-5783",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-5783"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "chromium"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "72.0.3626.81-1"
+								}
+							],
+							"fixed": [
+								"72.0.3626.81-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

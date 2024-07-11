@@ -1,0 +1,86 @@
+{
+	"id": "AVG-803",
+	"advisories": [
+		{
+			"id": "ASA-201811-10",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201811-10"
+				}
+			]
+		},
+		{
+			"id": "AVG-803",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Critical"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-803"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-12389",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-12389"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-12390",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-12390"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-12392",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-12392"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "thunderbird"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "60.3.0-1"
+								}
+							],
+							"fixed": [
+								"60.3.0-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

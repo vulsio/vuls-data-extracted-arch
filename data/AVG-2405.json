@@ -1,0 +1,56 @@
+{
+	"id": "AVG-2405",
+	"advisories": [
+		{
+			"id": "AVG-2405",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-2405"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-32294",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-32294"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "libgig"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"le": "4.3.0-3"
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

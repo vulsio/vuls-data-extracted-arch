@@ -1,0 +1,86 @@
+{
+	"id": "AVG-1352",
+	"advisories": [
+		{
+			"id": "AVG-1352",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1352"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-26418",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-26418"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-26419",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-26419"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-26420",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-26420"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-26421",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-26421"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "wireshark-cli"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "3.4.1-1"
+								}
+							],
+							"fixed": [
+								"3.4.1-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,234 @@
+{
+	"id": "AVG-871",
+	"advisories": [
+		{
+			"id": "ASA-201902-5",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201902-5"
+				}
+			]
+		},
+		{
+			"id": "AVG-871",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://bugs.archlinux.org/task/61652"
+				},
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-871"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-20174",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-20174"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-20175",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-20175"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-20176",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-20176"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-20177",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-20177"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-20178",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-20178"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-20179",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-20179"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-20180",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-20180"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-20181",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-20181"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-20182",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-20182"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-8791",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-8791"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-8792",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-8792"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-8793",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-8793"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-8794",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-8794"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-8795",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-8795"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-8796",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-8796"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-8797",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-8797"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-8798",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-8798"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-8799",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-8799"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-8800",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-8800"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "rdesktop"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "1.8.4-1"
+								}
+							],
+							"fixed": [
+								"1.8.4-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

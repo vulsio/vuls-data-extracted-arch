@@ -1,0 +1,59 @@
+{
+	"id": "AVG-1897",
+	"advisories": [
+		{
+			"id": "AVG-1897",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Low"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1897"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-31855",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-31855"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "messagelib"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "21.04.0-2"
+								}
+							],
+							"fixed": [
+								"21.04.0-2"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

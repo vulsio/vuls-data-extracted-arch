@@ -1,0 +1,56 @@
+{
+	"id": "AVG-1404",
+	"advisories": [
+		{
+			"id": "AVG-1404",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1404"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-1971",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-1971"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "nodejs"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"le": "15.5.0-1"
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

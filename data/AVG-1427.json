@@ -1,0 +1,146 @@
+{
+	"id": "AVG-1427",
+	"advisories": [
+		{
+			"id": "AVG-1427",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "Medium"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-1427"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-12983",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-12983"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-20797",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-20797"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-8002",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-8002"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-10723",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-10723"
+				}
+			]
+		},
+		{
+			"id": "CVE-2019-20093",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2019-20093"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-18971",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-18971"
+				}
+			]
+		},
+		{
+			"id": "CVE-2020-18972",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2020-18972"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30469",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30469"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30470",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30470"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30471",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30471"
+				}
+			]
+		},
+		{
+			"id": "CVE-2021-30472",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2021-30472"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "podofo"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"le": "0.9.7-1"
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

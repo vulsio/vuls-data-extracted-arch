@@ -1,0 +1,77 @@
+{
+	"id": "AVG-725",
+	"advisories": [
+		{
+			"id": "ASA-201807-2",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201807-2"
+				}
+			]
+		},
+		{
+			"id": "AVG-725",
+			"severity": [
+				{
+					"type": "vendor",
+					"source": "security.archlinux.org",
+					"vendor": "High"
+				}
+			],
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/AVG-725"
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-10857",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-10857"
+				}
+			]
+		},
+		{
+			"id": "CVE-2018-10859",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/CVE-2018-10859"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "arch",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "git-annex"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "6.20180626-1"
+								}
+							],
+							"fixed": [
+								"6.20180626-1"
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}
