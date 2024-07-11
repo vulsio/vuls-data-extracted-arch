@@ -11,24 +11,6 @@
 			]
 		},
 		{
-			"id": "ASA-201801-27",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/ASA-201801-27"
-				}
-			]
-		},
-		{
-			"id": "ASA-201801-28",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/ASA-201801-28"
-				}
-			]
-		},
-		{
 			"id": "ASA-201801-28",
 			"references": [
 				{
@@ -43,24 +25,6 @@
 				{
 					"source": "security.archlinux.org",
 					"url": "https://security.archlinux.org/ASA-201801-29"
-				}
-			]
-		},
-		{
-			"id": "ASA-201801-29",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/ASA-201801-29"
-				}
-			]
-		},
-		{
-			"id": "ASA-201801-30",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/ASA-201801-30"
 				}
 			]
 		},
@@ -110,6 +74,23 @@
 					{
 						"vulnerable": true,
 						"package": {
+							"name": "mupdf-gl"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "1.12.0-2"
+								}
+							],
+							"fixed": [
+								"1.12.0-2"
+							]
+						}
+					},
+					{
+						"vulnerable": true,
+						"package": {
 							"name": "libmupdf"
 						},
 						"affected": {
@@ -128,23 +109,6 @@
 						"vulnerable": true,
 						"package": {
 							"name": "mupdf"
-						},
-						"affected": {
-							"type": "pacman",
-							"range": [
-								{
-									"lt": "1.12.0-2"
-								}
-							],
-							"fixed": [
-								"1.12.0-2"
-							]
-						}
-					},
-					{
-						"vulnerable": true,
-						"package": {
-							"name": "mupdf-gl"
 						},
 						"affected": {
 							"type": "pacman",

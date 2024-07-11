@@ -65,7 +65,7 @@
 					{
 						"vulnerable": true,
 						"package": {
-							"name": "glibc"
+							"name": "lib32-glibc"
 						},
 						"affected": {
 							"type": "pacman",
@@ -82,7 +82,7 @@
 					{
 						"vulnerable": true,
 						"package": {
-							"name": "lib32-glibc"
+							"name": "glibc"
 						},
 						"affected": {
 							"type": "pacman",

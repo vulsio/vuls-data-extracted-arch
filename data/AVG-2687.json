@@ -83,23 +83,6 @@
 					{
 						"vulnerable": true,
 						"package": {
-							"name": "jdk17-openjdk"
-						},
-						"affected": {
-							"type": "pacman",
-							"range": [
-								{
-									"lt": "17.0.3.u7-2"
-								}
-							],
-							"fixed": [
-								"17.0.3.u7-2"
-							]
-						}
-					},
-					{
-						"vulnerable": true,
-						"package": {
 							"name": "jre17-openjdk-headless"
 						},
 						"affected": {
@@ -118,6 +101,23 @@
 						"vulnerable": true,
 						"package": {
 							"name": "jre17-openjdk"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "17.0.3.u7-2"
+								}
+							],
+							"fixed": [
+								"17.0.3.u7-2"
+							]
+						}
+					},
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "jdk17-openjdk"
 						},
 						"affected": {
 							"type": "pacman",

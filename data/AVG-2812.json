@@ -47,6 +47,23 @@
 					{
 						"vulnerable": true,
 						"package": {
+							"name": "poppler-qt6"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "22.08.0-2"
+								}
+							],
+							"fixed": [
+								"22.08.0-2"
+							]
+						}
+					},
+					{
+						"vulnerable": true,
+						"package": {
 							"name": "poppler-glib"
 						},
 						"affected": {
@@ -82,23 +99,6 @@
 						"vulnerable": true,
 						"package": {
 							"name": "poppler-qt5"
-						},
-						"affected": {
-							"type": "pacman",
-							"range": [
-								{
-									"lt": "22.08.0-2"
-								}
-							],
-							"fixed": [
-								"22.08.0-2"
-							]
-						}
-					},
-					{
-						"vulnerable": true,
-						"package": {
-							"name": "poppler-qt6"
 						},
 						"affected": {
 							"type": "pacman",
