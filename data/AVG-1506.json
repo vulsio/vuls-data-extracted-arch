@@ -11,6 +11,15 @@
 			]
 		},
 		{
+			"id": "ASA-202102-23",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202102-23"
+				}
+			]
+		},
+		{
 			"id": "AVG-1506",
 			"severity": [
 				{
@@ -64,5 +73,6 @@
 				]
 			}
 		}
-	]
+	],
+	"data_source": "arch"
 }

@@ -11,6 +11,15 @@
 			]
 		},
 		{
+			"id": "ASA-201710-26",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201710-26"
+				}
+			]
+		},
+		{
 			"id": "AVG-444",
 			"severity": [
 				{
@@ -64,5 +73,6 @@
 				]
 			}
 		}
-	]
+	],
+	"data_source": "arch"
 }

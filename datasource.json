@@ -1,0 +1,13 @@
+{
+	"id": "arch",
+	"name": "Arch Linux Vulnrability Group",
+	"raw": [
+		{
+			"url": "https://github.com/vulsio/vuls-data-raw-arch",
+			"commit": "24cf835fd9c14fa5d54add4bc4f9d710d087b970"
+		}
+	],
+	"extracted": {
+		"url": "https://github.com/vulsio/vuls-data-extracted-arch"
+	}
+}
