@@ -11,15 +11,6 @@
 			]
 		},
 		{
-			"id": "ASA-201806-3",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/ASA-201806-3"
-				}
-			]
-		},
-		{
 			"id": "AVG-586",
 			"severity": [
 				{

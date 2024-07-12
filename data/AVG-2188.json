@@ -11,24 +11,6 @@
 			]
 		},
 		{
-			"id": "ASA-202107-65",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/ASA-202107-65"
-				}
-			]
-		},
-		{
-			"id": "ASA-202107-66",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/ASA-202107-66"
-				}
-			]
-		},
-		{
 			"id": "ASA-202107-66",
 			"references": [
 				{
