@@ -65,7 +65,7 @@
 					{
 						"vulnerable": true,
 						"package": {
-							"name": "postgresql-libs"
+							"name": "postgresql"
 						},
 						"affected": {
 							"type": "pacman",
@@ -82,7 +82,7 @@
 					{
 						"vulnerable": true,
 						"package": {
-							"name": "postgresql"
+							"name": "postgresql-libs"
 						},
 						"affected": {
 							"type": "pacman",

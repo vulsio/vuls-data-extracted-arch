@@ -56,23 +56,6 @@
 					{
 						"vulnerable": true,
 						"package": {
-							"name": "libcurl-gnutls"
-						},
-						"affected": {
-							"type": "pacman",
-							"range": [
-								{
-									"lt": "7.84.0-1"
-								}
-							],
-							"fixed": [
-								"7.84.0-1"
-							]
-						}
-					},
-					{
-						"vulnerable": true,
-						"package": {
 							"name": "curl"
 						},
 						"affected": {
@@ -91,6 +74,23 @@
 						"vulnerable": true,
 						"package": {
 							"name": "libcurl-compat"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "7.84.0-1"
+								}
+							],
+							"fixed": [
+								"7.84.0-1"
+							]
+						}
+					},
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "libcurl-gnutls"
 						},
 						"affected": {
 							"type": "pacman",

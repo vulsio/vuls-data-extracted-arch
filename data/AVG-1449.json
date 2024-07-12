@@ -78,7 +78,7 @@
 					{
 						"vulnerable": true,
 						"package": {
-							"name": "dotnet-sdk"
+							"name": "dotnet-runtime"
 						},
 						"affected": {
 							"type": "pacman",
@@ -95,7 +95,7 @@
 					{
 						"vulnerable": true,
 						"package": {
-							"name": "dotnet-runtime"
+							"name": "dotnet-sdk"
 						},
 						"affected": {
 							"type": "pacman",

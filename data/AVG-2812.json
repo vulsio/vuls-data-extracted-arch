@@ -47,7 +47,7 @@
 					{
 						"vulnerable": true,
 						"package": {
-							"name": "poppler-qt6"
+							"name": "poppler"
 						},
 						"affected": {
 							"type": "pacman",
@@ -81,7 +81,7 @@
 					{
 						"vulnerable": true,
 						"package": {
-							"name": "poppler"
+							"name": "poppler-qt5"
 						},
 						"affected": {
 							"type": "pacman",
@@ -98,7 +98,7 @@
 					{
 						"vulnerable": true,
 						"package": {
-							"name": "poppler-qt5"
+							"name": "poppler-qt6"
 						},
 						"affected": {
 							"type": "pacman",

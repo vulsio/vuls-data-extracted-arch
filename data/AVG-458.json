@@ -101,23 +101,6 @@
 					{
 						"vulnerable": true,
 						"package": {
-							"name": "mupdf-gl"
-						},
-						"affected": {
-							"type": "pacman",
-							"range": [
-								{
-									"lt": "1.11-5"
-								}
-							],
-							"fixed": [
-								"1.11-5"
-							]
-						}
-					},
-					{
-						"vulnerable": true,
-						"package": {
 							"name": "libmupdf"
 						},
 						"affected": {
@@ -136,6 +119,23 @@
 						"vulnerable": true,
 						"package": {
 							"name": "mupdf"
+						},
+						"affected": {
+							"type": "pacman",
+							"range": [
+								{
+									"lt": "1.11-5"
+								}
+							],
+							"fixed": [
+								"1.11-5"
+							]
+						}
+					},
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "mupdf-gl"
 						},
 						"affected": {
 							"type": "pacman",
