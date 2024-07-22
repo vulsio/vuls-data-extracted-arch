@@ -11,15 +11,6 @@
 			]
 		},
 		{
-			"id": "ASA-202004-14",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/ASA-202004-14"
-				}
-			]
-		},
-		{
 			"id": "AVG-1126",
 			"severity": [
 				{

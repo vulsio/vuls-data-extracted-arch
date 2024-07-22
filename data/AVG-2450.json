@@ -11,15 +11,6 @@
 			]
 		},
 		{
-			"id": "ASA-202110-1",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/ASA-202110-1"
-				}
-			]
-		},
-		{
 			"id": "AVG-2450",
 			"severity": [
 				{
