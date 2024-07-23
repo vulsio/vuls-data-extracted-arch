@@ -11,15 +11,6 @@
 			]
 		},
 		{
-			"id": "ASA-202210-2",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/ASA-202210-2"
-				}
-			]
-		},
-		{
 			"id": "AVG-2801",
 			"severity": [
 				{

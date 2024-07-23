@@ -11,6 +11,15 @@
 			]
 		},
 		{
+			"id": "ASA-201902-24",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201902-24"
+				}
+			]
+		},
+		{
 			"id": "AVG-906",
 			"severity": [
 				{

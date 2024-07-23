@@ -11,15 +11,6 @@
 			]
 		},
 		{
-			"id": "ASA-201706-28",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/ASA-201706-28"
-				}
-			]
-		},
-		{
 			"id": "AVG-314",
 			"severity": [
 				{
