@@ -2,48 +2,68 @@
 	"id": "AVG-335",
 	"advisories": [
 		{
-			"id": "ASA-201707-3",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/ASA-201707-3"
-				}
+			"content": {
+				"id": "ASA-201707-3",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/ASA-201707-3"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		},
 		{
-			"id": "AVG-335",
-			"severity": [
-				{
-					"type": "vendor",
-					"source": "security.archlinux.org",
-					"vendor": "High"
-				}
-			],
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/AVG-335"
-				}
+			"content": {
+				"id": "AVG-335",
+				"severity": [
+					{
+						"type": "vendor",
+						"source": "security.archlinux.org",
+						"vendor": "High"
+					}
+				],
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/AVG-335"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		}
 	],
 	"vulnerabilities": [
 		{
-			"id": "CVE-2017-3142",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/CVE-2017-3142"
-				}
+			"content": {
+				"id": "CVE-2017-3142",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/CVE-2017-3142"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		},
 		{
-			"id": "CVE-2017-3143",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/CVE-2017-3143"
-				}
+			"content": {
+				"id": "CVE-2017-3143",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/CVE-2017-3143"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		}
 	],

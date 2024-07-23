@@ -2,39 +2,54 @@
 	"id": "AVG-988",
 	"advisories": [
 		{
-			"id": "AVG-988",
-			"severity": [
-				{
-					"type": "vendor",
-					"source": "security.archlinux.org",
-					"vendor": "Medium"
-				}
-			],
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/AVG-988"
-				}
+			"content": {
+				"id": "AVG-988",
+				"severity": [
+					{
+						"type": "vendor",
+						"source": "security.archlinux.org",
+						"vendor": "Medium"
+					}
+				],
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/AVG-988"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		}
 	],
 	"vulnerabilities": [
 		{
-			"id": "CVE-2019-3459",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/CVE-2019-3459"
-				}
+			"content": {
+				"id": "CVE-2019-3459",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/CVE-2019-3459"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		},
 		{
-			"id": "CVE-2019-3460",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/CVE-2019-3460"
-				}
+			"content": {
+				"id": "CVE-2019-3460",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/CVE-2019-3460"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		}
 	],

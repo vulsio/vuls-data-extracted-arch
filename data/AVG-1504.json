@@ -2,39 +2,54 @@
 	"id": "AVG-1504",
 	"advisories": [
 		{
-			"id": "ASA-202102-8",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/ASA-202102-8"
-				}
+			"content": {
+				"id": "ASA-202102-8",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/ASA-202102-8"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		},
 		{
-			"id": "AVG-1504",
-			"severity": [
-				{
-					"type": "vendor",
-					"source": "security.archlinux.org",
-					"vendor": "High"
-				}
-			],
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/AVG-1504"
-				}
+			"content": {
+				"id": "AVG-1504",
+				"severity": [
+					{
+						"type": "vendor",
+						"source": "security.archlinux.org",
+						"vendor": "High"
+					}
+				],
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/AVG-1504"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		}
 	],
 	"vulnerabilities": [
 		{
-			"id": "CVE-2019-25016",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/CVE-2019-25016"
-				}
+			"content": {
+				"id": "CVE-2019-25016",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/CVE-2019-25016"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		}
 	],

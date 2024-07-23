@@ -2,192 +2,292 @@
 	"id": "AVG-1991",
 	"advisories": [
 		{
-			"id": "AVG-1991",
-			"severity": [
-				{
-					"type": "vendor",
-					"source": "security.archlinux.org",
-					"vendor": "High"
-				}
-			],
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/AVG-1991"
-				}
+			"content": {
+				"id": "AVG-1991",
+				"severity": [
+					{
+						"type": "vendor",
+						"source": "security.archlinux.org",
+						"vendor": "High"
+					}
+				],
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/AVG-1991"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		}
 	],
 	"vulnerabilities": [
 		{
-			"id": "CVE-2021-30522",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/CVE-2021-30522"
-				}
+			"content": {
+				"id": "CVE-2021-30522",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/CVE-2021-30522"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		},
 		{
-			"id": "CVE-2021-30523",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/CVE-2021-30523"
-				}
+			"content": {
+				"id": "CVE-2021-30523",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/CVE-2021-30523"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		},
 		{
-			"id": "CVE-2021-30524",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/CVE-2021-30524"
-				}
+			"content": {
+				"id": "CVE-2021-30524",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/CVE-2021-30524"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		},
 		{
-			"id": "CVE-2021-30525",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/CVE-2021-30525"
-				}
+			"content": {
+				"id": "CVE-2021-30525",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/CVE-2021-30525"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		},
 		{
-			"id": "CVE-2021-30526",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/CVE-2021-30526"
-				}
+			"content": {
+				"id": "CVE-2021-30526",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/CVE-2021-30526"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		},
 		{
-			"id": "CVE-2021-30527",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/CVE-2021-30527"
-				}
+			"content": {
+				"id": "CVE-2021-30527",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/CVE-2021-30527"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		},
 		{
-			"id": "CVE-2021-30529",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/CVE-2021-30529"
-				}
+			"content": {
+				"id": "CVE-2021-30529",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/CVE-2021-30529"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		},
 		{
-			"id": "CVE-2021-30530",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/CVE-2021-30530"
-				}
+			"content": {
+				"id": "CVE-2021-30530",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/CVE-2021-30530"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		},
 		{
-			"id": "CVE-2021-30531",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/CVE-2021-30531"
-				}
+			"content": {
+				"id": "CVE-2021-30531",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/CVE-2021-30531"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		},
 		{
-			"id": "CVE-2021-30532",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/CVE-2021-30532"
-				}
+			"content": {
+				"id": "CVE-2021-30532",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/CVE-2021-30532"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		},
 		{
-			"id": "CVE-2021-30533",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/CVE-2021-30533"
-				}
+			"content": {
+				"id": "CVE-2021-30533",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/CVE-2021-30533"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		},
 		{
-			"id": "CVE-2021-30534",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/CVE-2021-30534"
-				}
+			"content": {
+				"id": "CVE-2021-30534",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/CVE-2021-30534"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		},
 		{
-			"id": "CVE-2021-30535",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/CVE-2021-30535"
-				}
+			"content": {
+				"id": "CVE-2021-30535",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/CVE-2021-30535"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		},
 		{
-			"id": "CVE-2021-30536",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/CVE-2021-30536"
-				}
+			"content": {
+				"id": "CVE-2021-30536",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/CVE-2021-30536"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		},
 		{
-			"id": "CVE-2021-30537",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/CVE-2021-30537"
-				}
+			"content": {
+				"id": "CVE-2021-30537",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/CVE-2021-30537"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		},
 		{
-			"id": "CVE-2021-30538",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/CVE-2021-30538"
-				}
+			"content": {
+				"id": "CVE-2021-30538",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/CVE-2021-30538"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		},
 		{
-			"id": "CVE-2021-30539",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/CVE-2021-30539"
-				}
+			"content": {
+				"id": "CVE-2021-30539",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/CVE-2021-30539"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		},
 		{
-			"id": "CVE-2021-30542",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/CVE-2021-30542"
-				}
+			"content": {
+				"id": "CVE-2021-30542",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/CVE-2021-30542"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		},
 		{
-			"id": "CVE-2021-30543",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/CVE-2021-30543"
-				}
+			"content": {
+				"id": "CVE-2021-30543",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/CVE-2021-30543"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		}
 	],

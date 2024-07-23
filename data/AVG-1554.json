@@ -2,43 +2,58 @@
 	"id": "AVG-1554",
 	"advisories": [
 		{
-			"id": "ASA-202103-18",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/ASA-202103-18"
-				}
+			"content": {
+				"id": "ASA-202103-18",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/ASA-202103-18"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		},
 		{
-			"id": "AVG-1554",
-			"severity": [
-				{
-					"type": "vendor",
-					"source": "security.archlinux.org",
-					"vendor": "High"
-				}
-			],
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://bugs.archlinux.org/task/70039"
-				},
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/AVG-1554"
-				}
+			"content": {
+				"id": "AVG-1554",
+				"severity": [
+					{
+						"type": "vendor",
+						"source": "security.archlinux.org",
+						"vendor": "High"
+					}
+				],
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://bugs.archlinux.org/task/70039"
+					},
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/AVG-1554"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		}
 	],
 	"vulnerabilities": [
 		{
-			"id": "CVE-2021-3405",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/CVE-2021-3405"
-				}
+			"content": {
+				"id": "CVE-2021-3405",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/CVE-2021-3405"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		}
 	],

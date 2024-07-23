@@ -2,61 +2,86 @@
 	"id": "AVG-1303",
 	"advisories": [
 		{
-			"id": "AVG-1303",
-			"severity": [
-				{
-					"type": "vendor",
-					"source": "security.archlinux.org",
-					"vendor": "Medium"
-				}
-			],
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://bugs.archlinux.org/task/68531"
-				},
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/AVG-1303"
-				}
+			"content": {
+				"id": "AVG-1303",
+				"severity": [
+					{
+						"type": "vendor",
+						"source": "security.archlinux.org",
+						"vendor": "Medium"
+					}
+				],
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://bugs.archlinux.org/task/68531"
+					},
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/AVG-1303"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		}
 	],
 	"vulnerabilities": [
 		{
-			"id": "CVE-2020-25650",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/CVE-2020-25650"
-				}
+			"content": {
+				"id": "CVE-2020-25650",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/CVE-2020-25650"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		},
 		{
-			"id": "CVE-2020-25651",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/CVE-2020-25651"
-				}
+			"content": {
+				"id": "CVE-2020-25651",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/CVE-2020-25651"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		},
 		{
-			"id": "CVE-2020-25652",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/CVE-2020-25652"
-				}
+			"content": {
+				"id": "CVE-2020-25652",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/CVE-2020-25652"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		},
 		{
-			"id": "CVE-2020-25653",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/CVE-2020-25653"
-				}
+			"content": {
+				"id": "CVE-2020-25653",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/CVE-2020-25653"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		}
 	],

@@ -2,34 +2,44 @@
 	"id": "AVG-2079",
 	"advisories": [
 		{
-			"id": "AVG-2079",
-			"severity": [
-				{
-					"type": "vendor",
-					"source": "security.archlinux.org",
-					"vendor": "Medium"
-				}
-			],
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://bugs.archlinux.org/task/71419"
-				},
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/AVG-2079"
-				}
+			"content": {
+				"id": "AVG-2079",
+				"severity": [
+					{
+						"type": "vendor",
+						"source": "security.archlinux.org",
+						"vendor": "Medium"
+					}
+				],
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://bugs.archlinux.org/task/71419"
+					},
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/AVG-2079"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		}
 	],
 	"vulnerabilities": [
 		{
-			"id": "CVE-2021-34825",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/CVE-2021-34825"
-				}
+			"content": {
+				"id": "CVE-2021-34825",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/CVE-2021-34825"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		}
 	],

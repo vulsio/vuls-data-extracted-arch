@@ -2,34 +2,44 @@
 	"id": "AVG-310",
 	"advisories": [
 		{
-			"id": "AVG-310",
-			"severity": [
-				{
-					"type": "vendor",
-					"source": "security.archlinux.org",
-					"vendor": "High"
-				}
-			],
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://bugs.archlinux.org/task/54857"
-				},
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/AVG-310"
-				}
+			"content": {
+				"id": "AVG-310",
+				"severity": [
+					{
+						"type": "vendor",
+						"source": "security.archlinux.org",
+						"vendor": "High"
+					}
+				],
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://bugs.archlinux.org/task/54857"
+					},
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/AVG-310"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		}
 	],
 	"vulnerabilities": [
 		{
-			"id": "CVE-2017-1000376",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/CVE-2017-1000376"
-				}
+			"content": {
+				"id": "CVE-2017-1000376",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/CVE-2017-1000376"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		}
 	],

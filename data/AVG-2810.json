@@ -2,30 +2,40 @@
 	"id": "AVG-2810",
 	"advisories": [
 		{
-			"id": "AVG-2810",
-			"severity": [
-				{
-					"type": "vendor",
-					"source": "security.archlinux.org",
-					"vendor": "Unknown"
-				}
-			],
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/AVG-2810"
-				}
+			"content": {
+				"id": "AVG-2810",
+				"severity": [
+					{
+						"type": "vendor",
+						"source": "security.archlinux.org",
+						"vendor": "Unknown"
+					}
+				],
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/AVG-2810"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		}
 	],
 	"vulnerabilities": [
 		{
-			"id": "CVE-2022-36359",
-			"references": [
-				{
-					"source": "security.archlinux.org",
-					"url": "https://security.archlinux.org/CVE-2022-36359"
-				}
+			"content": {
+				"id": "CVE-2022-36359",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/CVE-2022-36359"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
 			]
 		}
 	],
