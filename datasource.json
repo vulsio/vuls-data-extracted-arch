@@ -4,7 +4,8 @@
 	"raw": [
 		{
 			"url": "https://github.com/vulsio/vuls-data-raw-arch",
-			"commit": "8bf847099553411409c351007c044c13d534288e"
+			"commit": "8bf847099553411409c351007c044c13d534288e",
+			"date": "2024-07-23T00:13:31Z"
 		}
 	],
 	"extracted": {
