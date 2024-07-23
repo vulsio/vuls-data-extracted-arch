@@ -11,6 +11,24 @@
 			]
 		},
 		{
+			"id": "ASA-201908-7",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201908-7"
+				}
+			]
+		},
+		{
+			"id": "ASA-201908-8",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201908-8"
+				}
+			]
+		},
+		{
 			"id": "ASA-201908-8",
 			"references": [
 				{

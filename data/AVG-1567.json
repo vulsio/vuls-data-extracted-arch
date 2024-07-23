@@ -11,6 +11,15 @@
 			]
 		},
 		{
+			"id": "ASA-202102-31",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-202102-31"
+				}
+			]
+		},
+		{
 			"id": "AVG-1567",
 			"severity": [
 				{

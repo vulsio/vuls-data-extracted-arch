@@ -11,6 +11,24 @@
 			]
 		},
 		{
+			"id": "ASA-201801-18",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201801-18"
+				}
+			]
+		},
+		{
+			"id": "ASA-201801-19",
+			"references": [
+				{
+					"source": "security.archlinux.org",
+					"url": "https://security.archlinux.org/ASA-201801-19"
+				}
+			]
+		},
+		{
 			"id": "ASA-201801-19",
 			"references": [
 				{
