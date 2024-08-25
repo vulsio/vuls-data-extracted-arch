@@ -17,6 +17,20 @@
 		},
 		{
 			"content": {
+				"id": "ASA-201706-16",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/ASA-201706-16"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
+			]
+		},
+		{
+			"content": {
 				"id": "AVG-299",
 				"severity": [
 					{
