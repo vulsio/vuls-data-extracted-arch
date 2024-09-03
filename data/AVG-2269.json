@@ -17,6 +17,20 @@
 		},
 		{
 			"content": {
+				"id": "ASA-202108-14",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/ASA-202108-14"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
+			]
+		},
+		{
+			"content": {
 				"id": "AVG-2269",
 				"severity": [
 					{
@@ -206,5 +220,10 @@
 			}
 		}
 	],
-	"data_source": "arch"
+	"data_source": {
+		"id": "arch",
+		"raws": [
+			"vuls-data-raw-arch/AVG-2269.json"
+		]
+	}
 }

@@ -17,6 +17,20 @@
 		},
 		{
 			"content": {
+				"id": "ASA-201612-1",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/ASA-201612-1"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
+			]
+		},
+		{
+			"content": {
 				"id": "AVG-90",
 				"severity": [
 					{
@@ -94,5 +108,10 @@
 			}
 		}
 	],
-	"data_source": "arch"
+	"data_source": {
+		"id": "arch",
+		"raws": [
+			"vuls-data-raw-arch/AVG-90.json"
+		]
+	}
 }

@@ -17,6 +17,20 @@
 		},
 		{
 			"content": {
+				"id": "ASA-201910-16",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/ASA-201910-16"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
+			]
+		},
+		{
+			"content": {
 				"id": "AVG-1055",
 				"severity": [
 					{
@@ -248,5 +262,10 @@
 			}
 		}
 	],
-	"data_source": "arch"
+	"data_source": {
+		"id": "arch",
+		"raws": [
+			"vuls-data-raw-arch/AVG-1055.json"
+		]
+	}
 }

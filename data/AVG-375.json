@@ -17,6 +17,20 @@
 		},
 		{
 			"content": {
+				"id": "ASA-201708-3",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/ASA-201708-3"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
+			]
+		},
+		{
+			"content": {
 				"id": "AVG-375",
 				"severity": [
 					{
@@ -416,5 +430,10 @@
 			}
 		}
 	],
-	"data_source": "arch"
+	"data_source": {
+		"id": "arch",
+		"raws": [
+			"vuls-data-raw-arch/AVG-375.json"
+		]
+	}
 }

@@ -17,6 +17,20 @@
 		},
 		{
 			"content": {
+				"id": "ASA-202004-6",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/ASA-202004-6"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
+			]
+		},
+		{
+			"content": {
 				"id": "AVG-1125",
 				"severity": [
 					{
@@ -94,5 +108,10 @@
 			}
 		}
 	],
-	"data_source": "arch"
+	"data_source": {
+		"id": "arch",
+		"raws": [
+			"vuls-data-raw-arch/AVG-1125.json"
+		]
+	}
 }

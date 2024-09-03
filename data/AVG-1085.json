@@ -17,6 +17,20 @@
 		},
 		{
 			"content": {
+				"id": "ASA-202001-3",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/ASA-202001-3"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
+			]
+		},
+		{
+			"content": {
 				"id": "AVG-1085",
 				"severity": [
 					{
@@ -80,5 +94,10 @@
 			}
 		}
 	],
-	"data_source": "arch"
+	"data_source": {
+		"id": "arch",
+		"raws": [
+			"vuls-data-raw-arch/AVG-1085.json"
+		]
+	}
 }

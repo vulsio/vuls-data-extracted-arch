@@ -17,6 +17,20 @@
 		},
 		{
 			"content": {
+				"id": "ASA-202111-2",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/ASA-202111-2"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
+			]
+		},
+		{
+			"content": {
 				"id": "AVG-2511",
 				"severity": [
 					{
@@ -150,5 +164,10 @@
 			}
 		}
 	],
-	"data_source": "arch"
+	"data_source": {
+		"id": "arch",
+		"raws": [
+			"vuls-data-raw-arch/AVG-2511.json"
+		]
+	}
 }
