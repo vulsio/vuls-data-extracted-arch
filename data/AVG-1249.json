@@ -17,6 +17,20 @@
 		},
 		{
 			"content": {
+				"id": "ASA-202010-3",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/ASA-202010-3"
+					}
+				]
+			},
+			"ecosystems": [
+				"arch"
+			]
+		},
+		{
+			"content": {
 				"id": "AVG-1249",
 				"severity": [
 					{
