@@ -17,34 +17,6 @@
 		},
 		{
 			"content": {
-				"id": "ASA-202109-4",
-				"references": [
-					{
-						"source": "security.archlinux.org",
-						"url": "https://security.archlinux.org/ASA-202109-4"
-					}
-				]
-			},
-			"ecosystems": [
-				"arch"
-			]
-		},
-		{
-			"content": {
-				"id": "ASA-202109-5",
-				"references": [
-					{
-						"source": "security.archlinux.org",
-						"url": "https://security.archlinux.org/ASA-202109-5"
-					}
-				]
-			},
-			"ecosystems": [
-				"arch"
-			]
-		},
-		{
-			"content": {
 				"id": "ASA-202109-5",
 				"references": [
 					{
