@@ -103,6 +103,9 @@
 				"criterions": [
 					{
 						"vulnerable": true,
+						"fix_status": {
+							"class": "fixed"
+						},
 						"package": {
 							"name": "jdk11-openjdk"
 						},
@@ -120,6 +123,9 @@
 					},
 					{
 						"vulnerable": true,
+						"fix_status": {
+							"class": "fixed"
+						},
 						"package": {
 							"name": "jre11-openjdk-headless"
 						},

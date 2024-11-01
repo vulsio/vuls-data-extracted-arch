@@ -117,6 +117,9 @@
 				"criterions": [
 					{
 						"vulnerable": true,
+						"fix_status": {
+							"class": "fixed"
+						},
 						"package": {
 							"name": "jdk17-openjdk"
 						},
@@ -134,6 +137,9 @@
 					},
 					{
 						"vulnerable": true,
+						"fix_status": {
+							"class": "fixed"
+						},
 						"package": {
 							"name": "jre17-openjdk"
 						},
@@ -151,6 +157,9 @@
 					},
 					{
 						"vulnerable": true,
+						"fix_status": {
+							"class": "fixed"
+						},
 						"package": {
 							"name": "jre17-openjdk-headless"
 						},

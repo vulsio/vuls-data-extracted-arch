@@ -957,6 +957,9 @@
 				"criterions": [
 					{
 						"vulnerable": true,
+						"fix_status": {
+							"class": "fixed"
+						},
 						"package": {
 							"name": "linux"
 						},

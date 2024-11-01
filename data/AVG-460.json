@@ -89,6 +89,9 @@
 				"criterions": [
 					{
 						"vulnerable": true,
+						"fix_status": {
+							"class": "fixed"
+						},
 						"package": {
 							"name": "glibc"
 						},
@@ -106,6 +109,9 @@
 					},
 					{
 						"vulnerable": true,
+						"fix_status": {
+							"class": "fixed"
+						},
 						"package": {
 							"name": "lib32-glibc"
 						},

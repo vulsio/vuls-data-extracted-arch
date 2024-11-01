@@ -47,6 +47,9 @@
 				"criterions": [
 					{
 						"vulnerable": true,
+						"fix_status": {
+							"class": "unfixed"
+						},
 						"package": {
 							"name": "glibc"
 						},
@@ -61,6 +64,9 @@
 					},
 					{
 						"vulnerable": true,
+						"fix_status": {
+							"class": "unfixed"
+						},
 						"package": {
 							"name": "lib32-glibc"
 						},

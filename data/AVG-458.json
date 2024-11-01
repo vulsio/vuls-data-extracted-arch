@@ -145,6 +145,9 @@
 				"criterions": [
 					{
 						"vulnerable": true,
+						"fix_status": {
+							"class": "fixed"
+						},
 						"package": {
 							"name": "libmupdf"
 						},
@@ -162,6 +165,9 @@
 					},
 					{
 						"vulnerable": true,
+						"fix_status": {
+							"class": "fixed"
+						},
 						"package": {
 							"name": "mupdf"
 						},
@@ -179,6 +185,9 @@
 					},
 					{
 						"vulnerable": true,
+						"fix_status": {
+							"class": "fixed"
+						},
 						"package": {
 							"name": "mupdf-gl"
 						},
@@ -196,6 +205,9 @@
 					},
 					{
 						"vulnerable": true,
+						"fix_status": {
+							"class": "fixed"
+						},
 						"package": {
 							"name": "mupdf-tools"
 						},
