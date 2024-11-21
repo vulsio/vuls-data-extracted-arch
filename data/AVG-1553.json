@@ -22,8 +22,10 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		}
 	],
@@ -38,39 +40,45 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		}
 	],
-	"detection": [
+	"detections": [
 		{
 			"ecosystem": "arch",
-			"criteria": {
-				"operator": "OR",
-				"criterions": [
-					{
-						"vulnerable": true,
-						"fix_status": {
-							"class": "fixed"
-						},
-						"package": {
-							"name": "screen"
-						},
-						"affected": {
-							"type": "pacman",
-							"range": [
-								{
-									"lt": "4.8.0-3"
+			"conditions": [
+				{
+					"criteria": {
+						"operator": "OR",
+						"criterions": [
+							{
+								"vulnerable": true,
+								"fix_status": {
+									"class": "fixed"
+								},
+								"package": {
+									"name": "screen"
+								},
+								"affected": {
+									"type": "pacman",
+									"range": [
+										{
+											"lt": "4.8.0-3"
+										}
+									],
+									"fixed": [
+										"4.8.0-3"
+									]
 								}
-							],
-							"fixed": [
-								"4.8.0-3"
-							]
-						}
+							}
+						]
 					}
-				]
-			}
+				}
+			]
 		}
 	],
 	"data_source": {

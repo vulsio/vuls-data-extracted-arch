@@ -18,8 +18,10 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		}
 	],
@@ -34,36 +36,42 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		}
 	],
-	"detection": [
+	"detections": [
 		{
 			"ecosystem": "arch",
-			"criteria": {
-				"operator": "OR",
-				"criterions": [
-					{
-						"vulnerable": true,
-						"fix_status": {
-							"class": "unfixed"
-						},
-						"package": {
-							"name": "libjpeg6-turbo"
-						},
-						"affected": {
-							"type": "pacman",
-							"range": [
-								{
-									"le": "1.5.3-2"
+			"conditions": [
+				{
+					"criteria": {
+						"operator": "OR",
+						"criterions": [
+							{
+								"vulnerable": true,
+								"fix_status": {
+									"class": "unfixed"
+								},
+								"package": {
+									"name": "libjpeg6-turbo"
+								},
+								"affected": {
+									"type": "pacman",
+									"range": [
+										{
+											"le": "1.5.3-2"
+										}
+									]
 								}
-							]
-						}
+							}
+						]
 					}
-				]
-			}
+				}
+			]
 		}
 	],
 	"data_source": {

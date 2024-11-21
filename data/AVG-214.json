@@ -18,8 +18,10 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		}
 	],
@@ -34,39 +36,45 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		}
 	],
-	"detection": [
+	"detections": [
 		{
 			"ecosystem": "arch",
-			"criteria": {
-				"operator": "OR",
-				"criterions": [
-					{
-						"vulnerable": true,
-						"fix_status": {
-							"class": "fixed"
-						},
-						"package": {
-							"name": "libevent"
-						},
-						"affected": {
-							"type": "pacman",
-							"range": [
-								{
-									"lt": "2.0.22-3"
+			"conditions": [
+				{
+					"criteria": {
+						"operator": "OR",
+						"criterions": [
+							{
+								"vulnerable": true,
+								"fix_status": {
+									"class": "fixed"
+								},
+								"package": {
+									"name": "libevent"
+								},
+								"affected": {
+									"type": "pacman",
+									"range": [
+										{
+											"lt": "2.0.22-3"
+										}
+									],
+									"fixed": [
+										"2.0.22-3"
+									]
 								}
-							],
-							"fixed": [
-								"2.0.22-3"
-							]
-						}
+							}
+						]
 					}
-				]
-			}
+				}
+			]
 		}
 	],
 	"data_source": {

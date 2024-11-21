@@ -11,8 +11,10 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		},
 		{
@@ -25,8 +27,10 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		},
 		{
@@ -39,8 +43,10 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		},
 		{
@@ -53,8 +59,10 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		},
 		{
@@ -74,8 +82,10 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		}
 	],
@@ -90,8 +100,10 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		},
 		{
@@ -104,8 +116,10 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		},
 		{
@@ -118,8 +132,10 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		},
 		{
@@ -132,99 +148,105 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		}
 	],
-	"detection": [
+	"detections": [
 		{
 			"ecosystem": "arch",
-			"criteria": {
-				"operator": "OR",
-				"criterions": [
-					{
-						"vulnerable": true,
-						"fix_status": {
-							"class": "fixed"
-						},
-						"package": {
-							"name": "libmupdf"
-						},
-						"affected": {
-							"type": "pacman",
-							"range": [
-								{
-									"lt": "1.11-5"
+			"conditions": [
+				{
+					"criteria": {
+						"operator": "OR",
+						"criterions": [
+							{
+								"vulnerable": true,
+								"fix_status": {
+									"class": "fixed"
+								},
+								"package": {
+									"name": "libmupdf"
+								},
+								"affected": {
+									"type": "pacman",
+									"range": [
+										{
+											"lt": "1.11-5"
+										}
+									],
+									"fixed": [
+										"1.11-5"
+									]
 								}
-							],
-							"fixed": [
-								"1.11-5"
-							]
-						}
-					},
-					{
-						"vulnerable": true,
-						"fix_status": {
-							"class": "fixed"
-						},
-						"package": {
-							"name": "mupdf"
-						},
-						"affected": {
-							"type": "pacman",
-							"range": [
-								{
-									"lt": "1.11-5"
+							},
+							{
+								"vulnerable": true,
+								"fix_status": {
+									"class": "fixed"
+								},
+								"package": {
+									"name": "mupdf"
+								},
+								"affected": {
+									"type": "pacman",
+									"range": [
+										{
+											"lt": "1.11-5"
+										}
+									],
+									"fixed": [
+										"1.11-5"
+									]
 								}
-							],
-							"fixed": [
-								"1.11-5"
-							]
-						}
-					},
-					{
-						"vulnerable": true,
-						"fix_status": {
-							"class": "fixed"
-						},
-						"package": {
-							"name": "mupdf-gl"
-						},
-						"affected": {
-							"type": "pacman",
-							"range": [
-								{
-									"lt": "1.11-5"
+							},
+							{
+								"vulnerable": true,
+								"fix_status": {
+									"class": "fixed"
+								},
+								"package": {
+									"name": "mupdf-gl"
+								},
+								"affected": {
+									"type": "pacman",
+									"range": [
+										{
+											"lt": "1.11-5"
+										}
+									],
+									"fixed": [
+										"1.11-5"
+									]
 								}
-							],
-							"fixed": [
-								"1.11-5"
-							]
-						}
-					},
-					{
-						"vulnerable": true,
-						"fix_status": {
-							"class": "fixed"
-						},
-						"package": {
-							"name": "mupdf-tools"
-						},
-						"affected": {
-							"type": "pacman",
-							"range": [
-								{
-									"lt": "1.11-5"
+							},
+							{
+								"vulnerable": true,
+								"fix_status": {
+									"class": "fixed"
+								},
+								"package": {
+									"name": "mupdf-tools"
+								},
+								"affected": {
+									"type": "pacman",
+									"range": [
+										{
+											"lt": "1.11-5"
+										}
+									],
+									"fixed": [
+										"1.11-5"
+									]
 								}
-							],
-							"fixed": [
-								"1.11-5"
-							]
-						}
+							}
+						]
 					}
-				]
-			}
+				}
+			]
 		}
 	],
 	"data_source": {

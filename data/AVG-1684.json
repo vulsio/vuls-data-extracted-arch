@@ -18,8 +18,10 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		}
 	],
@@ -34,39 +36,45 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		}
 	],
-	"detection": [
+	"detections": [
 		{
 			"ecosystem": "arch",
-			"criteria": {
-				"operator": "OR",
-				"criterions": [
-					{
-						"vulnerable": true,
-						"fix_status": {
-							"class": "fixed"
-						},
-						"package": {
-							"name": "tt-rss"
-						},
-						"affected": {
-							"type": "pacman",
-							"range": [
-								{
-									"lt": "2:r10820.4e81233ac-1"
+			"conditions": [
+				{
+					"criteria": {
+						"operator": "OR",
+						"criterions": [
+							{
+								"vulnerable": true,
+								"fix_status": {
+									"class": "fixed"
+								},
+								"package": {
+									"name": "tt-rss"
+								},
+								"affected": {
+									"type": "pacman",
+									"range": [
+										{
+											"lt": "2:r10820.4e81233ac-1"
+										}
+									],
+									"fixed": [
+										"2:r10820.4e81233ac-1"
+									]
 								}
-							],
-							"fixed": [
-								"2:r10820.4e81233ac-1"
-							]
-						}
+							}
+						]
 					}
-				]
-			}
+				}
+			]
 		}
 	],
 	"data_source": {

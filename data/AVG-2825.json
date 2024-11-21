@@ -18,8 +18,10 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		}
 	],
@@ -34,59 +36,65 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		}
 	],
-	"detection": [
+	"detections": [
 		{
 			"ecosystem": "arch",
-			"criteria": {
-				"operator": "OR",
-				"criterions": [
-					{
-						"vulnerable": true,
-						"fix_status": {
-							"class": "fixed"
-						},
-						"package": {
-							"name": "protobuf"
-						},
-						"affected": {
-							"type": "pacman",
-							"range": [
-								{
-									"lt": "21.6-1"
+			"conditions": [
+				{
+					"criteria": {
+						"operator": "OR",
+						"criterions": [
+							{
+								"vulnerable": true,
+								"fix_status": {
+									"class": "fixed"
+								},
+								"package": {
+									"name": "protobuf"
+								},
+								"affected": {
+									"type": "pacman",
+									"range": [
+										{
+											"lt": "21.6-1"
+										}
+									],
+									"fixed": [
+										"21.6-1"
+									]
 								}
-							],
-							"fixed": [
-								"21.6-1"
-							]
-						}
-					},
-					{
-						"vulnerable": true,
-						"fix_status": {
-							"class": "fixed"
-						},
-						"package": {
-							"name": "python-protobuf"
-						},
-						"affected": {
-							"type": "pacman",
-							"range": [
-								{
-									"lt": "21.6-1"
+							},
+							{
+								"vulnerable": true,
+								"fix_status": {
+									"class": "fixed"
+								},
+								"package": {
+									"name": "python-protobuf"
+								},
+								"affected": {
+									"type": "pacman",
+									"range": [
+										{
+											"lt": "21.6-1"
+										}
+									],
+									"fixed": [
+										"21.6-1"
+									]
 								}
-							],
-							"fixed": [
-								"21.6-1"
-							]
-						}
+							}
+						]
 					}
-				]
-			}
+				}
+			]
 		}
 	],
 	"data_source": {

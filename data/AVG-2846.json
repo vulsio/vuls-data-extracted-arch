@@ -18,8 +18,10 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		}
 	],
@@ -34,8 +36,10 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		},
 		{
@@ -48,79 +52,85 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		}
 	],
-	"detection": [
+	"detections": [
 		{
 			"ecosystem": "arch",
-			"criteria": {
-				"operator": "OR",
-				"criterions": [
-					{
-						"vulnerable": true,
-						"fix_status": {
-							"class": "fixed"
-						},
-						"package": {
-							"name": "lib32-curl"
-						},
-						"affected": {
-							"type": "pacman",
-							"range": [
-								{
-									"lt": "8.4.0-1"
+			"conditions": [
+				{
+					"criteria": {
+						"operator": "OR",
+						"criterions": [
+							{
+								"vulnerable": true,
+								"fix_status": {
+									"class": "fixed"
+								},
+								"package": {
+									"name": "lib32-curl"
+								},
+								"affected": {
+									"type": "pacman",
+									"range": [
+										{
+											"lt": "8.4.0-1"
+										}
+									],
+									"fixed": [
+										"8.4.0-1"
+									]
 								}
-							],
-							"fixed": [
-								"8.4.0-1"
-							]
-						}
-					},
-					{
-						"vulnerable": true,
-						"fix_status": {
-							"class": "fixed"
-						},
-						"package": {
-							"name": "lib32-libcurl-compat"
-						},
-						"affected": {
-							"type": "pacman",
-							"range": [
-								{
-									"lt": "8.4.0-1"
+							},
+							{
+								"vulnerable": true,
+								"fix_status": {
+									"class": "fixed"
+								},
+								"package": {
+									"name": "lib32-libcurl-compat"
+								},
+								"affected": {
+									"type": "pacman",
+									"range": [
+										{
+											"lt": "8.4.0-1"
+										}
+									],
+									"fixed": [
+										"8.4.0-1"
+									]
 								}
-							],
-							"fixed": [
-								"8.4.0-1"
-							]
-						}
-					},
-					{
-						"vulnerable": true,
-						"fix_status": {
-							"class": "fixed"
-						},
-						"package": {
-							"name": "lib32-libcurl-gnutls"
-						},
-						"affected": {
-							"type": "pacman",
-							"range": [
-								{
-									"lt": "8.4.0-1"
+							},
+							{
+								"vulnerable": true,
+								"fix_status": {
+									"class": "fixed"
+								},
+								"package": {
+									"name": "lib32-libcurl-gnutls"
+								},
+								"affected": {
+									"type": "pacman",
+									"range": [
+										{
+											"lt": "8.4.0-1"
+										}
+									],
+									"fixed": [
+										"8.4.0-1"
+									]
 								}
-							],
-							"fixed": [
-								"8.4.0-1"
-							]
-						}
+							}
+						]
 					}
-				]
-			}
+				}
+			]
 		}
 	],
 	"data_source": {

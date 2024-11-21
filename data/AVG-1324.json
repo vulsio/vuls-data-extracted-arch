@@ -18,8 +18,10 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		}
 	],
@@ -34,53 +36,59 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		}
 	],
-	"detection": [
+	"detections": [
 		{
 			"ecosystem": "arch",
-			"criteria": {
-				"operator": "OR",
-				"criterions": [
-					{
-						"vulnerable": true,
-						"fix_status": {
-							"class": "unfixed"
-						},
-						"package": {
-							"name": "glibc"
-						},
-						"affected": {
-							"type": "pacman",
-							"range": [
-								{
-									"le": "2.32-5"
+			"conditions": [
+				{
+					"criteria": {
+						"operator": "OR",
+						"criterions": [
+							{
+								"vulnerable": true,
+								"fix_status": {
+									"class": "unfixed"
+								},
+								"package": {
+									"name": "glibc"
+								},
+								"affected": {
+									"type": "pacman",
+									"range": [
+										{
+											"le": "2.32-5"
+										}
+									]
 								}
-							]
-						}
-					},
-					{
-						"vulnerable": true,
-						"fix_status": {
-							"class": "unfixed"
-						},
-						"package": {
-							"name": "lib32-glibc"
-						},
-						"affected": {
-							"type": "pacman",
-							"range": [
-								{
-									"le": "2.32-5"
+							},
+							{
+								"vulnerable": true,
+								"fix_status": {
+									"class": "unfixed"
+								},
+								"package": {
+									"name": "lib32-glibc"
+								},
+								"affected": {
+									"type": "pacman",
+									"range": [
+										{
+											"le": "2.32-5"
+										}
+									]
 								}
-							]
-						}
+							}
+						]
 					}
-				]
-			}
+				}
+			]
 		}
 	],
 	"data_source": {

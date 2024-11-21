@@ -18,8 +18,10 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		}
 	],
@@ -34,59 +36,65 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		}
 	],
-	"detection": [
+	"detections": [
 		{
 			"ecosystem": "arch",
-			"criteria": {
-				"operator": "OR",
-				"criterions": [
-					{
-						"vulnerable": true,
-						"fix_status": {
-							"class": "fixed"
-						},
-						"package": {
-							"name": "jdk8-openjdk"
-						},
-						"affected": {
-							"type": "pacman",
-							"range": [
-								{
-									"lt": "8.u292-1"
+			"conditions": [
+				{
+					"criteria": {
+						"operator": "OR",
+						"criterions": [
+							{
+								"vulnerable": true,
+								"fix_status": {
+									"class": "fixed"
+								},
+								"package": {
+									"name": "jdk8-openjdk"
+								},
+								"affected": {
+									"type": "pacman",
+									"range": [
+										{
+											"lt": "8.u292-1"
+										}
+									],
+									"fixed": [
+										"8.u292-1"
+									]
 								}
-							],
-							"fixed": [
-								"8.u292-1"
-							]
-						}
-					},
-					{
-						"vulnerable": true,
-						"fix_status": {
-							"class": "fixed"
-						},
-						"package": {
-							"name": "jre8-openjdk-headless"
-						},
-						"affected": {
-							"type": "pacman",
-							"range": [
-								{
-									"lt": "8.u292-1"
+							},
+							{
+								"vulnerable": true,
+								"fix_status": {
+									"class": "fixed"
+								},
+								"package": {
+									"name": "jre8-openjdk-headless"
+								},
+								"affected": {
+									"type": "pacman",
+									"range": [
+										{
+											"lt": "8.u292-1"
+										}
+									],
+									"fixed": [
+										"8.u292-1"
+									]
 								}
-							],
-							"fixed": [
-								"8.u292-1"
-							]
-						}
+							}
+						]
 					}
-				]
-			}
+				}
+			]
 		}
 	],
 	"data_source": {

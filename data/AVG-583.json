@@ -22,8 +22,10 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		}
 	],
@@ -38,39 +40,45 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		}
 	],
-	"detection": [
+	"detections": [
 		{
 			"ecosystem": "arch",
-			"criteria": {
-				"operator": "OR",
-				"criterions": [
-					{
-						"vulnerable": true,
-						"fix_status": {
-							"class": "fixed"
-						},
-						"package": {
-							"name": "linux-firmware"
-						},
-						"affected": {
-							"type": "pacman",
-							"range": [
-								{
-									"lt": "20180518.2a9b2cf-1"
+			"conditions": [
+				{
+					"criteria": {
+						"operator": "OR",
+						"criterions": [
+							{
+								"vulnerable": true,
+								"fix_status": {
+									"class": "fixed"
+								},
+								"package": {
+									"name": "linux-firmware"
+								},
+								"affected": {
+									"type": "pacman",
+									"range": [
+										{
+											"lt": "20180518.2a9b2cf-1"
+										}
+									],
+									"fixed": [
+										"20180518.2a9b2cf-1"
+									]
 								}
-							],
-							"fixed": [
-								"20180518.2a9b2cf-1"
-							]
-						}
+							}
+						]
 					}
-				]
-			}
+				}
+			]
 		}
 	],
 	"data_source": {

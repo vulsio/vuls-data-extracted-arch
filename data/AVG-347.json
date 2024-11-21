@@ -11,8 +11,10 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		},
 		{
@@ -25,8 +27,10 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		},
 		{
@@ -50,8 +54,10 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		}
 	],
@@ -66,59 +72,65 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		}
 	],
-	"detection": [
+	"detections": [
 		{
 			"ecosystem": "arch",
-			"criteria": {
-				"operator": "OR",
-				"criterions": [
-					{
-						"vulnerable": true,
-						"fix_status": {
-							"class": "fixed"
-						},
-						"package": {
-							"name": "gvim"
-						},
-						"affected": {
-							"type": "pacman",
-							"range": [
-								{
-									"lt": "8.0.0722-1"
+			"conditions": [
+				{
+					"criteria": {
+						"operator": "OR",
+						"criterions": [
+							{
+								"vulnerable": true,
+								"fix_status": {
+									"class": "fixed"
+								},
+								"package": {
+									"name": "gvim"
+								},
+								"affected": {
+									"type": "pacman",
+									"range": [
+										{
+											"lt": "8.0.0722-1"
+										}
+									],
+									"fixed": [
+										"8.0.0722-1"
+									]
 								}
-							],
-							"fixed": [
-								"8.0.0722-1"
-							]
-						}
-					},
-					{
-						"vulnerable": true,
-						"fix_status": {
-							"class": "fixed"
-						},
-						"package": {
-							"name": "vim"
-						},
-						"affected": {
-							"type": "pacman",
-							"range": [
-								{
-									"lt": "8.0.0722-1"
+							},
+							{
+								"vulnerable": true,
+								"fix_status": {
+									"class": "fixed"
+								},
+								"package": {
+									"name": "vim"
+								},
+								"affected": {
+									"type": "pacman",
+									"range": [
+										{
+											"lt": "8.0.0722-1"
+										}
+									],
+									"fixed": [
+										"8.0.0722-1"
+									]
 								}
-							],
-							"fixed": [
-								"8.0.0722-1"
-							]
-						}
+							}
+						]
 					}
-				]
-			}
+				}
+			]
 		}
 	],
 	"data_source": {

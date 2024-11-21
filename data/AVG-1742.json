@@ -18,8 +18,10 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		}
 	],
@@ -34,39 +36,45 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		}
 	],
-	"detection": [
+	"detections": [
 		{
 			"ecosystem": "arch",
-			"criteria": {
-				"operator": "OR",
-				"criterions": [
-					{
-						"vulnerable": true,
-						"fix_status": {
-							"class": "fixed"
-						},
-						"package": {
-							"name": "avahi"
-						},
-						"affected": {
-							"type": "pacman",
-							"range": [
-								{
-									"lt": "1:0.8+r127+g55d783d-1"
+			"conditions": [
+				{
+					"criteria": {
+						"operator": "OR",
+						"criterions": [
+							{
+								"vulnerable": true,
+								"fix_status": {
+									"class": "fixed"
+								},
+								"package": {
+									"name": "avahi"
+								},
+								"affected": {
+									"type": "pacman",
+									"range": [
+										{
+											"lt": "1:0.8+r127+g55d783d-1"
+										}
+									],
+									"fixed": [
+										"1:0.8+r127+g55d783d-1"
+									]
 								}
-							],
-							"fixed": [
-								"1:0.8+r127+g55d783d-1"
-							]
-						}
+							}
+						]
 					}
-				]
-			}
+				}
+			]
 		}
 	],
 	"data_source": {

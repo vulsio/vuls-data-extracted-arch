@@ -18,8 +18,10 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		}
 	],
@@ -34,59 +36,65 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		}
 	],
-	"detection": [
+	"detections": [
 		{
 			"ecosystem": "arch",
-			"criteria": {
-				"operator": "OR",
-				"criterions": [
-					{
-						"vulnerable": true,
-						"fix_status": {
-							"class": "fixed"
-						},
-						"package": {
-							"name": "libunrar"
-						},
-						"affected": {
-							"type": "pacman",
-							"range": [
-								{
-									"lt": "1:5.5.5-1"
+			"conditions": [
+				{
+					"criteria": {
+						"operator": "OR",
+						"criterions": [
+							{
+								"vulnerable": true,
+								"fix_status": {
+									"class": "fixed"
+								},
+								"package": {
+									"name": "libunrar"
+								},
+								"affected": {
+									"type": "pacman",
+									"range": [
+										{
+											"lt": "1:5.5.5-1"
+										}
+									],
+									"fixed": [
+										"1:5.5.5-1"
+									]
 								}
-							],
-							"fixed": [
-								"1:5.5.5-1"
-							]
-						}
-					},
-					{
-						"vulnerable": true,
-						"fix_status": {
-							"class": "fixed"
-						},
-						"package": {
-							"name": "unrar"
-						},
-						"affected": {
-							"type": "pacman",
-							"range": [
-								{
-									"lt": "1:5.5.5-1"
+							},
+							{
+								"vulnerable": true,
+								"fix_status": {
+									"class": "fixed"
+								},
+								"package": {
+									"name": "unrar"
+								},
+								"affected": {
+									"type": "pacman",
+									"range": [
+										{
+											"lt": "1:5.5.5-1"
+										}
+									],
+									"fixed": [
+										"1:5.5.5-1"
+									]
 								}
-							],
-							"fixed": [
-								"1:5.5.5-1"
-							]
-						}
+							}
+						]
 					}
-				]
-			}
+				}
+			]
 		}
 	],
 	"data_source": {

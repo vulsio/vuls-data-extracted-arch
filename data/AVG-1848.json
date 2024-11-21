@@ -18,8 +18,10 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		}
 	],
@@ -34,59 +36,65 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"arch"
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
 			]
 		}
 	],
-	"detection": [
+	"detections": [
 		{
 			"ecosystem": "arch",
-			"criteria": {
-				"operator": "OR",
-				"criterions": [
-					{
-						"vulnerable": true,
-						"fix_status": {
-							"class": "fixed"
-						},
-						"package": {
-							"name": "jdk11-openjdk"
-						},
-						"affected": {
-							"type": "pacman",
-							"range": [
-								{
-									"lt": "11.0.11.u9-1"
+			"conditions": [
+				{
+					"criteria": {
+						"operator": "OR",
+						"criterions": [
+							{
+								"vulnerable": true,
+								"fix_status": {
+									"class": "fixed"
+								},
+								"package": {
+									"name": "jdk11-openjdk"
+								},
+								"affected": {
+									"type": "pacman",
+									"range": [
+										{
+											"lt": "11.0.11.u9-1"
+										}
+									],
+									"fixed": [
+										"11.0.11.u9-1"
+									]
 								}
-							],
-							"fixed": [
-								"11.0.11.u9-1"
-							]
-						}
-					},
-					{
-						"vulnerable": true,
-						"fix_status": {
-							"class": "fixed"
-						},
-						"package": {
-							"name": "jre11-openjdk-headless"
-						},
-						"affected": {
-							"type": "pacman",
-							"range": [
-								{
-									"lt": "11.0.11.u9-1"
+							},
+							{
+								"vulnerable": true,
+								"fix_status": {
+									"class": "fixed"
+								},
+								"package": {
+									"name": "jre11-openjdk-headless"
+								},
+								"affected": {
+									"type": "pacman",
+									"range": [
+										{
+											"lt": "11.0.11.u9-1"
+										}
+									],
+									"fixed": [
+										"11.0.11.u9-1"
+									]
 								}
-							],
-							"fixed": [
-								"11.0.11.u9-1"
-							]
-						}
+							}
+						]
 					}
-				]
-			}
+				}
+			]
 		}
 	],
 	"data_source": {
