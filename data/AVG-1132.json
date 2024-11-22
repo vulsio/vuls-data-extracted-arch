@@ -19,22 +19,6 @@
 		},
 		{
 			"content": {
-				"id": "ASA-202004-12",
-				"references": [
-					{
-						"source": "security.archlinux.org",
-						"url": "https://security.archlinux.org/ASA-202004-12"
-					}
-				]
-			},
-			"segments": [
-				{
-					"ecosystem": "arch"
-				}
-			]
-		},
-		{
-			"content": {
 				"id": "AVG-1132",
 				"severity": [
 					{
