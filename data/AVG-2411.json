@@ -68,20 +68,23 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "unfixed"
-								},
-								"package": {
-									"name": "chromium"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"le": "93.0.4577.82-2"
-										}
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "unfixed"
+									},
+									"package": {
+										"name": "chromium"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"le": "93.0.4577.82-2"
+											}
+										]
+									}
 								}
 							}
 						]

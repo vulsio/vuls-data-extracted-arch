@@ -52,23 +52,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "cockpit"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "254-1"
-										}
-									],
-									"fixed": [
-										"254-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "cockpit"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "254-1"
+											}
+										],
+										"fixed": [
+											"254-1"
+										]
+									}
 								}
 							}
 						]

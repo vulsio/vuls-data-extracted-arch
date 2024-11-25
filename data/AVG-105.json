@@ -100,23 +100,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "php"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "7.1.1-0"
-										}
-									],
-									"fixed": [
-										"7.1.1-0"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "php"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "7.1.1-0"
+											}
+										],
+										"fixed": [
+											"7.1.1-0"
+										]
+									}
 								}
 							}
 						]

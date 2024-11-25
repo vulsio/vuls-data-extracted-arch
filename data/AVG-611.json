@@ -116,23 +116,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "unzip"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "6.0-15"
-										}
-									],
-									"fixed": [
-										"6.0-15"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "unzip"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "6.0-15"
+											}
+										],
+										"fixed": [
+											"6.0-15"
+										]
+									}
 								}
 							}
 						]

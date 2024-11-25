@@ -52,23 +52,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "linux"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "5.11.15.arch1-2"
-										}
-									],
-									"fixed": [
-										"5.11.15.arch1-2"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "linux"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "5.11.15.arch1-2"
+											}
+										],
+										"fixed": [
+											"5.11.15.arch1-2"
+										]
+									}
 								}
 							}
 						]

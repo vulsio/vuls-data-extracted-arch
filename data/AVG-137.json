@@ -52,23 +52,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "ansible"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "2.2.1.0rc5-3"
-										}
-									],
-									"fixed": [
-										"2.2.1.0rc5-3"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "ansible"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "2.2.1.0rc5-3"
+											}
+										],
+										"fixed": [
+											"2.2.1.0rc5-3"
+										]
+									}
 								}
 							}
 						]

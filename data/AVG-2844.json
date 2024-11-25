@@ -52,23 +52,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "libcue"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "2.2.1-4"
-										}
-									],
-									"fixed": [
-										"2.2.1-4"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libcue"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "2.2.1-4"
+											}
+										],
+										"fixed": [
+											"2.2.1-4"
+										]
+									}
 								}
 							}
 						]

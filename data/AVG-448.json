@@ -180,23 +180,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "hostapd"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "2.6-6"
-										}
-									],
-									"fixed": [
-										"2.6-6"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "hostapd"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "2.6-6"
+											}
+										],
+										"fixed": [
+											"2.6-6"
+										]
+									}
 								}
 							}
 						]

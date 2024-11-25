@@ -56,23 +56,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "mupdf"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "1.18.0-2"
-										}
-									],
-									"fixed": [
-										"1.18.0-2"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "mupdf"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "1.18.0-2"
+											}
+										],
+										"fixed": [
+											"1.18.0-2"
+										]
+									}
 								}
 							}
 						]

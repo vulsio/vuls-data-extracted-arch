@@ -116,43 +116,49 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "jre-openjdk"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "16.0.2.u7-1"
-										}
-									],
-									"fixed": [
-										"16.0.2.u7-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "jre-openjdk"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "16.0.2.u7-1"
+											}
+										],
+										"fixed": [
+											"16.0.2.u7-1"
+										]
+									}
 								}
 							},
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "jre-openjdk-headless"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "16.0.2.u7-1"
-										}
-									],
-									"fixed": [
-										"16.0.2.u7-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "jre-openjdk-headless"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "16.0.2.u7-1"
+											}
+										],
+										"fixed": [
+											"16.0.2.u7-1"
+										]
+									}
 								}
 							}
 						]

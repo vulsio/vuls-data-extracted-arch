@@ -68,23 +68,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "okular"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "19.12.3-3"
-										}
-									],
-									"fixed": [
-										"19.12.3-3"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "okular"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "19.12.3-3"
+											}
+										],
+										"fixed": [
+											"19.12.3-3"
+										]
+									}
 								}
 							}
 						]

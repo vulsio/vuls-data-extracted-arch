@@ -68,83 +68,95 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "poppler"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "22.08.0-2"
-										}
-									],
-									"fixed": [
-										"22.08.0-2"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "poppler"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "22.08.0-2"
+											}
+										],
+										"fixed": [
+											"22.08.0-2"
+										]
+									}
 								}
 							},
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "poppler-glib"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "22.08.0-2"
-										}
-									],
-									"fixed": [
-										"22.08.0-2"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "poppler-glib"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "22.08.0-2"
+											}
+										],
+										"fixed": [
+											"22.08.0-2"
+										]
+									}
 								}
 							},
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "poppler-qt5"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "22.08.0-2"
-										}
-									],
-									"fixed": [
-										"22.08.0-2"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "poppler-qt5"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "22.08.0-2"
+											}
+										],
+										"fixed": [
+											"22.08.0-2"
+										]
+									}
 								}
 							},
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "poppler-qt6"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "22.08.0-2"
-										}
-									],
-									"fixed": [
-										"22.08.0-2"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "poppler-qt6"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "22.08.0-2"
+											}
+										],
+										"fixed": [
+											"22.08.0-2"
+										]
+									}
 								}
 							}
 						]

@@ -52,23 +52,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "tt-rss"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "2:r10820.4e81233ac-1"
-										}
-									],
-									"fixed": [
-										"2:r10820.4e81233ac-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "tt-rss"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "2:r10820.4e81233ac-1"
+											}
+										],
+										"fixed": [
+											"2:r10820.4e81233ac-1"
+										]
+									}
 								}
 							}
 						]

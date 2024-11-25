@@ -244,23 +244,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "vim"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "9.0.1225-1"
-										}
-									],
-									"fixed": [
-										"9.0.1225-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "vim"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "9.0.1225-1"
+											}
+										],
+										"fixed": [
+											"9.0.1225-1"
+										]
+									}
 								}
 							}
 						]

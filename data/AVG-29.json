@@ -232,23 +232,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "openssl"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "1.0.2.i-1"
-										}
-									],
-									"fixed": [
-										"1.0.2.i-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "openssl"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "1.0.2.i-1"
+											}
+										],
+										"fixed": [
+											"1.0.2.i-1"
+										]
+									}
 								}
 							}
 						]

@@ -852,23 +852,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "libtiff"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "4.0.7-1"
-										}
-									],
-									"fixed": [
-										"4.0.7-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libtiff"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "4.0.7-1"
+											}
+										],
+										"fixed": [
+											"4.0.7-1"
+										]
+									}
 								}
 							}
 						]

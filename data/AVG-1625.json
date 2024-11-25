@@ -72,23 +72,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "zint"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "2.9.1-2"
-										}
-									],
-									"fixed": [
-										"2.9.1-2"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "zint"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "2.9.1-2"
+											}
+										],
+										"fixed": [
+											"2.9.1-2"
+										]
+									}
 								}
 							}
 						]

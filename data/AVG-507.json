@@ -68,23 +68,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "lib32-icu"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "60.1-1"
-										}
-									],
-									"fixed": [
-										"60.1-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "lib32-icu"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "60.1-1"
+											}
+										],
+										"fixed": [
+											"60.1-1"
+										]
+									}
 								}
 							}
 						]

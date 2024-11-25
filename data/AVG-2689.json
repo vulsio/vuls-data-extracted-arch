@@ -116,63 +116,72 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "jdk8-openjdk"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "8.323-1"
-										}
-									],
-									"fixed": [
-										"8.323-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "jdk8-openjdk"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "8.323-1"
+											}
+										],
+										"fixed": [
+											"8.323-1"
+										]
+									}
 								}
 							},
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "jre8-openjdk"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "8.323-1"
-										}
-									],
-									"fixed": [
-										"8.323-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "jre8-openjdk"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "8.323-1"
+											}
+										],
+										"fixed": [
+											"8.323-1"
+										]
+									}
 								}
 							},
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "jre8-openjdk-headless"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "8.323-1"
-										}
-									],
-									"fixed": [
-										"8.323-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "jre8-openjdk-headless"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "8.323-1"
+											}
+										],
+										"fixed": [
+											"8.323-1"
+										]
+									}
 								}
 							}
 						]

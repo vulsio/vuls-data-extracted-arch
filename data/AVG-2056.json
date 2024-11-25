@@ -68,20 +68,23 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "unfixed"
-								},
-								"package": {
-									"name": "ansible"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"le": "4.0.0-1"
-										}
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "unfixed"
+									},
+									"package": {
+										"name": "ansible"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"le": "4.0.0-1"
+											}
+										]
+									}
 								}
 							}
 						]

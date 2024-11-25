@@ -72,23 +72,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "linux"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "4.12.13-1"
-										}
-									],
-									"fixed": [
-										"4.12.13-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "linux"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "4.12.13-1"
+											}
+										],
+										"fixed": [
+											"4.12.13-1"
+										]
+									}
 								}
 							}
 						]

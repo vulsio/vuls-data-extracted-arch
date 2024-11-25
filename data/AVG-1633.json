@@ -612,23 +612,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "vivaldi"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "3.7.2218.45-1"
-										}
-									],
-									"fixed": [
-										"3.7.2218.45-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "vivaldi"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "3.7.2218.45-1"
+											}
+										],
+										"fixed": [
+											"3.7.2218.45-1"
+										]
+									}
 								}
 							}
 						]

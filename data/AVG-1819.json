@@ -132,23 +132,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "code"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "1.56.2-1"
-										}
-									],
-									"fixed": [
-										"1.56.2-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "code"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "1.56.2-1"
+											}
+										],
+										"fixed": [
+											"1.56.2-1"
+										]
+									}
 								}
 							}
 						]

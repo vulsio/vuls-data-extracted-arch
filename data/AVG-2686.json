@@ -116,63 +116,72 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "jdk-openjdk"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "18.0.1u10-1"
-										}
-									],
-									"fixed": [
-										"18.0.1u10-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "jdk-openjdk"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "18.0.1u10-1"
+											}
+										],
+										"fixed": [
+											"18.0.1u10-1"
+										]
+									}
 								}
 							},
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "jre-openjdk"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "18.0.1u10-1"
-										}
-									],
-									"fixed": [
-										"18.0.1u10-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "jre-openjdk"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "18.0.1u10-1"
+											}
+										],
+										"fixed": [
+											"18.0.1u10-1"
+										]
+									}
 								}
 							},
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "jre-openjdk-headless"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "18.0.1u10-1"
-										}
-									],
-									"fixed": [
-										"18.0.1u10-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "jre-openjdk-headless"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "18.0.1u10-1"
+											}
+										],
+										"fixed": [
+											"18.0.1u10-1"
+										]
+									}
 								}
 							}
 						]

@@ -68,23 +68,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "smb4k"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "2.0.0-2"
-										}
-									],
-									"fixed": [
-										"2.0.0-2"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "smb4k"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "2.0.0-2"
+											}
+										],
+										"fixed": [
+											"2.0.0-2"
+										]
+									}
 								}
 							}
 						]

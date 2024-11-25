@@ -68,23 +68,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "intel-ucode"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "20180108-1"
-										}
-									],
-									"fixed": [
-										"20180108-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "intel-ucode"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "20180108-1"
+											}
+										],
+										"fixed": [
+											"20180108-1"
+										]
+									}
 								}
 							}
 						]

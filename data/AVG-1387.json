@@ -72,23 +72,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "wavpack"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "5.3.0-2"
-										}
-									],
-									"fixed": [
-										"5.3.0-2"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "wavpack"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "5.3.0-2"
+											}
+										],
+										"fixed": [
+											"5.3.0-2"
+										]
+									}
 								}
 							}
 						]

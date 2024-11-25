@@ -84,20 +84,23 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "unfixed"
-								},
-								"package": {
-									"name": "gitlab"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"le": "14.5.0-1"
-										}
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "unfixed"
+									},
+									"package": {
+										"name": "gitlab"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"le": "14.5.0-1"
+											}
+										]
+									}
 								}
 							}
 						]

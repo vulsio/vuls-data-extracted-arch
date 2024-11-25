@@ -68,63 +68,72 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "curl"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "8.4.0-1"
-										}
-									],
-									"fixed": [
-										"8.4.0-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "curl"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "8.4.0-1"
+											}
+										],
+										"fixed": [
+											"8.4.0-1"
+										]
+									}
 								}
 							},
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "libcurl-compat"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "8.4.0-1"
-										}
-									],
-									"fixed": [
-										"8.4.0-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libcurl-compat"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "8.4.0-1"
+											}
+										],
+										"fixed": [
+											"8.4.0-1"
+										]
+									}
 								}
 							},
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "libcurl-gnutls"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "8.4.0-1"
-										}
-									],
-									"fixed": [
-										"8.4.0-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libcurl-gnutls"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "8.4.0-1"
+											}
+										],
+										"fixed": [
+											"8.4.0-1"
+										]
+									}
 								}
 							}
 						]

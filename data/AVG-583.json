@@ -56,23 +56,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "linux-firmware"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "20180518.2a9b2cf-1"
-										}
-									],
-									"fixed": [
-										"20180518.2a9b2cf-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "linux-firmware"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "20180518.2a9b2cf-1"
+											}
+										],
+										"fixed": [
+											"20180518.2a9b2cf-1"
+										]
+									}
 								}
 							}
 						]

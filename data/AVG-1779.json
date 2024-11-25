@@ -52,23 +52,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "file-roller"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "3.38.1-1"
-										}
-									],
-									"fixed": [
-										"3.38.1-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "file-roller"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "3.38.1-1"
+											}
+										],
+										"fixed": [
+											"3.38.1-1"
+										]
+									}
 								}
 							}
 						]

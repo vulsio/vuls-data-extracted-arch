@@ -340,23 +340,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "nvidia-dkms"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "525.60.11-1"
-										}
-									],
-									"fixed": [
-										"525.60.11-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "nvidia-dkms"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "525.60.11-1"
+											}
+										],
+										"fixed": [
+											"525.60.11-1"
+										]
+									}
 								}
 							}
 						]

@@ -84,20 +84,23 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "unfixed"
-								},
-								"package": {
-									"name": "gocr"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"le": "0.52-2"
-										}
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "unfixed"
+									},
+									"package": {
+										"name": "gocr"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"le": "0.52-2"
+											}
+										]
+									}
 								}
 							}
 						]

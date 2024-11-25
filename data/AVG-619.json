@@ -104,23 +104,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "patch"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "2.7.6-3"
-										}
-									],
-									"fixed": [
-										"2.7.6-3"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "patch"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "2.7.6-3"
+											}
+										],
+										"fixed": [
+											"2.7.6-3"
+										]
+									}
 								}
 							}
 						]

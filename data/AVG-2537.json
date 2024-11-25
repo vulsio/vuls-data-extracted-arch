@@ -52,20 +52,23 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "unfixed"
-								},
-								"package": {
-									"name": "lua52"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"le": "5.2.4-5"
-										}
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "unfixed"
+									},
+									"package": {
+										"name": "lua52"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"le": "5.2.4-5"
+											}
+										]
+									}
 								}
 							}
 						]

@@ -72,23 +72,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "transmission-cli"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "2.92-8"
-										}
-									],
-									"fixed": [
-										"2.92-8"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "transmission-cli"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "2.92-8"
+											}
+										],
+										"fixed": [
+											"2.92-8"
+										]
+									}
 								}
 							}
 						]

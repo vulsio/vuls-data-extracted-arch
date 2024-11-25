@@ -52,20 +52,23 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "unfixed"
-								},
-								"package": {
-									"name": "firefox"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"le": "90.0.2-1"
-										}
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "unfixed"
+									},
+									"package": {
+										"name": "firefox"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"le": "90.0.2-1"
+											}
+										]
+									}
 								}
 							}
 						]

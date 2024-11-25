@@ -452,23 +452,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "chromium"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "84.0.4147.89-1"
-										}
-									],
-									"fixed": [
-										"84.0.4147.89-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "chromium"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "84.0.4147.89-1"
+											}
+										],
+										"fixed": [
+											"84.0.4147.89-1"
+										]
+									}
 								}
 							}
 						]

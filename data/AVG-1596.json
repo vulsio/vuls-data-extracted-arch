@@ -72,23 +72,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "ipmitool"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "1.8.18-7"
-										}
-									],
-									"fixed": [
-										"1.8.18-7"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "ipmitool"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "1.8.18-7"
+											}
+										],
+										"fixed": [
+											"1.8.18-7"
+										]
+									}
 								}
 							}
 						]

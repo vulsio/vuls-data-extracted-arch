@@ -52,23 +52,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "xterm"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "366-1"
-										}
-									],
-									"fixed": [
-										"366-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "xterm"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "366-1"
+											}
+										],
+										"fixed": [
+											"366-1"
+										]
+									}
 								}
 							}
 						]

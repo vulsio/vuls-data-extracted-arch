@@ -68,23 +68,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "xz"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "5.2.5-3"
-										}
-									],
-									"fixed": [
-										"5.2.5-3"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "xz"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "5.2.5-3"
+											}
+										],
+										"fixed": [
+											"5.2.5-3"
+										]
+									}
 								}
 							}
 						]

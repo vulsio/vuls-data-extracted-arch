@@ -68,23 +68,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "opendoas"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "6.8.1-2"
-										}
-									],
-									"fixed": [
-										"6.8.1-2"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "opendoas"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "6.8.1-2"
+											}
+										],
+										"fixed": [
+											"6.8.1-2"
+										]
+									}
 								}
 							}
 						]

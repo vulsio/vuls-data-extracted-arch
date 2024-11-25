@@ -212,23 +212,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "jasper"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "1.900.5-1"
-										}
-									],
-									"fixed": [
-										"1.900.5-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "jasper"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "1.900.5-1"
+											}
+										],
+										"fixed": [
+											"1.900.5-1"
+										]
+									}
 								}
 							}
 						]

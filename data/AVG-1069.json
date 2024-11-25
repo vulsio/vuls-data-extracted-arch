@@ -52,23 +52,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "ghostscript"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "9.50-1"
-										}
-									],
-									"fixed": [
-										"9.50-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "ghostscript"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "9.50-1"
+											}
+										],
+										"fixed": [
+											"9.50-1"
+										]
+									}
 								}
 							}
 						]

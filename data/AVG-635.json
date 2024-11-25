@@ -52,43 +52,49 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "gvim"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "8.0.1531-1"
-										}
-									],
-									"fixed": [
-										"8.0.1531-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "gvim"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "8.0.1531-1"
+											}
+										],
+										"fixed": [
+											"8.0.1531-1"
+										]
+									}
 								}
 							},
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "vim"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "8.0.1531-1"
-										}
-									],
-									"fixed": [
-										"8.0.1531-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "vim"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "8.0.1531-1"
+											}
+										],
+										"fixed": [
+											"8.0.1531-1"
+										]
+									}
 								}
 							}
 						]

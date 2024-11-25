@@ -164,23 +164,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "thunderbird"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "68.6.0-1"
-										}
-									],
-									"fixed": [
-										"68.6.0-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "thunderbird"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "68.6.0-1"
+											}
+										],
+										"fixed": [
+											"68.6.0-1"
+										]
+									}
 								}
 							}
 						]

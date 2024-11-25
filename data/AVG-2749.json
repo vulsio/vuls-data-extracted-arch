@@ -100,23 +100,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "ntfs-3g"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "2022.5.17-1"
-										}
-									],
-									"fixed": [
-										"2022.5.17-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "ntfs-3g"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "2022.5.17-1"
+											}
+										],
+										"fixed": [
+											"2022.5.17-1"
+										]
+									}
 								}
 							}
 						]

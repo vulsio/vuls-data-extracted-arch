@@ -88,23 +88,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "raptor"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "2.0.15-14"
-										}
-									],
-									"fixed": [
-										"2.0.15-14"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "raptor"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "2.0.15-14"
+											}
+										],
+										"fixed": [
+											"2.0.15-14"
+										]
+									}
 								}
 							}
 						]

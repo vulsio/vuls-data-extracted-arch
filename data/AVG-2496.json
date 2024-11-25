@@ -52,23 +52,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "python-dask"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "2021.10.0-1"
-										}
-									],
-									"fixed": [
-										"2021.10.0-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "python-dask"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "2021.10.0-1"
+											}
+										],
+										"fixed": [
+											"2021.10.0-1"
+										]
+									}
 								}
 							}
 						]

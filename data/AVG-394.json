@@ -72,23 +72,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "linux-zen"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "4.13.2-1"
-										}
-									],
-									"fixed": [
-										"4.13.2-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "linux-zen"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "4.13.2-1"
+											}
+										],
+										"fixed": [
+											"4.13.2-1"
+										]
+									}
 								}
 							}
 						]

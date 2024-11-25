@@ -52,20 +52,23 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "unfixed"
-								},
-								"package": {
-									"name": "edk2-shell"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"le": "202111-4"
-										}
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "unfixed"
+									},
+									"package": {
+										"name": "edk2-shell"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"le": "202111-4"
+											}
+										]
+									}
 								}
 							}
 						]

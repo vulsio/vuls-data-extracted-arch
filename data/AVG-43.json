@@ -68,23 +68,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "kcoreaddons"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "5.26.0-2"
-										}
-									],
-									"fixed": [
-										"5.26.0-2"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "kcoreaddons"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "5.26.0-2"
+											}
+										],
+										"fixed": [
+											"5.26.0-2"
+										]
+									}
 								}
 							}
 						]

@@ -52,23 +52,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "putty"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "0.75-1"
-										}
-									],
-									"fixed": [
-										"0.75-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "putty"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "0.75-1"
+											}
+										],
+										"fixed": [
+											"0.75-1"
+										]
+									}
 								}
 							}
 						]

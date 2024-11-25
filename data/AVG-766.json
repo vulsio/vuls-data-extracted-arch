@@ -84,43 +84,49 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "bitcoin-daemon"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "0.16.3-1"
-										}
-									],
-									"fixed": [
-										"0.16.3-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "bitcoin-daemon"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "0.16.3-1"
+											}
+										],
+										"fixed": [
+											"0.16.3-1"
+										]
+									}
 								}
 							},
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "bitcoin-qt"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "0.16.3-1"
-										}
-									],
-									"fixed": [
-										"0.16.3-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "bitcoin-qt"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "0.16.3-1"
+											}
+										],
+										"fixed": [
+											"0.16.3-1"
+										]
+									}
 								}
 							}
 						]

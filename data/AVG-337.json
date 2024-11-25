@@ -84,23 +84,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "systemd"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "233-7"
-										}
-									],
-									"fixed": [
-										"233-7"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "systemd"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "233-7"
+											}
+										],
+										"fixed": [
+											"233-7"
+										]
+									}
 								}
 							}
 						]

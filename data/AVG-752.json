@@ -52,23 +52,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "wpa_supplicant"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "1:2.6-12"
-										}
-									],
-									"fixed": [
-										"1:2.6-12"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "wpa_supplicant"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "1:2.6-12"
+											}
+										],
+										"fixed": [
+											"1:2.6-12"
+										]
+									}
 								}
 							}
 						]

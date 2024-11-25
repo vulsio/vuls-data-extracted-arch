@@ -52,20 +52,23 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "unfixed"
-								},
-								"package": {
-									"name": "dcraw"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"le": "9.28.0-2"
-										}
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "unfixed"
+									},
+									"package": {
+										"name": "dcraw"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"le": "9.28.0-2"
+											}
+										]
+									}
 								}
 							}
 						]

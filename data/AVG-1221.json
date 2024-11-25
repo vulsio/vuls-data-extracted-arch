@@ -68,23 +68,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "netbeans"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "12.0_u1-1"
-										}
-									],
-									"fixed": [
-										"12.0_u1-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "netbeans"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "12.0_u1-1"
+											}
+										],
+										"fixed": [
+											"12.0_u1-1"
+										]
+									}
 								}
 							}
 						]

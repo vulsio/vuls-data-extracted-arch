@@ -72,23 +72,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "p7zip"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "16.02-5"
-										}
-									],
-									"fixed": [
-										"16.02-5"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "p7zip"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "16.02-5"
+											}
+										],
+										"fixed": [
+											"16.02-5"
+										]
+									}
 								}
 							}
 						]

@@ -100,20 +100,23 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "unfixed"
-								},
-								"package": {
-									"name": "privoxy"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"le": "3.0.32-1"
-										}
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "unfixed"
+									},
+									"package": {
+										"name": "privoxy"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"le": "3.0.32-1"
+											}
+										]
+									}
 								}
 							}
 						]

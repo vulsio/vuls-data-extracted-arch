@@ -276,23 +276,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "neomutt"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "20180716-1"
-										}
-									],
-									"fixed": [
-										"20180716-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "neomutt"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "20180716-1"
+											}
+										],
+										"fixed": [
+											"20180716-1"
+										]
+									}
 								}
 							}
 						]

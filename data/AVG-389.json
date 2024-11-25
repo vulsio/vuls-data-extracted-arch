@@ -100,23 +100,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "libcurl-compat"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "7.56.0-1"
-										}
-									],
-									"fixed": [
-										"7.56.0-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libcurl-compat"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "7.56.0-1"
+											}
+										],
+										"fixed": [
+											"7.56.0-1"
+										]
+									}
 								}
 							}
 						]

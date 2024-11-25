@@ -436,23 +436,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "gitlab"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "14.3.1-1"
-										}
-									],
-									"fixed": [
-										"14.3.1-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "gitlab"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "14.3.1-1"
+											}
+										],
+										"fixed": [
+											"14.3.1-1"
+										]
+									}
 								}
 							}
 						]

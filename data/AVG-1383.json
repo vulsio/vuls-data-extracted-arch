@@ -72,23 +72,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "gobby"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "1:0.5.0+116+g295e697-1"
-										}
-									],
-									"fixed": [
-										"1:0.5.0+116+g295e697-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "gobby"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "1:0.5.0+116+g295e697-1"
+											}
+										],
+										"fixed": [
+											"1:0.5.0+116+g295e697-1"
+										]
+									}
 								}
 							}
 						]

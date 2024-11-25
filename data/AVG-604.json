@@ -52,43 +52,49 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "libunrar"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "1:5.5.5-1"
-										}
-									],
-									"fixed": [
-										"1:5.5.5-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libunrar"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "1:5.5.5-1"
+											}
+										],
+										"fixed": [
+											"1:5.5.5-1"
+										]
+									}
 								}
 							},
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "unrar"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "1:5.5.5-1"
-										}
-									],
-									"fixed": [
-										"1:5.5.5-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "unrar"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "1:5.5.5-1"
+											}
+										],
+										"fixed": [
+											"1:5.5.5-1"
+										]
+									}
 								}
 							}
 						]

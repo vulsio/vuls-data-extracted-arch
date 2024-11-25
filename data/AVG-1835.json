@@ -68,20 +68,23 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "unfixed"
-								},
-								"package": {
-									"name": "firefox"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"le": "87.0-2"
-										}
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "unfixed"
+									},
+									"package": {
+										"name": "firefox"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"le": "87.0-2"
+											}
+										]
+									}
 								}
 							}
 						]

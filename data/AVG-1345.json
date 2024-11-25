@@ -56,23 +56,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "x11vnc"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "1:0.9.16-4"
-										}
-									],
-									"fixed": [
-										"1:0.9.16-4"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "x11vnc"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "1:0.9.16-4"
+											}
+										],
+										"fixed": [
+											"1:0.9.16-4"
+										]
+									}
 								}
 							}
 						]

@@ -136,23 +136,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "mupdf-gl"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "1.13.0-1"
-										}
-									],
-									"fixed": [
-										"1.13.0-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "mupdf-gl"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "1.13.0-1"
+											}
+										],
+										"fixed": [
+											"1.13.0-1"
+										]
+									}
 								}
 							}
 						]

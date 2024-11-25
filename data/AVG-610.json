@@ -168,23 +168,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "sox"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "14.4.2-3"
-										}
-									],
-									"fixed": [
-										"14.4.2-3"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "sox"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "14.4.2-3"
+											}
+										],
+										"fixed": [
+											"14.4.2-3"
+										]
+									}
 								}
 							}
 						]

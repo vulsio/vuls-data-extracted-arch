@@ -116,23 +116,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "gst-plugins-base-libs"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "1.10.3-1"
-										}
-									],
-									"fixed": [
-										"1.10.3-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "gst-plugins-base-libs"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "1.10.3-1"
+											}
+										],
+										"fixed": [
+											"1.10.3-1"
+										]
+									}
 								}
 							}
 						]

@@ -132,23 +132,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "prosody"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "1:0.11.9-1"
-										}
-									],
-									"fixed": [
-										"1:0.11.9-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "prosody"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "1:0.11.9-1"
+											}
+										],
+										"fixed": [
+											"1:0.11.9-1"
+										]
+									}
 								}
 							}
 						]

@@ -68,23 +68,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "postgresql"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "10.3-1"
-										}
-									],
-									"fixed": [
-										"10.3-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "postgresql"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "10.3-1"
+											}
+										],
+										"fixed": [
+											"10.3-1"
+										]
+									}
 								}
 							}
 						]

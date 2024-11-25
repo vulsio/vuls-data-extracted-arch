@@ -52,23 +52,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "minio"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "2021.03.17-1"
-										}
-									],
-									"fixed": [
-										"2021.03.17-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "minio"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "2021.03.17-1"
+											}
+										],
+										"fixed": [
+											"2021.03.17-1"
+										]
+									}
 								}
 							}
 						]

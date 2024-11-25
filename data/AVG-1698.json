@@ -88,43 +88,49 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "dotnet-runtime"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "5.0.4.sdk104-1"
-										}
-									],
-									"fixed": [
-										"5.0.4.sdk104-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "dotnet-runtime"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "5.0.4.sdk104-1"
+											}
+										],
+										"fixed": [
+											"5.0.4.sdk104-1"
+										]
+									}
 								}
 							},
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "dotnet-sdk"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "5.0.4.sdk104-1"
-										}
-									],
-									"fixed": [
-										"5.0.4.sdk104-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "dotnet-sdk"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "5.0.4.sdk104-1"
+											}
+										],
+										"fixed": [
+											"5.0.4.sdk104-1"
+										]
+									}
 								}
 							}
 						]

@@ -72,23 +72,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "libxslt"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "1.1.29+41+gdf5330d1-1"
-										}
-									],
-									"fixed": [
-										"1.1.29+41+gdf5330d1-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libxslt"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "1.1.29+41+gdf5330d1-1"
+											}
+										],
+										"fixed": [
+											"1.1.29+41+gdf5330d1-1"
+										]
+									}
 								}
 							}
 						]

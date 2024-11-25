@@ -68,23 +68,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "nss"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "3.30.1-1"
-										}
-									],
-									"fixed": [
-										"3.30.1-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "nss"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "3.30.1-1"
+											}
+										],
+										"fixed": [
+											"3.30.1-1"
+										]
+									}
 								}
 							}
 						]

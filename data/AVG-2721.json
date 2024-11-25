@@ -72,20 +72,23 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "unfixed"
-								},
-								"package": {
-									"name": "libtiff"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"le": "4.3.0-2"
-										}
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "unfixed"
+									},
+									"package": {
+										"name": "libtiff"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"le": "4.3.0-2"
+											}
+										]
+									}
 								}
 							}
 						]

@@ -52,23 +52,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "jupyter-notebook"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "6.4.3-1"
-										}
-									],
-									"fixed": [
-										"6.4.3-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "jupyter-notebook"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "6.4.3-1"
+											}
+										],
+										"fixed": [
+											"6.4.3-1"
+										]
+									}
 								}
 							}
 						]

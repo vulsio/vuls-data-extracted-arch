@@ -100,23 +100,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "libsass"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "3.5.4-1"
-										}
-									],
-									"fixed": [
-										"3.5.4-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libsass"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "3.5.4-1"
+											}
+										],
+										"fixed": [
+											"3.5.4-1"
+										]
+									}
 								}
 							}
 						]

@@ -84,20 +84,23 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "unfixed"
-								},
-								"package": {
-									"name": "exiv2"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"le": "0.27.5-1"
-										}
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "unfixed"
+									},
+									"package": {
+										"name": "exiv2"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"le": "0.27.5-1"
+											}
+										]
+									}
 								}
 							}
 						]

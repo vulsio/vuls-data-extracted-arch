@@ -104,23 +104,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "lib32-libid3tag"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "0.15.1b-1"
-										}
-									],
-									"fixed": [
-										"0.15.1b-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "lib32-libid3tag"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "0.15.1b-1"
+											}
+										],
+										"fixed": [
+											"0.15.1b-1"
+										]
+									}
 								}
 							}
 						]

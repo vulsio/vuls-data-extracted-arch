@@ -184,23 +184,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "lib32-libtiff"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "4.3.0-2"
-										}
-									],
-									"fixed": [
-										"4.3.0-2"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "lib32-libtiff"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "4.3.0-2"
+											}
+										],
+										"fixed": [
+											"4.3.0-2"
+										]
+									}
 								}
 							}
 						]

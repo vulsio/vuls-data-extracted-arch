@@ -68,23 +68,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "libdwarf"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "20170709-1"
-										}
-									],
-									"fixed": [
-										"20170709-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "libdwarf"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "20170709-1"
+											}
+										],
+										"fixed": [
+											"20170709-1"
+										]
+									}
 								}
 							}
 						]

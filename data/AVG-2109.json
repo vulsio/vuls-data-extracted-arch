@@ -84,23 +84,26 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "rabbitmq"
-								},
-								"affected": {
-									"type": "pacman",
-									"range": [
-										{
-											"lt": "3.8.19-1"
-										}
-									],
-									"fixed": [
-										"3.8.19-1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "rabbitmq"
+									},
+									"affected": {
+										"type": "pacman",
+										"range": [
+											{
+												"lt": "3.8.19-1"
+											}
+										],
+										"fixed": [
+											"3.8.19-1"
+										]
+									}
 								}
 							}
 						]
