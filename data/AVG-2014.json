@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "lib32-libgcrypt15"
+										"type": "binary",
+										"binary": {
+											"name": "lib32-libgcrypt15"
+										}
 									},
 									"affected": {
 										"type": "pacman",

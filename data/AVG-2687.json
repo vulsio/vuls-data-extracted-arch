@@ -139,7 +139,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "jdk17-openjdk"
+										"type": "binary",
+										"binary": {
+											"name": "jdk17-openjdk"
+										}
 									},
 									"affected": {
 										"type": "pacman",
@@ -162,7 +165,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "jre17-openjdk"
+										"type": "binary",
+										"binary": {
+											"name": "jre17-openjdk"
+										}
 									},
 									"affected": {
 										"type": "pacman",
@@ -185,7 +191,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "jre17-openjdk-headless"
+										"type": "binary",
+										"binary": {
+											"name": "jre17-openjdk-headless"
+										}
 									},
 									"affected": {
 										"type": "pacman",

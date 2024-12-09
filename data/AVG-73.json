@@ -379,7 +379,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "w3m"
+										"type": "binary",
+										"binary": {
+											"name": "w3m"
+										}
 									},
 									"affected": {
 										"type": "pacman",

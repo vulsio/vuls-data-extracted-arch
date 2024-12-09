@@ -79,7 +79,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "groovy"
+										"type": "binary",
+										"binary": {
+											"name": "groovy"
+										}
 									},
 									"affected": {
 										"type": "pacman",

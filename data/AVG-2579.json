@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "isync"
+										"type": "binary",
+										"binary": {
+											"name": "isync"
+										}
 									},
 									"affected": {
 										"type": "pacman",

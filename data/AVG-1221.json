@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "netbeans"
+										"type": "binary",
+										"binary": {
+											"name": "netbeans"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "ark"
+										"type": "binary",
+										"binary": {
+											"name": "ark"
+										}
 									},
 									"affected": {
 										"type": "pacman",

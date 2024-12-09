@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "lua53"
+										"type": "binary",
+										"binary": {
+											"name": "lua53"
+										}
 									},
 									"affected": {
 										"type": "pacman",

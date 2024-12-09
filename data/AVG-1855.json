@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "giflib"
+										"type": "binary",
+										"binary": {
+											"name": "giflib"
+										}
 									},
 									"affected": {
 										"type": "pacman",

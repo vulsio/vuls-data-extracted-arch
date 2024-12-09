@@ -107,7 +107,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "postgresql"
+										"type": "binary",
+										"binary": {
+											"name": "postgresql"
+										}
 									},
 									"affected": {
 										"type": "pacman",
@@ -130,7 +133,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "postgresql-libs"
+										"type": "binary",
+										"binary": {
+											"name": "postgresql-libs"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "ruby-nokogiri"
+										"type": "binary",
+										"binary": {
+											"name": "ruby-nokogiri"
+										}
 									},
 									"affected": {
 										"type": "pacman",

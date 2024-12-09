@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nodejs-lts-iron"
+										"type": "binary",
+										"binary": {
+											"name": "nodejs-lts-iron"
+										}
 									},
 									"affected": {
 										"type": "pacman",

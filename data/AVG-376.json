@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libsoup"
+										"type": "binary",
+										"binary": {
+											"name": "libsoup"
+										}
 									},
 									"affected": {
 										"type": "pacman",

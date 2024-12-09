@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "xz"
+										"type": "binary",
+										"binary": {
+											"name": "xz"
+										}
 									},
 									"affected": {
 										"type": "pacman",

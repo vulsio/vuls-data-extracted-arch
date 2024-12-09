@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mediathekview"
+										"type": "binary",
+										"binary": {
+											"name": "mediathekview"
+										}
 									},
 									"affected": {
 										"type": "pacman",

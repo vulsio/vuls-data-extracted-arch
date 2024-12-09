@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-batik"
+										"type": "binary",
+										"binary": {
+											"name": "java-batik"
+										}
 									},
 									"affected": {
 										"type": "pacman",

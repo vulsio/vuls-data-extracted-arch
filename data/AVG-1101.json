@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "ppp"
+										"type": "binary",
+										"binary": {
+											"name": "ppp"
+										}
 									},
 									"affected": {
 										"type": "pacman",

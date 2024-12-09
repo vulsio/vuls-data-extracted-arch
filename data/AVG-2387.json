@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "lib32-libcurl-compat"
+										"type": "binary",
+										"binary": {
+											"name": "lib32-libcurl-compat"
+										}
 									},
 									"affected": {
 										"type": "pacman",

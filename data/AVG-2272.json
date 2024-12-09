@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "exim"
+										"type": "binary",
+										"binary": {
+											"name": "exim"
+										}
 									},
 									"affected": {
 										"type": "pacman",

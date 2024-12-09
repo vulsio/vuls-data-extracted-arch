@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "slock"
+										"type": "binary",
+										"binary": {
+											"name": "slock"
+										}
 									},
 									"affected": {
 										"type": "pacman",

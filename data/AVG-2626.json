@@ -63,7 +63,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "zaproxy"
+										"type": "binary",
+										"binary": {
+											"name": "zaproxy"
+										}
 									},
 									"affected": {
 										"type": "pacman",

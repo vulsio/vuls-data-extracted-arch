@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "syncthing"
+										"type": "binary",
+										"binary": {
+											"name": "syncthing"
+										}
 									},
 									"affected": {
 										"type": "pacman",
@@ -82,7 +85,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "syncthing-relaysrv"
+										"type": "binary",
+										"binary": {
+											"name": "syncthing-relaysrv"
+										}
 									},
 									"affected": {
 										"type": "pacman",

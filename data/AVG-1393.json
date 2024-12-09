@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "cockpit"
+										"type": "binary",
+										"binary": {
+											"name": "cockpit"
+										}
 									},
 									"affected": {
 										"type": "pacman",

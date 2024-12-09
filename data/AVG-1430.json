@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "coturn"
+										"type": "binary",
+										"binary": {
+											"name": "coturn"
+										}
 									},
 									"affected": {
 										"type": "pacman",

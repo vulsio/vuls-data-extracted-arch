@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "lldpd"
+										"type": "binary",
+										"binary": {
+											"name": "lldpd"
+										}
 									},
 									"affected": {
 										"type": "pacman",

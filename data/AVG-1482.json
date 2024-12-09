@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "389-ds-base"
+										"type": "binary",
+										"binary": {
+											"name": "389-ds-base"
+										}
 									},
 									"affected": {
 										"type": "pacman",

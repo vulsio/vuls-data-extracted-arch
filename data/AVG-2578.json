@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pgbouncer"
+										"type": "binary",
+										"binary": {
+											"name": "pgbouncer"
+										}
 									},
 									"affected": {
 										"type": "pacman",

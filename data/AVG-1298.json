@@ -111,7 +111,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "opensc"
+										"type": "binary",
+										"binary": {
+											"name": "opensc"
+										}
 									},
 									"affected": {
 										"type": "pacman",

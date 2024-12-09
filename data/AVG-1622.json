@@ -79,7 +79,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "openscad"
+										"type": "binary",
+										"binary": {
+											"name": "openscad"
+										}
 									},
 									"affected": {
 										"type": "pacman",

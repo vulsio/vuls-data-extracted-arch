@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pam-krb5"
+										"type": "binary",
+										"binary": {
+											"name": "pam-krb5"
+										}
 									},
 									"affected": {
 										"type": "pacman",

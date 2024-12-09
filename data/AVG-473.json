@@ -107,7 +107,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "wget"
+										"type": "binary",
+										"binary": {
+											"name": "wget"
+										}
 									},
 									"affected": {
 										"type": "pacman",

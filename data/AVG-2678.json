@@ -491,7 +491,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "jenkins"
+										"type": "binary",
+										"binary": {
+											"name": "jenkins"
+										}
 									},
 									"affected": {
 										"type": "pacman",

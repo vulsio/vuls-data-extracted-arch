@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libtasn1"
+										"type": "binary",
+										"binary": {
+											"name": "libtasn1"
+										}
 									},
 									"affected": {
 										"type": "pacman",

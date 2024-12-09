@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "maven"
+										"type": "binary",
+										"binary": {
+											"name": "maven"
+										}
 									},
 									"affected": {
 										"type": "pacman",

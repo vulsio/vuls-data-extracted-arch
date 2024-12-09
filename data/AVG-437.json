@@ -79,7 +79,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "lame"
+										"type": "binary",
+										"binary": {
+											"name": "lame"
+										}
 									},
 									"affected": {
 										"type": "pacman",

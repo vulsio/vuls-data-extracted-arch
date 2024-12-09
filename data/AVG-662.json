@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "networkmanager"
+										"type": "binary",
+										"binary": {
+											"name": "networkmanager"
+										}
 									},
 									"affected": {
 										"type": "pacman",

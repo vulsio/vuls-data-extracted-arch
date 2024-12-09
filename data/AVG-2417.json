@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libressl"
+										"type": "binary",
+										"binary": {
+											"name": "libressl"
+										}
 									},
 									"affected": {
 										"type": "pacman",

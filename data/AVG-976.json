@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gvim"
+										"type": "binary",
+										"binary": {
+											"name": "gvim"
+										}
 									},
 									"affected": {
 										"type": "pacman",

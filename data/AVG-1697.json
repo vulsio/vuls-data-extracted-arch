@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "edk2-shell"
+										"type": "binary",
+										"binary": {
+											"name": "edk2-shell"
+										}
 									},
 									"affected": {
 										"type": "pacman",

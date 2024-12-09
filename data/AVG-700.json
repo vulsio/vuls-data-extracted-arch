@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "tinyxml2"
+										"type": "binary",
+										"binary": {
+											"name": "tinyxml2"
+										}
 									},
 									"affected": {
 										"type": "pacman",

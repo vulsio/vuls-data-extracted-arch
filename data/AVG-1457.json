@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "erlang"
+										"type": "binary",
+										"binary": {
+											"name": "erlang"
+										}
 									},
 									"affected": {
 										"type": "pacman",

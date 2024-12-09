@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libgcrypt"
+										"type": "binary",
+										"binary": {
+											"name": "libgcrypt"
+										}
 									},
 									"affected": {
 										"type": "pacman",

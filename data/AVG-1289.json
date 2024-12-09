@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "neomutt"
+										"type": "binary",
+										"binary": {
+											"name": "neomutt"
+										}
 									},
 									"affected": {
 										"type": "pacman",

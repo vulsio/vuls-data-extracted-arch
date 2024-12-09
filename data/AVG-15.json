@@ -107,7 +107,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "openfire"
+										"type": "binary",
+										"binary": {
+											"name": "openfire"
+										}
 									},
 									"affected": {
 										"type": "pacman",

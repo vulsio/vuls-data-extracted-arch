@@ -107,7 +107,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "wpewebkit"
+										"type": "binary",
+										"binary": {
+											"name": "wpewebkit"
+										}
 									},
 									"affected": {
 										"type": "pacman",

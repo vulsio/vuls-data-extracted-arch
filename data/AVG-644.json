@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "xerces-c"
+										"type": "binary",
+										"binary": {
+											"name": "xerces-c"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "cifs-utils"
+										"type": "binary",
+										"binary": {
+											"name": "cifs-utils"
+										}
 									},
 									"affected": {
 										"type": "pacman",

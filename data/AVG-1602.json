@@ -63,7 +63,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mupdf"
+										"type": "binary",
+										"binary": {
+											"name": "mupdf"
+										}
 									},
 									"affected": {
 										"type": "pacman",

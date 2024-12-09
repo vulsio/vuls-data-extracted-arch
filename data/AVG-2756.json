@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "freerdp"
+										"type": "binary",
+										"binary": {
+											"name": "freerdp"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "ruby-rexml"
+										"type": "binary",
+										"binary": {
+											"name": "ruby-rexml"
+										}
 									},
 									"affected": {
 										"type": "pacman",

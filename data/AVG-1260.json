@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "packagekit"
+										"type": "binary",
+										"binary": {
+											"name": "packagekit"
+										}
 									},
 									"affected": {
 										"type": "pacman",

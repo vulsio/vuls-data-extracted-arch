@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "osquery"
+										"type": "binary",
+										"binary": {
+											"name": "osquery"
+										}
 									},
 									"affected": {
 										"type": "pacman",

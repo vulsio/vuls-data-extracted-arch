@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "onionshare"
+										"type": "binary",
+										"binary": {
+											"name": "onionshare"
+										}
 									},
 									"affected": {
 										"type": "pacman",

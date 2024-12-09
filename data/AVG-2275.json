@@ -75,7 +75,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "nim"
+										"type": "binary",
+										"binary": {
+											"name": "nim"
+										}
 									},
 									"affected": {
 										"type": "pacman",

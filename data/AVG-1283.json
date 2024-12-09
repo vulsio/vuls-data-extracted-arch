@@ -95,7 +95,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "raptor"
+										"type": "binary",
+										"binary": {
+											"name": "raptor"
+										}
 									},
 									"affected": {
 										"type": "pacman",

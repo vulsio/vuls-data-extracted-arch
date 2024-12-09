@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "fop"
+										"type": "binary",
+										"binary": {
+											"name": "fop"
+										}
 									},
 									"affected": {
 										"type": "pacman",

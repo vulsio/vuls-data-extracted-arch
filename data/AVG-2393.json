@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "kubelet"
+										"type": "binary",
+										"binary": {
+											"name": "kubelet"
+										}
 									},
 									"affected": {
 										"type": "pacman",

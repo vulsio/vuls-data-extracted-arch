@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libnl"
+										"type": "binary",
+										"binary": {
+											"name": "libnl"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "uriparser"
+										"type": "binary",
+										"binary": {
+											"name": "uriparser"
+										}
 									},
 									"affected": {
 										"type": "pacman",

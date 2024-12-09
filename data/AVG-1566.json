@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "prusa-slicer"
+										"type": "binary",
+										"binary": {
+											"name": "prusa-slicer"
+										}
 									},
 									"affected": {
 										"type": "pacman",

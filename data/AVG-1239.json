@@ -95,7 +95,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "spice"
+										"type": "binary",
+										"binary": {
+											"name": "spice"
+										}
 									},
 									"affected": {
 										"type": "pacman",

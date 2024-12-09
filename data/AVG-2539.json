@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "smbclient"
+										"type": "binary",
+										"binary": {
+											"name": "smbclient"
+										}
 									},
 									"affected": {
 										"type": "pacman",

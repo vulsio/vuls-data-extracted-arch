@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nextcloud-app-mail"
+										"type": "binary",
+										"binary": {
+											"name": "nextcloud-app-mail"
+										}
 									},
 									"affected": {
 										"type": "pacman",

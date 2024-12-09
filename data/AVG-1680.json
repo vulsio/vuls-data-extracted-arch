@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "glib2"
+										"type": "binary",
+										"binary": {
+											"name": "glib2"
+										}
 									},
 									"affected": {
 										"type": "pacman",

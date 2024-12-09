@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "lib32-freetype2"
+										"type": "binary",
+										"binary": {
+											"name": "lib32-freetype2"
+										}
 									},
 									"affected": {
 										"type": "pacman",

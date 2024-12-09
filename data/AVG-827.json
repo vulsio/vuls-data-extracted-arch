@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "lib32-cairo"
+										"type": "binary",
+										"binary": {
+											"name": "lib32-cairo"
+										}
 									},
 									"affected": {
 										"type": "pacman",

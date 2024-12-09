@@ -63,7 +63,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libetpan"
+										"type": "binary",
+										"binary": {
+											"name": "libetpan"
+										}
 									},
 									"affected": {
 										"type": "pacman",

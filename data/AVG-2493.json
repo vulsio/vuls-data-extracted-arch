@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "gitlab-gitaly"
+										"type": "binary",
+										"binary": {
+											"name": "gitlab-gitaly"
+										}
 									},
 									"affected": {
 										"type": "pacman",

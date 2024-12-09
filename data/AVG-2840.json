@@ -347,7 +347,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nvidia-dkms"
+										"type": "binary",
+										"binary": {
+											"name": "nvidia-dkms"
+										}
 									},
 									"affected": {
 										"type": "pacman",

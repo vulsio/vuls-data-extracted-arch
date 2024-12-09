@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "zeromq"
+										"type": "binary",
+										"binary": {
+											"name": "zeromq"
+										}
 									},
 									"affected": {
 										"type": "pacman",

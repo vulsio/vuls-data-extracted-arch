@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qtpass"
+										"type": "binary",
+										"binary": {
+											"name": "qtpass"
+										}
 									},
 									"affected": {
 										"type": "pacman",

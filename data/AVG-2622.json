@@ -63,7 +63,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "solr"
+										"type": "binary",
+										"binary": {
+											"name": "solr"
+										}
 									},
 									"affected": {
 										"type": "pacman",

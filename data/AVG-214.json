@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libevent"
+										"type": "binary",
+										"binary": {
+											"name": "libevent"
+										}
 									},
 									"affected": {
 										"type": "pacman",

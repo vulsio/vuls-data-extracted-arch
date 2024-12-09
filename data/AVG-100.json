@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python-html5lib"
+										"type": "binary",
+										"binary": {
+											"name": "python-html5lib"
+										}
 									},
 									"affected": {
 										"type": "pacman",

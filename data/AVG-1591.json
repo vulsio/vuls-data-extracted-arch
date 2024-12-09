@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "traefik"
+										"type": "binary",
+										"binary": {
+											"name": "traefik"
+										}
 									},
 									"affected": {
 										"type": "pacman",

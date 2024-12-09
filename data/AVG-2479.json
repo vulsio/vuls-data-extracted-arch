@@ -219,7 +219,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "jdk8-openjdk"
+										"type": "binary",
+										"binary": {
+											"name": "jdk8-openjdk"
+										}
 									},
 									"affected": {
 										"type": "pacman",
@@ -242,7 +245,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "jre8-openjdk-headless"
+										"type": "binary",
+										"binary": {
+											"name": "jre8-openjdk-headless"
+										}
 									},
 									"affected": {
 										"type": "pacman",

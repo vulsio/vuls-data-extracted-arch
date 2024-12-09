@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nspr"
+										"type": "binary",
+										"binary": {
+											"name": "nspr"
+										}
 									},
 									"affected": {
 										"type": "pacman",

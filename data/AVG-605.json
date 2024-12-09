@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mpv"
+										"type": "binary",
+										"binary": {
+											"name": "mpv"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "zstd"
+										"type": "binary",
+										"binary": {
+											"name": "zstd"
+										}
 									},
 									"affected": {
 										"type": "pacman",

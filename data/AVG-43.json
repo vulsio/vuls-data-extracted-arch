@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "kcoreaddons"
+										"type": "binary",
+										"binary": {
+											"name": "kcoreaddons"
+										}
 									},
 									"affected": {
 										"type": "pacman",

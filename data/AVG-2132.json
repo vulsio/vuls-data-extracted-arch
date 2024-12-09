@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "php"
+										"type": "binary",
+										"binary": {
+											"name": "php"
+										}
 									},
 									"affected": {
 										"type": "pacman",

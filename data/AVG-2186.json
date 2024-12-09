@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "lib32-libsndfile"
+										"type": "binary",
+										"binary": {
+											"name": "lib32-libsndfile"
+										}
 									},
 									"affected": {
 										"type": "pacman",

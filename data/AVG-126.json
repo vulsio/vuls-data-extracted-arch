@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pcsclite"
+										"type": "binary",
+										"binary": {
+											"name": "pcsclite"
+										}
 									},
 									"affected": {
 										"type": "pacman",

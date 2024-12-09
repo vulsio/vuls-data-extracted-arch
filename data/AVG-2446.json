@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "composer"
+										"type": "binary",
+										"binary": {
+											"name": "composer"
+										}
 									},
 									"affected": {
 										"type": "pacman",

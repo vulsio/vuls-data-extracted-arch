@@ -79,7 +79,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "geckodriver"
+										"type": "binary",
+										"binary": {
+											"name": "geckodriver"
+										}
 									},
 									"affected": {
 										"type": "pacman",

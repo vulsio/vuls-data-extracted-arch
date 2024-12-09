@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nginx-mainline"
+										"type": "binary",
+										"binary": {
+											"name": "nginx-mainline"
+										}
 									},
 									"affected": {
 										"type": "pacman",

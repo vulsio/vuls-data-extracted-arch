@@ -19,22 +19,6 @@
 		},
 		{
 			"content": {
-				"id": "ASA-201801-31",
-				"references": [
-					{
-						"source": "security.archlinux.org",
-						"url": "https://security.archlinux.org/ASA-201801-31"
-					}
-				]
-			},
-			"segments": [
-				{
-					"ecosystem": "arch"
-				}
-			]
-		},
-		{
-			"content": {
 				"id": "AVG-600",
 				"severity": [
 					{
@@ -91,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "zathura-pdf-mupdf"
+										"type": "binary",
+										"binary": {
+											"name": "zathura-pdf-mupdf"
+										}
 									},
 									"affected": {
 										"type": "pacman",

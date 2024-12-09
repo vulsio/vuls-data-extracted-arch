@@ -63,7 +63,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "ghidra"
+										"type": "binary",
+										"binary": {
+											"name": "ghidra"
+										}
 									},
 									"affected": {
 										"type": "pacman",

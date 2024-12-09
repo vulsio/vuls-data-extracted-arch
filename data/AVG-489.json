@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "konversation"
+										"type": "binary",
+										"binary": {
+											"name": "konversation"
+										}
 									},
 									"affected": {
 										"type": "pacman",

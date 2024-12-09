@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gstreamer"
+										"type": "binary",
+										"binary": {
+											"name": "gstreamer"
+										}
 									},
 									"affected": {
 										"type": "pacman",

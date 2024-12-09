@@ -223,7 +223,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "lib32-libtiff"
+										"type": "binary",
+										"binary": {
+											"name": "lib32-libtiff"
+										}
 									},
 									"affected": {
 										"type": "pacman",

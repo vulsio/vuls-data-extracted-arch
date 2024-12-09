@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "openssl"
+										"type": "binary",
+										"binary": {
+											"name": "openssl"
+										}
 									},
 									"affected": {
 										"type": "pacman",

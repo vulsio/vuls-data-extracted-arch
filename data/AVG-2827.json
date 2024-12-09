@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "grunt-cli"
+										"type": "binary",
+										"binary": {
+											"name": "grunt-cli"
+										}
 									},
 									"affected": {
 										"type": "pacman",

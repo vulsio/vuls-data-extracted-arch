@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libmspack"
+										"type": "binary",
+										"binary": {
+											"name": "libmspack"
+										}
 									},
 									"affected": {
 										"type": "pacman",

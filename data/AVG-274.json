@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pcmanfm"
+										"type": "binary",
+										"binary": {
+											"name": "pcmanfm"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "cryptsetup"
+										"type": "binary",
+										"binary": {
+											"name": "cryptsetup"
+										}
 									},
 									"affected": {
 										"type": "pacman",

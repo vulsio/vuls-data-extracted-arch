@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "python-rdflib"
+										"type": "binary",
+										"binary": {
+											"name": "python-rdflib"
+										}
 									},
 									"affected": {
 										"type": "pacman",

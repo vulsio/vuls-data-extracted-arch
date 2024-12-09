@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "racket"
+										"type": "binary",
+										"binary": {
+											"name": "racket"
+										}
 									},
 									"affected": {
 										"type": "pacman",

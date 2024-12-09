@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "sqlcipher"
+										"type": "binary",
+										"binary": {
+											"name": "sqlcipher"
+										}
 									},
 									"affected": {
 										"type": "pacman",

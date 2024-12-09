@@ -139,7 +139,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "gitlab"
+										"type": "binary",
+										"binary": {
+											"name": "gitlab"
+										}
 									},
 									"affected": {
 										"type": "pacman",

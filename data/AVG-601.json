@@ -207,7 +207,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "clamav"
+										"type": "binary",
+										"binary": {
+											"name": "clamav"
+										}
 									},
 									"affected": {
 										"type": "pacman",

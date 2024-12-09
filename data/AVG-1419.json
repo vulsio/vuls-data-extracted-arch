@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python-pwntools"
+										"type": "binary",
+										"binary": {
+											"name": "python-pwntools"
+										}
 									},
 									"affected": {
 										"type": "pacman",

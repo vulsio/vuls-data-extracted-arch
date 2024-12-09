@@ -75,7 +75,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "kube-apiserver"
+										"type": "binary",
+										"binary": {
+											"name": "kube-apiserver"
+										}
 									},
 									"affected": {
 										"type": "pacman",
@@ -95,7 +98,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "kube-controller-manager"
+										"type": "binary",
+										"binary": {
+											"name": "kube-controller-manager"
+										}
 									},
 									"affected": {
 										"type": "pacman",
@@ -115,7 +121,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "kube-proxy"
+										"type": "binary",
+										"binary": {
+											"name": "kube-proxy"
+										}
 									},
 									"affected": {
 										"type": "pacman",
@@ -135,7 +144,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "kube-scheduler"
+										"type": "binary",
+										"binary": {
+											"name": "kube-scheduler"
+										}
 									},
 									"affected": {
 										"type": "pacman",
@@ -155,7 +167,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "kubelet"
+										"type": "binary",
+										"binary": {
+											"name": "kubelet"
+										}
 									},
 									"affected": {
 										"type": "pacman",

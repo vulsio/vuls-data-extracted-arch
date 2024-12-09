@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dpdk"
+										"type": "binary",
+										"binary": {
+											"name": "dpdk"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "icu"
+										"type": "binary",
+										"binary": {
+											"name": "icu"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "ruby2.7"
+										"type": "binary",
+										"binary": {
+											"name": "ruby2.7"
+										}
 									},
 									"affected": {
 										"type": "pacman",

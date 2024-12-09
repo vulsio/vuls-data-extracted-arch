@@ -207,7 +207,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "thunderbird"
+										"type": "binary",
+										"binary": {
+											"name": "thunderbird"
+										}
 									},
 									"affected": {
 										"type": "pacman",

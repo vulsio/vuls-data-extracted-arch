@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "icoutils"
+										"type": "binary",
+										"binary": {
+											"name": "icoutils"
+										}
 									},
 									"affected": {
 										"type": "pacman",

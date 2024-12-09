@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "polkit"
+										"type": "binary",
+										"binary": {
+											"name": "polkit"
+										}
 									},
 									"affected": {
 										"type": "pacman",

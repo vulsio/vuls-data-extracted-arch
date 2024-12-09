@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "opendkim"
+										"type": "binary",
+										"binary": {
+											"name": "opendkim"
+										}
 									},
 									"affected": {
 										"type": "pacman",

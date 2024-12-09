@@ -715,7 +715,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "tcpdump"
+										"type": "binary",
+										"binary": {
+											"name": "tcpdump"
+										}
 									},
 									"affected": {
 										"type": "pacman",

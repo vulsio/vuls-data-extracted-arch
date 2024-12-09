@@ -63,7 +63,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "xscreensaver"
+										"type": "binary",
+										"binary": {
+											"name": "xscreensaver"
+										}
 									},
 									"affected": {
 										"type": "pacman",

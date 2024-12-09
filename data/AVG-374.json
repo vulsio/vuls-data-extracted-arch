@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "varnish"
+										"type": "binary",
+										"binary": {
+											"name": "varnish"
+										}
 									},
 									"affected": {
 										"type": "pacman",

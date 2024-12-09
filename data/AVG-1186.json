@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "fwupd"
+										"type": "binary",
+										"binary": {
+											"name": "fwupd"
+										}
 									},
 									"affected": {
 										"type": "pacman",

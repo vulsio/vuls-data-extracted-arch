@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "hostapd"
+										"type": "binary",
+										"binary": {
+											"name": "hostapd"
+										}
 									},
 									"affected": {
 										"type": "pacman",

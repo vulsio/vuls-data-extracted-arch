@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "smb4k"
+										"type": "binary",
+										"binary": {
+											"name": "smb4k"
+										}
 									},
 									"affected": {
 										"type": "pacman",

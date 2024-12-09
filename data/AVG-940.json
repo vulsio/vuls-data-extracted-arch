@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "beep"
+										"type": "binary",
+										"binary": {
+											"name": "beep"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "curl"
+										"type": "binary",
+										"binary": {
+											"name": "curl"
+										}
 									},
 									"affected": {
 										"type": "pacman",

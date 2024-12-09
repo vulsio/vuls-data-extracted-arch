@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "grails"
+										"type": "binary",
+										"binary": {
+											"name": "grails"
+										}
 									},
 									"affected": {
 										"type": "pacman",

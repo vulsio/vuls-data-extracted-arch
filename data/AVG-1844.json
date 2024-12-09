@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libupnp"
+										"type": "binary",
+										"binary": {
+											"name": "libupnp"
+										}
 									},
 									"affected": {
 										"type": "pacman",

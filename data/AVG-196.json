@@ -63,7 +63,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "lib32-libxslt"
+										"type": "binary",
+										"binary": {
+											"name": "lib32-libxslt"
+										}
 									},
 									"affected": {
 										"type": "pacman",

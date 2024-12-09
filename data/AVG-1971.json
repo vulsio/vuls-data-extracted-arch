@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "prometheus"
+										"type": "binary",
+										"binary": {
+											"name": "prometheus"
+										}
 									},
 									"affected": {
 										"type": "pacman",

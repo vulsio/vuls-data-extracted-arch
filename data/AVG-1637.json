@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python-markdown2"
+										"type": "binary",
+										"binary": {
+											"name": "python-markdown2"
+										}
 									},
 									"affected": {
 										"type": "pacman",

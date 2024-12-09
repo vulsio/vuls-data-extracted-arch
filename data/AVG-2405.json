@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "libgig"
+										"type": "binary",
+										"binary": {
+											"name": "libgig"
+										}
 									},
 									"affected": {
 										"type": "pacman",

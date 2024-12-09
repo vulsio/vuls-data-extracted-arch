@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "lib32-curl"
+										"type": "binary",
+										"binary": {
+											"name": "lib32-curl"
+										}
 									},
 									"affected": {
 										"type": "pacman",
@@ -98,7 +101,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "lib32-libcurl-compat"
+										"type": "binary",
+										"binary": {
+											"name": "lib32-libcurl-compat"
+										}
 									},
 									"affected": {
 										"type": "pacman",
@@ -121,7 +127,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "lib32-libcurl-gnutls"
+										"type": "binary",
+										"binary": {
+											"name": "lib32-libcurl-gnutls"
+										}
 									},
 									"affected": {
 										"type": "pacman",

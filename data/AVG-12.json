@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "lib32-jansson"
+										"type": "binary",
+										"binary": {
+											"name": "lib32-jansson"
+										}
 									},
 									"affected": {
 										"type": "pacman",

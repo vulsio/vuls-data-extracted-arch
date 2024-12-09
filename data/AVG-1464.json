@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nextcloud"
+										"type": "binary",
+										"binary": {
+											"name": "nextcloud"
+										}
 									},
 									"affected": {
 										"type": "pacman",

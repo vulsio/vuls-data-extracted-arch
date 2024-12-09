@@ -79,7 +79,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "docker"
+										"type": "binary",
+										"binary": {
+											"name": "docker"
+										}
 									},
 									"affected": {
 										"type": "pacman",

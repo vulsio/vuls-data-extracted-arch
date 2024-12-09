@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pcre2"
+										"type": "binary",
+										"binary": {
+											"name": "pcre2"
+										}
 									},
 									"affected": {
 										"type": "pacman",

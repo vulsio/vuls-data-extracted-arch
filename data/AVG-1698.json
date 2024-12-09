@@ -95,7 +95,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dotnet-runtime"
+										"type": "binary",
+										"binary": {
+											"name": "dotnet-runtime"
+										}
 									},
 									"affected": {
 										"type": "pacman",
@@ -118,7 +121,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dotnet-sdk"
+										"type": "binary",
+										"binary": {
+											"name": "dotnet-sdk"
+										}
 									},
 									"affected": {
 										"type": "pacman",

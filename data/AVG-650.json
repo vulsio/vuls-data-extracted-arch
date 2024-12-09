@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "calibre"
+										"type": "binary",
+										"binary": {
+											"name": "calibre"
+										}
 									},
 									"affected": {
 										"type": "pacman",

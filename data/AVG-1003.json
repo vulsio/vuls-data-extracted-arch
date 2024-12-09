@@ -95,7 +95,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "inetutils"
+										"type": "binary",
+										"binary": {
+											"name": "inetutils"
+										}
 									},
 									"affected": {
 										"type": "pacman",

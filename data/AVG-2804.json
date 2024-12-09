@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libksba"
+										"type": "binary",
+										"binary": {
+											"name": "libksba"
+										}
 									},
 									"affected": {
 										"type": "pacman",

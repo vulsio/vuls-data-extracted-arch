@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "firefox-ublock-origin"
+										"type": "binary",
+										"binary": {
+											"name": "firefox-ublock-origin"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "c-ares"
+										"type": "binary",
+										"binary": {
+											"name": "c-ares"
+										}
 									},
 									"affected": {
 										"type": "pacman",

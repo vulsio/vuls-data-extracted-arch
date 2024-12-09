@@ -79,7 +79,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "lout"
+										"type": "binary",
+										"binary": {
+											"name": "lout"
+										}
 									},
 									"affected": {
 										"type": "pacman",

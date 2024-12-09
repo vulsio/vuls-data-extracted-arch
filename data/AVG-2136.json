@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "ruby-addressable"
+										"type": "binary",
+										"binary": {
+											"name": "ruby-addressable"
+										}
 									},
 									"affected": {
 										"type": "pacman",

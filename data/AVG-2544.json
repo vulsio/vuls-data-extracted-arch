@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "speex"
+										"type": "binary",
+										"binary": {
+											"name": "speex"
+										}
 									},
 									"affected": {
 										"type": "pacman",

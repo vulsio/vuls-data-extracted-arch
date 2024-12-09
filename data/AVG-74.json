@@ -107,7 +107,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "drupal"
+										"type": "binary",
+										"binary": {
+											"name": "drupal"
+										}
 									},
 									"affected": {
 										"type": "pacman",

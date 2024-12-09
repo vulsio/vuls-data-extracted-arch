@@ -75,7 +75,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "ansible"
+										"type": "binary",
+										"binary": {
+											"name": "ansible"
+										}
 									},
 									"affected": {
 										"type": "pacman",

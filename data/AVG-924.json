@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "bash"
+										"type": "binary",
+										"binary": {
+											"name": "bash"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "minizip"
+										"type": "binary",
+										"binary": {
+											"name": "minizip"
+										}
 									},
 									"affected": {
 										"type": "pacman",

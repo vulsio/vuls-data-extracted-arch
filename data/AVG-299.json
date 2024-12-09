@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "kmail"
+										"type": "binary",
+										"binary": {
+											"name": "kmail"
+										}
 									},
 									"affected": {
 										"type": "pacman",

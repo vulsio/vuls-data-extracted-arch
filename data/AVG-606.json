@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "go"
+										"type": "binary",
+										"binary": {
+											"name": "go"
+										}
 									},
 									"affected": {
 										"type": "pacman",

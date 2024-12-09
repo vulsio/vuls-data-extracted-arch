@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "bitcoin-daemon"
+										"type": "binary",
+										"binary": {
+											"name": "bitcoin-daemon"
+										}
 									},
 									"affected": {
 										"type": "pacman",
@@ -114,7 +117,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "bitcoin-qt"
+										"type": "binary",
+										"binary": {
+											"name": "bitcoin-qt"
+										}
 									},
 									"affected": {
 										"type": "pacman",

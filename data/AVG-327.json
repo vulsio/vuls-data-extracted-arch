@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "miniupnpc"
+										"type": "binary",
+										"binary": {
+											"name": "miniupnpc"
+										}
 									},
 									"affected": {
 										"type": "pacman",

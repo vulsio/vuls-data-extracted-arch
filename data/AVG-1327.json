@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nsd"
+										"type": "binary",
+										"binary": {
+											"name": "nsd"
+										}
 									},
 									"affected": {
 										"type": "pacman",

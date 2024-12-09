@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mathjax"
+										"type": "binary",
+										"binary": {
+											"name": "mathjax"
+										}
 									},
 									"affected": {
 										"type": "pacman",

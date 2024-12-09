@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "blender"
+										"type": "binary",
+										"binary": {
+											"name": "blender"
+										}
 									},
 									"affected": {
 										"type": "pacman",

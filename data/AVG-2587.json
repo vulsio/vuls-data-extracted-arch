@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "keepalived"
+										"type": "binary",
+										"binary": {
+											"name": "keepalived"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python-waitress"
+										"type": "binary",
+										"binary": {
+											"name": "python-waitress"
+										}
 									},
 									"affected": {
 										"type": "pacman",

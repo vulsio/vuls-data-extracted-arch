@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "evolution"
+										"type": "binary",
+										"binary": {
+											"name": "evolution"
+										}
 									},
 									"affected": {
 										"type": "pacman",

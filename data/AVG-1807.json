@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "lib32-libcaca"
+										"type": "binary",
+										"binary": {
+											"name": "lib32-libcaca"
+										}
 									},
 									"affected": {
 										"type": "pacman",

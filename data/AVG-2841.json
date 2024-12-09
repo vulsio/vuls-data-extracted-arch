@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "web-ext"
+										"type": "binary",
+										"binary": {
+											"name": "web-ext"
+										}
 									},
 									"affected": {
 										"type": "pacman",

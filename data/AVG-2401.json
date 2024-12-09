@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python-sqlparse"
+										"type": "binary",
+										"binary": {
+											"name": "python-sqlparse"
+										}
 									},
 									"affected": {
 										"type": "pacman",

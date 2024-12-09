@@ -107,7 +107,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nvidia"
+										"type": "binary",
+										"binary": {
+											"name": "nvidia"
+										}
 									},
 									"affected": {
 										"type": "pacman",

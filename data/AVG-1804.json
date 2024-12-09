@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rust"
+										"type": "binary",
+										"binary": {
+											"name": "rust"
+										}
 									},
 									"affected": {
 										"type": "pacman",

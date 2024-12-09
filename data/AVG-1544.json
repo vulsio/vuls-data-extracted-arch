@@ -95,7 +95,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "godot"
+										"type": "binary",
+										"binary": {
+											"name": "godot"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -139,7 +139,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "prosody"
+										"type": "binary",
+										"binary": {
+											"name": "prosody"
+										}
 									},
 									"affected": {
 										"type": "pacman",

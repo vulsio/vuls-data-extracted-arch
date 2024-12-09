@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rizin"
+										"type": "binary",
+										"binary": {
+											"name": "rizin"
+										}
 									},
 									"affected": {
 										"type": "pacman",

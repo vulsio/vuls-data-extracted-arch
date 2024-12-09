@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "mruby"
+										"type": "binary",
+										"binary": {
+											"name": "mruby"
+										}
 									},
 									"affected": {
 										"type": "pacman",

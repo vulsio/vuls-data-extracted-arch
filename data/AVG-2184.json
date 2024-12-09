@@ -19,6 +19,22 @@
 		},
 		{
 			"content": {
+				"id": "ASA-202107-51",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/ASA-202107-51"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
+			]
+		},
+		{
+			"content": {
 				"id": "AVG-2184",
 				"severity": [
 					{
@@ -107,7 +123,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "linux-lts"
+										"type": "binary",
+										"binary": {
+											"name": "linux-lts"
+										}
 									},
 									"affected": {
 										"type": "pacman",

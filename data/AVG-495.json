@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "couchdb"
+										"type": "binary",
+										"binary": {
+											"name": "couchdb"
+										}
 									},
 									"affected": {
 										"type": "pacman",

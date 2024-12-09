@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "openapi-generator"
+										"type": "binary",
+										"binary": {
+											"name": "openapi-generator"
+										}
 									},
 									"affected": {
 										"type": "pacman",

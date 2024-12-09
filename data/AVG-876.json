@@ -107,7 +107,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "lib32-libcurl-gnutls"
+										"type": "binary",
+										"binary": {
+											"name": "lib32-libcurl-gnutls"
+										}
 									},
 									"affected": {
 										"type": "pacman",

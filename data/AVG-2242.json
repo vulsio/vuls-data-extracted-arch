@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "glances"
+										"type": "binary",
+										"binary": {
+											"name": "glances"
+										}
 									},
 									"affected": {
 										"type": "pacman",

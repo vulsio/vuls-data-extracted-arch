@@ -79,7 +79,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "munin"
+										"type": "binary",
+										"binary": {
+											"name": "munin"
+										}
 									},
 									"affected": {
 										"type": "pacman",

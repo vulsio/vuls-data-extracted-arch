@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "jansson"
+										"type": "binary",
+										"binary": {
+											"name": "jansson"
+										}
 									},
 									"affected": {
 										"type": "pacman",

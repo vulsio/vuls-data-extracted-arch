@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "kauth"
+										"type": "binary",
+										"binary": {
+											"name": "kauth"
+										}
 									},
 									"affected": {
 										"type": "pacman",

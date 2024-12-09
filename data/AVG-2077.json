@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libolm"
+										"type": "binary",
+										"binary": {
+											"name": "libolm"
+										}
 									},
 									"affected": {
 										"type": "pacman",

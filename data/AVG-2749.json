@@ -107,7 +107,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "ntfs-3g"
+										"type": "binary",
+										"binary": {
+											"name": "ntfs-3g"
+										}
 									},
 									"affected": {
 										"type": "pacman",

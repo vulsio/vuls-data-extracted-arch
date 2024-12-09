@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python"
+										"type": "binary",
+										"binary": {
+											"name": "python"
+										}
 									},
 									"affected": {
 										"type": "pacman",

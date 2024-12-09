@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "darkhttpd"
+										"type": "binary",
+										"binary": {
+											"name": "darkhttpd"
+										}
 									},
 									"affected": {
 										"type": "pacman",

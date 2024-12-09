@@ -79,7 +79,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "busybox"
+										"type": "binary",
+										"binary": {
+											"name": "busybox"
+										}
 									},
 									"affected": {
 										"type": "pacman",

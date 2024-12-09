@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gupnp"
+										"type": "binary",
+										"binary": {
+											"name": "gupnp"
+										}
 									},
 									"affected": {
 										"type": "pacman",

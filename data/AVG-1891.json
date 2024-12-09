@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "ruby-bundler"
+										"type": "binary",
+										"binary": {
+											"name": "ruby-bundler"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "openvswitch"
+										"type": "binary",
+										"binary": {
+											"name": "openvswitch"
+										}
 									},
 									"affected": {
 										"type": "pacman",

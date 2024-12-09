@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "opensmtpd"
+										"type": "binary",
+										"binary": {
+											"name": "opensmtpd"
+										}
 									},
 									"affected": {
 										"type": "pacman",

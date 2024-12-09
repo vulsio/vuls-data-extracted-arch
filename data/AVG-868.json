@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libpng"
+										"type": "binary",
+										"binary": {
+											"name": "libpng"
+										}
 									},
 									"affected": {
 										"type": "pacman",

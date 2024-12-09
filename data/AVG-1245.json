@@ -63,7 +63,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "linux-hardened"
+										"type": "binary",
+										"binary": {
+											"name": "linux-hardened"
+										}
 									},
 									"affected": {
 										"type": "pacman",

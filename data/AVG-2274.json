@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "ksmtp"
+										"type": "binary",
+										"binary": {
+											"name": "ksmtp"
+										}
 									},
 									"affected": {
 										"type": "pacman",

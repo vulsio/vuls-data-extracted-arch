@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libproxy"
+										"type": "binary",
+										"binary": {
+											"name": "libproxy"
+										}
 									},
 									"affected": {
 										"type": "pacman",

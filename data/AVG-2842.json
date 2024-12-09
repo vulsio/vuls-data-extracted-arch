@@ -347,7 +347,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "libtiff"
+										"type": "binary",
+										"binary": {
+											"name": "libtiff"
+										}
 									},
 									"affected": {
 										"type": "pacman",

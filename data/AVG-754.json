@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "lxc"
+										"type": "binary",
+										"binary": {
+											"name": "lxc"
+										}
 									},
 									"affected": {
 										"type": "pacman",

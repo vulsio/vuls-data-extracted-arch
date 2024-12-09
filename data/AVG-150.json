@@ -19,6 +19,22 @@
 		},
 		{
 			"content": {
+				"id": "ASA-201701-35",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/ASA-201701-35"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
+			]
+		},
+		{
+			"content": {
 				"id": "AVG-150",
 				"severity": [
 					{
@@ -75,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "linux-lts"
+										"type": "binary",
+										"binary": {
+											"name": "linux-lts"
+										}
 									},
 									"affected": {
 										"type": "pacman",

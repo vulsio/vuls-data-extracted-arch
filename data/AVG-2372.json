@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "python-rencode"
+										"type": "binary",
+										"binary": {
+											"name": "python-rencode"
+										}
 									},
 									"affected": {
 										"type": "pacman",

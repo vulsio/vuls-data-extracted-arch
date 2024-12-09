@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "puppet"
+										"type": "binary",
+										"binary": {
+											"name": "puppet"
+										}
 									},
 									"affected": {
 										"type": "pacman",

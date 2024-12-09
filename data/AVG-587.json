@@ -95,7 +95,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nrpe"
+										"type": "binary",
+										"binary": {
+											"name": "nrpe"
+										}
 									},
 									"affected": {
 										"type": "pacman",

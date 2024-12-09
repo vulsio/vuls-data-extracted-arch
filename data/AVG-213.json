@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "virglrenderer"
+										"type": "binary",
+										"binary": {
+											"name": "virglrenderer"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -107,7 +107,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "firefox"
+										"type": "binary",
+										"binary": {
+											"name": "firefox"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "hiredis"
+										"type": "binary",
+										"binary": {
+											"name": "hiredis"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python-pydantic"
+										"type": "binary",
+										"binary": {
+											"name": "python-pydantic"
+										}
 									},
 									"affected": {
 										"type": "pacman",

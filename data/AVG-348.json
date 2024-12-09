@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "evince"
+										"type": "binary",
+										"binary": {
+											"name": "evince"
+										}
 									},
 									"affected": {
 										"type": "pacman",

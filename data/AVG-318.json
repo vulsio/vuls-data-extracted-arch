@@ -123,7 +123,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "openvpn"
+										"type": "binary",
+										"binary": {
+											"name": "openvpn"
+										}
 									},
 									"affected": {
 										"type": "pacman",

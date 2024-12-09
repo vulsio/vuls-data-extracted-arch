@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "postgresql"
+										"type": "binary",
+										"binary": {
+											"name": "postgresql"
+										}
 									},
 									"affected": {
 										"type": "pacman",

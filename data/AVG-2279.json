@@ -63,7 +63,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "usbredir"
+										"type": "binary",
+										"binary": {
+											"name": "usbredir"
+										}
 									},
 									"affected": {
 										"type": "pacman",

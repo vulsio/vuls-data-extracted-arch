@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mariadb"
+										"type": "binary",
+										"binary": {
+											"name": "mariadb"
+										}
 									},
 									"affected": {
 										"type": "pacman",

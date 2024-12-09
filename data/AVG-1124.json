@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "haproxy"
+										"type": "binary",
+										"binary": {
+											"name": "haproxy"
+										}
 									},
 									"affected": {
 										"type": "pacman",

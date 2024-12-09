@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "lib32-libjpeg6-turbo"
+										"type": "binary",
+										"binary": {
+											"name": "lib32-libjpeg6-turbo"
+										}
 									},
 									"affected": {
 										"type": "pacman",

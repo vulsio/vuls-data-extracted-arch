@@ -267,7 +267,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "audiofile"
+										"type": "binary",
+										"binary": {
+											"name": "audiofile"
+										}
 									},
 									"affected": {
 										"type": "pacman",

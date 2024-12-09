@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "thunar"
+										"type": "binary",
+										"binary": {
+											"name": "thunar"
+										}
 									},
 									"affected": {
 										"type": "pacman",

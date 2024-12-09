@@ -175,7 +175,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "sox"
+										"type": "binary",
+										"binary": {
+											"name": "sox"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "apr-util"
+										"type": "binary",
+										"binary": {
+											"name": "apr-util"
+										}
 									},
 									"affected": {
 										"type": "pacman",

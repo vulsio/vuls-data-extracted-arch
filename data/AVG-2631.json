@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "cpanminus"
+										"type": "binary",
+										"binary": {
+											"name": "cpanminus"
+										}
 									},
 									"affected": {
 										"type": "pacman",

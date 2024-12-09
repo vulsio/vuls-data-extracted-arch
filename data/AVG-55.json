@@ -107,7 +107,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "memcached"
+										"type": "binary",
+										"binary": {
+											"name": "memcached"
+										}
 									},
 									"affected": {
 										"type": "pacman",

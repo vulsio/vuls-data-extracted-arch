@@ -203,7 +203,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libcurl-compat"
+										"type": "binary",
+										"binary": {
+											"name": "libcurl-compat"
+										}
 									},
 									"affected": {
 										"type": "pacman",

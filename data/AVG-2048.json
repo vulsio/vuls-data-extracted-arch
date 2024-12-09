@@ -123,7 +123,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "ming"
+										"type": "binary",
+										"binary": {
+											"name": "ming"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -79,7 +79,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "wpa_supplicant"
+										"type": "binary",
+										"binary": {
+											"name": "wpa_supplicant"
+										}
 									},
 									"affected": {
 										"type": "pacman",

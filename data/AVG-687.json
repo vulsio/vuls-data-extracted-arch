@@ -19,22 +19,6 @@
 		},
 		{
 			"content": {
-				"id": "ASA-201805-5",
-				"references": [
-					{
-						"source": "security.archlinux.org",
-						"url": "https://security.archlinux.org/ASA-201805-5"
-					}
-				]
-			},
-			"segments": [
-				{
-					"ecosystem": "arch"
-				}
-			]
-		},
-		{
-			"content": {
 				"id": "AVG-687",
 				"severity": [
 					{
@@ -159,7 +143,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mupdf-gl"
+										"type": "binary",
+										"binary": {
+											"name": "mupdf-gl"
+										}
 									},
 									"affected": {
 										"type": "pacman",

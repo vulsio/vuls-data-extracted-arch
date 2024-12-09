@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "hivex"
+										"type": "binary",
+										"binary": {
+											"name": "hivex"
+										}
 									},
 									"affected": {
 										"type": "pacman",

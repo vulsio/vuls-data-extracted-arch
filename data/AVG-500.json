@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "perl"
+										"type": "binary",
+										"binary": {
+											"name": "perl"
+										}
 									},
 									"affected": {
 										"type": "pacman",

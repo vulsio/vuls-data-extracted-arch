@@ -139,7 +139,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gst-plugins-good"
+										"type": "binary",
+										"binary": {
+											"name": "gst-plugins-good"
+										}
 									},
 									"affected": {
 										"type": "pacman",

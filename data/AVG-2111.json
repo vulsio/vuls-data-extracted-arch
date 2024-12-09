@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "dcraw"
+										"type": "binary",
+										"binary": {
+											"name": "dcraw"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "keystone"
+										"type": "binary",
+										"binary": {
+											"name": "keystone"
+										}
 									},
 									"affected": {
 										"type": "pacman",

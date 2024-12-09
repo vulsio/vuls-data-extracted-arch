@@ -63,7 +63,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "linux-firmware"
+										"type": "binary",
+										"binary": {
+											"name": "linux-firmware"
+										}
 									},
 									"affected": {
 										"type": "pacman",

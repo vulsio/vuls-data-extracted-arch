@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "swtpm"
+										"type": "binary",
+										"binary": {
+											"name": "swtpm"
+										}
 									},
 									"affected": {
 										"type": "pacman",

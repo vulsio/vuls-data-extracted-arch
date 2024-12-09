@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nextcloud-client"
+										"type": "binary",
+										"binary": {
+											"name": "nextcloud-client"
+										}
 									},
 									"affected": {
 										"type": "pacman",

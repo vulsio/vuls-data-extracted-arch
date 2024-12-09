@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "subversion"
+										"type": "binary",
+										"binary": {
+											"name": "subversion"
+										}
 									},
 									"affected": {
 										"type": "pacman",

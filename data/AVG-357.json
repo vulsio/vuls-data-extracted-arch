@@ -155,7 +155,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "freeradius"
+										"type": "binary",
+										"binary": {
+											"name": "freeradius"
+										}
 									},
 									"affected": {
 										"type": "pacman",

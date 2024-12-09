@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-keyring"
+										"type": "binary",
+										"binary": {
+											"name": "gnome-keyring"
+										}
 									},
 									"affected": {
 										"type": "pacman",

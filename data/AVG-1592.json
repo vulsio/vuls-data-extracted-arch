@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python-reportlab"
+										"type": "binary",
+										"binary": {
+											"name": "python-reportlab"
+										}
 									},
 									"affected": {
 										"type": "pacman",

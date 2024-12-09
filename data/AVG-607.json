@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "plasma-workspace"
+										"type": "binary",
+										"binary": {
+											"name": "plasma-workspace"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -63,7 +63,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "openjpeg2"
+										"type": "binary",
+										"binary": {
+											"name": "openjpeg2"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "aspnet-runtime"
+										"type": "binary",
+										"binary": {
+											"name": "aspnet-runtime"
+										}
 									},
 									"affected": {
 										"type": "pacman",

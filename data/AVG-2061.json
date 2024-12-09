@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "bluez"
+										"type": "binary",
+										"binary": {
+											"name": "bluez"
+										}
 									},
 									"affected": {
 										"type": "pacman",

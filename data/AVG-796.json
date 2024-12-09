@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "lib32-curl"
+										"type": "binary",
+										"binary": {
+											"name": "lib32-curl"
+										}
 									},
 									"affected": {
 										"type": "pacman",

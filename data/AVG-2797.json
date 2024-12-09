@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python-jwcrypto"
+										"type": "binary",
+										"binary": {
+											"name": "python-jwcrypto"
+										}
 									},
 									"affected": {
 										"type": "pacman",

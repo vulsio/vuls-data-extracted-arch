@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mupdf-tools"
+										"type": "binary",
+										"binary": {
+											"name": "mupdf-tools"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libcue"
+										"type": "binary",
+										"binary": {
+											"name": "libcue"
+										}
 									},
 									"affected": {
 										"type": "pacman",

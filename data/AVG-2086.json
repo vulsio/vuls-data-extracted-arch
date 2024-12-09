@@ -63,7 +63,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libesmtp"
+										"type": "binary",
+										"binary": {
+											"name": "libesmtp"
+										}
 									},
 									"affected": {
 										"type": "pacman",

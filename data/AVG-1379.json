@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "hugo"
+										"type": "binary",
+										"binary": {
+											"name": "hugo"
+										}
 									},
 									"affected": {
 										"type": "pacman",

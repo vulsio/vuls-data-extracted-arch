@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "putty"
+										"type": "binary",
+										"binary": {
+											"name": "putty"
+										}
 									},
 									"affected": {
 										"type": "pacman",

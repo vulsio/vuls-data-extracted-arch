@@ -79,7 +79,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "perl-xml-libxml"
+										"type": "binary",
+										"binary": {
+											"name": "perl-xml-libxml"
+										}
 									},
 									"affected": {
 										"type": "pacman",

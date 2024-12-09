@@ -79,7 +79,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "home-assistant"
+										"type": "binary",
+										"binary": {
+											"name": "home-assistant"
+										}
 									},
 									"affected": {
 										"type": "pacman",

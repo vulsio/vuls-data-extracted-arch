@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "ettercap"
+										"type": "binary",
+										"binary": {
+											"name": "ettercap"
+										}
 									},
 									"affected": {
 										"type": "pacman",

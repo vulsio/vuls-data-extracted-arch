@@ -139,7 +139,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "keycloak"
+										"type": "binary",
+										"binary": {
+											"name": "keycloak"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -63,7 +63,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libssh2"
+										"type": "binary",
+										"binary": {
+											"name": "libssh2"
+										}
 									},
 									"affected": {
 										"type": "pacman",

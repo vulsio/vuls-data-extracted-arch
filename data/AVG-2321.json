@@ -139,7 +139,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "istio"
+										"type": "binary",
+										"binary": {
+											"name": "istio"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "minidlna"
+										"type": "binary",
+										"binary": {
+											"name": "minidlna"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "kube-apiserver"
+										"type": "binary",
+										"binary": {
+											"name": "kube-apiserver"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -95,7 +95,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "connman"
+										"type": "binary",
+										"binary": {
+											"name": "connman"
+										}
 									},
 									"affected": {
 										"type": "pacman",

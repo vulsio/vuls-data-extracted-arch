@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libarchive"
+										"type": "binary",
+										"binary": {
+											"name": "libarchive"
+										}
 									},
 									"affected": {
 										"type": "pacman",

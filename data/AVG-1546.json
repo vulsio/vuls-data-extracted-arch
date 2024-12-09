@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python-httplib2"
+										"type": "binary",
+										"binary": {
+											"name": "python-httplib2"
+										}
 									},
 									"affected": {
 										"type": "pacman",

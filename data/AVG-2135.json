@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "tcl"
+										"type": "binary",
+										"binary": {
+											"name": "tcl"
+										}
 									},
 									"affected": {
 										"type": "pacman",

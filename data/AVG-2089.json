@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "python-mpmath"
+										"type": "binary",
+										"binary": {
+											"name": "python-mpmath"
+										}
 									},
 									"affected": {
 										"type": "pacman",

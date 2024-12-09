@@ -75,7 +75,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "ansible-core"
+										"type": "binary",
+										"binary": {
+											"name": "ansible-core"
+										}
 									},
 									"affected": {
 										"type": "pacman",

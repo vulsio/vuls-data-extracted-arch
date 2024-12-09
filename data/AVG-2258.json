@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gd"
+										"type": "binary",
+										"binary": {
+											"name": "gd"
+										}
 									},
 									"affected": {
 										"type": "pacman",

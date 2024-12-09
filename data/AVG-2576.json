@@ -91,7 +91,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "librecad"
+										"type": "binary",
+										"binary": {
+											"name": "librecad"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -63,7 +63,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "riscv32-elf-newlib"
+										"type": "binary",
+										"binary": {
+											"name": "riscv32-elf-newlib"
+										}
 									},
 									"affected": {
 										"type": "pacman",

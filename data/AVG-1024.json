@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libnghttp2"
+										"type": "binary",
+										"binary": {
+											"name": "libnghttp2"
+										}
 									},
 									"affected": {
 										"type": "pacman",

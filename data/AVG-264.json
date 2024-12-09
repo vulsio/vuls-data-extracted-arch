@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "lxterminal"
+										"type": "binary",
+										"binary": {
+											"name": "lxterminal"
+										}
 									},
 									"affected": {
 										"type": "pacman",
