@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "jdk-openjdk"
+										"type": "binary",
+										"binary": {
+											"name": "jdk-openjdk"
+										}
 									},
 									"affected": {
 										"type": "pacman",

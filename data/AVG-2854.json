@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nodejs-lts-hydrogen"
+										"type": "binary",
+										"binary": {
+											"name": "nodejs-lts-hydrogen"
+										}
 									},
 									"affected": {
 										"type": "pacman",

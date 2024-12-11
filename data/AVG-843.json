@@ -63,7 +63,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python-yaml"
+										"type": "binary",
+										"binary": {
+											"name": "python-yaml"
+										}
 									},
 									"affected": {
 										"type": "pacman",

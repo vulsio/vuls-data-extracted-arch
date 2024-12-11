@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "git-annex"
+										"type": "binary",
+										"binary": {
+											"name": "git-annex"
+										}
 									},
 									"affected": {
 										"type": "pacman",

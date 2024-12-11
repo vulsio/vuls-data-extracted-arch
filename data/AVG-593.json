@@ -19,6 +19,22 @@
 		},
 		{
 			"content": {
+				"id": "ASA-201801-20",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/ASA-201801-20"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
+			]
+		},
+		{
+			"content": {
 				"id": "AVG-593",
 				"severity": [
 					{
@@ -91,7 +107,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "curl"
+										"type": "binary",
+										"binary": {
+											"name": "curl"
+										}
 									},
 									"affected": {
 										"type": "pacman",

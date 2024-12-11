@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "spamassassin"
+										"type": "binary",
+										"binary": {
+											"name": "spamassassin"
+										}
 									},
 									"affected": {
 										"type": "pacman",

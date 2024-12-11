@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libjxl"
+										"type": "binary",
+										"binary": {
+											"name": "libjxl"
+										}
 									},
 									"affected": {
 										"type": "pacman",

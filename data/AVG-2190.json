@@ -91,7 +91,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "jdk8-openjdk"
+										"type": "binary",
+										"binary": {
+											"name": "jdk8-openjdk"
+										}
 									},
 									"affected": {
 										"type": "pacman",
@@ -111,7 +114,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "jre8-openjdk-headless"
+										"type": "binary",
+										"binary": {
+											"name": "jre8-openjdk-headless"
+										}
 									},
 									"affected": {
 										"type": "pacman",

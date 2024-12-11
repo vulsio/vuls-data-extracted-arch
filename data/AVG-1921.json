@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "metasploit"
+										"type": "binary",
+										"binary": {
+											"name": "metasploit"
+										}
 									},
 									"affected": {
 										"type": "pacman",

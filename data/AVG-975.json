@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "vim"
+										"type": "binary",
+										"binary": {
+											"name": "vim"
+										}
 									},
 									"affected": {
 										"type": "pacman",

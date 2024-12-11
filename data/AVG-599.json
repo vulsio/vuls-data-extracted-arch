@@ -123,7 +123,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libmupdf"
+										"type": "binary",
+										"binary": {
+											"name": "libmupdf"
+										}
 									},
 									"affected": {
 										"type": "pacman",
@@ -146,7 +149,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mupdf"
+										"type": "binary",
+										"binary": {
+											"name": "mupdf"
+										}
 									},
 									"affected": {
 										"type": "pacman",
@@ -169,7 +175,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mupdf-gl"
+										"type": "binary",
+										"binary": {
+											"name": "mupdf-gl"
+										}
 									},
 									"affected": {
 										"type": "pacman",
@@ -192,7 +201,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mupdf-tools"
+										"type": "binary",
+										"binary": {
+											"name": "mupdf-tools"
+										}
 									},
 									"affected": {
 										"type": "pacman",

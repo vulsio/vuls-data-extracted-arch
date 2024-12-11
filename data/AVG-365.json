@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "cacti"
+										"type": "binary",
+										"binary": {
+											"name": "cacti"
+										}
 									},
 									"affected": {
 										"type": "pacman",

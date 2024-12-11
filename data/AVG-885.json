@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gettext"
+										"type": "binary",
+										"binary": {
+											"name": "gettext"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "element-desktop"
+										"type": "binary",
+										"binary": {
+											"name": "element-desktop"
+										}
 									},
 									"affected": {
 										"type": "pacman",
@@ -114,7 +117,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "element-web"
+										"type": "binary",
+										"binary": {
+											"name": "element-web"
+										}
 									},
 									"affected": {
 										"type": "pacman",

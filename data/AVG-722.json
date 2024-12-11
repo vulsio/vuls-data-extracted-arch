@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "perl-email-address"
+										"type": "binary",
+										"binary": {
+											"name": "perl-email-address"
+										}
 									},
 									"affected": {
 										"type": "pacman",

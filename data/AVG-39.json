@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "wordpress"
+										"type": "binary",
+										"binary": {
+											"name": "wordpress"
+										}
 									},
 									"affected": {
 										"type": "pacman",

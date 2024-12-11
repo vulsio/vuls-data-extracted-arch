@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "sqlite"
+										"type": "binary",
+										"binary": {
+											"name": "sqlite"
+										}
 									},
 									"affected": {
 										"type": "pacman",

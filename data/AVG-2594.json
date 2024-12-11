@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "consul"
+										"type": "binary",
+										"binary": {
+											"name": "consul"
+										}
 									},
 									"affected": {
 										"type": "pacman",

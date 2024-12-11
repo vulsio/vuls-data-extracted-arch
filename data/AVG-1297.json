@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pam"
+										"type": "binary",
+										"binary": {
+											"name": "pam"
+										}
 									},
 									"affected": {
 										"type": "pacman",

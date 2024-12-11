@@ -75,7 +75,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "samurai"
+										"type": "binary",
+										"binary": {
+											"name": "samurai"
+										}
 									},
 									"affected": {
 										"type": "pacman",

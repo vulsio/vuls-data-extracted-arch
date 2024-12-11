@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-xmlgraphics-commons"
+										"type": "binary",
+										"binary": {
+											"name": "java-xmlgraphics-commons"
+										}
 									},
 									"affected": {
 										"type": "pacman",

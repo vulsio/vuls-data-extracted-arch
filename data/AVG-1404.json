@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "nodejs"
+										"type": "binary",
+										"binary": {
+											"name": "nodejs"
+										}
 									},
 									"affected": {
 										"type": "pacman",

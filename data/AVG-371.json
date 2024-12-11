@@ -19,6 +19,22 @@
 		},
 		{
 			"content": {
+				"id": "ASA-201710-3",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/ASA-201710-3"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
+			]
+		},
+		{
+			"content": {
 				"id": "AVG-371",
 				"severity": [
 					{
@@ -107,7 +123,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "lib32-curl"
+										"type": "binary",
+										"binary": {
+											"name": "lib32-curl"
+										}
 									},
 									"affected": {
 										"type": "pacman",

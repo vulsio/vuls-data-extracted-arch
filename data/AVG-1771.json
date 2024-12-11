@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "zabbix-frontend-php"
+										"type": "binary",
+										"binary": {
+											"name": "zabbix-frontend-php"
+										}
 									},
 									"affected": {
 										"type": "pacman",

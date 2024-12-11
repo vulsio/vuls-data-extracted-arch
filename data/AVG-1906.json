@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "jruby"
+										"type": "binary",
+										"binary": {
+											"name": "jruby"
+										}
 									},
 									"affected": {
 										"type": "pacman",

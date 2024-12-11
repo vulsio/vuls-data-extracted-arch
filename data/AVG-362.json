@@ -235,7 +235,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "webkit2gtk"
+										"type": "binary",
+										"binary": {
+											"name": "webkit2gtk"
+										}
 									},
 									"affected": {
 										"type": "pacman",

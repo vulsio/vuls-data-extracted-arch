@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "podman-docker"
+										"type": "binary",
+										"binary": {
+											"name": "podman-docker"
+										}
 									},
 									"affected": {
 										"type": "pacman",

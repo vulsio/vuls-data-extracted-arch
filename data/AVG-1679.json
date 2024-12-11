@@ -79,7 +79,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "xcftools"
+										"type": "binary",
+										"binary": {
+											"name": "xcftools"
+										}
 									},
 									"affected": {
 										"type": "pacman",

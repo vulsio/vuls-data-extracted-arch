@@ -235,7 +235,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libplist"
+										"type": "binary",
+										"binary": {
+											"name": "libplist"
+										}
 									},
 									"affected": {
 										"type": "pacman",

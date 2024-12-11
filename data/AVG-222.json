@@ -123,7 +123,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pcre"
+										"type": "binary",
+										"binary": {
+											"name": "pcre"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "claws-mail"
+										"type": "binary",
+										"binary": {
+											"name": "claws-mail"
+										}
 									},
 									"affected": {
 										"type": "pacman",

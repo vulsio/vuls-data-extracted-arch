@@ -63,7 +63,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "opendmarc"
+										"type": "binary",
+										"binary": {
+											"name": "opendmarc"
+										}
 									},
 									"affected": {
 										"type": "pacman",

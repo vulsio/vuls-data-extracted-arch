@@ -139,7 +139,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "powerdns"
+										"type": "binary",
+										"binary": {
+											"name": "powerdns"
+										}
 									},
 									"affected": {
 										"type": "pacman",

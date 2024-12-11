@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libx11"
+										"type": "binary",
+										"binary": {
+											"name": "libx11"
+										}
 									},
 									"affected": {
 										"type": "pacman",

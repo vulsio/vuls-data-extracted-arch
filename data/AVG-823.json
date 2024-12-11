@@ -155,7 +155,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "samba"
+										"type": "binary",
+										"binary": {
+											"name": "samba"
+										}
 									},
 									"affected": {
 										"type": "pacman",

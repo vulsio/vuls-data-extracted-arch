@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "tomcat8"
+										"type": "binary",
+										"binary": {
+											"name": "tomcat8"
+										}
 									},
 									"affected": {
 										"type": "pacman",

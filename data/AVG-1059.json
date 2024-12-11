@@ -79,7 +79,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-webengine"
+										"type": "binary",
+										"binary": {
+											"name": "qt5-webengine"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libunrar"
+										"type": "binary",
+										"binary": {
+											"name": "libunrar"
+										}
 									},
 									"affected": {
 										"type": "pacman",
@@ -82,7 +85,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "unrar"
+										"type": "binary",
+										"binary": {
+											"name": "unrar"
+										}
 									},
 									"affected": {
 										"type": "pacman",

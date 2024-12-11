@@ -139,7 +139,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nvidia-open"
+										"type": "binary",
+										"binary": {
+											"name": "nvidia-open"
+										}
 									},
 									"affected": {
 										"type": "pacman",
@@ -162,7 +165,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nvidia-open-dkms"
+										"type": "binary",
+										"binary": {
+											"name": "nvidia-open-dkms"
+										}
 									},
 									"affected": {
 										"type": "pacman",

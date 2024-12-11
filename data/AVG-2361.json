@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "ulfius"
+										"type": "binary",
+										"binary": {
+											"name": "ulfius"
+										}
 									},
 									"affected": {
 										"type": "pacman",

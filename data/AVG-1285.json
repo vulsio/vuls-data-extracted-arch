@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libass"
+										"type": "binary",
+										"binary": {
+											"name": "libass"
+										}
 									},
 									"affected": {
 										"type": "pacman",

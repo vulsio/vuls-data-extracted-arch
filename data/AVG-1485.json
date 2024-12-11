@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python-bottle"
+										"type": "binary",
+										"binary": {
+											"name": "python-bottle"
+										}
 									},
 									"affected": {
 										"type": "pacman",

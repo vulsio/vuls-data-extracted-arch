@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "tesseract"
+										"type": "binary",
+										"binary": {
+											"name": "tesseract"
+										}
 									},
 									"affected": {
 										"type": "pacman",

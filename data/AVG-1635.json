@@ -175,7 +175,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python-pillow"
+										"type": "binary",
+										"binary": {
+											"name": "python-pillow"
+										}
 									},
 									"affected": {
 										"type": "pacman",

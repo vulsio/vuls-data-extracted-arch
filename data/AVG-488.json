@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "postgresql-old-upgrade"
+										"type": "binary",
+										"binary": {
+											"name": "postgresql-old-upgrade"
+										}
 									},
 									"affected": {
 										"type": "pacman",

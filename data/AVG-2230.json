@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libvirt"
+										"type": "binary",
+										"binary": {
+											"name": "libvirt"
+										}
 									},
 									"affected": {
 										"type": "pacman",

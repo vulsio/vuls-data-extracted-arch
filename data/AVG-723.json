@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "ntp"
+										"type": "binary",
+										"binary": {
+											"name": "ntp"
+										}
 									},
 									"affected": {
 										"type": "pacman",

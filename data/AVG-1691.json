@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python-urllib3"
+										"type": "binary",
+										"binary": {
+											"name": "python-urllib3"
+										}
 									},
 									"affected": {
 										"type": "pacman",

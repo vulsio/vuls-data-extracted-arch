@@ -143,7 +143,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rsync"
+										"type": "binary",
+										"binary": {
+											"name": "rsync"
+										}
 									},
 									"affected": {
 										"type": "pacman",

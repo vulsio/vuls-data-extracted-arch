@@ -91,7 +91,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "gocr"
+										"type": "binary",
+										"binary": {
+											"name": "gocr"
+										}
 									},
 									"affected": {
 										"type": "pacman",

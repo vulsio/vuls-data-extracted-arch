@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qutebrowser"
+										"type": "binary",
+										"binary": {
+											"name": "qutebrowser"
+										}
 									},
 									"affected": {
 										"type": "pacman",

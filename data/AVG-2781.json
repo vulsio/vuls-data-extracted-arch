@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python-pyjwt"
+										"type": "binary",
+										"binary": {
+											"name": "python-pyjwt"
+										}
 									},
 									"affected": {
 										"type": "pacman",

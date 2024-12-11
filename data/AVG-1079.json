@@ -79,7 +79,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "shadow"
+										"type": "binary",
+										"binary": {
+											"name": "shadow"
+										}
 									},
 									"affected": {
 										"type": "pacman",

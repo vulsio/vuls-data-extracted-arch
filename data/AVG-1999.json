@@ -19,6 +19,22 @@
 		},
 		{
 			"content": {
+				"id": "ASA-202106-8",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/ASA-202106-8"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
+			]
+		},
+		{
+			"content": {
 				"id": "AVG-1999",
 				"severity": [
 					{
@@ -75,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libcurl-gnutls"
+										"type": "binary",
+										"binary": {
+											"name": "libcurl-gnutls"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -219,7 +219,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "radare2"
+										"type": "binary",
+										"binary": {
+											"name": "radare2"
+										}
 									},
 									"affected": {
 										"type": "pacman",

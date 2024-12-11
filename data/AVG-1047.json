@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "sudo"
+										"type": "binary",
+										"binary": {
+											"name": "sudo"
+										}
 									},
 									"affected": {
 										"type": "pacman",

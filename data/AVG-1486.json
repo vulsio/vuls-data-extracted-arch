@@ -75,7 +75,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "bitcoin-daemon"
+										"type": "binary",
+										"binary": {
+											"name": "bitcoin-daemon"
+										}
 									},
 									"affected": {
 										"type": "pacman",

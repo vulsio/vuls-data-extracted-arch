@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libjcat"
+										"type": "binary",
+										"binary": {
+											"name": "libjcat"
+										}
 									},
 									"affected": {
 										"type": "pacman",

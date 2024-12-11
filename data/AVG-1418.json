@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nvidia-utils"
+										"type": "binary",
+										"binary": {
+											"name": "nvidia-utils"
+										}
 									},
 									"affected": {
 										"type": "pacman",

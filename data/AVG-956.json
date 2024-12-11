@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nautilus"
+										"type": "binary",
+										"binary": {
+											"name": "nautilus"
+										}
 									},
 									"affected": {
 										"type": "pacman",

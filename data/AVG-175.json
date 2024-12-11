@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "diffoscope"
+										"type": "binary",
+										"binary": {
+											"name": "diffoscope"
+										}
 									},
 									"affected": {
 										"type": "pacman",

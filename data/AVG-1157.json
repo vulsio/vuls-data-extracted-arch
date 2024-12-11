@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "openconnect"
+										"type": "binary",
+										"binary": {
+											"name": "openconnect"
+										}
 									},
 									"affected": {
 										"type": "pacman",

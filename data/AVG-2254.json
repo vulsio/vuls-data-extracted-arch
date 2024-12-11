@@ -155,7 +155,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "libelfin"
+										"type": "binary",
+										"binary": {
+											"name": "libelfin"
+										}
 									},
 									"affected": {
 										"type": "pacman",

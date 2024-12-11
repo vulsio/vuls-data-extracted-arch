@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "rabbitmq"
+										"type": "binary",
+										"binary": {
+											"name": "rabbitmq"
+										}
 									},
 									"affected": {
 										"type": "pacman",

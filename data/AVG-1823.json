@@ -1131,7 +1131,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "gpac"
+										"type": "binary",
+										"binary": {
+											"name": "gpac"
+										}
 									},
 									"affected": {
 										"type": "pacman",

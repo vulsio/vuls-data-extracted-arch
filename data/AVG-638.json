@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libcdio"
+										"type": "binary",
+										"binary": {
+											"name": "libcdio"
+										}
 									},
 									"affected": {
 										"type": "pacman",

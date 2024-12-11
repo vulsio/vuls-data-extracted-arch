@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libvncserver"
+										"type": "binary",
+										"binary": {
+											"name": "libvncserver"
+										}
 									},
 									"affected": {
 										"type": "pacman",

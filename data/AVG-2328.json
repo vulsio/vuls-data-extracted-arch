@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "squashfs-tools"
+										"type": "binary",
+										"binary": {
+											"name": "squashfs-tools"
+										}
 									},
 									"affected": {
 										"type": "pacman",

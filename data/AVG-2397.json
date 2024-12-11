@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "seatd"
+										"type": "binary",
+										"binary": {
+											"name": "seatd"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "atomicparsley"
+										"type": "binary",
+										"binary": {
+											"name": "atomicparsley"
+										}
 									},
 									"affected": {
 										"type": "pacman",

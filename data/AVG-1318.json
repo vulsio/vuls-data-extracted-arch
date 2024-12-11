@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "cimg"
+										"type": "binary",
+										"binary": {
+											"name": "cimg"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -19,6 +19,22 @@
 		},
 		{
 			"content": {
+				"id": "ASA-201805-15",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/ASA-201805-15"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
+			]
+		},
+		{
+			"content": {
 				"id": "AVG-696",
 				"severity": [
 					{
@@ -91,7 +107,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "lib32-libcurl-compat"
+										"type": "binary",
+										"binary": {
+											"name": "lib32-libcurl-compat"
+										}
 									},
 									"affected": {
 										"type": "pacman",

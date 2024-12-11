@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "jdk8-openjdk"
+										"type": "binary",
+										"binary": {
+											"name": "jdk8-openjdk"
+										}
 									},
 									"affected": {
 										"type": "pacman",

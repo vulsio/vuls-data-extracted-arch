@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "pam-u2f"
+										"type": "binary",
+										"binary": {
+											"name": "pam-u2f"
+										}
 									},
 									"affected": {
 										"type": "pacman",

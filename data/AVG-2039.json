@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "aom"
+										"type": "binary",
+										"binary": {
+											"name": "aom"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -79,7 +79,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "transmission-cli"
+										"type": "binary",
+										"binary": {
+											"name": "transmission-cli"
+										}
 									},
 									"affected": {
 										"type": "pacman",

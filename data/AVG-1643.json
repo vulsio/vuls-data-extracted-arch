@@ -767,7 +767,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "cgal"
+										"type": "binary",
+										"binary": {
+											"name": "cgal"
+										}
 									},
 									"affected": {
 										"type": "pacman",

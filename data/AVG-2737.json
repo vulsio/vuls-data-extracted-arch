@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gnome-remote-desktop"
+										"type": "binary",
+										"binary": {
+											"name": "gnome-remote-desktop"
+										}
 									},
 									"affected": {
 										"type": "pacman",

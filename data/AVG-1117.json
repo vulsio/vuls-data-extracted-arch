@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "uboot-tools"
+										"type": "binary",
+										"binary": {
+											"name": "uboot-tools"
+										}
 									},
 									"affected": {
 										"type": "pacman",

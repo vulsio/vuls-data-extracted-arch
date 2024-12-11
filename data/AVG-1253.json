@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "kpmcore"
+										"type": "binary",
+										"binary": {
+											"name": "kpmcore"
+										}
 									},
 									"affected": {
 										"type": "pacman",

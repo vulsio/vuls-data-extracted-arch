@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libreoffice-fresh"
+										"type": "binary",
+										"binary": {
+											"name": "libreoffice-fresh"
+										}
 									},
 									"affected": {
 										"type": "pacman",

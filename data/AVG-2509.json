@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "kodi"
+										"type": "binary",
+										"binary": {
+											"name": "kodi"
+										}
 									},
 									"affected": {
 										"type": "pacman",

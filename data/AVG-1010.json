@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libreoffice-still"
+										"type": "binary",
+										"binary": {
+											"name": "libreoffice-still"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python-dask"
+										"type": "binary",
+										"binary": {
+											"name": "python-dask"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python-pygments"
+										"type": "binary",
+										"binary": {
+											"name": "python-pygments"
+										}
 									},
 									"affected": {
 										"type": "pacman",

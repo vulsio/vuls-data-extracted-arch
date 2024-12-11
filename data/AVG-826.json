@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "cairo"
+										"type": "binary",
+										"binary": {
+											"name": "cairo"
+										}
 									},
 									"affected": {
 										"type": "pacman",

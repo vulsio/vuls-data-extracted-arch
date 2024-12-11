@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "protobuf"
+										"type": "binary",
+										"binary": {
+											"name": "protobuf"
+										}
 									},
 									"affected": {
 										"type": "pacman",
@@ -82,7 +85,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python-protobuf"
+										"type": "binary",
+										"binary": {
+											"name": "python-protobuf"
+										}
 									},
 									"affected": {
 										"type": "pacman",

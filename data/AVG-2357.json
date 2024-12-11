@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "emby-server"
+										"type": "binary",
+										"binary": {
+											"name": "emby-server"
+										}
 									},
 									"affected": {
 										"type": "pacman",

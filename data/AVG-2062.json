@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "thefuck"
+										"type": "binary",
+										"binary": {
+											"name": "thefuck"
+										}
 									},
 									"affected": {
 										"type": "pacman",

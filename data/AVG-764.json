@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "zsh"
+										"type": "binary",
+										"binary": {
+											"name": "zsh"
+										}
 									},
 									"affected": {
 										"type": "pacman",

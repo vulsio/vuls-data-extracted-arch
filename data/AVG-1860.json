@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "vault"
+										"type": "binary",
+										"binary": {
+											"name": "vault"
+										}
 									},
 									"affected": {
 										"type": "pacman",

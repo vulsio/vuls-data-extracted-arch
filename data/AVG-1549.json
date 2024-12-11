@@ -287,7 +287,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libsndfile"
+										"type": "binary",
+										"binary": {
+											"name": "libsndfile"
+										}
 									},
 									"affected": {
 										"type": "pacman",

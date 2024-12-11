@@ -19,6 +19,22 @@
 		},
 		{
 			"content": {
+				"id": "ASA-201612-22",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/ASA-201612-22"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
+			]
+		},
+		{
+			"content": {
 				"id": "AVG-112",
 				"severity": [
 					{
@@ -95,7 +111,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "curl"
+										"type": "binary",
+										"binary": {
+											"name": "curl"
+										}
 									},
 									"affected": {
 										"type": "pacman",

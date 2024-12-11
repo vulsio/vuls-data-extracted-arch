@@ -539,7 +539,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "chromium"
+										"type": "binary",
+										"binary": {
+											"name": "chromium"
+										}
 									},
 									"affected": {
 										"type": "pacman",

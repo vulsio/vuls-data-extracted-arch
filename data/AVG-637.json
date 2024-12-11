@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "emacs-nox"
+										"type": "binary",
+										"binary": {
+											"name": "emacs-nox"
+										}
 									},
 									"affected": {
 										"type": "pacman",

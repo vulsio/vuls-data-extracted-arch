@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rclone"
+										"type": "binary",
+										"binary": {
+											"name": "rclone"
+										}
 									},
 									"affected": {
 										"type": "pacman",

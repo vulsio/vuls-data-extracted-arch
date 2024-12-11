@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "jupyterlab"
+										"type": "binary",
+										"binary": {
+											"name": "jupyterlab"
+										}
 									},
 									"affected": {
 										"type": "pacman",

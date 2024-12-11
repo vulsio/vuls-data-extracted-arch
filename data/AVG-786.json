@@ -107,7 +107,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "ghostscript"
+										"type": "binary",
+										"binary": {
+											"name": "ghostscript"
+										}
 									},
 									"affected": {
 										"type": "pacman",

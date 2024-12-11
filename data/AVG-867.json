@@ -239,7 +239,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "podofo"
+										"type": "binary",
+										"binary": {
+											"name": "podofo"
+										}
 									},
 									"affected": {
 										"type": "pacman",

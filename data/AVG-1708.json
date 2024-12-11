@@ -79,7 +79,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mkinitcpio-busybox"
+										"type": "binary",
+										"binary": {
+											"name": "mkinitcpio-busybox"
+										}
 									},
 									"affected": {
 										"type": "pacman",

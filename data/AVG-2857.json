@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "oath-toolkit"
+										"type": "binary",
+										"binary": {
+											"name": "oath-toolkit"
+										}
 									},
 									"affected": {
 										"type": "pacman",

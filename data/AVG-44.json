@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "messagelib"
+										"type": "binary",
+										"binary": {
+											"name": "messagelib"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "sssd"
+										"type": "binary",
+										"binary": {
+											"name": "sssd"
+										}
 									},
 									"affected": {
 										"type": "pacman",

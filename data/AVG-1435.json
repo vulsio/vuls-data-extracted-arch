@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gptfdisk"
+										"type": "binary",
+										"binary": {
+											"name": "gptfdisk"
+										}
 									},
 									"affected": {
 										"type": "pacman",

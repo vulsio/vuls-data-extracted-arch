@@ -79,7 +79,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rpcbind"
+										"type": "binary",
+										"binary": {
+											"name": "rpcbind"
+										}
 									},
 									"affected": {
 										"type": "pacman",

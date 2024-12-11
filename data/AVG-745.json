@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "cgit"
+										"type": "binary",
+										"binary": {
+											"name": "cgit"
+										}
 									},
 									"affected": {
 										"type": "pacman",

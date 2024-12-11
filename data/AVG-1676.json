@@ -107,7 +107,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "upx"
+										"type": "binary",
+										"binary": {
+											"name": "upx"
+										}
 									},
 									"affected": {
 										"type": "pacman",

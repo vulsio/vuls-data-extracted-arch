@@ -79,7 +79,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "lz4"
+										"type": "binary",
+										"binary": {
+											"name": "lz4"
+										}
 									},
 									"affected": {
 										"type": "pacman",

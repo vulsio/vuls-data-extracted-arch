@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "tpm2-tools"
+										"type": "binary",
+										"binary": {
+											"name": "tpm2-tools"
+										}
 									},
 									"affected": {
 										"type": "pacman",

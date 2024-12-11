@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dhclient"
+										"type": "binary",
+										"binary": {
+											"name": "dhclient"
+										}
 									},
 									"affected": {
 										"type": "pacman",

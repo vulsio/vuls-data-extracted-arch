@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "grub"
+										"type": "binary",
+										"binary": {
+											"name": "grub"
+										}
 									},
 									"affected": {
 										"type": "pacman",

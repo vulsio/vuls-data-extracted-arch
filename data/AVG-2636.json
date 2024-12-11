@@ -107,7 +107,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "xorg-server"
+										"type": "binary",
+										"binary": {
+											"name": "xorg-server"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "bitcoin-tx"
+										"type": "binary",
+										"binary": {
+											"name": "bitcoin-tx"
+										}
 									},
 									"affected": {
 										"type": "pacman",

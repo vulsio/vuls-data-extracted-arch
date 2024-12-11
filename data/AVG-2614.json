@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "grafana-agent"
+										"type": "binary",
+										"binary": {
+											"name": "grafana-agent"
+										}
 									},
 									"affected": {
 										"type": "pacman",

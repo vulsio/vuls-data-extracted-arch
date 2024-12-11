@@ -19,6 +19,22 @@
 		},
 		{
 			"content": {
+				"id": "ASA-201905-13",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/ASA-201905-13"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
+			]
+		},
+		{
+			"content": {
 				"id": "AVG-961",
 				"severity": [
 					{
@@ -91,7 +107,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "lib32-libcurl-gnutls"
+										"type": "binary",
+										"binary": {
+											"name": "lib32-libcurl-gnutls"
+										}
 									},
 									"affected": {
 										"type": "pacman",

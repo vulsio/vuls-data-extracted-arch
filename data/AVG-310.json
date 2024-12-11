@@ -63,7 +63,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libffi"
+										"type": "binary",
+										"binary": {
+											"name": "libffi"
+										}
 									},
 									"affected": {
 										"type": "pacman",

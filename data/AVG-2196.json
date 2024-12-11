@@ -19,6 +19,22 @@
 		},
 		{
 			"content": {
+				"id": "ASA-202107-61",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/ASA-202107-61"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
+			]
+		},
+		{
+			"content": {
 				"id": "AVG-2196",
 				"severity": [
 					{
@@ -91,7 +107,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libcurl-compat"
+										"type": "binary",
+										"binary": {
+											"name": "libcurl-compat"
+										}
 									},
 									"affected": {
 										"type": "pacman",

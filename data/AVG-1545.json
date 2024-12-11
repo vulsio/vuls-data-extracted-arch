@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "firejail"
+										"type": "binary",
+										"binary": {
+											"name": "firejail"
+										}
 									},
 									"affected": {
 										"type": "pacman",

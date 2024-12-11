@@ -143,7 +143,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "zziplib"
+										"type": "binary",
+										"binary": {
+											"name": "zziplib"
+										}
 									},
 									"affected": {
 										"type": "pacman",

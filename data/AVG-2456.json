@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gajim"
+										"type": "binary",
+										"binary": {
+											"name": "gajim"
+										}
 									},
 									"affected": {
 										"type": "pacman",

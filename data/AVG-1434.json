@@ -79,7 +79,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python-flask-security-too"
+										"type": "binary",
+										"binary": {
+											"name": "python-flask-security-too"
+										}
 									},
 									"affected": {
 										"type": "pacman",

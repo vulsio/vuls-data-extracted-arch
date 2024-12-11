@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "texlive-bin"
+										"type": "binary",
+										"binary": {
+											"name": "texlive-bin"
+										}
 									},
 									"affected": {
 										"type": "pacman",

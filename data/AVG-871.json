@@ -367,7 +367,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rdesktop"
+										"type": "binary",
+										"binary": {
+											"name": "rdesktop"
+										}
 									},
 									"affected": {
 										"type": "pacman",

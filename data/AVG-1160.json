@@ -63,7 +63,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "json-c"
+										"type": "binary",
+										"binary": {
+											"name": "json-c"
+										}
 									},
 									"affected": {
 										"type": "pacman",

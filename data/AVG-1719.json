@@ -139,7 +139,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "linux-lts"
+										"type": "binary",
+										"binary": {
+											"name": "linux-lts"
+										}
 									},
 									"affected": {
 										"type": "pacman",

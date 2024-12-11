@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "ldb"
+										"type": "binary",
+										"binary": {
+											"name": "ldb"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "grilo"
+										"type": "binary",
+										"binary": {
+											"name": "grilo"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "strongswan"
+										"type": "binary",
+										"binary": {
+											"name": "strongswan"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -63,7 +63,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "quassel-core"
+										"type": "binary",
+										"binary": {
+											"name": "quassel-core"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "hyperkitty"
+										"type": "binary",
+										"binary": {
+											"name": "hyperkitty"
+										}
 									},
 									"affected": {
 										"type": "pacman",

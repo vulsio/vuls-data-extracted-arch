@@ -107,7 +107,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "tcpreplay"
+										"type": "binary",
+										"binary": {
+											"name": "tcpreplay"
+										}
 									},
 									"affected": {
 										"type": "pacman",

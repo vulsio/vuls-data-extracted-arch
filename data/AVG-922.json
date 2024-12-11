@@ -107,7 +107,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mxml"
+										"type": "binary",
+										"binary": {
+											"name": "mxml"
+										}
 									},
 									"affected": {
 										"type": "pacman",

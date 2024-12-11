@@ -79,7 +79,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libytnef"
+										"type": "binary",
+										"binary": {
+											"name": "libytnef"
+										}
 									},
 									"affected": {
 										"type": "pacman",

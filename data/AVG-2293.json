@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "glibc"
+										"type": "binary",
+										"binary": {
+											"name": "glibc"
+										}
 									},
 									"affected": {
 										"type": "pacman",

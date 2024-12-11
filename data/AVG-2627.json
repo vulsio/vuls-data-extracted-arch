@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "toxcore"
+										"type": "binary",
+										"binary": {
+											"name": "toxcore"
+										}
 									},
 									"affected": {
 										"type": "pacman",

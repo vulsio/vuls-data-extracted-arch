@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "fossil"
+										"type": "binary",
+										"binary": {
+											"name": "fossil"
+										}
 									},
 									"affected": {
 										"type": "pacman",

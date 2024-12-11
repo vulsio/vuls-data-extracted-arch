@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "sdl2"
+										"type": "binary",
+										"binary": {
+											"name": "sdl2"
+										}
 									},
 									"affected": {
 										"type": "pacman",

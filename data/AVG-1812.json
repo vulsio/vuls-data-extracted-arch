@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "xorg-xwayland"
+										"type": "binary",
+										"binary": {
+											"name": "xorg-xwayland"
+										}
 									},
 									"affected": {
 										"type": "pacman",

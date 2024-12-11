@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "cpio"
+										"type": "binary",
+										"binary": {
+											"name": "cpio"
+										}
 									},
 									"affected": {
 										"type": "pacman",

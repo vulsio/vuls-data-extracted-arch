@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "webkit2gtk-4.1"
+										"type": "binary",
+										"binary": {
+											"name": "webkit2gtk-4.1"
+										}
 									},
 									"affected": {
 										"type": "pacman",

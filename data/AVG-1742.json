@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "avahi"
+										"type": "binary",
+										"binary": {
+											"name": "avahi"
+										}
 									},
 									"affected": {
 										"type": "pacman",

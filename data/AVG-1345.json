@@ -63,7 +63,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "x11vnc"
+										"type": "binary",
+										"binary": {
+											"name": "x11vnc"
+										}
 									},
 									"affected": {
 										"type": "pacman",

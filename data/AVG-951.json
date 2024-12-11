@@ -107,7 +107,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "openssh"
+										"type": "binary",
+										"binary": {
+											"name": "openssh"
+										}
 									},
 									"affected": {
 										"type": "pacman",

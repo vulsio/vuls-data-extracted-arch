@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "argocd"
+										"type": "binary",
+										"binary": {
+											"name": "argocd"
+										}
 									},
 									"affected": {
 										"type": "pacman",

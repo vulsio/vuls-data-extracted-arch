@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nginx"
+										"type": "binary",
+										"binary": {
+											"name": "nginx"
+										}
 									},
 									"affected": {
 										"type": "pacman",

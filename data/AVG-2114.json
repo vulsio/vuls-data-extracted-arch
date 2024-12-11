@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "tensorflow"
+										"type": "binary",
+										"binary": {
+											"name": "tensorflow"
+										}
 									},
 									"affected": {
 										"type": "pacman",

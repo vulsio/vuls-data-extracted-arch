@@ -107,7 +107,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gvfs"
+										"type": "binary",
+										"binary": {
+											"name": "gvfs"
+										}
 									},
 									"affected": {
 										"type": "pacman",

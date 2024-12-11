@@ -79,7 +79,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "atftp"
+										"type": "binary",
+										"binary": {
+											"name": "atftp"
+										}
 									},
 									"affected": {
 										"type": "pacman",

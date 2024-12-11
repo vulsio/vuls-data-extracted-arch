@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "ruby-puma"
+										"type": "binary",
+										"binary": {
+											"name": "ruby-puma"
+										}
 									},
 									"affected": {
 										"type": "pacman",

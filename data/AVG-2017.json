@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "caribou"
+										"type": "binary",
+										"binary": {
+											"name": "caribou"
+										}
 									},
 									"affected": {
 										"type": "pacman",

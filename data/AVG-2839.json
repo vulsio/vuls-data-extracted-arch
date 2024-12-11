@@ -347,7 +347,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nvidia-lts"
+										"type": "binary",
+										"binary": {
+											"name": "nvidia-lts"
+										}
 									},
 									"affected": {
 										"type": "pacman",

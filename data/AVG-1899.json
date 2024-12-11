@@ -143,7 +143,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "djvulibre"
+										"type": "binary",
+										"binary": {
+											"name": "djvulibre"
+										}
 									},
 									"affected": {
 										"type": "pacman",

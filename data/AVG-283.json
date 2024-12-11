@@ -111,7 +111,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "vlc"
+										"type": "binary",
+										"binary": {
+											"name": "vlc"
+										}
 									},
 									"affected": {
 										"type": "pacman",

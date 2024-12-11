@@ -79,7 +79,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gobby"
+										"type": "binary",
+										"binary": {
+											"name": "gobby"
+										}
 									},
 									"affected": {
 										"type": "pacman",

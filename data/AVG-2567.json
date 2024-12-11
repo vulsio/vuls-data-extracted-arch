@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "kdepim-runtime"
+										"type": "binary",
+										"binary": {
+											"name": "kdepim-runtime"
+										}
 									},
 									"affected": {
 										"type": "pacman",

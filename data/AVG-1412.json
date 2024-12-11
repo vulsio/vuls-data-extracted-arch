@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python-cairosvg"
+										"type": "binary",
+										"binary": {
+											"name": "python-cairosvg"
+										}
 									},
 									"affected": {
 										"type": "pacman",

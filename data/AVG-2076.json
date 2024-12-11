@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "matrix-appservice-irc"
+										"type": "binary",
+										"binary": {
+											"name": "matrix-appservice-irc"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -79,7 +79,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "jbig2dec"
+										"type": "binary",
+										"binary": {
+											"name": "jbig2dec"
+										}
 									},
 									"affected": {
 										"type": "pacman",

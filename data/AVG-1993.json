@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "libgrss"
+										"type": "binary",
+										"binary": {
+											"name": "libgrss"
+										}
 									},
 									"affected": {
 										"type": "pacman",

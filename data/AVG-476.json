@@ -123,7 +123,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "zathura-pdf-mupdf"
+										"type": "binary",
+										"binary": {
+											"name": "zathura-pdf-mupdf"
+										}
 									},
 									"affected": {
 										"type": "pacman",

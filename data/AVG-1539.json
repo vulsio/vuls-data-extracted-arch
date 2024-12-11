@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "helm"
+										"type": "binary",
+										"binary": {
+											"name": "helm"
+										}
 									},
 									"affected": {
 										"type": "pacman",

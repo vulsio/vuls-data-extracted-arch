@@ -155,7 +155,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "apache"
+										"type": "binary",
+										"binary": {
+											"name": "apache"
+										}
 									},
 									"affected": {
 										"type": "pacman",

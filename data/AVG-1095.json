@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "ksh"
+										"type": "binary",
+										"binary": {
+											"name": "ksh"
+										}
 									},
 									"affected": {
 										"type": "pacman",

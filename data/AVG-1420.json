@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "xdg-utils"
+										"type": "binary",
+										"binary": {
+											"name": "xdg-utils"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python-nltk"
+										"type": "binary",
+										"binary": {
+											"name": "python-nltk"
+										}
 									},
 									"affected": {
 										"type": "pacman",

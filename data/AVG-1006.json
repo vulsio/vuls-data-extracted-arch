@@ -107,7 +107,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "deepin-clone"
+										"type": "binary",
+										"binary": {
+											"name": "deepin-clone"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "irssi"
+										"type": "binary",
+										"binary": {
+											"name": "irssi"
+										}
 									},
 									"affected": {
 										"type": "pacman",

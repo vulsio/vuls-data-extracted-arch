@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "spice-gtk"
+										"type": "binary",
+										"binary": {
+											"name": "spice-gtk"
+										}
 									},
 									"affected": {
 										"type": "pacman",

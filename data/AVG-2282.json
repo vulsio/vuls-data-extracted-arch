@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt5-base"
+										"type": "binary",
+										"binary": {
+											"name": "qt5-base"
+										}
 									},
 									"affected": {
 										"type": "pacman",

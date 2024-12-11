@@ -139,7 +139,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libelf"
+										"type": "binary",
+										"binary": {
+											"name": "libelf"
+										}
 									},
 									"affected": {
 										"type": "pacman",

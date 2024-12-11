@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "java-commons-io"
+										"type": "binary",
+										"binary": {
+											"name": "java-commons-io"
+										}
 									},
 									"affected": {
 										"type": "pacman",

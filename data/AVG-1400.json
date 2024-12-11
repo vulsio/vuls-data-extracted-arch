@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nodejs"
+										"type": "binary",
+										"binary": {
+											"name": "nodejs"
+										}
 									},
 									"affected": {
 										"type": "pacman",

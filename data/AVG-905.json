@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "msmtp"
+										"type": "binary",
+										"binary": {
+											"name": "msmtp"
+										}
 									},
 									"affected": {
 										"type": "pacman",

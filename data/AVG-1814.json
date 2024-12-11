@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "lib32-fluidsynth"
+										"type": "binary",
+										"binary": {
+											"name": "lib32-fluidsynth"
+										}
 									},
 									"affected": {
 										"type": "pacman",

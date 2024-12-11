@@ -95,7 +95,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "python-twisted"
+										"type": "binary",
+										"binary": {
+											"name": "python-twisted"
+										}
 									},
 									"affected": {
 										"type": "pacman",

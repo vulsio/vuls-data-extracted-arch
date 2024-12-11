@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python-pikepdf"
+										"type": "binary",
+										"binary": {
+											"name": "python-pikepdf"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -143,7 +143,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libmupdf"
+										"type": "binary",
+										"binary": {
+											"name": "libmupdf"
+										}
 									},
 									"affected": {
 										"type": "pacman",

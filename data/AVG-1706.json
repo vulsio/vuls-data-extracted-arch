@@ -63,7 +63,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libmediainfo"
+										"type": "binary",
+										"binary": {
+											"name": "libmediainfo"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -19,6 +19,22 @@
 		},
 		{
 			"content": {
+				"id": "ASA-202107-64",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/ASA-202107-64"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
+			]
+		},
+		{
+			"content": {
 				"id": "AVG-2199",
 				"severity": [
 					{
@@ -91,7 +107,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "lib32-libcurl-gnutls"
+										"type": "binary",
+										"binary": {
+											"name": "lib32-libcurl-gnutls"
+										}
 									},
 									"affected": {
 										"type": "pacman",

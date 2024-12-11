@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libtpms"
+										"type": "binary",
+										"binary": {
+											"name": "libtpms"
+										}
 									},
 									"affected": {
 										"type": "pacman",

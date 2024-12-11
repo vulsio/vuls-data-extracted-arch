@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "binutils"
+										"type": "binary",
+										"binary": {
+											"name": "binutils"
+										}
 									},
 									"affected": {
 										"type": "pacman",

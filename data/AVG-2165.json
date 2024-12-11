@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "bat"
+										"type": "binary",
+										"binary": {
+											"name": "bat"
+										}
 									},
 									"affected": {
 										"type": "pacman",

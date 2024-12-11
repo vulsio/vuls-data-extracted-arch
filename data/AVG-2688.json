@@ -123,7 +123,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "jdk11-openjdk"
+										"type": "binary",
+										"binary": {
+											"name": "jdk11-openjdk"
+										}
 									},
 									"affected": {
 										"type": "pacman",
@@ -146,7 +149,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "jre11-openjdk"
+										"type": "binary",
+										"binary": {
+											"name": "jre11-openjdk"
+										}
 									},
 									"affected": {
 										"type": "pacman",
@@ -169,7 +175,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "jre11-openjdk-headless"
+										"type": "binary",
+										"binary": {
+											"name": "jre11-openjdk-headless"
+										}
 									},
 									"affected": {
 										"type": "pacman",

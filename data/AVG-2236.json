@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "util-linux"
+										"type": "binary",
+										"binary": {
+											"name": "util-linux"
+										}
 									},
 									"affected": {
 										"type": "pacman",

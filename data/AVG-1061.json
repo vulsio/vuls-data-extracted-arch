@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "electron"
+										"type": "binary",
+										"binary": {
+											"name": "electron"
+										}
 									},
 									"affected": {
 										"type": "pacman",

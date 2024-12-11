@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "faust"
+										"type": "binary",
+										"binary": {
+											"name": "faust"
+										}
 									},
 									"affected": {
 										"type": "pacman",

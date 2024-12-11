@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python-jinja"
+										"type": "binary",
+										"binary": {
+											"name": "python-jinja"
+										}
 									},
 									"affected": {
 										"type": "pacman",

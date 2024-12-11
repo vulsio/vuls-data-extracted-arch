@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python-autobahn"
+										"type": "binary",
+										"binary": {
+											"name": "python-autobahn"
+										}
 									},
 									"affected": {
 										"type": "pacman",

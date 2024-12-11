@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "postorius"
+										"type": "binary",
+										"binary": {
+											"name": "postorius"
+										}
 									},
 									"affected": {
 										"type": "pacman",

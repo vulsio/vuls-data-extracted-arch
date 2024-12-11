@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "manuskript"
+										"type": "binary",
+										"binary": {
+											"name": "manuskript"
+										}
 									},
 									"affected": {
 										"type": "pacman",

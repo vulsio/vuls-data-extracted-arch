@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "phpldapadmin"
+										"type": "binary",
+										"binary": {
+											"name": "phpldapadmin"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libexif"
+										"type": "binary",
+										"binary": {
+											"name": "libexif"
+										}
 									},
 									"affected": {
 										"type": "pacman",

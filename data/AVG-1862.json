@@ -63,7 +63,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "openexr"
+										"type": "binary",
+										"binary": {
+											"name": "openexr"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -123,7 +123,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "file"
+										"type": "binary",
+										"binary": {
+											"name": "file"
+										}
 									},
 									"affected": {
 										"type": "pacman",

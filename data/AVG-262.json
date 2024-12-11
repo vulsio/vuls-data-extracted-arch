@@ -79,7 +79,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libtirpc"
+										"type": "binary",
+										"binary": {
+											"name": "libtirpc"
+										}
 									},
 									"affected": {
 										"type": "pacman",

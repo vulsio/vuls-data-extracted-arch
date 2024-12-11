@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "dotnet-runtime"
+										"type": "binary",
+										"binary": {
+											"name": "dotnet-runtime"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -123,7 +123,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "intel-ucode"
+										"type": "binary",
+										"binary": {
+											"name": "intel-ucode"
+										}
 									},
 									"affected": {
 										"type": "pacman",

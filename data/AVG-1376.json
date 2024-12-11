@@ -63,7 +63,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "flac"
+										"type": "binary",
+										"binary": {
+											"name": "flac"
+										}
 									},
 									"affected": {
 										"type": "pacman",

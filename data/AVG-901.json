@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "hdf5"
+										"type": "binary",
+										"binary": {
+											"name": "hdf5"
+										}
 									},
 									"affected": {
 										"type": "pacman",

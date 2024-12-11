@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "rkhunter"
+										"type": "binary",
+										"binary": {
+											"name": "rkhunter"
+										}
 									},
 									"affected": {
 										"type": "pacman",

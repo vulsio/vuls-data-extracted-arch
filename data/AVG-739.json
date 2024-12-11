@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "networkmanager-vpnc"
+										"type": "binary",
+										"binary": {
+											"name": "networkmanager-vpnc"
+										}
 									},
 									"affected": {
 										"type": "pacman",

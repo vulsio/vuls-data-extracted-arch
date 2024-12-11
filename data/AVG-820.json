@@ -95,7 +95,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "jupyter-notebook"
+										"type": "binary",
+										"binary": {
+											"name": "jupyter-notebook"
+										}
 									},
 									"affected": {
 										"type": "pacman",

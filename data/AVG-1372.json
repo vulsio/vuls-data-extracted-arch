@@ -63,7 +63,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "bcprov"
+										"type": "binary",
+										"binary": {
+											"name": "bcprov"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -127,7 +127,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "systemd"
+										"type": "binary",
+										"binary": {
+											"name": "systemd"
+										}
 									},
 									"affected": {
 										"type": "pacman",

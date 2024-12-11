@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qt6-svg"
+										"type": "binary",
+										"binary": {
+											"name": "qt6-svg"
+										}
 									},
 									"affected": {
 										"type": "pacman",

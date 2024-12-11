@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "guile"
+										"type": "binary",
+										"binary": {
+											"name": "guile"
+										}
 									},
 									"affected": {
 										"type": "pacman",

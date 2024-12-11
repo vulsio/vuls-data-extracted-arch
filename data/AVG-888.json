@@ -107,7 +107,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "aubio"
+										"type": "binary",
+										"binary": {
+											"name": "aubio"
+										}
 									},
 									"affected": {
 										"type": "pacman",

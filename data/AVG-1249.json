@@ -107,7 +107,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "linux-zen"
+										"type": "binary",
+										"binary": {
+											"name": "linux-zen"
+										}
 									},
 									"affected": {
 										"type": "pacman",

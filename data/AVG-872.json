@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dovecot"
+										"type": "binary",
+										"binary": {
+											"name": "dovecot"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "matrix-synapse"
+										"type": "binary",
+										"binary": {
+											"name": "matrix-synapse"
+										}
 									},
 									"affected": {
 										"type": "pacman",

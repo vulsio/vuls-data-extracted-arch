@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dhcp"
+										"type": "binary",
+										"binary": {
+											"name": "dhcp"
+										}
 									},
 									"affected": {
 										"type": "pacman",

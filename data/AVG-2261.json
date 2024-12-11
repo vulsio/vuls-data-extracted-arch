@@ -79,7 +79,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "lynx"
+										"type": "binary",
+										"binary": {
+											"name": "lynx"
+										}
 									},
 									"affected": {
 										"type": "pacman",

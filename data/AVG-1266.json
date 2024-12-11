@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "sddm"
+										"type": "binary",
+										"binary": {
+											"name": "sddm"
+										}
 									},
 									"affected": {
 										"type": "pacman",

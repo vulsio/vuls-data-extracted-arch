@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "glibc"
+										"type": "binary",
+										"binary": {
+											"name": "glibc"
+										}
 									},
 									"affected": {
 										"type": "pacman",
@@ -79,7 +82,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "lib32-glibc"
+										"type": "binary",
+										"binary": {
+											"name": "lib32-glibc"
+										}
 									},
 									"affected": {
 										"type": "pacman",

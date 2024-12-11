@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "privoxy"
+										"type": "binary",
+										"binary": {
+											"name": "privoxy"
+										}
 									},
 									"affected": {
 										"type": "pacman",

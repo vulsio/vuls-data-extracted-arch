@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dino"
+										"type": "binary",
+										"binary": {
+											"name": "dino"
+										}
 									},
 									"affected": {
 										"type": "pacman",

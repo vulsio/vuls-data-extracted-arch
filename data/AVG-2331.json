@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "hedgedoc"
+										"type": "binary",
+										"binary": {
+											"name": "hedgedoc"
+										}
 									},
 									"affected": {
 										"type": "pacman",

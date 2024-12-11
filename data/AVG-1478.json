@@ -587,7 +587,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "vivaldi"
+										"type": "binary",
+										"binary": {
+											"name": "vivaldi"
+										}
 									},
 									"affected": {
 										"type": "pacman",

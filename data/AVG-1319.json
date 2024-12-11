@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python-lxml"
+										"type": "binary",
+										"binary": {
+											"name": "python-lxml"
+										}
 									},
 									"affected": {
 										"type": "pacman",

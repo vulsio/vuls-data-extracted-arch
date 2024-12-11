@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "python-flask-caching"
+										"type": "binary",
+										"binary": {
+											"name": "python-flask-caching"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nextcloud-app-deck"
+										"type": "binary",
+										"binary": {
+											"name": "nextcloud-app-deck"
+										}
 									},
 									"affected": {
 										"type": "pacman",

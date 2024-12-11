@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "apr"
+										"type": "binary",
+										"binary": {
+											"name": "apr"
+										}
 									},
 									"affected": {
 										"type": "pacman",

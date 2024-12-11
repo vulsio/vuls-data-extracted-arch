@@ -63,7 +63,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libcaca"
+										"type": "binary",
+										"binary": {
+											"name": "libcaca"
+										}
 									},
 									"affected": {
 										"type": "pacman",

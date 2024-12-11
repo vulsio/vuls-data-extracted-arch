@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "protobuf-c"
+										"type": "binary",
+										"binary": {
+											"name": "protobuf-c"
+										}
 									},
 									"affected": {
 										"type": "pacman",

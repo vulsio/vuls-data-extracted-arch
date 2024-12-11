@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "kexec-tools"
+										"type": "binary",
+										"binary": {
+											"name": "kexec-tools"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "wireshark-qt"
+										"type": "binary",
+										"binary": {
+											"name": "wireshark-qt"
+										}
 									},
 									"affected": {
 										"type": "pacman",

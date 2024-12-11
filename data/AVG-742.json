@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mbedtls"
+										"type": "binary",
+										"binary": {
+											"name": "mbedtls"
+										}
 									},
 									"affected": {
 										"type": "pacman",

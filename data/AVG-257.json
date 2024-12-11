@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "freetype2"
+										"type": "binary",
+										"binary": {
+											"name": "freetype2"
+										}
 									},
 									"affected": {
 										"type": "pacman",

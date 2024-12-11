@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "ocaml"
+										"type": "binary",
+										"binary": {
+											"name": "ocaml"
+										}
 									},
 									"affected": {
 										"type": "pacman",

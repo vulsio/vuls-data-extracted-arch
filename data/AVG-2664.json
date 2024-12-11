@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "deno"
+										"type": "binary",
+										"binary": {
+											"name": "deno"
+										}
 									},
 									"affected": {
 										"type": "pacman",

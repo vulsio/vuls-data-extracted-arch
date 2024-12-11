@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "tang"
+										"type": "binary",
+										"binary": {
+											"name": "tang"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "nettle"
+										"type": "binary",
+										"binary": {
+											"name": "nettle"
+										}
 									},
 									"affected": {
 										"type": "pacman",

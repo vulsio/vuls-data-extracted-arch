@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dhclient"
+										"type": "binary",
+										"binary": {
+											"name": "dhclient"
+										}
 									},
 									"affected": {
 										"type": "pacman",
@@ -114,7 +117,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "dhcp"
+										"type": "binary",
+										"binary": {
+											"name": "dhcp"
+										}
 									},
 									"affected": {
 										"type": "pacman",

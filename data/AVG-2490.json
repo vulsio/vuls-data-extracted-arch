@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "kubectl-ingress-nginx"
+										"type": "binary",
+										"binary": {
+											"name": "kubectl-ingress-nginx"
+										}
 									},
 									"affected": {
 										"type": "pacman",

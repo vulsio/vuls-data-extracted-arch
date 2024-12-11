@@ -63,7 +63,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "lrzsz"
+										"type": "binary",
+										"binary": {
+											"name": "lrzsz"
+										}
 									},
 									"affected": {
 										"type": "pacman",

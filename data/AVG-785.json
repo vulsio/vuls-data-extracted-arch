@@ -107,7 +107,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "elfutils"
+										"type": "binary",
+										"binary": {
+											"name": "elfutils"
+										}
 									},
 									"affected": {
 										"type": "pacman",

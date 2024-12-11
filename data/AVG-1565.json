@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "xterm"
+										"type": "binary",
+										"binary": {
+											"name": "xterm"
+										}
 									},
 									"affected": {
 										"type": "pacman",

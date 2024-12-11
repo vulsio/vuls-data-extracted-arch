@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libextractor"
+										"type": "binary",
+										"binary": {
+											"name": "libextractor"
+										}
 									},
 									"affected": {
 										"type": "pacman",

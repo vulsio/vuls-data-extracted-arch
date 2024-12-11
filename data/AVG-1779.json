@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "file-roller"
+										"type": "binary",
+										"binary": {
+											"name": "file-roller"
+										}
 									},
 									"affected": {
 										"type": "pacman",

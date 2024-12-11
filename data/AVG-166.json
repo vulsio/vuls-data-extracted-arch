@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gst-plugins-ugly"
+										"type": "binary",
+										"binary": {
+											"name": "gst-plugins-ugly"
+										}
 									},
 									"affected": {
 										"type": "pacman",

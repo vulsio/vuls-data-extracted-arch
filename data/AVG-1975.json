@@ -91,7 +91,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "squid"
+										"type": "binary",
+										"binary": {
+											"name": "squid"
+										}
 									},
 									"affected": {
 										"type": "pacman",

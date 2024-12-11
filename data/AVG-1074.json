@@ -107,7 +107,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "git"
+										"type": "binary",
+										"binary": {
+											"name": "git"
+										}
 									},
 									"affected": {
 										"type": "pacman",

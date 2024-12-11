@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "firefox-developer-edition"
+										"type": "binary",
+										"binary": {
+											"name": "firefox-developer-edition"
+										}
 									},
 									"affected": {
 										"type": "pacman",

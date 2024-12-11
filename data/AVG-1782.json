@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "gnuchess"
+										"type": "binary",
+										"binary": {
+											"name": "gnuchess"
+										}
 									},
 									"affected": {
 										"type": "pacman",

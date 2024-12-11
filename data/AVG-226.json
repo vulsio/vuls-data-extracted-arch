@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libpurple"
+										"type": "binary",
+										"binary": {
+											"name": "libpurple"
+										}
 									},
 									"affected": {
 										"type": "pacman",

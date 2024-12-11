@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "fluidsynth"
+										"type": "binary",
+										"binary": {
+											"name": "fluidsynth"
+										}
 									},
 									"affected": {
 										"type": "pacman",

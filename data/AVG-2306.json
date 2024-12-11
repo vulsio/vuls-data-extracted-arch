@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "live-media"
+										"type": "binary",
+										"binary": {
+											"name": "live-media"
+										}
 									},
 									"affected": {
 										"type": "pacman",

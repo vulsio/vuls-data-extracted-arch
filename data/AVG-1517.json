@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "podman"
+										"type": "binary",
+										"binary": {
+											"name": "podman"
+										}
 									},
 									"affected": {
 										"type": "pacman",

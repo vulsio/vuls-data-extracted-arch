@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "jhead"
+										"type": "binary",
+										"binary": {
+											"name": "jhead"
+										}
 									},
 									"affected": {
 										"type": "pacman",

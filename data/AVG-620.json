@@ -123,7 +123,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "qpdf"
+										"type": "binary",
+										"binary": {
+											"name": "qpdf"
+										}
 									},
 									"affected": {
 										"type": "pacman",

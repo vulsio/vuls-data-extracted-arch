@@ -63,7 +63,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "aspell"
+										"type": "binary",
+										"binary": {
+											"name": "aspell"
+										}
 									},
 									"affected": {
 										"type": "pacman",

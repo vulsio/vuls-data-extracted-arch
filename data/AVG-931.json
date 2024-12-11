@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "imagemagick"
+										"type": "binary",
+										"binary": {
+											"name": "imagemagick"
+										}
 									},
 									"affected": {
 										"type": "pacman",

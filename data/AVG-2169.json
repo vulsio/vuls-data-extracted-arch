@@ -63,7 +63,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "fail2ban"
+										"type": "binary",
+										"binary": {
+											"name": "fail2ban"
+										}
 									},
 									"affected": {
 										"type": "pacman",

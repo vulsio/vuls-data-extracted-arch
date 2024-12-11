@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "pass"
+										"type": "binary",
+										"binary": {
+											"name": "pass"
+										}
 									},
 									"affected": {
 										"type": "pacman",

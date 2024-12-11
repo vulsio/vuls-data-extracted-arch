@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "diesel-cli"
+										"type": "binary",
+										"binary": {
+											"name": "diesel-cli"
+										}
 									},
 									"affected": {
 										"type": "pacman",

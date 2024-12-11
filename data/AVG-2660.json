@@ -107,7 +107,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "faad2"
+										"type": "binary",
+										"binary": {
+											"name": "faad2"
+										}
 									},
 									"affected": {
 										"type": "pacman",

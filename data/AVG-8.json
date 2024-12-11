@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libimobiledevice"
+										"type": "binary",
+										"binary": {
+											"name": "libimobiledevice"
+										}
 									},
 									"affected": {
 										"type": "pacman",

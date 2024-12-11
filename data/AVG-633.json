@@ -111,7 +111,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "lib32-libid3tag"
+										"type": "binary",
+										"binary": {
+											"name": "lib32-libid3tag"
+										}
 									},
 									"affected": {
 										"type": "pacman",

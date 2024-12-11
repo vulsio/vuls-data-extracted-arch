@@ -111,7 +111,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "spice-vdagent"
+										"type": "binary",
+										"binary": {
+											"name": "spice-vdagent"
+										}
 									},
 									"affected": {
 										"type": "pacman",

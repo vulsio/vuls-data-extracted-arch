@@ -175,7 +175,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "redmine"
+										"type": "binary",
+										"binary": {
+											"name": "redmine"
+										}
 									},
 									"affected": {
 										"type": "pacman",

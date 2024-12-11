@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "mat2"
+										"type": "binary",
+										"binary": {
+											"name": "mat2"
+										}
 									},
 									"affected": {
 										"type": "pacman",

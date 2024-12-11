@@ -123,7 +123,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gst-plugins-base-libs"
+										"type": "binary",
+										"binary": {
+											"name": "gst-plugins-base-libs"
+										}
 									},
 									"affected": {
 										"type": "pacman",

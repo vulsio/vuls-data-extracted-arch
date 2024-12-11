@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "websvn"
+										"type": "binary",
+										"binary": {
+											"name": "websvn"
+										}
 									},
 									"affected": {
 										"type": "pacman",

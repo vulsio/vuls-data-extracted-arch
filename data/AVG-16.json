@@ -271,7 +271,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libwmf"
+										"type": "binary",
+										"binary": {
+											"name": "libwmf"
+										}
 									},
 									"affected": {
 										"type": "pacman",

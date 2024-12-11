@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "minio"
+										"type": "binary",
+										"binary": {
+											"name": "minio"
+										}
 									},
 									"affected": {
 										"type": "pacman",

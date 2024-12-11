@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "poppler"
+										"type": "binary",
+										"binary": {
+											"name": "poppler"
+										}
 									},
 									"affected": {
 										"type": "pacman",
@@ -98,7 +101,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "poppler-glib"
+										"type": "binary",
+										"binary": {
+											"name": "poppler-glib"
+										}
 									},
 									"affected": {
 										"type": "pacman",
@@ -121,7 +127,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "poppler-qt5"
+										"type": "binary",
+										"binary": {
+											"name": "poppler-qt5"
+										}
 									},
 									"affected": {
 										"type": "pacman",
@@ -144,7 +153,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "poppler-qt6"
+										"type": "binary",
+										"binary": {
+											"name": "poppler-qt6"
+										}
 									},
 									"affected": {
 										"type": "pacman",

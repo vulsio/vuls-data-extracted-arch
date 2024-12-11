@@ -79,7 +79,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "ipmitool"
+										"type": "binary",
+										"binary": {
+											"name": "ipmitool"
+										}
 									},
 									"affected": {
 										"type": "pacman",

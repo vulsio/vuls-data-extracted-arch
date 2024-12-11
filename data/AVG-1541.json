@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python-cryptography"
+										"type": "binary",
+										"binary": {
+											"name": "python-cryptography"
+										}
 									},
 									"affected": {
 										"type": "pacman",

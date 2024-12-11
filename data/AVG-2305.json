@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "zint"
+										"type": "binary",
+										"binary": {
+											"name": "zint"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -283,7 +283,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "graphicsmagick"
+										"type": "binary",
+										"binary": {
+											"name": "graphicsmagick"
+										}
 									},
 									"affected": {
 										"type": "pacman",

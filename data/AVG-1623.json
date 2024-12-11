@@ -59,7 +59,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "python-aiohttp"
+										"type": "binary",
+										"binary": {
+											"name": "python-aiohttp"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "musl"
+										"type": "binary",
+										"binary": {
+											"name": "musl"
+										}
 									},
 									"affected": {
 										"type": "pacman",

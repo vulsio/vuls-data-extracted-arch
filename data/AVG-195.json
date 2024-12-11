@@ -79,7 +79,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libxslt"
+										"type": "binary",
+										"binary": {
+											"name": "libxslt"
+										}
 									},
 									"affected": {
 										"type": "pacman",

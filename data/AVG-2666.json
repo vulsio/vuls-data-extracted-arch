@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "gzip"
+										"type": "binary",
+										"binary": {
+											"name": "gzip"
+										}
 									},
 									"affected": {
 										"type": "pacman",

@@ -75,7 +75,10 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "libuv"
+										"type": "binary",
+										"binary": {
+											"name": "libuv"
+										}
 									},
 									"affected": {
 										"type": "pacman",

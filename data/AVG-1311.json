@@ -59,7 +59,10 @@
 										"class": "unfixed"
 									},
 									"package": {
-										"name": "audacity"
+										"type": "binary",
+										"binary": {
+											"name": "audacity"
+										}
 									},
 									"affected": {
 										"type": "pacman",
