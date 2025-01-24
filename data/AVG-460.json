@@ -19,38 +19,6 @@
 		},
 		{
 			"content": {
-				"id": "ASA-201801-8",
-				"references": [
-					{
-						"source": "security.archlinux.org",
-						"url": "https://security.archlinux.org/ASA-201801-8"
-					}
-				]
-			},
-			"segments": [
-				{
-					"ecosystem": "arch"
-				}
-			]
-		},
-		{
-			"content": {
-				"id": "ASA-201801-9",
-				"references": [
-					{
-						"source": "security.archlinux.org",
-						"url": "https://security.archlinux.org/ASA-201801-9"
-					}
-				]
-			},
-			"segments": [
-				{
-					"ecosystem": "arch"
-				}
-			]
-		},
-		{
-			"content": {
 				"id": "ASA-201801-9",
 				"references": [
 					{
