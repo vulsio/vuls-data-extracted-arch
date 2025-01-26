@@ -19,6 +19,22 @@
 		},
 		{
 			"content": {
+				"id": "ASA-201901-14",
+				"references": [
+					{
+						"source": "security.archlinux.org",
+						"url": "https://security.archlinux.org/ASA-201901-14"
+					}
+				]
+			},
+			"segments": [
+				{
+					"ecosystem": "arch"
+				}
+			]
+		},
+		{
+			"content": {
 				"id": "AVG-857",
 				"severity": [
 					{
