@@ -19,22 +19,6 @@
 		},
 		{
 			"content": {
-				"id": "ASA-202403-1",
-				"references": [
-					{
-						"source": "security.archlinux.org",
-						"url": "https://security.archlinux.org/ASA-202403-1"
-					}
-				]
-			},
-			"segments": [
-				{
-					"ecosystem": "arch"
-				}
-			]
-		},
-		{
-			"content": {
 				"id": "AVG-2851",
 				"severity": [
 					{
